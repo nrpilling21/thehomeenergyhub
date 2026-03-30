@@ -311,6 +311,7 @@ function ChargerReview({
   strengths,
   weaknesses,
   bestFor,
+  buyUrl,
 }: {
   number: number;
   name: string;
