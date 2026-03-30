@@ -23,13 +23,15 @@ function parseFrontmatter(fileContent: string): { metadata: Record<string, any>;
   match[1].split('\n').forEach(line => {
     const [key, ...rest] = line.split(': ');
     if (key && rest.length) {
-      let value: any = rest.join(': ').trim();
-      if (value.startsWith('[') && value.endsWith(']')) {
-        value = value.slice(1, -1).split(',').map((s: string) => s.trim().replace(/^["']|["']$/g, ''));
+      const raw = rest.join(': ').trim();
+      let value: any = raw;
+
+      if (typeof raw === 'string' && raw.startsWith('[') && raw.endsWith(']')) {
+        value = raw.slice(1, -1).split(',').map((s: string) => s.trim().replace(/^["']|["']$/g, ''));
+      } else if (typeof raw === 'string' && raw.startsWith('"') && raw.endsWith('"')) {
+        value = raw.slice(1, -1);
       }
-      if (value.startsWith('"') && value.endsWith('"')) {
-        value = value.slice(1, -1);
-      }
+
       metadata[key.trim()] = value;
     }
   });
@@ -40,7 +42,7 @@ function parseFrontmatter(fileContent: string): { metadata: Record<string, any>;
 export function getAllPosts(): BlogPost[] {
   if (!fs.existsSync(BLOG_DIR)) return [];
 
-  const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
+  const files = fs.readdirSync(BLOG_DIR).filter(f => typeof f === 'string' && f.endsWith('.md'));
 
   const posts = files.map(file => {
     const raw = fs.readFileSync(path.join(BLOG_DIR, file), 'utf-8');
@@ -66,3 +68,4 @@ export function getPostBySlug(slug: string): BlogPost | null {
   const posts = getAllPosts();
   return posts.find(p => p.slug === slug) || null;
 }
+
