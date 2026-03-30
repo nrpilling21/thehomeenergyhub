@@ -1,9 +1,12 @@
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/blog';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
   title: 'Blog | The Home Energy Hub',
-  description: 'Expert guides on heat pumps, EV chargers, energy tariffs and saving money on your home energy bills.',
+  description:
+    'Expert guides on heat pumps, EV chargers, energy tariffs and saving money on your home energy bills.',
 };
 
 export default function BlogIndex() {
@@ -15,7 +18,7 @@ export default function BlogIndex() {
       <p className="text-gray-500 mb-10">Expert guides to help you save on home energy</p>
 
       {posts.length === 0 ? (
-        <p className="text-gray-400">Coming soon — new posts every Tuesday and Friday.</p>
+        <p className="text-gray-400">Coming soon \u2014 new posts every Tuesday and Friday.</p>
       ) : (
         <div className="grid gap-6">
           {posts.map(post => (
@@ -37,3 +40,4 @@ export default function BlogIndex() {
     </div>
   );
 }
+
