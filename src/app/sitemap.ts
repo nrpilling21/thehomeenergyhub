@@ -1,6 +1,14 @@
 import { MetadataRoute } from 'next';
 import { getAllPosts } from '@/lib/blog';
 
+function parseDate(dateStr: string): Date {
+  const dotMatch = dateStr.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
+  if (dotMatch) {
+    return new Date(`${dotMatch[3]}-${dotMatch[2]}-${dotMatch[1]}`);
+  }
+  return new Date(dateStr);
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://thehomeenergyhub.co.uk';
 
@@ -48,7 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
   const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
+    lastModified: parseDate(post.date),
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }));
