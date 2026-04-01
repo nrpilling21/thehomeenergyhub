@@ -20,6 +20,9 @@ export function Header() {
           <Link href="/ev-charging-cost-calculator" className="hover:text-gray-900 transition-colors">
             EV Calculator
           </Link>
+          <Link href="/solar-panel-costs-uk" className="hover:text-gray-900 transition-colors">
+            Solar Panels
+          </Link>
           <Link href="/best-ev-charger-uk" className="hover:text-gray-900 transition-colors">
             EV Chargers
           </Link>
