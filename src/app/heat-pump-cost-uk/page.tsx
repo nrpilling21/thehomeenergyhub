@@ -186,6 +186,21 @@ export default function HeatPumpCostPage() {
           Calculate your heat pump cost
         </Link>
       </div>
+
+      {/* Solar cross-link */}
+      <div className="border border-gray-200 rounded-2xl p-6 mt-6">
+        <div className="font-semibold text-gray-900 mb-1">Considering solar panels too?</div>
+        <p className="text-sm text-gray-500 mb-3">
+          Solar panels and heat pumps are a natural pairing — use free solar electricity to power your
+          heating and cut running costs further.
+        </p>
+        <Link
+          href="/solar-panel-costs-uk"
+          className="inline-block px-5 py-2.5 rounded-xl text-sm font-semibold text-gray-900 border border-gray-200 hover:border-gray-300 transition-colors"
+        >
+          Solar panel costs UK
+        </Link>
+      </div>
     </article>
   );
 }
