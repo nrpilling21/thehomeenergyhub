@@ -32,6 +32,7 @@ export default function HomePage() {
       <section className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-16">
         <Card href="/heat-pump-cost-calculator" icon="calc" title="Heat Pump Cost Calculator" desc="Get a personalised estimate in 2 minutes. Covers air and ground source, grants, and running costs." />
         <Card href="/heat-pump-cost-uk" icon="article" title="Heat Pump Costs UK (2026)" desc="What you'll actually pay for an air or ground source heat pump, including the \u00a37,500 BUS grant." />
+        <Card href="/solar-panel-costs-uk" icon="article" title="Solar Panel Costs UK (2026)" desc="Full cost breakdown for 3–6kW systems, savings calculations, payback periods, and battery storage options." />
         <Card href="/ev-charging-cost-calculator" icon="calc" title="EV Charging Cost Calculator" desc="Find out what it costs to charge at home, compare tariffs, and see your savings vs petrol." />
         <Card href="/best-ev-charger-uk" icon="article" title="Best Home EV Charger UK" desc="Five chargers compared on the things that matter: smart tariff support, solar, price, and build quality." />
       </section>
