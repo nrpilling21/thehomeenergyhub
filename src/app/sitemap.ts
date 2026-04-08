@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { getAllPosts } from '@/lib/blog';
+import { getAllPosts } from 'A/lib/blog';
 
 function parseDate(dateStr: string): Date {
   const dotMatch = dateStr.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
@@ -34,6 +34,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/solar-panel-costs-uk`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/home-insulation-guide-uk`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
