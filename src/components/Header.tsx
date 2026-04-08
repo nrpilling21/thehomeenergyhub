@@ -23,6 +23,9 @@ export function Header() {
           <Link href="/solar-panel-costs-uk" className="hover:text-gray-900 transition-colors">
             Solar Panels
           </Link>
+          <Link href="/home-insulation-guide-uk" className="hover:text-gray-900 transition-colors">
+            Insulation
+          </Link>
           <Link href="/best-ev-charger-uk" className="hover:text-gray-900 transition-colors">
             EV Chargers
           </Link>
