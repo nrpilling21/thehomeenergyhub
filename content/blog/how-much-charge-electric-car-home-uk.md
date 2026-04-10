@@ -1,7 +1,6 @@
 ---
-title: "How Much Does It Cost to Charge an Electric Car at Home in 2026?"
-description: "A straightforward breakdown of home EV charging costs in the UK - with real figures for standard, smart, and solar tariffs, plus how to slash your bill to under £3 per charge."
-date: "31.03.2026"
+title: "EV Home Charging Cost UK 2026: Full Price Breakdown"
+description: "Home EV charging costs £3-£15 per charge in 2026. Compare standard, smart, and solar tariff rates plus 5 ways to cut your bill.e: "31.03.2026"
 author: "The Home Energy Hub"
 category: "ev-chargers"
 tags: ["ev charging", "electric car", "home charging cost", "smart tariff", "octopus energy"]
