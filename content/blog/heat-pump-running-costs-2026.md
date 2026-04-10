@@ -1,6 +1,6 @@
 ---
 title: "Heat Pump Running Costs: What You'll Actually Pay in 2026"
-description: "Real-world heat pump running costs broken down by property size, with comparisons to gas boilers and tips to cut your bills further."
+description: "Heat pump running costs are £800-£1,200/year in 2026. See costs by property size, gas boiler comparison, and how smart tariffs cut bills to under £400."
 date: "30.03.2026"
 author: "The Home Energy Hub"
 category: "heat-pumps"
