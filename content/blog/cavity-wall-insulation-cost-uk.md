@@ -1,6 +1,6 @@
 ---
-title: "Cavity Wall Insulation Cost UK 2026: Prices, Savings and Is It Worth It?"
-description: "How much does cavity wall insulation cost in the UK in 2026? We cover prices, energy bill savings, payback periods, grants available, and whether it's the right upgrade for your home."
+title: "Cavity Wall Insulation Cost UK 2026: Full Price Guide"
+description: "Cavity wall insulation costs £900-£2,500 in 2026. See prices by house type, annual savings, payback periods, and grants that could make it free."
 date: "03.04.2026"
 author: "The Home Energy Hub"
 category: "guides"
