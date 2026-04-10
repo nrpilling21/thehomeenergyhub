@@ -10,6 +10,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${post.title} | The Home Energy Hub`,
     description: post.description,
+    openGraph: {
+      title: `${post.title} | The Home Energy Hub`,
+      description: post.description,
+      url: `https://www.thehomeenergyhub.co.uk/blog/${params.slug}`,
+      type: 'article',
+    },
   };
 }
 
