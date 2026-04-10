@@ -10,7 +10,7 @@ function parseDate(dateStr: string): Date {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://thehomeenergyhub.co.uk';
+  const baseUrl = 'https://www.thehomeenergyhub.co.uk';
 
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
