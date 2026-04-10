@@ -1,5 +1,5 @@
 ---
-title: "Draught Proofing Cost UK: What You'll Pay in 2026 (And How Much You'll Save)"
+title: "Draught Proofing Cost UK 2026: Prices and Savings"
 description: "How much does draught proofing cost in the UK? We break down prices for doors, windows, chimneys and floors, plus expected energy savings and available grants."
 date: "2026-04-10"
 author: "The Home Energy Hub"
