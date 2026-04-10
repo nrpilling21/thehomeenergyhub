@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Solar Panel Costs UK 2026: Prices, Savings & Payback Guide",
     description:
       "Solar panels cost £5,000–£11,000 installed in the UK. Full cost breakdown, savings calculations, and payback periods for every system size.",
-    url: "https://thehomeenergyhub.co.uk/solar-panel-costs-uk",
+    url: "https://www.thehomeenergyhub.co.uk/solar-panel-costs-uk",
     type: "article",
   },
 };
