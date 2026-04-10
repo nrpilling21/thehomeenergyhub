@@ -1,5 +1,5 @@
 ---
-title: "EV Home Charging Cost UK 2026: Full Price Breakdown"
+title: "Cost to Charge an Electric Car at Home UK (2026)"
 description: "Home EV charging costs £3-£15 per charge in 2026. Compare standard, smart, and solar tariff rates plus 5 ways to cut your bill.e: "31.03.2026"
 author: "The Home Energy Hub"
 category: "ev-chargers"
