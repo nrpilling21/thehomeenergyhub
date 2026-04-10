@@ -2,6 +2,7 @@ import { getAllPosts, getPostBySlug } from '@/lib/blog';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import AudioPlayer from '@/components/AudioPlayer';
+import AuthorAvatar from '@/components/AuthorAvatar';
 
 const AUTHORS = [
   {
@@ -143,18 +144,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         <div className="border-t border-b border-ink/10 py-5 mb-10">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-10 h-10 rounded-full bg-ink/10 flex items-center justify-center flex-shrink-0 overflow-hidden">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={author.avatar}
-                alt={author.name}
-                width={40}
-                height={40}
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).style.display = 'none';
-                  (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class="text-xs font-semibold text-ink/50">${author.initials}</span>`;
-                }}
-              />
+              <AuthorAvatar src={author.avatar} alt={author.name} initials={author.initials} size={40} />
             </div>
             <div>
               <p className="text-sm font-semibold text-ink">{author.name}</p>
