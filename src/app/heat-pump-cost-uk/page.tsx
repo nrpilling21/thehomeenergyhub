@@ -5,10 +5,41 @@ export const metadata: Metadata = {
   title: "How Much Does a Heat Pump Cost in the UK? (2026 Guide)",
   description:
     "Heat pumps cost Â£8,000âÂ£15,000 for air source or Â£15,000âÂ£35,000 for ground source, installed. With the Â£7,500 BUS grant and 0% VAT, the real cost is much lower.",
+  openGraph: {
+    title: "How Much Does a Heat Pump Cost in the UK? (2026 Guide)",
+    description:
+      "Heat pumps cost Â£8,000âÂ£15,000 for air source or Â£15,000âÂ£35,000 for ground source. With the Â£7,500 BUS grant, the real cost is much lower.",
+    url: "https://www.thehomeenergyhub.co.uk/heat-pump-cost-uk",
+    type: "article",
+  },
 };
+
+const faqItems = [
+  {
+    question: "How much does a heat pump cost in the UK?",
+    answer:
+      "An air source heat pump costs Â£8,000âÂ£15,000 installed, while ground source costs Â£15,000âÂ£35,000. After the Â£7,500 BUS grant, most homeowners pay Â£2,500âÂ£7,500 for air source.",
+  },
+  {
+    question: "Is the Â£7,500 heat pump grant still available in 2026?",
+    answer:
+      "Yes. The Boiler Upgrade Scheme (BUS) grant of Â£7,500 is confirmed until March 2028. Most owner-occupied homes in England and Wales qualify. Your MCS-certified installer handles the application.",
+  },
+  {
+    question: "Are heat pumps cheaper to run than gas boilers?",
+    answer:
+      "On standard electricity tariffs, heat pumps save Â£100âÂ£300 per year versus gas. On smart tariffs like Octopus Cozy (around 10p/kWh), savings can reach Â£550âÂ£850 per year.",
+  },
+  {
+    question: "How long does a heat pump take to pay for itself?",
+    answer:
+      "After the Â£7,500 BUS grant, payback is typically 8â12 years for air source and 12â18 years for ground source, depending on your tariff and current heating system.",
+  },
+];
 
 export default function HeatPumpCostPage() {
   return (
+    <>
     <article className="max-w-3xl mx-auto px-5 py-10">
       <h1 className="text-3xl font-bold text-gray-900 leading-tight mb-4">
         How Much Does a Heat Pump Cost in the UK? (2026 Guide)
@@ -120,27 +151,31 @@ export default function HeatPumpCostPage() {
         <table className="w-full text-sm border-collapse">
           <thead>
             <tr className="border-b border-gray-200 text-left">
-              <th className="py-3 pr-4 font-semibold text-gray-900"></th>
-              <th className="py-3 pr-4 font-semibold text-gray-900">Home (standard)</th>
-              <th className="py-3 pr-4 font-semibold text-gray-900">Home (EV tariff)</th>
-              <th className="py-3 pr-4 font-semibold text-gray-900">Public charger</th>
-              <th className="py-3 font-semibold text-gray-900">Petrol</th>
+              <th className="py-3 pr-4 font-semibold text-gray-900">Heating System</th>
+              <th className="py-3 pr-4 font-semibold text-gray-900">Annual Running Cost</th>
+              <th className="py-3 font-semibold text-gray-900">Annual Saving vs Gas</th>
             </tr>
           </thead>
           <tbody className="text-gray-600">
             <tr className="border-b border-gray-100">
-              <td className="py-3 pr-4 font-medium text-gray-900">Cost per mile</td>
-              <td className="py-3 pr-4">7â10p</td>
-              <td className="py-3 pr-4">2â3p</td>
-              <td className="py-3 pr-4">15â25p</td>
-              <td className="py-3">16â22p</td>
+              <td className="py-3 pr-4 font-medium text-gray-900">Gas boiler</td>
+              <td className="py-3 pr-4">Â£1,000âÂ£1,400</td>
+              <td className="py-3">â</td>
             </tr>
             <tr className="border-b border-gray-100">
-              <td className="py-3 pr-4 font-medium text-gray-900">Annual (8,000 mi)</td>
-              <td className="py-3 pr-4">Â£560âÂ£8000</td>
-              <td className="py-3 pr-4">Â£1600âÂ£240</td>
-              <td className="py-3 pr-4">Â£1,200âÂ£2,200</td>
-              <td className="py-3">Â£1,0000âÂ£1,760</td>
+              <td className="py-3 pr-4 font-medium text-gray-900">Air source heat pump (standard tariff)</td>
+              <td className="py-3 pr-4">Â£800âÂ£1,200</td>
+              <td className="py-3">Â£100âÂ£300</td>
+            </tr>
+            <tr className="border-b border-gray-100">
+              <td className="py-3 pr-4 font-medium text-gray-900">Air source heat pump (smart tariff)</td>
+              <td className="py-3 pr-4">Â£350âÂ£550</td>
+              <td className="py-3">Â£550âÂ£850</td>
+            </tr>
+            <tr>
+              <td className="py-3 pr-4 font-medium text-gray-900">Ground source heat pump</td>
+              <td className="py-3 pr-4">Â£600âÂ£900</td>
+              <td className="py-3">Â£300âÂ£500</td>
             </tr>
           </tbody>
         </table>
@@ -187,21 +222,6 @@ export default function HeatPumpCostPage() {
         </Link>
       </div>
 
-      {/* Insulation cross-link */}
-      <div className="border border-gray-200 rounded-2xl p-6 mt-6">
-        <div className="font-semibold text-gray-900 mb-1">Insulate first, heat pump second</div>
-        <p className="text-sm text-gray-500 mb-3">
-          Heat pumps perform best in well-insulated homes. Check what insulation your home needs and
-          what grants are available before committing to a heat pump.
-        </p>
-        <Link
-          href="/home-insulation-guide-uk"
-          className="inline-block px-5 py-2.5 rounded-xl text-sm font-semibold text-gray-900 border border-gray-200 hover:border-gray-300 transition-colors"
-        >
-          Home insulation guide
-        </Link>
-      </div>
-
       {/* Solar cross-link */}
       <div className="border border-gray-200 rounded-2xl p-6 mt-6">
         <div className="font-semibold text-gray-900 mb-1">Considering solar panels too?</div>
@@ -216,7 +236,40 @@ export default function HeatPumpCostPage() {
           Solar panel costs UK
         </Link>
       </div>
+
+      {/* FAQ Section */}
+      <section className="mt-12 mb-8">
+        <h2 className="text-xl font-semibold text-gray-900 mb-6">Frequently Asked Questions</h2>
+        <div className="space-y-6">
+          {faqItems.map((item) => (
+            <div key={item.question} className="border-b border-gray-100 pb-6 last:border-0">
+              <h3 className="font-medium text-gray-900 mb-2">{item.question}</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </article>
+
+    {/* FAQ JSON-LD Schema */}
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqItems.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        }),
+      }}
+    />
+    </>
   );
 }
 
@@ -228,4 +281,3 @@ function Section({ title, children }: { title: string; children: React.ReactNode
     </section>
   );
 }
-
