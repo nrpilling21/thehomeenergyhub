@@ -70,6 +70,151 @@ These figures assume gas central heating at current energy prices. If youâr
 
 ## Is Loft Insulation Worth It? Payback Period
 
+For most homeowners, l.
+
+If youâre also considering a heat pump, the [Boiler Upgrade Scheme (BUS) grant](/blog/heat-pump-grants-uk-bus-grant-2026) offers up to Â£7,500 towards installation â and having good insulation in place first will help your heat pump perform at its best.
+
+## DIY vs Professional Loft Insulation: Which Should You Choose?
+
+**When DIY makes sense:**
+
+- Youâre topping up existing insulation
+- Your loft is easily accessible with a standard loft hatch
+- There are no damp or ventilation issues
+- Youâre comfortable working in a loft space
+
+Laying mineral wool rolls is a fairly straightforward job. Youâll need a [dust mask](https://www.amazon.co.uk/s?k=FFP2+dust+mask&tag=thehomeenergyhub-21), [gloves](https://www.amazon.co.uk/s?k=insulation+work+gloves&tag=thehomeenergyhub-21), and protective clothing (mineral wool fibres are itchy), plus a sharp knife to cut the rolls. The key is to lay the first layer between the joists and the second layer at right angles across the top of them.
+
+**When you should hire a professional:**
+
+- Your loft has no existing insulation and youâre unsure about ventilation
+- There are signs of damp, condensation, or roof damage
+- The loft has awkward access, lots of wiring, or a water tank
+- You want spray foam insulation (this must always be professionally applied)
+- Youâre claiming a grant (most schemes require approved installers)
+
+One important note on spray foam: while itâs effective, some mortgage lenders are cautious about properties with spray foam insulation. If youâre planning to sell in the near future, mineral wool or rigid board insulation may be a safer choice.
+
+## Types of Loft Insulation Compared
+
+| Type | Cost per mÂ² | Pros | Cons |
+|---|---|---|---|
+| Mineral wool (glass/rock) | Â£5âÂ£8 | Cheap, easy to DIY, widely available | Itchy to handle, needs 270mm thickness |
+| Sheepâs wool | Â£12âÂ£20 | Natural, breathable, pleasant to handle | More expensive, less widely available |
+| Rigid foam boards | Â£10âÂ£25 | Thin profile, good for conversions | More complex to fit, higher cost |
+| Spray foam (open cell) | Â£20âÂ£35 | Excellent coverage, air sealing | Must be professional, mortgage concerns |
+| Spray foam (closed cell) | Â£35âÂ£50 | Best thermal performance per cm | Expensive, vapour barrier properties |
+| Blown-in (cellulose/mineral) | Â£15âÂ£25 | Great for awkward spaces | Professional only, can settle over time |
+
+For most homeowners simply looking to top up their loft insulation, mineral wool rolls are the best balance of cost, performance, and ease of installation.
+
+## Tips for Getting the Best Value
+
+1. **Get at least three quotes** if hiring a professional. Prices can vary significantly between installers.
+
+2. **Check for grants first.** Thereâs no point paying full price if you qualify for a free or subsidised installation through ECO4 or GBIS.
+
+3. **Donât forget ventilation.** A properly insulated loft still needs airflow to prevent condensation. Make sure eaves vents arenât blocked.
+
+4. **Insulate the loft hatch too.** A surprising amount of heat escapes through an un-insulated loft hatch. A simple draught-proofing strip and a piece of insulation board glued to the back of the hatch can make a noticeable difference.
+
+5. **Lag your pipes and tanks.** While youâre in the loft, insulate any exposed water pipes with [pipe lagging](https://www.amazon.co.uk/s?k=pipe+insulation+lagging+foam&tag=thehomeenergyhub-21) and the hot water tank with a [cylinder jacket](https://www.amazon.co.uk/s?k=hot+water+cylinder+jacket&tag=thehomeenergyhub-21). This costs very little but prevents frozen pipes in winter and reduces heat loss.
+
+6. **Consider your whole home.** Loft insulation is a great start, but for the biggest savings, combine it with [cavity wall insulation](/blog), draught-proofing, and an efficient heating system. If youâre thinking about a heat pump, check our [heat pump cost calculator](/heat-pump-cost-calculator) to see what you could save.
+
+## FAQ
+
+### How long does loft insulation last?
+
+Mineral wool loft insulation typically lasts **40 years or more** without needing replacement. It doesnât degrade significantly over time, though it can compress slightly if items are stored on top of it. Spray foam insulation has a similar lifespan. Itâs worth checking your insulation every few years to make sure it hasnât been disturbed or developed damp patches.
+
+### Can I lay new insulation on top of old insulation?
+
+Yes, in most cases. If your existing insulation is in good condition (dry, not mouldy, not heavily compressed), you can simply lay new rolls on top to reach the recommended 270mm. This is the cheapest and easiest option for most homes.
+
+### Does loft insulation reduce condensation?
+
+Properly installed loft insulation can actually help prevent condensation in your living spaces by keeping interior surfaces warmer. However, itâs crucial to maintain adequate ventilation in the loft space itself. Without proper airflow, moisture from the rooms below can condense on cold surfaces in the loft.
+
+### Will loft insulation help if I have a heat pump?
+
+Absolutely. Heat pumps operate most efficiently in well-insulated homes because they work at lower temperatures than traditional boilers. If youâre considering a [heat pump](/heat-pump-cost-uk), insulating your loft first will reduce the size (and cost) of heat pump you need and lower your running costs. See our guide to [heat pump running costs](/blog/heat-pump-running-costs-2026) for more detail.
+
+### Is government-funded loft insulation really free?
+
+Through schemes like ECO4 and the Great British Insulation Scheme, qualifying households can receive loft insulation at no cost. Eligibility usually depends on your income, benefits status, or propertyâs EPC rating. Even if you donât qualify for fully funded insulation, you may be eligible for a subsidised installation. Contact your energy supplier or check the GOV.UK Simple Energy Advice service to find out.
+---
+title: "Loft Insulation Cost UK 2026: Prices, Savings and Whether It's Worth It"
+description: "How much does loft insulation cost in the UK in 2026? We break down prices for DIY and professional installation, annual savings, payback periods, and available grants."
+date: "30.03.2026"
+author: "The Home Energy Hub"
+category: "guides"
+tags: ["loft insulation", "insulation costs", "energy efficiency", "home insulation", "energy saving"]
+---
+
+# Loft Insulation Cost UK 2026: Prices, Savings and Whether It's Worth It
+
+If youâre wondering how much loft insulation costs in the UK, youâre not alone. Itâs one of the most common energy efficiency questions homeowners ask â and for good reason. Around a quarter of heat in an uninsulated home escapes through the roof, making loft insulation one of the cheapest and most effective upgrades you can make.
+
+In this guide, weâll cover what loft insulation costs in 2026, how much you can save on energy bills, what grants are available, and whether itâs actually worth the investment.
+
+## How Much Does Loft Insulation Cost in 2026?
+
+The cost of loft insulation depends on a few things: whether youâre topping up existing insulation or starting from scratch, the size of your loft, and whether you do it yourself or hire a professional.
+
+Hereâs a rough breakdown of typical costs for a standard 3-bedroom semi-detached house (around 40â50mÂ² of loft space):
+
+**DIY loft insulation (mineral wool rolls):**
+
+- Materials only: **Â£150âÂ£300**
+- Mineral wool rolls cost roughly Â£5âÂ£8 per mÂ² from most DIY shops
+- Suitable if youâre topping up from 100mm to the recommended 270mm
+
+**Professional installation:**
+
+- Virgin loft (no existing insulation): **Â£300âÂ£600**
+- Top-up (from 100mm to 270mm): **Â£250âÂ£400**
+- Boarding over insulation (for storage): **Â£500âÂ£1,000+**
+
+**Spray foam insulation:**
+
+- Typically **Â£20âÂ£50 per mÂ²**, or around **Â£800âÂ£2,500** for a full loft
+- More expensive but offers superior thermal performance per cm of thickness
+
+These prices are averages â you may pay more in London and the South East, and less in other parts of the country.
+
+## What Thickness of Loft Insulation Do You Need?
+
+The current Building Regulations recommendation is **270mm of mineral wool** for a cold loft (the most common type, where the insulation sits between and over the joists on the loft floor).
+
+Many older homes still have just 100mm or less of insulation â sometimes as little as 25mm. If that sounds like your home, topping up to 270mm is one of the best investments you can make.
+
+For reference, hereâs how thickness affects performance:
+
+- **100mm** of mineral wool: U-value of ~0.44 W/mÂ²K
+- **200mm**: U-value of ~0.22 W/mÂ²K
+- **270mm**: U-value of ~0.16 W/mÂ²K (current recommended standard)
+
+The lower the U-value, the better the insulation performs at keeping heat in.
+
+## How Much Can Loft Insulation Save on Energy Bills?
+
+According to the Energy Saving Trust, topping up your loft insulation from 120mm to 270mm in a typical semi-detached house could save you around **Â£35âÂ£65 per year** on heating bills.
+
+If youâre going from zero or very thin insulation to the full 270mm, the savings are significantly higher â potentially **Â£150âÂ£250 per year** depending on your property type and heating system.
+
+Hereâs a quick comparison by house type:
+
+| House type | Annual saving (top-up) | Annual saving (from zero) |
+|---|---|---|
+| Mid-terrace | Â£25âÂ£45 | Â£100âÂ£180 |
+| Semi-detached | Â£35âÂ£65 | Â£150âÂ£250 |
+| Detached | Â£55âÂ£95 | Â£250âÂ£400 |
+
+These figures assume gas central heating at current energy prices. If youâre heating with electricity or oil, your savings could be even higher. And if you have a [heat pump](/heat-pump-cost-uk), proper loft insulation is essential â heat pumps work best in well-insulated homes because they operate at lower flow temperatures.
+
+## Is Loft Insulation Worth It? Payback Period
+
 For most homeowners, loft insulation has one of the shortest payback periods of any home energy upgrade.
 
 **DIY top-up:** If you spend Â£200 on materials and save Â£50 per year, your payback period is around **4 years**. After that, itâs pure savings for the 40+ year lifespan of the insulation.
