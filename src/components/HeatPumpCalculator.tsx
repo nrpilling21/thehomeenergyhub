@@ -74,7 +74,7 @@ function Progress({ step, total }: { step: number; total: number }) {
         <div
           key={i}
           className="h-1 rounded-full flex-1 transition-colors duration-300"
-          style={{ backgroundColor: i <= step ? "#1a1a1a" : "#e5e7eb" }}
+          style={{ backgroundColor: i <= step ? "#28030F" : "rgba(40, 3, 15, 0.08)" }}
         />
       ))}
     </div>
@@ -84,8 +84,8 @@ function Progress({ step, total }: { step: number; total: number }) {
 function Question({ text, sub }: { text: string; sub?: string }) {
   return (
     <div className="mb-8" style={{ animation: "fadeUp 0.25s ease" }}>
-      <h2 className="text-xl font-semibold text-gray-900 leading-snug">{text}</h2>
-      {sub && <p className="text-gray-400 text-sm mt-2">{sub}</p>}
+      <h2 className="text-xl font-extrabold font-display text-ink leading-snug">{text}</h2>
+      {sub && <p className="text-ink/70 text-base mt-2">{sub}</p>}
     </div>
   );
 }
@@ -108,17 +108,17 @@ function Option({
       style={{
         padding: "14px 18px",
         borderRadius: "12px",
-        border: selected ? "2px solid #1a1a1a" : "1.5px solid #e5e7eb",
-        backgroundColor: selected ? "#fafafa" : "#fff",
+        border: selected ? "2px solid #28030F" : "1.5px solid rgba(40, 3, 15, 0.1)",
+        backgroundColor: selected ? "#FCFAF8" : "#FCFAF8",
         marginBottom: "8px",
       }}
     >
       <div className="flex items-center justify-between">
         <div>
-          <div className={`text-sm font-medium ${selected ? "text-gray-900" : "text-gray-700"}`}>
+          <div className={`text-sm font-medium ${selected ? "text-ink" : "text-ink/70"}`}>
             {label}
           </div>
-          {desc && <div className="text-xs text-gray-400 mt-0.5">{desc}</div>}
+          {desc && <div className="text-xs text-ink/70 mt-0.5">{desc}</div>}
         </div>
         <div
           className="flex-shrink-0 ml-3"
@@ -126,7 +126,7 @@ function Option({
             width: 20,
             height: 20,
             borderRadius: "50%",
-            border: selected ? "6px solid #1a1a1a" : "2px solid #d1d5db",
+            border: selected ? "6px solid #28030F" : "2px solid rgba(40, 3, 15, 0.25)",
             transition: "border 0.15s ease",
           }}
         />
@@ -139,7 +139,7 @@ function BackBtn({ onClick }: { onClick: () => void }) {
   return (
     <button
       onClick={onClick}
-      className="flex items-center gap-1 text-sm text-gray-400 hover:text-gray-600 transition-colors mb-6"
+      className="flex items-center gap-1 text-sm text-ink/70 hover:text-ink/60 transition-colors mb-6"
     >
       <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
         <path d="M19 12H5M12 19l-7-7 7-7" />
@@ -161,14 +161,14 @@ function ResultStat({
   accent?: boolean;
 }) {
   return (
-    <div className="py-4 border-b border-gray-100 last:border-0">
+    <div className="py-4 border-b border-ink/5 last:border-0">
       <div className="flex items-baseline justify-between">
-        <span className="text-sm text-gray-500">{label}</span>
-        <span className={`text-lg font-semibold ${accent ? "text-green-700" : "text-gray-900"}`}>
+        <span className="text-sm text-ink/50">{label}</span>
+        <span className={`text-lg font-bold ${accent ? "text-ink" : "text-ink"}`}>
           {value}
         </span>
       </div>
-      {sub && <div className="text-xs text-gray-400 mt-0.5 text-right">{sub}</div>}
+      {sub && <div className="text-xs text-ink/70 mt-0.5 text-right">{sub}</div>}
     </div>
   );
 }
@@ -240,8 +240,8 @@ export default function HeatPumpCalculator() {
     <div className="max-w-md mx-auto font-sans px-5 py-8">
       {/* Brand area */}
       <div className="flex items-center justify-between mb-8">
-        <div className="text-sm font-bold text-gray-900 tracking-tight">Heat Pump Calculator</div>
-        <div className="text-xs text-gray-400">2 min estimate</div>
+        <div className="text-sm font-bold text-ink tracking-tight">Heat Pump Calculator</div>
+        <div className="text-xs text-ink/55">2 min estimate</div>
       </div>
 
       {!showResults && <Progress step={step} total={STEPS} />}
@@ -342,20 +342,20 @@ export default function HeatPumpCalculator() {
             sub="The Boiler Upgrade Scheme gives most homeowners Â£7,500 towards installation."
           />
           <Option
-            label="Yes â include the Â£7,500 grant"
+            label="Yes - include the Â£7,500 grant"
             desc="Available until March 2028"
             selected={grant === 0}
             onClick={() => select(setGrant, 0)}
           />
           <Option
-            label="No â show the full price"
+            label="No - show the full price"
             desc="Not eligible, or prefer to see full cost"
             selected={grant === 1}
             onClick={() => select(setGrant, 1)}
           />
-          <div className="mt-4 bg-gray-50 rounded-xl p-3">
-            <p className="text-xs text-gray-500">
-              <span className="font-medium text-gray-700">Not sure if you qualify?</span> Most
+          <div className="mt-4 bg-cream-dark rounded-xl p-3">
+            <p className="text-xs text-ink/50">
+              <span className="font-medium text-ink/70">Not sure if you qualify?</span> Most
               owner-occupied homes in England and Wales are eligible. Your installer handles the
               application.
             </p>
@@ -369,14 +369,14 @@ export default function HeatPumpCalculator() {
           <BackBtn onClick={() => setStep(5)} />
 
           <div className="text-center mb-8">
-            <p className="text-sm text-gray-400 mb-3">
+            <p className="text-base text-ink/65 mb-3">
               Estimated cost for your {results.propLabel}
             </p>
-            <div className="text-4xl font-bold text-gray-900 tracking-tight">
+            <div className="text-4xl font-extrabold text-ink tracking-tight">
               {fmt(results.netLow)} &ndash; {fmt(results.netHigh)}
             </div>
             {results.grant > 0 && (
-              <div className="inline-flex items-center gap-1.5 mt-3 bg-green-50 text-green-700 text-xs font-medium px-3 py-1 rounded-full">
+              <div className="inline-flex items-center gap-1.5 mt-3 bg-yellow-soft text-ink text-xs font-bold px-3 py-1 rounded-full">
                 <svg
                   width="14"
                   height="14"
@@ -392,12 +392,12 @@ export default function HeatPumpCalculator() {
             )}
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-2xl px-5 mb-6">
+          <div className="bg-cream border border-plum-light/20 rounded-2xl px-5 mb-6">
             <ResultStat label="System size" value={`${results.kw} kW`} />
             <ResultStat label="Type" value={results.pumpLabel} />
             <ResultStat
               label="Full installed price"
-              value={`${fmt(results.totalLow)} â ${fmt(results.totalHigh)}`}
+              value={`${fmt(results.totalLow)} - ${fmt(results.totalHigh)}`}
             />
             {results.grant > 0 && (
               <ResultStat label="BUS grant" value={`-${fmt(results.grant)}`} accent />
@@ -405,9 +405,9 @@ export default function HeatPumpCalculator() {
             <ResultStat label="VAT" value="0%" sub="Until March 2027" />
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-2xl px-5 mb-6">
-            <div className="py-3 border-b border-gray-100">
-              <span className="text-xs font-semibold text-gray-900 uppercase tracking-wide">
+          <div className="bg-cream border border-plum-light/20 rounded-2xl px-5 mb-6">
+            <div className="py-3 border-b border-ink/5">
+              <span className="text-xs font-semibold text-ink uppercase tracking-wide">
                 Annual running costs
               </span>
             </div>
@@ -428,47 +428,45 @@ export default function HeatPumpCalculator() {
           <div className="space-y-3 mb-8">
             <a
               href="#get-quotes"
-              className="block w-full text-center py-3.5 rounded-xl text-sm font-semibold text-white transition-colors hover:bg-gray-800"
-              style={{ backgroundColor: "#1a1a1a" }}
+              className="block w-full text-center py-3.5 rounded-full text-sm font-semibold text-cream-dark bg-ink transition-colors hover:opacity-90"
             >
               Get free quotes from local installers
             </a>
             <a
               href="/heat-pump-cost-uk"
-              className="block w-full text-center py-3.5 rounded-xl text-sm font-semibold text-gray-700 border border-gray-200 hover:border-gray-300 transition-colors"
+              className="block w-full text-center py-3.5 rounded-full text-sm font-semibold text-ink border-2 border-ink/15 hover:border-ink/30 transition-colors"
             >
               Read: How much does a heat pump cost?
             </a>
           </div>
 
-          <div className="bg-gray-50 rounded-2xl p-5 mb-8">
-            <div className="text-sm font-semibold text-gray-900 mb-1">Save your estimate</div>
-            <p className="text-xs text-gray-500 mb-3">
+          <div className="bg-cream-dark rounded-2xl p-5 mb-8">
+            <div className="text-sm font-semibold text-ink mb-1">Save your estimate</div>
+            <p className="text-xs text-ink/60 mb-3">
               Get a copy of this estimate plus our free guide to choosing the right heat pump.
             </p>
             <div className="flex gap-2">
               <input
                 type="email"
                 placeholder="Your email"
-                className="flex-1 text-sm px-3 py-2.5 rounded-lg border border-gray-200 bg-white placeholder-gray-400 focus:outline-none focus:border-gray-400"
+                className="flex-1 text-sm px-3 py-2.5 rounded-lg border border-plum-light/30 bg-cream placeholder-ink/30 focus:outline-none focus:border-plum-light"
               />
               <button
-                className="px-4 py-2.5 rounded-lg text-sm font-medium text-white flex-shrink-0 hover:bg-gray-800 transition-colors"
-                style={{ backgroundColor: "#1a1a1a" }}
+                className="px-4 py-2.5 rounded-lg text-sm font-medium text-cream-dark flex-shrink-0 bg-ink hover:opacity-90 transition-colors"
               >
                 Send
               </button>
             </div>
-            <p className="text-xs text-gray-400 mt-2">No spam. Unsubscribe anytime.</p>
+            <p className="text-xs text-ink/70 mt-2">No spam. Unsubscribe anytime.</p>
           </div>
 
-          <div className="flex items-center justify-center gap-6 text-xs text-gray-400 mb-6">
+          <div className="flex items-center justify-center gap-6 text-xs text-ink/70 mb-6">
             <span>Independent advice</span>
             <span>No sales calls</span>
             <span>Free to use</span>
           </div>
 
-          <p className="text-xs text-gray-400 text-center leading-relaxed">
+          <p className="text-xs text-ink/70 text-center leading-relaxed">
             Costs are estimates based on UK market averages, March 2026. Actual costs depend on your
             property, location, and installer. Always get multiple quotes from MCS-certified
             installers.
@@ -485,7 +483,7 @@ export default function HeatPumpCalculator() {
                 setHeating(null);
                 setGrant(null);
               }}
-              className="text-sm text-gray-400 hover:text-gray-600 transition-colors"
+              className="text-sm text-ink/70 hover:text-ink/60 transition-colors"
             >
               Recalculate
             </button>
