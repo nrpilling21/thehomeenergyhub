@@ -1,6 +1,6 @@
 ---
-title: "Loft Insulation Cost UK 2026: Prices, Savings and Whether It's Worth It"
-description: "How much does loft insulation cost in the UK in 2026? We break down prices for DIY and professional installation, annual savings, payback periods, and available grants."
+title: "Loft Insulation Cost UK 2026: Prices and Savings"
+description: "Loft insulation costs £150-£600 in 2026. DIY and professional prices, annual savings by house type, payback periods, and free grant options."
 date: "30.03.2026"
 author: "The Home Energy Hub"
 category: "guides"
