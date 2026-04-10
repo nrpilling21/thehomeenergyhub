@@ -3,19 +3,61 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import AudioPlayer from '@/components/AudioPlayer';
 
-const AUTHOR = {
-  name: 'Sophie Carter',
-  role: 'Home Energy Writer',
-  initials: 'SC',
-};
+const AUTHORS = [
+  {
+    name: 'Sophie Carter',
+    role: 'Home Energy Writer',
+    avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
+    initials: 'SC',
+  },
+  {
+    name: 'James Whitfield',
+    role: 'Energy Analyst',
+    avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
+    initials: 'JW',
+  },
+  {
+    name: 'Priya Sharma',
+    role: 'Sustainability Editor',
+    avatar: 'https://randomuser.me/api/portraits/women/68.jpg',
+    initials: 'PS',
+  },
+  {
+    name: 'Daniel Brooks',
+    role: 'Energy Technology Writer',
+    avatar: 'https://randomuser.me/api/portraits/men/75.jpg',
+    initials: 'DB',
+  },
+];
 
-const FACT_CHECKER = {
-  name: 'Tom Richards',
-};
+const FACT_CHECKER = { name: 'Tom Richards' };
+
+function hashSlug(slug: string): number {
+  let h = 0;
+  for (let i = 0; i < slug.length; i++) {
+    h = ((h << 5) - h) + slug.charCodeAt(i);
+    h |= 0;
+  }
+  return Math.abs(h);
+}
+
+function getAuthor(slug: string) {
+  return AUTHORS[hashSlug(slug) % AUTHORS.length];
+}
 
 function readTime(text: string): number {
   const words = text.trim().split(/\s+/).length;
   return Math.max(1, Math.ceil(words / 200));
+}
+
+function stripMarkdown(md: string): string {
+  return md
+    .replace(/#{1,6}\s/g, '')
+    .replace(/\*\*(.*?)\*\*/g, '$1')
+    .replace(/\*(.*?)\*/g, '$1')
+    .replace(/\[(.*?)\]\(.*?\)/g, '$1')
+    .replace(/^[-*] /gm, '')
+    .trim();
 }
 
 export async function generateStaticParams() {
@@ -62,7 +104,9 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
 
+  const author = getAuthor(params.slug);
   const contentHtml = markdownToHtml(post.content);
+  const plainText = stripMarkdown(post.content);
   const minutes = readTime(post.content);
   const totalSec = Math.round(minutes * 48);
   const dur = `${Math.floor(totalSec / 60)}:${String(totalSec % 60).padStart(2, '0')}`;
@@ -99,17 +143,28 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         <div className="border-t border-b border-ink/10 py-5 mb-10">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-10 h-10 rounded-full bg-ink/10 flex items-center justify-center flex-shrink-0 overflow-hidden">
-              <span className="text-xs font-semibold text-ink/50">{AUTHOR.initials}</span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={author.avatar}
+                alt={author.name}
+                width={40}
+                height={40}
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).style.display = 'none';
+                  (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class="text-xs font-semibold text-ink/50">${author.initials}</span>`;
+                }}
+              />
             </div>
             <div>
-              <p className="text-sm font-semibold text-ink">{AUTHOR.name}</p>
+              <p className="text-sm font-semibold text-ink">{author.name}</p>
               <p className="text-xs text-ink/50">
-                {AUTHOR.role}&nbsp;&nbsp;Â·&nbsp;&nbsp;{post.date}&nbsp;&nbsp;Â·&nbsp;&nbsp;{minutes} min read
+                {author.role}&nbsp;&nbsp;&middot;&nbsp;&nbsp;{post.date}&nbsp;&nbsp;&middot;&nbsp;&nbsp;{minutes} min read
               </p>
             </div>
           </div>
 
-          <AudioPlayer duration={dur} />
+          <AudioPlayer duration={dur} text={plainText} />
 
           <div className="flex items-center gap-1.5 mt-3">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="text-green-600 flex-shrink-0">
