@@ -49,7 +49,7 @@ export default function HomePage() {
         </div>
       </section>
     </div>
-  );
+  );
 }
 
 function Card({ href, icon, title, desc }: { href: string; icon: "calc" | "article"; title: string; desc: string }) {
@@ -65,5 +65,5 @@ function Card({ href, icon, title, desc }: { href: string; icon: "calc" | "artic
       <h3 className="font-semibold text-sm text-gray-900 mb-1.5">{title}</h3>
       <p className="text-sm text-gray-500 leading-relaxed">{desc}</p>
     </Link>
-  );
+  );
 }
