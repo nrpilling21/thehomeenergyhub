@@ -1,6 +1,22 @@
 import { getAllPosts, getPostBySlug } from '@/lib/blog';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import AudioPlayer from '@/components/AudioPlayer';
+
+const AUTHOR = {
+  name: 'Sophie Carter',
+  role: 'Home Energy Writer',
+  initials: 'SC',
+};
+
+const FACT_CHECKER = {
+  name: 'Tom Richards',
+};
+
+function readTime(text: string): number {
+  const words = text.trim().split(/\s+/).length;
+  return Math.max(1, Math.ceil(words / 200));
+}
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -25,17 +41,14 @@ function markdownToHtml(md: string): string {
       block = block.trim();
       if (!block) return '';
 
-      // Headings
       if (block.startsWith('### ')) return `<h3 class="text-lg font-display font-semibold mt-8 mb-3">${block.slice(4)}</h3>`;
       if (block.startsWith('## ')) return `<h2 class="text-xl font-display font-semibold mt-10 mb-4">${block.slice(3)}</h2>`;
 
-      // Unordered lists
       if (block.match(/^[-*] /m)) {
         const items = block.split('\n').filter(l => l.match(/^[-*] /)).map(l => `<li class="mb-1">${l.replace(/^[-*] /, '')}</li>`);
         return `<ul class="list-disc pl-6 mb-4 text-ink/65 leading-relaxed">${items.join('')}</ul>`;
       }
 
-      // Paragraph with inline formatting
       let html = block
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
         .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" class="text-ink underline">$1</a>');
@@ -50,8 +63,10 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
   if (!post) notFound();
 
   const contentHtml = markdownToHtml(post.content);
+  const minutes = readTime(post.content);
+  const totalSec = Math.round(minutes * 48);
+  const dur = `${Math.floor(totalSec / 60)}:${String(totalSec % 60).padStart(2, '0')}`;
 
-  // JSON-LD FAQ schema
   const faqSchema = post.faq && post.faq.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -71,21 +86,48 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         />
       )}
       <article className="max-w-3xl mx-auto px-5 py-12">
-        <p className="font-mono text-xs tracking-widest text-plum-muted uppercase mb-4">{post.category.replace('-', ' ')}</p>
-        <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs text-ink/55">{post.date}</span>
-          <span className="text-xs text-ink/55">by {post.author}</span>
-        </div>
+        <p className="font-mono text-xs tracking-widest text-ink/40 uppercase mb-6">
+          {post.category.replace('-', ' ')}
+        </p>
 
-        <h1 className="text-3xl font-display font-normal text-ink mb-4 leading-tight">{post.title}</h1>
-        <p className="text-lg text-ink/60 mb-10 leading-relaxed">{post.description}</p>
+        <h1 className="text-3xl font-display font-normal text-ink mb-4 leading-tight">
+          {post.title}
+        </h1>
+        <p className="text-lg text-ink/60 mb-8 leading-relaxed">{post.description}</p>
+
+        {/* Author byline */}
+        <div className="border-t border-b border-ink/10 py-5 mb-10">
+          <div className="flex items-center gap-3 mb-3">
+            <div className="w-10 h-10 rounded-full bg-ink/10 flex items-center justify-center flex-shrink-0 overflow-hidden">
+              <span className="text-xs font-semibold text-ink/50">{AUTHOR.initials}</span>
+            </div>
+            <div>
+              <p className="text-sm font-semibold text-ink">{AUTHOR.name}</p>
+              <p className="text-xs text-ink/50">
+                {AUTHOR.role}&nbsp;&nbsp;Â·&nbsp;&nbsp;{post.date}&nbsp;&nbsp;Â·&nbsp;&nbsp;{minutes} min read
+              </p>
+            </div>
+          </div>
+
+          <AudioPlayer duration={dur} />
+
+          <div className="flex items-center gap-1.5 mt-3">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="text-green-600 flex-shrink-0">
+              <path d="M7 0a7 7 0 1 0 0 14A7 7 0 0 0 7 0Zm3.2 5.3-3.7 3.7a.5.5 0 0 1-.7 0L3.8 7a.5.5 0 0 1 .7-.7L6.1 8l3.4-3.4a.5.5 0 0 1 .7.7Z" fill="currentColor"/>
+            </svg>
+            <span className="text-xs text-ink/45">
+              Fact checked by{' '}
+              <span className="font-semibold text-ink/65">{FACT_CHECKER.name}</span>
+            </span>
+          </div>
+        </div>
 
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
-        {/* CTA - yellow background */}
+        {/* CTA */}
         <div className="bg-yellow rounded-2xl p-8 mt-12 text-center">
           <p className="font-display font-semibold text-lg text-ink mb-2">Get a personalised estimate</p>
-          <p className="text-ink/60 text-base mb-4">Try our free calculators  - no email required.</p>
+          <p className="text-ink/60 text-base mb-4">Try our free calculators&nbsp;&mdash;&nbsp;no email required.</p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="/heat-pump-cost-calculator" className="px-6 py-3 bg-ink text-cream-dark rounded-xl font-semibold text-sm hover:opacity-90 transition">
               Heat Pump Calculator
