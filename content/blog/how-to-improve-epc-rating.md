@@ -1,5 +1,5 @@
 ---
-title: "How to Improve Your EPC Rating: 12 Proven Ways to Boost Your Score in 2026"
+title: "How to Improve Your EPC Rating: 12 Ways (2026)"
 description: "Learn how to improve your EPC rating with practical upgrades ranked by cost and impact. From quick wins to major improvements, boost your home's energy score."
 date: "2026-04-07"
 author: "The Home Energy Hub"
