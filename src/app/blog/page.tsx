@@ -7,6 +7,13 @@ export const metadata = {
   title: 'Blog | The Home Energy Hub',
   description:
     'Expert guides on heat pumps, EV chargers, energy tariffs and saving money on your home energy bills.',
+  openGraph: {
+    title: 'Blog | The Home Energy Hub',
+    description:
+      'Expert guides on heat pumps, EV chargers, energy tariffs and saving money on your home energy bills.',
+    url: 'https://www.thehomeenergyhub.co.uk/blog',
+    type: 'website',
+  },
 };
 
 export default function BlogIndex() {
