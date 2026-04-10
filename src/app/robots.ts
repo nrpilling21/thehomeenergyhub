@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/'],
       },
     ],
-    sitemap: 'https://thehomeenergyhub.co.uk/sitemap.xml',
+    sitemap: 'https://www.thehomeenergyhub.co.uk/sitemap.xml',
   };
 }
