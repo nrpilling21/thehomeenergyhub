@@ -11,7 +11,7 @@ const VEHICLES = [
 ];
 
 const MILEAGE = [
-  { label: "5,000 miles/year", id: 5000, desc: "Low â short commute or mostly local" },
+  { label: "5,000 miles/year", id: 5000, desc: "Low - short commute or mostly local" },
   { label: "8,000 miles/year", id: 8000, desc: "Average UK mileage" },
   { label: "12,000 miles/year", id: 12000, desc: "Regular commuter" },
   { label: "15,000+ miles/year", id: 15000, desc: "High mileage driver" },
@@ -24,7 +24,7 @@ const TARIFF = [
 ];
 
 const CHARGER_TYPE = [
-  { label: "3-pin plug (2.3kW)", id: "3pin", kw: 2.3, desc: "Slow â uses a standard socket", cost: 0 },
+  { label: "3-pin plug (2.3kW)", id: "3pin", kw: 2.3, desc: "Slow - uses a standard socket", cost: 0 },
   { label: "Home wallbox (7.4kW)", id: "wallbox", kw: 7.4, desc: "3x faster. The recommended option.", cost: 950 },
 ];
 
@@ -46,7 +46,7 @@ function Progress({ step, total }: { step: number; total: number }) {
         <div
           key={i}
           className="h-1 rounded-full flex-1 transition-colors duration-300"
-          style={{ backgroundColor: i <= step ? "#1a1a1a" : "#e5e7eb" }}
+          style={{ backgroundColor: i <= step ? "#28030F" : "rgba(40, 3, 15, 0.08)" }}
         />
       ))}
     </div>
@@ -56,8 +56,8 @@ function Progress({ step, total }: { step: number; total: number }) {
 function Question({ text, sub }: { text: string; sub?: string }) {
   return (
     <div className="mb-8" style={{ animation: "fadeUp 0.25s ease" }}>
-      <h2 className="text-xl font-semibold text-gray-900 leading-snug">{text}</h2>
-      {sub && <p className="text-gray-400 text-sm mt-2">{sub}</p>}
+      <h2 className="text-xl font-extrabold font-display text-ink leading-snug">{text}</h2>
+      {sub && <p className="text-ink/70 text-base mt-2">{sub}</p>}
     </div>
   );
 }
@@ -80,17 +80,17 @@ function Option({
       style={{
         padding: "14px 18px",
         borderRadius: "12px",
-        border: selected ? "2px solid #1a1a1a" : "1.5px solid #e5e7eb",
-        backgroundColor: selected ? "#fafafa" : "#fff",
+        border: selected ? "2px solid #28030F" : "1.5px solid rgba(40, 3, 15, 0.1)",
+        backgroundColor: selected ? "#FCFAF8" : "#FCFAF8",
         marginBottom: "8px",
       }}
     >
       <div className="flex items-center justify-between">
         <div>
-          <div className={`text-sm font-medium ${selected ? "text-gray-900" : "text-gray-700"}`}>
+          <div className={`text-sm font-medium ${selected ? "text-ink" : "text-ink/70"}`}>
             {label}
           </div>
-          {desc && <div className="text-xs text-gray-400 mt-0.5">{desc}</div>}
+          {desc && <div className="text-xs text-ink/70 mt-0.5">{desc}</div>}
         </div>
         <div
           className="flex-shrink-0 ml-3"
@@ -98,7 +98,7 @@ function Option({
             width: 20,
             height: 20,
             borderRadius: "50%",
-            border: selected ? "6px solid #1a1a1a" : "2px solid #d1d5db",
+            border: selected ? "6px solid #28030F" : "2px solid rgba(40, 3, 15, 0.25)",
             transition: "border 0.15s ease",
           }}
         />
@@ -111,7 +111,7 @@ function BackBtn({ onClick }: { onClick: () => void }) {
   return (
     <button
       onClick={onClick}
-      className="flex items-center gap-1 text-sm text-gray-400 hover:text-gray-600 transition-colors mb-6"
+      className="flex items-center gap-1 text-sm text-ink/70 hover:text-ink/60 transition-colors mb-6"
     >
       <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
         <path d="M19 12H5M12 19l-7-7 7-7" />
@@ -133,14 +133,14 @@ function ResultStat({
   accent?: boolean;
 }) {
   return (
-    <div className="py-4 border-b border-gray-100 last:border-0">
+    <div className="py-4 border-b border-ink/5 last:border-0">
       <div className="flex items-baseline justify-between">
-        <span className="text-sm text-gray-500">{label}</span>
-        <span className={`text-lg font-semibold ${accent ? "text-green-700" : "text-gray-900"}`}>
+        <span className="text-sm text-ink/50">{label}</span>
+        <span className={`text-lg font-bold ${accent ? "text-ink" : "text-ink"}`}>
           {value}
         </span>
       </div>
-      {sub && <div className="text-xs text-gray-400 mt-0.5 text-right">{sub}</div>}
+      {sub && <div className="text-xs text-ink/70 mt-0.5 text-right">{sub}</div>}
     </div>
   );
 }
@@ -215,8 +215,8 @@ export default function EvChargingCalculator() {
   return (
     <div className="max-w-md mx-auto font-sans px-5 py-8">
       <div className="flex items-center justify-between mb-8">
-        <div className="text-sm font-bold text-gray-900 tracking-tight">EV Charging Calculator</div>
-        <div className="text-xs text-gray-400">2 min estimate</div>
+        <div className="text-sm font-bold text-ink tracking-tight">EV Charging Calculator</div>
+        <div className="text-xs text-ink/55">2 min estimate</div>
       </div>
 
       {!showResults && <Progress step={step} total={STEPS} />}
@@ -248,7 +248,7 @@ export default function EvChargingCalculator() {
           <BackBtn onClick={() => setStep(1)} />
           <Question
             text="What electricity tariff will you charge on?"
-            sub="An EV-specific tariff can cut your charging costs by 60â70%."
+            sub="An EV-specific tariff can cut your charging costs by 60-70%."
           />
           {TARIFF.map((t, i) => (
             <Option key={t.id} label={t.label} desc={t.desc} selected={tariff === i} onClick={() => select(setTariff, i)} />
@@ -288,24 +288,24 @@ export default function EvChargingCalculator() {
 
           {/* Hero number */}
           <div className="text-center mb-8">
-            <p className="text-sm text-gray-400 mb-3">
+            <p className="text-base text-ink/65 mb-3">
               Annual home charging cost for your {results.vehicleLabel}
             </p>
-            <div className="text-4xl font-bold text-gray-900 tracking-tight">
+            <div className="text-4xl font-extrabold text-ink tracking-tight">
               {fmt(results.annualEvCost)}/yr
             </div>
-            <div className="text-sm text-gray-400 mt-2">
-              {fmtp(results.costPerMile)} per mile Â· {results.mileageLabel}
+            <div className="text-base text-ink/65 mt-2">
+              {fmtp(results.costPerMile)} per mile {"\u00B7"} {results.mileageLabel}
             </div>
           </div>
 
           {/* Charging breakdown */}
-          <div className="bg-white border border-gray-200 rounded-2xl px-5 mb-6">
+          <div className="bg-cream border border-plum-light/20 rounded-2xl px-5 mb-6">
             <ResultStat label="Annual energy needed" value={`${results.annualKwh.toLocaleString()} kWh`} />
             <ResultStat label="Charging with" value={results.chargerLabel} />
             <ResultStat label="Tariff" value={results.tariffLabel} />
             <ResultStat
-              label="Typical 20â80% charge time"
+              label="Typical 20-80% charge time"
               value={`${results.chargeHours} hours`}
               sub={results.chargeHours > 8 ? "Overnight charging ideal" : ""}
             />
@@ -313,9 +313,9 @@ export default function EvChargingCalculator() {
 
           {/* Savings vs current fuel */}
           {results.hasComparison && (
-            <div className="bg-white border border-gray-200 rounded-2xl px-5 mb-6">
-              <div className="py-3 border-b border-gray-100">
-                <span className="text-xs font-semibold text-gray-900 uppercase tracking-wide">
+            <div className="bg-cream border border-plum-light/20 rounded-2xl px-5 mb-6">
+              <div className="py-3 border-b border-ink/5">
+                <span className="text-xs font-semibold text-ink uppercase tracking-wide">
                   Savings vs {results.fuelLabel.toLowerCase()}
                 </span>
               </div>
@@ -343,48 +343,46 @@ export default function EvChargingCalculator() {
               href="https://www.echargersuk.co.uk"
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-center py-3.5 rounded-xl text-sm font-semibold text-white transition-colors hover:bg-gray-800"
-              style={{ backgroundColor: "#1a1a1a" }}
+              className="block w-full text-center py-3.5 rounded-full text-sm font-semibold text-cream-dark transition-colors bg-ink hover:opacity-90"
             >
               Browse EV chargers at eChargers UK
             </a>
             <a
               href="/best-ev-charger-uk"
-              className="block w-full text-center py-3.5 rounded-xl text-sm font-semibold text-gray-700 border border-gray-200 hover:border-gray-300 transition-colors"
+              className="block w-full text-center py-3.5 rounded-full text-sm font-semibold text-ink border-2 border-ink/15 hover:border-ink/30 transition-colors"
             >
               Read: Best home EV charger UK
             </a>
           </div>
 
           {/* Email capture */}
-          <div className="bg-gray-50 rounded-2xl p-5 mb-8">
-            <div className="text-sm font-semibold text-gray-900 mb-1">Get our free EV charging guide</div>
-            <p className="text-xs text-gray-500 mb-3">
+          <div className="bg-cream-dark rounded-2xl p-5 mb-8">
+            <div className="text-sm font-semibold text-ink mb-1">Get our free EV charging guide</div>
+            <p className="text-xs text-ink/60 mb-3">
               Smart tariff tips, charger recommendations, and how to cut your charging costs even further.
             </p>
             <div className="flex gap-2">
               <input
                 type="email"
                 placeholder="Your email"
-                className="flex-1 text-sm px-3 py-2.5 rounded-lg border border-gray-200 bg-white placeholder-gray-400 focus:outline-none focus:border-gray-400"
+                className="flex-1 text-sm px-3 py-2.5 rounded-lg border border-plum-light/30 bg-cream placeholder-ink/30 focus:outline-none focus:border-plum-light"
               />
               <button
-                className="px-4 py-2.5 rounded-lg text-sm font-medium text-white flex-shrink-0 hover:bg-gray-800 transition-colors"
-                style={{ backgroundColor: "#1a1a1a" }}
+                className="px-4 py-2.5 rounded-lg text-sm font-medium text-cream-dark flex-shrink-0 bg-ink hover:opacity-90 transition-colors"
               >
                 Send
               </button>
             </div>
-            <p className="text-xs text-gray-400 mt-2">No spam. Unsubscribe anytime.</p>
+            <p className="text-xs text-ink/70 mt-2">No spam. Unsubscribe anytime.</p>
           </div>
 
-          <div className="flex items-center justify-center gap-6 text-xs text-gray-400 mb-6">
+          <div className="flex items-center justify-center gap-6 text-xs text-ink/70 mb-6">
             <span>Independent advice</span>
             <span>No sales calls</span>
             <span>Free to use</span>
           </div>
 
-          <p className="text-xs text-gray-400 text-center leading-relaxed">
+          <p className="text-xs text-ink/70 text-center leading-relaxed">
             Costs based on UK energy prices as of March 2026. Actual costs depend on your driving
             style, tariff, and vehicle efficiency.
           </p>
@@ -392,7 +390,7 @@ export default function EvChargingCalculator() {
           <div className="text-center mt-6 mb-4">
             <button
               onClick={reset}
-              className="text-sm text-gray-400 hover:text-gray-600 transition-colors"
+              className="text-sm text-ink/70 hover:text-ink/60 transition-colors"
             >
               Recalculate
             </button>
