@@ -6,10 +6,25 @@ export const metadata = {
   description: 'Expert guides on heat pumps, EV chargers, energy tariffs and saving money on your home energy bills.',
 };
 
-const AUTHOR = {
-  name: 'Sophie Carter',
-  initials: 'SC',
-};
+const AUTHORS = [
+  { name: 'Sophie Carter', avatar: 'https://randomuser.me/api/portraits/women/44.jpg', initials: 'SC' },
+  { name: 'James Whitfield', avatar: 'https://randomuser.me/api/portraits/men/32.jpg', initials: 'JW' },
+  { name: 'Priya Sharma', avatar: 'https://randomuser.me/api/portraits/women/68.jpg', initials: 'PS' },
+  { name: 'Daniel Brooks', avatar: 'https://randomuser.me/api/portraits/men/75.jpg', initials: 'DB' },
+];
+
+function hashSlug(slug: string): number {
+  let h = 0;
+  for (let i = 0; i < slug.length; i++) {
+    h = ((h << 5) - h) + slug.charCodeAt(i);
+    h |= 0;
+  }
+  return Math.abs(h);
+}
+
+function getAuthor(slug: string) {
+  return AUTHORS[hashSlug(slug) % AUTHORS.length];
+}
 
 function readTime(text: string): number {
   const words = text.trim().split(/\s+/).length;
@@ -30,6 +45,7 @@ export default function BlogIndex() {
         <div className="grid gap-6">
           {posts.map(post => {
             const minutes = post.content ? readTime(post.content) : 8;
+            const author = getAuthor(post.slug);
             return (
               <Link key={post.slug} href={`/blog/${post.slug}`}>
                 <article className="bg-cream-dark rounded-2xl p-6 hover:shadow-md transition-all">
@@ -38,7 +54,7 @@ export default function BlogIndex() {
                       {post.category.replace('-', ' ')}
                     </span>
                     <span className="text-xs text-ink/55">{post.date}</span>
-                    <span className="text-xs text-ink/35">Â·</span>
+                    <span className="text-xs text-ink/35">&middot;</span>
                     <span className="text-xs text-ink/55">{minutes} min read</span>
                     <span className="text-xs text-ink/40 ml-auto flex items-center gap-1">
                       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -51,10 +67,17 @@ export default function BlogIndex() {
                   <h2 className="text-xl font-display font-semibold mb-2">{post.title}</h2>
                   <p className="text-ink/60 text-base leading-relaxed mb-3">{post.description}</p>
                   <div className="flex items-center gap-2">
-                    <div className="w-6 h-6 rounded-full bg-ink/10 flex items-center justify-center">
-                      <span className="text-[9px] font-semibold text-ink/50">{AUTHOR.initials}</span>
+                    <div className="w-6 h-6 rounded-full bg-ink/10 flex items-center justify-center overflow-hidden">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={author.avatar}
+                        alt={author.name}
+                        width={24}
+                        height={24}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
-                    <span className="text-xs text-ink/50">{AUTHOR.name}</span>
+                    <span className="text-xs text-ink/50">{author.name}</span>
                   </div>
                 </article>
               </Link>
