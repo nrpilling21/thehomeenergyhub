@@ -29,7 +29,7 @@ The eligibility criteria are straightforward, but there are a few things that ca
 
 **You must own your property.** Owner-occupiers and private landlords both qualify. Social housing landlords are eligible too, though separate funding streams often apply.
 
-**Your property must have an EPC.** You need a valid Energy Performance Certificate, but there's no minimum rating requirement. The EPC just needs to exist and include recommendations - which almost all do.
+**Your property must have an EPC.** You need a valid Energy Performance Certificate, but there's no minimum rating requirement. The EPC just needs to exist and include recommendations - which almost all do. If your rating is low, our guide on [how to improve your EPC rating](/blog/how-to-improve-epc-rating) covers quick wins that also make your heat pump more efficient.
 
 **You must be replacing a fossil fuel system.** The BUS grant covers switching from gas, oil, LPG, or electric resistive heating. If you already have a heat pump and want to upgrade it, you don't qualify.
 
@@ -59,7 +59,7 @@ The BUS grant covers the heat pump unit and installation, but a few things can a
 
 **Hot water cylinder.** If you currently have a combi boiler, you'll need a hot water cylinder installed. This adds £500-£1,000 but is essential for heat pump efficiency.
 
-**Insulation improvements.** Not required for the grant, but heat pumps perform best in well-insulated homes. Loft insulation (£300-£500) and cavity wall insulation (£1,000-£2,500) improve performance significantly.
+**Insulation improvements.** Not required for the grant, but heat pumps perform best in well-insulated homes. [Loft insulation](/blog/loft-insulation-cost-uk) (£300-£500) and [cavity wall insulation](/blog/cavity-wall-insulation-cost-uk) (£1,000-£2,500) improve performance significantly.
 
 **Electrical upgrades.** Some properties need a consumer unit upgrade to handle the heat pump's electrical load. This adds £200-£400 if needed.
 
@@ -87,4 +87,4 @@ There's also 0% VAT on heat pumps and their installation, confirmed until at lea
 
 The £7,500 BUS grant makes 2026 one of the best years to install a heat pump. Combined with 0% VAT, the upfront cost is comparable to a new gas boiler, with lower running costs from day one. The scheme is confirmed until 2028, but funding is allocated on a first-come-first-served basis - voucher applications have been increasing steadily.
 
-Get a personalised cost estimate for your property with our [heat pump calculator](/heat-pump-cost-calculator).
+Get a personalised cost estimate for your property with our [heat pump calculator](/heat-pump-cost-calculator). For a full breakdown of what you will pay before and after the grant, see our [heat pump costs guide](/heat-pump-cost-uk). You might also want to read about [heat pump running costs](/blog/heat-pump-running-costs-2026) to understand the ongoing savings, or explore whether [solar panels](/solar-panel-costs-uk) could cut your electricity bill even further.
