@@ -31,7 +31,7 @@ The biggest lever you have is your electricity tariff. Standard variable rates o
 
 **Economy 7 / Economy 10** tariffs give you cheaper overnight rates of 12-15p/kWh, ideal since heat pumps work efficiently at lower outputs overnight, heating your home gradually.
 
-**Solar panels** are the other game-changer. A 4kW solar array generates roughly 3,400kWh per year in the UK. Combined with a heat pump, your heating can be virtually free during spring and autumn months when solar output is strong and heating demand is moderate.
+**Solar panels** are the other game-changer. A 4kW solar array generates roughly 3,400kWh per year in the UK. Combined with a heat pump, your heating can be virtually free during spring and autumn months when solar output is strong and heating demand is moderate. See our [solar panel costs guide](/solar-panel-costs-uk) for a full breakdown of what you would pay and the payback period.
 
 ## Heat pump vs gas boiler: the honest comparison
 
@@ -39,10 +39,10 @@ At face value, a heat pump saves £100-£300 per year over a gas boiler on runni
 
 But the full picture is more nuanced. Gas prices have been volatile - they doubled in 2022 and remain above historical averages. Electricity prices are more stable and trending downward as renewable generation increases. The direction of travel clearly favours heat pumps.
 
-Factor in the **£7,500 BUS grant** and **0% VAT** (confirmed until March 2027), and the installation cost of an air source heat pump is often comparable to replacing a gas boiler. At that point, even modest running cost savings make the investment worthwhile.
+Factor in the [£7,500 BUS grant](/blog/heat-pump-grants-uk-bus-grant-2026) and **0% VAT** (confirmed until March 2027), and the installation cost of an air source heat pump is often comparable to replacing a gas boiler. At that point, even modest running cost savings make the investment worthwhile.
 
 ## The bottom line
 
 If you're replacing a working boiler just to save on running costs, the payback period is long - 10-15 years on standard tariffs. But if your boiler is due for replacement anyway, the grant makes a heat pump the financially sensible choice. Pair it with a smart tariff and the running costs genuinely beat gas.
 
-Use our [heat pump calculator](/heat-pump-cost-calculator) to get a personalised estimate based on your property.
+Use our [heat pump calculator](/heat-pump-cost-calculator) to get a personalised estimate based on your property. For a full breakdown of installation prices and what the BUS grant covers, read our [heat pump costs guide](/heat-pump-cost-uk). And if you are thinking about improving your home's insulation first, our guide to [loft insulation costs](/blog/loft-insulation-cost-uk) is a good starting point - better insulation means lower running costs from day one.
