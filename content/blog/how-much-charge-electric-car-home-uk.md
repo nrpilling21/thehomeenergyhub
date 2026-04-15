@@ -57,7 +57,7 @@ The maths is clear: if you can charge at home, you should. Public chargers make 
 
 **Time your charging.** Even without a smart tariff, electricity is cheapest between midnight and 5am. Use your car’s built-in timer or your wallbox app to schedule charging for these hours.
 
-**Add solar panels.** A 4kW system costs £5,000–£7,000 installed and generates enough surplus to cover a significant portion of your charging for free, especially if you work from home or can charge during the day.
+**Add solar panels.** A 4kW system costs £5,000–£7,000 installed and generates enough surplus to cover a significant portion of your charging for free, especially if you work from home or can charge during the day. See our [solar panel costs guide](/solar-panel-costs-uk) for a full pricing breakdown, and check whether you qualify for any [solar panel grants](/blog/solar-panel-grants-uk-2026).
 
 ## The bottom line
 
