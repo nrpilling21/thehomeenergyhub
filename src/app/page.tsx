@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Home Energy Hub  - Independent UK Energy Advice",
   description:
     "Free, independent guides and tools for heat pumps, EV chargers, solar panels and battery storage. No sales calls, no nonsense.",
+    alternates: { canonical: "/" },
 };
 
 export default function HomePage() {
