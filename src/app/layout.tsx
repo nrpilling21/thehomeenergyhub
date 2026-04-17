@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
+    metadataBase: new URL("https://www.thehomeenergyhub.co.uk"),
   title: "Home Energy Hub  - Independent UK Energy Advice",
   description:
     "Free, independent guides and calculators for heat pumps, EV chargers, solar panels and battery storage in the UK.",
