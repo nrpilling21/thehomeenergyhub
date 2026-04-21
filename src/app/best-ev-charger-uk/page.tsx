@@ -15,7 +15,7 @@ export default function EvChargerPage() {
         Best Home EV Charger UK (2026): Honest Comparison
       </h1>
       <p className="text-ink/60 text-lg mb-8 leading-relaxed">
-        A good home EV charger costs Â£800-Â£1,200 fully installed, charges your car 3-4x faster than a
+        A good home EV charger costs £800-£1,200 fully installed, charges your car 3-4x faster than a
         three-pin plug, and pays for itself within a year through cheaper overnight electricity rates.
         Here&apos;s which one to actually buy, based on what matters most to you.
       </p>
@@ -35,27 +35,27 @@ export default function EvChargerPage() {
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4">Best for smart tariff savings</td>
               <td className="py-3 px-4 font-medium text-ink">Ohme Home Pro</td>
-              <td className="py-3 px-4">Â£850-Â£1,050</td>
+              <td className="py-3 px-4">£850-£1,050</td>
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4">Best for solar panel owners</td>
               <td className="py-3 px-4 font-medium text-ink">MyEnergi Zappi</td>
-              <td className="py-3 px-4">Â£950-Â£1,200</td>
+              <td className="py-3 px-4">£950-£1,200</td>
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4">Best all-rounder</td>
               <td className="py-3 px-4 font-medium text-ink">Wallbox Pulsar Max</td>
-              <td className="py-3 px-4">Â£800-Â£1,050</td>
+              <td className="py-3 px-4">£800-£1,050</td>
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4">Best budget option</td>
               <td className="py-3 px-4 font-medium text-ink">Pod Point Solo 3S</td>
-              <td className="py-3 px-4">Â£800-Â£950</td>
+              <td className="py-3 px-4">£800-£950</td>
             </tr>
             <tr>
               <td className="py-3 px-4">Best for future-proofing</td>
               <td className="py-3 px-4 font-medium text-ink">Hypervolt Home 3</td>
-              <td className="py-3 px-4">Â£900-Â£1,100</td>
+              <td className="py-3 px-4">£900-£1,100</td>
             </tr>
           </tbody>
         </table>
@@ -73,7 +73,7 @@ export default function EvChargerPage() {
         number={1}
         name="Ohme Home Pro"
         tagline="Best for Smart Tariff Users"
-        price="Â£850-Â£1,050 installed"
+        price="£850-£1,050 installed"
         power="7.4kW (single-phase)"
         keyFeature="Deep smart tariff integration"
         strengths={[
@@ -95,7 +95,7 @@ export default function EvChargerPage() {
         number={2}
         name="MyEnergi Zappi"
         tagline="Best for Solar Panel Owners"
-        price="Â£950-Â£1,200 installed"
+        price="£950-£1,200 installed"
         power="7.4kW (single-phase)"
         keyFeature="Solar energy diversion"
         strengths={[
@@ -118,7 +118,7 @@ export default function EvChargerPage() {
         number={3}
         name="Wallbox Pulsar Max"
         tagline="Best All-Rounder"
-        price="Â£800-Â£1,050 installed"
+        price="£800-£1,050 installed"
         power="7.4kW (single-phase)"
         keyFeature="Compact, well-built, strong app"
         strengths={[
@@ -140,7 +140,7 @@ export default function EvChargerPage() {
         number={4}
         name="Pod Point Solo 3S"
         tagline="Best Budget Option"
-        price="Â£800-Â£950 installed"
+        price="£800-£950 installed"
         power="7.4kW (single-phase)"
         keyFeature="Simple, reliable, cheapest installed price"
         strengths={[
@@ -163,7 +163,7 @@ export default function EvChargerPage() {
         number={5}
         name="Hypervolt Home 3"
         tagline="Best for Future-Proofing"
-        price="Â£900-Â£1,100 installed"
+        price="£900-£1,100 installed"
         power="7.4kW (single-phase)"
         keyFeature="Sleek design, bidirectional-ready"
         strengths={[
@@ -204,15 +204,15 @@ export default function EvChargerPage() {
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4 font-medium text-ink">Annual (8,000 mi)</td>
-              <td className="py-3 px-4">Â£560-Â£800</td>
-              <td className="py-3 px-4">Â£160-Â£240</td>
-              <td className="py-3 px-4">Â£1,200-Â£2,000</td>
-              <td className="py-3 px-4">Â£1,280-Â£1,760</td>
+              <td className="py-3 px-4">£560-£800</td>
+              <td className="py-3 px-4">£160-£240</td>
+              <td className="py-3 px-4">£1,200-£2,000</td>
+              <td className="py-3 px-4">£1,280-£1,760</td>
             </tr>
             <tr>
               <td className="py-3 px-4 font-medium text-ink">Monthly saving vs petrol</td>
-              <td className="py-3 px-4">Â£40-Â£80</td>
-              <td className="py-3 px-4">Â£85-Â£130</td>
+              <td className="py-3 px-4">£40-£80</td>
+              <td className="py-3 px-4">£85-£130</td>
               <td className="py-3 px-4"> -</td>
               <td className="py-3 px-4"> -</td>
             </tr>
@@ -287,7 +287,7 @@ export default function EvChargerPage() {
         <div className="font-display font-semibold text-cream-dark text-lg mb-1">Considering a heat pump too?</div>
         <p className="text-base text-cream-dark/70 mb-3">
           Use our free calculator to get a cost estimate for air or ground source heat pumps, including
-          the Â£7,500 BUS grant.
+          the £7,500 BUS grant.
         </p>
         <Link
           href="/heat-pump-cost-calculator"
