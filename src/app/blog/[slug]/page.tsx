@@ -15,10 +15,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!post) return { title: 'Not Found' };
 
   const url = `${SITE_URL}/blog/${params.slug}`;
-  const pageTitle = `${post.title} | ${SITE_NAME}`;
 
   return {
-    title: pageTitle,
+    title: post.title,
     description: post.description,
     alternates: { canonical: `/blog/${params.slug}` },
     keywords: post.tags,
