@@ -46,9 +46,9 @@ Many older homes still have just 100mm or less of insulation - sometimes as litt
 
 For reference, here's how thickness affects performance:
 
-- **100mm** of mineral wool: U-value of ~0.44 W/m²K
-- **200mm**: U-value of ~0.22 W/m²K
-- **270mm**: U-value of ~0.16 W/m²K (current recommended standard)
+- 100mm of mineral wool — U-value of ~0.44 W/m²K
+- 200mm — U-value of ~0.22 W/m²K
+- 270mm — U-value of ~0.16 W/m²K (current recommended standard)
 
 The lower the U-value, the better the insulation performs at keeping heat in.
 

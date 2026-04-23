@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Home Insulation Costs UK 2026: Types, Prices & Savings Guide",
   description:
-    "Home insulation costs Â£300âÂ£13,000 in the UK depending on type. Loft insulation from Â£300, cavity wall from Â£450, solid wall from Â£7,500. Save up to Â£730/year on energy bills with 0% VAT until 2027.",
+    "Home insulation costs £300–£13,000 in the UK depending on type. Loft insulation from £300, cavity wall from £450, solid wall from £7,500. Save up to £730/year on energy bills with 0% VAT until 2027.",
   keywords: [
     "home insulation cost uk",
     "insulation costs uk",
@@ -36,7 +36,7 @@ export default function HomeInsulationGuidePage() {
       </h1>
       <p className="text-gray-500 text-lg mb-8 leading-relaxed">
         Insulating your home is one of the most effective ways to reduce energy bills and improve
-        comfort. Costs range from around Â£300 for loft insulation up to Â£13,000 or more for external
+        comfort. Costs range from around £300 for loft insulation up to £13,000 or more for external
         solid wall insulation, depending on the type and size of your property. With 0% VAT on
         insulation until at least March 2027 and grants available through the Great British Insulation
         Scheme, now is a good time to invest.
@@ -56,33 +56,33 @@ export default function HomeInsulationGuidePage() {
           <tbody className="divide-y divide-gray-100">
             <tr>
               <td className="py-3 px-4 font-medium">Loft insulation (270mm)</td>
-              <td className="py-3 px-4">Â£300âÂ£600</td>
-              <td className="py-3 px-4">Â£200âÂ£310/yr</td>
-              <td className="py-3 px-4">1â3 years</td>
+              <td className="py-3 px-4">£300–£600</td>
+              <td className="py-3 px-4">£200–£310/yr</td>
+              <td className="py-3 px-4">1–3 years</td>
             </tr>
             <tr>
               <td className="py-3 px-4 font-medium">Cavity wall insulation</td>
-              <td className="py-3 px-4">Â£450âÂ£1,500</td>
-              <td className="py-3 px-4">Â£185âÂ£395/yr</td>
-              <td className="py-3 px-4">2â4 years</td>
+              <td className="py-3 px-4">£450–£1,500</td>
+              <td className="py-3 px-4">£185–£395/yr</td>
+              <td className="py-3 px-4">2–4 years</td>
             </tr>
             <tr>
               <td className="py-3 px-4 font-medium">Solid wall (internal)</td>
-              <td className="py-3 px-4">Â£4,000âÂ£8,000</td>
-              <td className="py-3 px-4">Â£270âÂ£475/yr</td>
-              <td className="py-3 px-4">10â18 years</td>
+              <td className="py-3 px-4">£4,000–£8,000</td>
+              <td className="py-3 px-4">£270–£475/yr</td>
+              <td className="py-3 px-4">10–18 years</td>
             </tr>
             <tr>
               <td className="py-3 px-4 font-medium">Solid wall (external)</td>
-              <td className="py-3 px-4">Â£7,500âÂ£13,000</td>
-              <td className="py-3 px-4">Â£270âÂ£475/yr</td>
-              <td className="py-3 px-4">16â27 years</td>
+              <td className="py-3 px-4">£7,500–£13,000</td>
+              <td className="py-3 px-4">£270–£475/yr</td>
+              <td className="py-3 px-4">16–27 years</td>
             </tr>
             <tr>
               <td className="py-3 px-4 font-medium">Floor insulation</td>
-              <td className="py-3 px-4">Â£500âÂ£1,500</td>
-              <td className="py-3 px-4">Â£40âÂ£70/yr</td>
-              <td className="py-3 px-4">8â20 years</td>
+              <td className="py-3 px-4">£500–£1,500</td>
+              <td className="py-3 px-4">£40–£70/yr</td>
+              <td className="py-3 px-4">8–20 years</td>
             </tr>
           </tbody>
         </table>
@@ -95,12 +95,12 @@ export default function HomeInsulationGuidePage() {
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Loft Insulation</h2>
       <p className="text-gray-700 mb-4 leading-relaxed">
         Loft insulation is the easiest and most cost-effective upgrade for most homes. Topping up
-        existing insulation to the recommended 270mm typically costs Â£300 to Â£600, depending on the
+        existing insulation to the recommended 270mm typically costs £300 to £600, depending on the
         size of your loft and ease of access. If you have no existing insulation, expect to pay closer
-        to Â£500 to Â£800.
+        to £500 to £800.
       </p>
       <p className="text-gray-700 mb-4 leading-relaxed">
-        The savings are significant: the Energy Saving Trust estimates you could save Â£200 to Â£310 per
+        The savings are significant: the Energy Saving Trust estimates you could save £200 to £310 per
         year on a typical semi-detached home, meaning loft insulation often pays for itself within two
         winters. It also makes a noticeable difference to comfort, keeping bedrooms warmer in winter
         and cooler in summer.
@@ -114,13 +114,13 @@ export default function HomeInsulationGuidePage() {
 
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Cavity Wall Insulation</h2>
       <p className="text-gray-700 mb-4 leading-relaxed">
-        Most UK homes built between the 1920s and 1990s have cavity walls â two layers of brick with a
-        gap between them. Filling this cavity with insulation typically costs Â£450 to Â£1,500 and takes
+        Most UK homes built between the 1920s and 1990s have cavity walls — two layers of brick with a
+        gap between them. Filling this cavity with insulation typically costs £450 to £1,500 and takes
         a professional installer just a few hours. The process involves drilling small holes in the
         outer wall and injecting insulation material, then sealing the holes.
       </p>
       <p className="text-gray-700 mb-4 leading-relaxed">
-        Annual savings range from around Â£185 for a mid-terrace property up to Â£395 for a detached
+        Annual savings range from around £185 for a mid-terrace property up to £395 for a detached
         house, giving you a payback period of just two to four years. Cavity wall insulation is one of
         the most commonly funded measures under the Great British Insulation Scheme.
       </p>
@@ -141,16 +141,16 @@ export default function HomeInsulationGuidePage() {
         the outside of the building, finished with render or cladding).
       </p>
       <p className="text-gray-700 mb-4 leading-relaxed">
-        Internal solid wall insulation costs Â£4,000 to Â£8,000 and slightly reduces room sizes but
-        avoids changing the exterior appearance. External insulation costs Â£7,500 to Â£13,000 but can
+        Internal solid wall insulation costs £4,000 to £8,000 and slightly reduces room sizes but
+        avoids changing the exterior appearance. External insulation costs £7,500 to £13,000 but can
         also improve the look of your home and fix issues like damp or cracked render. Both approaches
-        can save Â£270 to Â£475 per year on heating bills.
+        can save £270 to £475 per year on heating bills.
       </p>
 
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Floor Insulation</h2>
       <p className="text-gray-700 mb-4 leading-relaxed">
-        Insulating under suspended timber floors costs Â£500 to Â£1,500 for a typical home. Savings are
-        more modest at Â£40 to Â£70 per year, but floor insulation improves comfort noticeably â cold
+        Insulating under suspended timber floors costs £500 to £1,500 for a typical home. Savings are
+        more modest at £40 to £70 per year, but floor insulation improves comfort noticeably — cold
         floors are one of the most common complaints in older homes. Solid concrete floors can also
         be insulated, but this is usually only practical during a renovation as it involves raising the
         floor level.
@@ -160,8 +160,8 @@ export default function HomeInsulationGuidePage() {
       <p className="text-gray-700 mb-4 leading-relaxed">
         Several government schemes can help with insulation costs. The Great British Insulation Scheme
         (GBIS) provides funding for cavity wall, loft, and solid wall insulation for eligible
-        households â typically those in lower council tax bands or on qualifying benefits. The Warm
-        Homes: Local Grant offers up to Â£15,000 for energy efficiency improvements for lower-income
+        households — typically those in lower council tax bands or on qualifying benefits. The Warm
+        Homes: Local Grant offers up to £15,000 for energy efficiency improvements for lower-income
         homeowners.
       </p>
       <p className="text-gray-700 mb-4 leading-relaxed">

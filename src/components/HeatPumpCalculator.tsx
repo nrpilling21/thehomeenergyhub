@@ -339,10 +339,10 @@ export default function HeatPumpCalculator() {
           <BackBtn onClick={() => setStep(4)} />
           <Question
             text="Are you eligible for the government grant?"
-            sub="The Boiler Upgrade Scheme gives most homeowners Â£7,500 towards installation."
+            sub="The Boiler Upgrade Scheme gives most homeowners £7,500 towards installation."
           />
           <Option
-            label="Yes - include the Â£7,500 grant"
+            label="Yes - include the £7,500 grant"
             desc="Available until March 2028"
             selected={grant === 0}
             onClick={() => select(setGrant, 0)}

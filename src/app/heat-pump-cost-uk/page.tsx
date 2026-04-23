@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "How Much Does a Heat Pump Cost in the UK? (2026 Guide)",
   description:
-    "Heat pumps cost Â£8,000-Â£15,000 for air source or Â£15,000-Â£35,000 for ground source, installed. With the Â£7,500 BUS grant and 0% VAT, the real cost is much lower.",
+    "Heat pumps cost £8,000-£15,000 for air source or £15,000-£35,000 for ground source, installed. With the £7,500 BUS grant and 0% VAT, the real cost is much lower.",
 };
 
 export default function HeatPumpCostPage() {
@@ -15,8 +15,8 @@ export default function HeatPumpCostPage() {
         How Much Does a Heat Pump Cost in the UK? (2026 Guide)
       </h1>
       <p className="text-ink/60 text-xl mb-10 leading-relaxed">
-        Heat pumps typically cost between Â£8,000 and Â£15,000 installed for an air source unit, or
-        Â£15,000 to Â£35,000 for ground source. With the Building Upgrade Scheme grant of Â£7,500 and the
+        Heat pumps typically cost between £8,000 and £15,000 installed for an air source unit, or
+        £15,000 to £35,000 for ground source. With the Building Upgrade Scheme grant of £7,500 and the
         0% VAT rate valid until March 2027, the real cost for most households is substantially lower
         than these headline figures suggest.
       </p>
@@ -51,21 +51,21 @@ export default function HeatPumpCostPage() {
           <tbody className="text-ink/55">
             <tr className="border-b border-plum-light/15">
               <td className="py-3.5 px-4">1-2 bed flat/terrace</td>
-              <td className="py-3.5 px-4">Â£8,000-Â£10,000</td>
-              <td className="py-3.5 px-4">Â£18,000-Â£22,000</td>
-              <td className="py-3.5 px-4 font-semibold text-ink">Â£500-Â£2,500</td>
+              <td className="py-3.5 px-4">£8,000-£10,000</td>
+              <td className="py-3.5 px-4">£18,000-£22,000</td>
+              <td className="py-3.5 px-4 font-semibold text-ink">£500-£2,500</td>
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3.5 px-4">3-4 bed detached</td>
-              <td className="py-3.5 px-4">Â£11,000-Â£15,000</td>
-              <td className="py-3.5 px-4">Â£22,000-Â£30,000</td>
-              <td className="py-3.5 px-4 font-semibold text-ink">Â£3,500-Â£7,500</td>
+              <td className="py-3.5 px-4">£11,000-£15,000</td>
+              <td className="py-3.5 px-4">£22,000-£30,000</td>
+              <td className="py-3.5 px-4 font-semibold text-ink">£3,500-£7,500</td>
             </tr>
             <tr>
               <td className="py-3.5 px-4">Large period property</td>
-              <td className="py-3.5 px-4">Â£14,000-Â£18,000</td>
-              <td className="py-3.5 px-4">Â£28,000-Â£35,000</td>
-              <td className="py-3.5 px-4 font-semibold text-ink">Â£6,500-Â£10,500</td>
+              <td className="py-3.5 px-4">£14,000-£18,000</td>
+              <td className="py-3.5 px-4">£28,000-£35,000</td>
+              <td className="py-3.5 px-4 font-semibold text-ink">£6,500-£10,500</td>
             </tr>
           </tbody>
         </table>
@@ -74,16 +74,16 @@ export default function HeatPumpCostPage() {
       <Section title="Air Source Heat Pump Costs">
         <p>
           An air source heat pump sits outside your property and extracts heat from the ambient air,
-          even in cold conditions. Installation typically costs between Â£8,000 and Â£15,000.
+          even in cold conditions. Installation typically costs between £8,000 and £15,000.
         </p>
         <p>
           For a straightforward 3-4 bedroom home with adequate space and reasonable access, expect to
-          pay around Â£12,000 installed. This includes the unit, removal of your old boiler, pipework,
+          pay around £12,000 installed. This includes the unit, removal of your old boiler, pipework,
           wiring, commissioning, and a standard warranty.
         </p>
         <p>
-          Costs push higher if you need new radiators or underfloor heating (adds Â£3,000-Â£8,000),
-          extensive pipework runs (Â£1,000-Â£2,000), or if your existing heating system needs
+          Costs push higher if you need new radiators or underfloor heating (adds £3,000-£8,000),
+          extensive pipework runs (£1,000-£2,000), or if your existing heating system needs
           significant conversion work.
         </p>
       </Section>
@@ -91,7 +91,7 @@ export default function HeatPumpCostPage() {
       <Section title="Ground Source Heat Pump Costs">
         <p>
           Ground source heat pumps are significantly more expensive because they require drilling
-          boreholes or installing ground loops. Installation costs range from Â£15,000 to Â£35,000
+          boreholes or installing ground loops. Installation costs range from £15,000 to £35,000
           depending on ground conditions and property layout.
         </p>
         <p>
@@ -103,13 +103,13 @@ export default function HeatPumpCostPage() {
 
       <Section title="Running Costs: Heat Pumps vs Gas Boilers">
         <p>
-          A modern heat pump costs roughly Â£800 to Â£1,200 per year to run, depending on your home's
+          A modern heat pump costs roughly £800 to £1,200 per year to run, depending on your home's
           size, insulation, electricity tariff, and heating demand. A gas boiler costs approximately
-          Â£1,000-Â£1,400 per year, giving modest savings of 10-20% on fuel costs.
+          £1,000-£1,400 per year, giving modest savings of 10-20% on fuel costs.
         </p>
         <p>
-          The comparison looks better when you factor in grants. After the Â£7,500 BUS grant, an air
-          source heat pump costs roughly Â£1,500-Â£2,500 net  - often less than a new boiler
+          The comparison looks better when you factor in grants. After the £7,500 BUS grant, an air
+          source heat pump costs roughly £1,500-£2,500 net  - often less than a new boiler
           installation.
         </p>
       </Section>
@@ -137,10 +137,10 @@ export default function HeatPumpCostPage() {
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3.5 px-4 font-medium text-ink">Annual (8,000 mi)</td>
-              <td className="py-3.5 px-4">Â£560-Â£800</td>
-              <td className="py-3.5 px-4 font-semibold text-ink">Â£160-Â£240</td>
-              <td className="py-3.5 px-4">Â£1,200-Â£2,000</td>
-              <td className="py-3.5 px-4">Â£1,280-Â£1,760</td>
+              <td className="py-3.5 px-4">£560-£800</td>
+              <td className="py-3.5 px-4 font-semibold text-ink">£160-£240</td>
+              <td className="py-3.5 px-4">£1,200-£2,000</td>
+              <td className="py-3.5 px-4">£1,280-£1,760</td>
             </tr>
           </tbody>
         </table>
@@ -148,7 +148,7 @@ export default function HeatPumpCostPage() {
 
       <Section title="The Building Upgrade Scheme (BUS) Grant">
         <p>
-          The BUS offers Â£7,500 towards the cost of an air or ground source heat pump for UK
+          The BUS offers £7,500 towards the cost of an air or ground source heat pump for UK
           homeowners. Most owner-occupied properties qualify. Your installer must be MCS-registered,
           and they typically handle the paperwork. Payment arrives 4-6 weeks after application.
         </p>
@@ -160,7 +160,7 @@ export default function HeatPumpCostPage() {
 
       <Section title="Is a Heat Pump Worth the Cost?">
         <p>
-          For most homeowners, yes  - particularly when grants are available. After the Â£7,500 BUS
+          For most homeowners, yes  - particularly when grants are available. After the £7,500 BUS
           grant and 0% VAT, air source installations often cost less than replacing a gas boiler.
           Payback periods are typically 8-12 years for air source, 12-18 for ground source.
         </p>

@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 
-/* ââ Data ââ */
+/* ── Data ── */
 const VEHICLES = [
   { label: "Small EV (e.g. MG4, Fiat 500e)", id: "small", batteryKwh: 51, rangeKm: 280, effKwhPerMile: 0.29 },
   { label: "Medium EV (e.g. Tesla Model 3, VW ID.3)", id: "medium", batteryKwh: 60, rangeKm: 340, effKwhPerMile: 0.32 },
@@ -38,7 +38,7 @@ const CURRENT_FUEL = [
 const fmt = (v: number) => "\u00A3" + Math.round(v).toLocaleString("en-GB");
 const fmtp = (v: number) => (v * 100).toFixed(1) + "p";
 
-/* ââ Shared UI (matching heat pump calculator style) ââ */
+/* ── Shared UI (matching heat pump calculator style) ── */
 function Progress({ step, total }: { step: number; total: number }) {
   return (
     <div className="flex gap-1.5 mb-10">
@@ -145,7 +145,7 @@ function ResultStat({
   );
 }
 
-/* ââ Main Calculator ââ */
+/* ── Main Calculator ── */
 export default function EvChargingCalculator() {
   const [step, setStep] = useState(0);
   const [vehicle, setVehicle] = useState<number | null>(null);

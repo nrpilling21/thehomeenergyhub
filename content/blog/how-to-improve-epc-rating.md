@@ -7,6 +7,8 @@ category: "guides"
 tags: ["epc rating", "energy efficiency", "home improvements", "insulation", "heat pumps", "energy grants"]
 ---
 
+*This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
+
 # How to Improve Your EPC Rating: 12 Proven Ways to Boost Your Score
 
 Your Energy Performance Certificate (EPC) rating tells you how energy efficient your home is — and in 2026, it matters more than ever. With the government confirming that all rental properties in England and Wales must reach EPC band C by October 2030, and energy bills remaining stubbornly high, improving your EPC score isn't just about paperwork. It's about saving money and future-proofing your home.
@@ -50,7 +52,7 @@ Sealing gaps around windows, doors, letterboxes, and loft hatches is cheap and e
 
 **Cost:** £0–£500 (often free via grants) | **EPC impact:** 5–10 points
 
-This is often the single biggest quick win. If your loft insulation is below the recommended 270mm, topping it up is straightforward and can dramatically improve your score. Many homes still have just 100mm or less. A professional installation for a typical 3-bed semi costs around [£300–£930 depending on the property](/loft-insulation-cost-uk), but you may qualify for free loft insulation through the ECO4 scheme (open until December 2026) or the Warm Homes Local Grant.
+This is often the single biggest quick win. If your loft insulation is below the recommended 270mm, topping it up is straightforward and can dramatically improve your score. Many homes still have just 100mm or less. A professional installation for a typical 3-bed semi costs around [£300–£930 depending on the property](/blog/loft-insulation-cost-uk), but you may qualify for free loft insulation through the ECO4 scheme (open until December 2026) or the Warm Homes Local Grant.
 
 ## Medium Investment: Upgrades Worth £500–£5,000
 
@@ -60,7 +62,7 @@ These improvements require more spending but deliver significantly bigger EPC ga
 
 **Cost:** £500–£1,500 | **EPC impact:** 5–15 points
 
-If your home was built between the 1930s and 1990s, there's a good chance it has unfilled cavity walls. Getting them insulated is one of the most cost-effective upgrades available. The typical cost for a [3-bed semi is around £650–£1,200](/cavity-wall-insulation-cost-uk), and it can cut your heating bills by up to £395 per year. You may also be eligible for free cavity wall insulation through government-backed schemes.
+If your home was built between the 1930s and 1990s, there's a good chance it has unfilled cavity walls. Getting them insulated is one of the most cost-effective upgrades available. The typical cost for a [3-bed semi is around £650–£1,200](/blog/cavity-wall-insulation-cost-uk), and it can cut your heating bills by up to £395 per year. You may also be eligible for free cavity wall insulation through government-backed schemes.
 
 ### 6. Upgrade to Double or Triple Glazing
 
@@ -96,7 +98,7 @@ A typical 4kW solar PV system generates enough electricity to cover a large chun
 
 Switching from a gas or oil boiler to an air source heat pump is the single biggest EPC improvement most homes can make. Heat pumps are rated much more favourably in the SAP methodology used for EPC assessments because they deliver 2.5–3.5 units of heat for every unit of electricity used.
 
-The upfront [cost of a heat pump](/heat-pump-cost-uk) is higher than a boiler replacement, but the [£7,500 Boiler Upgrade Scheme grant](/heat-pump-grants-uk-bus-grant-2026) (extended to 2030) brings the net cost down significantly. You can estimate your savings using our [heat pump cost calculator](/heat-pump-cost-calculator).
+The upfront [cost of a heat pump](/heat-pump-cost-uk) is higher than a boiler replacement, but the [£7,500 Boiler Upgrade Scheme grant](/blog/heat-pump-grants-uk-bus-grant-2026) (extended to 2030) brings the net cost down significantly. You can estimate your savings using our [heat pump cost calculator](/heat-pump-cost-calculator).
 
 ### 11. Install Solid Wall Insulation (Internal or External)
 
@@ -124,7 +126,7 @@ Remember, landlords have a £10,000 spending cap over 10 years to reach the new 
 
 Several government-backed schemes can significantly reduce your costs:
 
-- **Boiler Upgrade Scheme (BUS)** — £7,500 towards a heat pump installation. Available to all homeowners until 2030. [Read our full guide](/heat-pump-grants-uk-bus-grant-2026).
+- **Boiler Upgrade Scheme (BUS)** — £7,500 towards a heat pump installation. Available to all homeowners until 2030. [Read our full guide](/blog/heat-pump-grants-uk-bus-grant-2026).
 - **ECO4** — free insulation and heating upgrades for low-income households. Runs until December 2026.
 - **Warm Homes Local Grant** — fully funded upgrades for households earning under £36,000/year, including insulation, heat pumps, and solar panels. Apply through your local council or call 0800 098 7950.
 - **Great British Insulation Scheme (GBIS)** — free or subsidised insulation for eligible homeowners based on property EPC rating and council tax band. Due to close March 2026 but check for successor schemes.

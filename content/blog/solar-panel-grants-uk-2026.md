@@ -136,7 +136,7 @@ The reality is that most working households will not qualify for the means-teste
 1. **Always insist on 0% VAT.** This is your guaranteed £1,500–£2,500 saving.
 2. **Register for Solar Together** if your council participates. Even if you decide not to take the offer, the quote is a useful benchmark.
 3. **Get three MCS-certified quotes.** Prices vary by 25–40% for the same system. Use [the MCS installer database](https://mcscertified.com) to find vetted installers.
-4. **Pair with battery storage.** A battery dramatically improves payback by letting you self-consume more of what you generate. See our [solar batteries explained](/blog/solar-battery-storage-uk) guide for current pricing.
+4. **Pair with battery storage.** A battery dramatically improves payback by letting you self-consume more of what you generate. See our [solar batteries explained](/solar-panel-costs-uk) guide for current pricing.
 5. **Switch to a time-of-use import tariff.** Octopus Agile, Intelligent or Cosy can knock another £200–£400 off your annual bill on top of solar.
 6. **Apply for SEG with the highest-paying supplier.** Octopus Outgoing Fixed currently leads at 15p–27p/kWh.
 
@@ -159,7 +159,7 @@ If you are paying privately and want to maximise the return on your install, a f
 
 - **A smart energy monitor** — the [Shelly EM 50A 1-channel WiFi energy meter](https://amzn.to/3Wq8KsP) (Amazon UK, ~£62) lets you see real-time generation and consumption from your phone, which makes a noticeable difference to how much solar you actually self-consume.
 - **A solar diverter for your hot water tank** — the [iBoost+ Solar PV Immersion Diverter](https://amzn.to/4hF5ePV) (~£280) automatically sends surplus solar to your immersion heater rather than exporting it, typically saving £150–£300 a year on hot water.
-- **A battery-powered EV charger** if you drive electric — see our pick of the [best home EV chargers in the UK](/blog/best-ev-charger-uk) for current models that integrate with solar systems.
+- **A battery-powered EV charger** if you drive electric — see our pick of the [best home EV chargers in the UK](/best-ev-charger-uk) for current models that integrate with solar systems.
 
 *Affiliate links above use the Amazon Associates programme (tag: thehomeenergyhub-21). We earn a small commission on qualifying purchases, which costs you nothing extra and helps fund our independent guides.*
 

@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import HeatPumpCalculator from "@/components/HeatPumpCalculator";
 
 export const metadata: Metadata = {
-  title: "Heat Pump Cost Calculator UK (2026) â Free Instant Estimate",
+  title: "Heat Pump Cost Calculator UK (2026) — Free Instant Estimate",
   description:
-    "Get a personalised heat pump cost estimate in 2 minutes. Covers air source, ground source, the Â£7,500 BUS grant, running costs and payback period.",
+    "Get a personalised heat pump cost estimate in 2 minutes. Covers air source, ground source, the £7,500 BUS grant, running costs and payback period.",
   openGraph: {
-    title: "Heat Pump Cost Calculator UK (2026) â Free Instant Estimate",
+    title: "Heat Pump Cost Calculator UK (2026) — Free Instant Estimate",
     description:
-      "Get a personalised heat pump cost estimate in 2 minutes. Covers air source, ground source, the Â£7,500 BUS grant, and running costs.",
+      "Get a personalised heat pump cost estimate in 2 minutes. Covers air source, ground source, the £7,500 BUS grant, and running costs.",
     url: "https://www.thehomeenergyhub.co.uk/heat-pump-cost-calculator",
     type: "website",
   },
