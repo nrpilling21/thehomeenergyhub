@@ -69,7 +69,7 @@ Your smart meter makes phantom loads visible. Switch everything off at the wall 
 
 If you are on a gas smart meter as well as electric, watch how your spending changes with your heating schedule. Many households heat their home for longer than necessary simply because they have never had the data to see the impact. Try reducing your heating by 30 minutes in the morning and evening and check whether you notice a comfort difference. A 1 degree reduction in your thermostat setting saves roughly 10% on heating bills, and your smart meter will show you the saving in real time.
 
-A [smart thermostat](https://www.amazon.co.uk/s?k=smart+thermostat+hive+tado+nest&tag=thehomeenergyhub-21) takes this further by learning your schedule and adjusting temperatures automatically, working hand-in-hand with your smart meter data.
+A [smart thermostat](https://www.amazon.co.uk/s?k=smart+thermostat+hive+tado+nest&tag=thehomeenergyhub-21) takes this further by learning your schedule and adjusting temperatures automatically, working hand-in-hand with your smart meter data. The biggest single saving most homes can make on heating, though, is fabric-first: sealing the gaps that are letting warm air leak out. See our [draught proofing cost UK guide](/blog/draught-proofing-cost-uk) — at £100 to £200 it is the cheapest energy upgrade you can make, and the smart meter will show the impact within days.
 
 ## Smart meters and solar panels
 
