@@ -53,16 +53,31 @@ function markdownToHtml(md: string): string {
       if (block.startsWith('### ')) return `<h3 class="text-lg font-display font-semibold mt-8 mb-3">${block.slice(4)}</h3>`;
       if (block.startsWith('## ')) return `<h2 class="text-xl font-display font-semibold mt-10 mb-4">${block.slice(3)}</h2>`;
 
+      // Inline-formatting helper (bold + links)
+      const renderInline = (s: string) => s
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" class="text-ink underline">$1</a>');
+
+      // Ordered lists (numbered) — must come before paragraph fallback
+      if (block.match(/^\d+\. /)) {
+        const items = block.split('\n').filter(l => l.match(/^\d+\. /)).map(l => {
+          const text = renderInline(l.replace(/^\d+\. /, ''));
+          return `<li class="mb-1">${text}</li>`;
+        });
+        return `<ol class="list-decimal pl-6 mb-4 text-ink/65 leading-relaxed">${items.join('')}</ol>`;
+      }
+
       // Unordered lists
       if (block.match(/^[-*] /m)) {
-        const items = block.split('\n').filter(l => l.match(/^[-*] /)).map(l => `<li class="mb-1">${l.replace(/^[-*] /, '')}</li>`);
+        const items = block.split('\n').filter(l => l.match(/^[-*] /)).map(l => {
+          const text = renderInline(l.replace(/^[-*] /, ''));
+          return `<li class="mb-1">${text}</li>`;
+        });
         return `<ul class="list-disc pl-6 mb-4 text-ink/65 leading-relaxed">${items.join('')}</ul>`;
       }
 
       // Paragraph with inline formatting
-      let html = block
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" class="text-ink underline">$1</a>');
+      const html = renderInline(block);
 
       return `<p class="text-ink/65 leading-relaxed mb-4">${html}</p>`;
     })

@@ -157,8 +157,8 @@ All legitimate grant routes go through your local authority, the devolved equiva
 
 If you are paying privately and want to maximise the return on your install, a few add-ons make a meaningful difference:
 
-- **A smart energy monitor** — the [Shelly EM 50A 1-channel WiFi energy meter](https://amzn.to/3Wq8KsP) (Amazon UK, ~£62) lets you see real-time generation and consumption from your phone, which makes a noticeable difference to how much solar you actually self-consume.
-- **A solar diverter for your hot water tank** — the [iBoost+ Solar PV Immersion Diverter](https://amzn.to/4hF5ePV) (~£280) automatically sends surplus solar to your immersion heater rather than exporting it, typically saving £150–£300 a year on hot water.
+- **A smart energy monitor** — the [smart energy monitor](https://www.amazon.co.uk/s?k=shelly+em+wifi+energy+meter&tag=thehomeenergyhub-21) (Amazon UK, ~£62) lets you see real-time generation and consumption from your phone, which makes a noticeable difference to how much solar you actually self-consume.
+- **A solar diverter for your hot water tank** — the [solar PV immersion diverter](https://www.amazon.co.uk/s?k=solar+pv+immersion+diverter+iboost&tag=thehomeenergyhub-21) (~£280) automatically sends surplus solar to your immersion heater rather than exporting it, typically saving £150–£300 a year on hot water.
 - **A battery-powered EV charger** if you drive electric — see our pick of the [best home EV chargers in the UK](/best-ev-charger-uk) for current models that integrate with solar systems.
 
 *Affiliate links above use the Amazon Associates programme (tag: thehomeenergyhub-21). We earn a small commission on qualifying purchases, which costs you nothing extra and helps fund our independent guides.*

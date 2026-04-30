@@ -140,7 +140,7 @@ For most homeowners simply looking to top up their loft insulation, mineral wool
 
 5. **Lag your pipes and tanks.** While you're in the loft, insulate any exposed water pipes and the hot water tank. This costs very little but prevents frozen pipes in winter and reduces heat loss.
 
-6. **Consider your whole home.** Loft insulation is a great start, but for the biggest savings, combine it with [cavity wall insulation](/blog), draught-proofing, and an efficient heating system. If you're thinking about a heat pump, check our [heat pump cost calculator](/heat-pump-cost-calculator) to see what you could save.
+6. **Consider your whole home.** Loft insulation is a great start, but for the biggest savings, combine it with [cavity wall insulation](/blog/cavity-wall-insulation-cost-uk), [draught-proofing](/blog/draught-proofing-cost-uk), and an efficient heating system. If you're thinking about a heat pump, check our [heat pump cost calculator](/heat-pump-cost-calculator) to see what you could save.
 
 ## FAQ
 
