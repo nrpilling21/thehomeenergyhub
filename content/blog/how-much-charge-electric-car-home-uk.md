@@ -7,6 +7,8 @@ category: "ev-chargers"
 tags: ["ev charging", "electric car", "home charging cost", "smart tariff", "octopus energy"]
 ---
 
+*This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
+
 ## The short answer
 
 Charging an electric car at home costs **£8–£15 for a full charge** on a standard electricity tariff, giving you roughly 200–300 miles of range. That works out to about **3–5p per mile** — roughly a quarter of what you’d spend on petrol.
@@ -39,7 +41,7 @@ You can technically charge an electric car from a standard three-pin socket, but
 
 The cost per kWh is identical either way — the difference is speed, safety, and smart features. A home wallbox with smart tariff integration (like the Ohme Home Pro or Zappi) can automatically shift your charging to the cheapest hours without you lifting a finger.
 
-Installation costs for a wallbox range from **£800–£1,200 fully installed**. At typical smart tariff savings of £600–£800 per year versus standard rates, the charger pays for itself within 12–18 months. See our [best EV charger guide](/best-ev-charger-uk) for our top picks.
+Installation costs for a [7kW wallbox](https://www.amazon.co.uk/s?k=7kw+ev+charger+wallbox+tethered&tag=thehomeenergyhub-21) range from **£800–£1,200 fully installed** (the unit itself is £350–£700, and most installers charge £400–£500 for a standard fit). At typical smart tariff savings of £600–£800 per year versus standard rates, the charger pays for itself within 12–18 months. See our [best EV charger guide](/best-ev-charger-uk) for our top picks.
 
 ## Home charging vs public charging
 
