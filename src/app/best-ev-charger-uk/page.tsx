@@ -7,9 +7,74 @@ export const metadata: Metadata = {
     "Five home EV chargers compared on what matters: smart tariff integration, solar compatibility, build quality, app experience, and installed price.",
 };
 
+const FAQ_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How much does a home EV charger cost installed in the UK?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "A 7.4kW home EV charger costs £800-£1,200 fully installed in the UK in 2026, including the unit, a standard installation, and the OZEV-approved electrician. Budget chargers like the Pod Point Solo 3S start around £800; premium models like the Hypervolt Home 3 and MyEnergi Zappi sit at £950-£1,200. Installations needing extra cable runs, a consumer unit upgrade, or distribution network operator (DNO) approval can add £200-£500.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is the OZEV grant still available in 2026?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "The original OZEV grant for owner-occupier homeowners ended in March 2022. As of 2026, the EV chargepoint grant is only available for renters and flat owner-occupiers (£350 off the cost of installation), and for landlords (up to £350 per chargepoint, capped at 200 chargepoints per year). Detached homeowners and most owner-occupied semis no longer qualify.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Does a home EV charger need a smart meter?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Strictly, no. The charger itself works with a standard meter. But the cheap overnight EV tariffs (Octopus Go at 7p/kWh, EDF GoElectric, OVO Charge Anytime) all require a working SMETS2 smart meter for half-hourly settlement. Without one you pay the standard rate of 25-28p/kWh — about 70 percent more — which usually wipes out the financial case for getting a wallbox in the first place.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Which home EV charger is best for solar panels?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "The MyEnergi Zappi. It's the only mainstream UK charger with built-in solar diversion — when the sun is shining and your panels are exporting, the Zappi diverts surplus solar straight into the car at 0p/kWh. The Hypervolt Home 3 has a similar Eco mode for solar households. Other chargers (Ohme, Wallbox, Pod Point) can be configured to charge from a smart tariff at the same time as solar generation, but cannot follow surplus solar dynamically.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How long does it take to install a home EV charger?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "A standard installation takes 3-5 hours. The electrician needs to fit the wallbox to your wall, run a cable from your consumer unit (typically up to 10 metres of supplied cable), test the install, and commission the charger via its app. Installations that need a DNO notification (anything over 7.4kW or where you already have a heat pump) can take longer because the DNO approval is a separate paperwork step.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I install a 22kW home EV charger?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Only if your home has a three-phase electricity supply. The vast majority of UK homes are single-phase, capped at 7.4kW. Three-phase supplies are common in larger detached homes and properties with serious EV charging needs (multiple cars, fleet vehicles), but installing one retroactively from your DNO costs £3,000-£20,000+. For a single car charging overnight on a smart tariff, 7.4kW is plenty — it adds around 30 miles of range per hour.",
+      },
+    },
+  ],
+};
+
 export default function EvChargerPage() {
   return (
     <article className="max-w-3xl mx-auto px-5 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
+      />
       <p className="font-mono text-xs tracking-widest text-plum-muted uppercase mb-4">Guide</p>
       <h1 className="text-3xl font-display font-normal text-ink leading-tight mb-4">
         Best Home EV Charger UK (2026): Honest Comparison
@@ -295,6 +360,19 @@ export default function EvChargerPage() {
         >
           Try the heat pump calculator
         </Link>
+      </div>
+
+      {/* FAQ section */}
+      <h2 className="text-xl font-display font-semibold text-ink mt-12 mb-6">
+        Frequently Asked Questions
+      </h2>
+      <div className="space-y-6 mb-12">
+        {FAQ_SCHEMA.mainEntity.map((q) => (
+          <div key={q.name} className="border-b border-plum-light/20 pb-6 last:border-0">
+            <h3 className="font-display font-semibold text-ink mb-2">{q.name}</h3>
+            <p className="text-ink/65 text-sm leading-relaxed">{q.acceptedAnswer.text}</p>
+          </div>
+        ))}
       </div>
     </article>
   );
