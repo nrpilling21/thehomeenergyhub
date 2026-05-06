@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Home Energy Hub  - Independent UK Energy Advice",
   description:
     "Free, independent guides and tools for heat pumps, EV chargers, solar panels and battery storage. No sales calls, no nonsense.",
-    alternates: { canonical: "/" },
+  alternates: { canonical: "/" },
 };
 
 export default function HomePage() {
@@ -39,8 +39,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Cards - using varied colored backgrounds like Heidi Health */}
-      <section className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 pb-20">
+      {/* Cards - 6-card grid covering tools and pillar guides */}
+      <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 pb-16">
         <Card
           href="/heat-pump-cost-calculator"
           icon="calc"
@@ -58,6 +58,14 @@ export default function HomePage() {
           bgColor="bg-cream-dark"
         />
         <Card
+          href="/solar-panel-costs-uk"
+          icon="article"
+          label="Guide"
+          title="Solar Panel Costs UK (2026)"
+          desc="Honest install costs, payback timescales, and what the SEG export tariff is really worth."
+          bgColor="bg-yellow"
+        />
+        <Card
           href="/ev-charging-cost-calculator"
           icon="calc"
           label="Tool"
@@ -73,6 +81,57 @@ export default function HomePage() {
           desc="Five chargers compared on the things that matter: smart tariff support, solar, price, and build quality."
           bgColor="bg-yellow"
         />
+        <Card
+          href="/home-insulation-guide-uk"
+          icon="article"
+          label="Guide"
+          title="Home Insulation Guide UK"
+          desc="Loft, cavity wall and solid wall insulation costs, payback times and what to do first."
+          bgColor="bg-cream-dark"
+        />
+      </section>
+
+      {/* Latest from the blog */}
+      <section className="pb-20">
+        <div className="flex items-baseline justify-between mb-6">
+          <h2 className="font-display text-2xl sm:text-3xl text-ink">Latest from the blog</h2>
+          <Link
+            href="/blog"
+            className="text-sm font-medium text-ink/60 hover:text-ink transition"
+          >
+            All posts &rarr;
+          </Link>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <BlogCard
+            href="/blog/best-smart-meter-in-home-display-uk"
+            category="Smart Meters"
+            date="28 April 2026"
+            title="Best Smart Meter In-Home Display UK 2026"
+            desc="Seven IHDs compared on accuracy, screen quality and what they actually show."
+          />
+          <BlogCard
+            href="/blog/smart-meter-problems-uk"
+            category="Smart Meters"
+            date="21 April 2026"
+            title="Smart Meter Problems UK: 12 Common Issues and How to Fix Them"
+            desc="From blank IHDs to switching faults — diagnose and resolve the most common smart meter issues."
+          />
+          <BlogCard
+            href="/blog/cavity-wall-insulation-cost-uk"
+            category="Insulation"
+            date="10 April 2026"
+            title="Cavity Wall Insulation Cost UK (2026)"
+            desc="Bungalows, 3-bed semis, removal cost and what your mortgage lender needs to know."
+          />
+          <BlogCard
+            href="/blog/draught-proofing-cost-uk"
+            category="Insulation"
+            date="10 April 2026"
+            title="Draught Proofing Cost UK"
+            desc="The cheapest energy upgrade you can make — costs, savings and where to start."
+          />
+        </div>
       </section>
 
       {/* Trust bar */}
@@ -126,6 +185,36 @@ function Card({
       </div>
       <h3 className="font-display font-semibold text-lg text-ink mb-1.5">{title}</h3>
       <p className="text-base text-ink/60 leading-relaxed">{desc}</p>
+    </Link>
+  );
+}
+
+function BlogCard({
+  href,
+  category,
+  date,
+  title,
+  desc,
+}: {
+  href: string;
+  category: string;
+  date: string;
+  title: string;
+  desc: string;
+}) {
+  return (
+    <Link
+      href={href}
+      className="group block bg-cream-dark rounded-2xl p-5 hover:shadow-md transition-all"
+    >
+      <div className="flex items-center gap-2 mb-3">
+        <span className="inline-block px-2 py-0.5 rounded-md bg-yellow text-ink/70 font-mono text-xs tracking-wider uppercase">
+          {category}
+        </span>
+        <span className="font-mono text-xs text-ink/40">{date}</span>
+      </div>
+      <h3 className="font-display font-semibold text-base text-ink mb-1.5 leading-snug">{title}</h3>
+      <p className="text-sm text-ink/60 leading-relaxed">{desc}</p>
     </Link>
   );
 }

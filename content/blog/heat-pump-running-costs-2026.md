@@ -27,7 +27,7 @@ Here's what you can realistically expect to pay annually based on property type,
 
 The biggest lever you have is your electricity tariff. Standard variable rates of 24.5p/kWh make heat pumps only marginally cheaper than gas. But switch to a time-of-use tariff and the economics change dramatically.
 
-**Octopus Cozy** offers a dedicated heat pump rate around 10p/kWh for heating hours. That would drop a typical 3-bed home from £900/year to under £400.
+**Octopus Cozy** offers a dedicated heat pump rate around 10p/kWh for heating hours. That would drop a typical 3-bed home from £900/year to under £400. To access these heat-pump-friendly tariffs you'll need a working SMETS2 smart meter — see [do smart meters save you money](/blog/do-smart-meters-save-you-money-uk) for the practical savings, or [smart meter problems UK](/blog/smart-meter-problems-uk) if your current meter has gone "dumb" after a switch.
 
 **Economy 7 / Economy 10** tariffs give you cheaper overnight rates of 12-15p/kWh, ideal since heat pumps work efficiently at lower outputs overnight, heating your home gradually.
 
