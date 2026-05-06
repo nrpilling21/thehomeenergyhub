@@ -7,6 +7,8 @@ category: "guides"
 tags: ["loft insulation", "insulation costs", "energy efficiency", "home insulation", "energy saving"]
 ---
 
+*This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
+
 # Loft Insulation Cost UK 2026: Prices, Savings and Whether It's Worth It
 
 If you're wondering how much loft insulation costs in the UK, you're not alone. It's one of the most common energy efficiency questions homeowners ask - and for good reason. Around a quarter of heat in an uninsulated home escapes through the roof, making loft insulation one of the cheapest and most effective upgrades you can make.
@@ -103,7 +105,7 @@ If you're also considering a heat pump, the [Boiler Upgrade Scheme (BUS) grant](
 - There are no damp or ventilation issues
 - You're comfortable working in a loft space
 
-Laying mineral wool rolls is a fairly straightforward job. You'll need a dust mask, gloves, and protective clothing (mineral wool fibres are itchy), plus a sharp knife to cut the rolls. The key is to lay the first layer between the joists and the second layer at right angles across the top of them.
+Laying mineral wool rolls is a fairly straightforward job. You'll need a [proper FFP3 dust mask](https://www.amazon.co.uk/s?k=ffp3+dust+mask+disposable&tag=thehomeenergyhub-21), [thick work gloves](https://www.amazon.co.uk/s?k=insulation+work+gloves&tag=thehomeenergyhub-21), and protective clothing (mineral wool fibres are seriously itchy and irritate your eyes and lungs without proper PPE), plus a sharp knife to cut the rolls. The key is to lay the first layer between the joists and the second layer at right angles across the top of them.
 
 **When you should hire a professional:**
 
@@ -138,7 +140,7 @@ For most homeowners simply looking to top up their loft insulation, mineral wool
 
 4. **Insulate the loft hatch too.** A surprising amount of heat escapes through an un-insulated loft hatch. A simple draught-proofing strip and a piece of insulation board glued to the back of the hatch can make a noticeable difference.
 
-5. **Lag your pipes and tanks.** While you're in the loft, insulate any exposed water pipes and the hot water tank. This costs very little but prevents frozen pipes in winter and reduces heat loss.
+5. **Lag your pipes and tanks.** While you're in the loft, insulate any exposed water pipes with [foam pipe lagging](https://www.amazon.co.uk/s?k=foam+pipe+lagging+22mm&tag=thehomeenergyhub-21) and fit a [hot water cylinder jacket](https://www.amazon.co.uk/s?k=hot+water+cylinder+jacket+80mm&tag=thehomeenergyhub-21) if your tank doesn't already have one. Both jobs together cost under £30 in materials, take an hour, and prevent frozen pipes in winter while cutting standing heat loss from the cylinder by up to 75%.
 
 6. **Consider your whole home.** Loft insulation is a great start, but for the biggest savings, combine it with [cavity wall insulation](/blog/cavity-wall-insulation-cost-uk), [draught-proofing](/blog/draught-proofing-cost-uk), and an efficient heating system. If you're thinking about a heat pump, check our [heat pump cost calculator](/heat-pump-cost-calculator) to see what you could save.
 
