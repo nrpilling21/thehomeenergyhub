@@ -37,7 +37,7 @@ Use our [EV charging cost calculator](/ev-charging-cost-calculator) to get a per
 
 ## Home charger vs three-pin plug
 
-You can technically charge an electric car from a standard three-pin socket, but it's painfully slow — around 8 miles of range per hour. A dedicated 7.4kW wallbox gives you **25–30 miles per hour**, meaning a typical overnight charge easily fills your battery.
+You can technically charge an electric car from a standard three-pin socket, but it's painfully slow — around 8 miles of range per hour. Most cars don't include a 3-pin cable in the box, so you'll need a dedicated [granny charger cable](https://www.awin1.com/cread.php?awinmid=22473&awinaffid=2849657&ued=https%3A%2F%2Fwww.evcableshop.co.uk%2F) (typically £130–£200 from specialists like EV Cable Shop). A dedicated 7.4kW wallbox gives you **25–30 miles per hour**, meaning a typical overnight charge easily fills your battery.
 
 The cost per kWh is identical either way — the difference is speed, safety, and smart features. A home wallbox with smart tariff integration (like the Ohme Home Pro or Zappi) can automatically shift your charging to the cheapest hours without you lifting a finger.
 
