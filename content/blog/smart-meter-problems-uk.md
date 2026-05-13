@@ -9,6 +9,8 @@ tags: ["smart meter", "smart meter problems", "in-home display", "SMETS2", "ener
 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
+*If you're new to smart meters generally, the [Smart Meter Guide UK](/smart-meter-guide-uk) walks through what they are, what they do, and which type you've got — useful context before troubleshooting yours.*
+
 ## Smart meter not working? Start here
 
 If you are reading this, something about your smart meter has stopped behaving. The in-home display (IHD) has gone dark, the numbers are nonsense, the supplier keeps sending estimated bills, or the engineer never turned up. You are not alone - Smart Energy GB estimates that roughly 4 million of the 36 million smart meters installed in Great Britain are currently in "dumb" mode, meaning they have lost their connection and are being read manually.

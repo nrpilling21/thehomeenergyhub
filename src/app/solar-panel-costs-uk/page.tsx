@@ -145,7 +145,12 @@ export default function SolarPanelCostsPage() {
             Adding a battery storage system lets you use more of your solar electricity rather than
             exporting it at low SEG rates. A typical 5kWh home battery costs £2,500–£4,000 installed,
             while larger 10kWh units cost £4,000–£6,500. The most popular option in 2026 is pairing
-            a 4kW solar array with a 5–10kWh battery.
+            a 4kW solar array with a 5–10kWh battery. For a deeper look at how to size a battery,
+            which chemistry to choose and whether AC- or DC-coupled is right for you, see our full{" "}
+            <Link href="/blog/solar-battery-storage-uk" className="text-gray-900 underline underline-offset-2 hover:text-gray-600">
+              solar battery storage UK guide
+            </Link>
+            .
           </p>
           <p>
             With battery storage, you can increase your self-consumption from roughly 40–50% to
@@ -192,7 +197,12 @@ export default function SolarPanelCostsPage() {
             The Smart Export Guarantee replaced the old Feed-in Tariff in 2020. All energy suppliers
             with over 150,000 customers must offer an export tariff, though rates vary significantly.
             In 2026, the best fixed-rate SEG tariffs pay 12–15p per kWh, while variable rates track
-            wholesale prices.
+            wholesale prices. To register for SEG you&apos;ll need a working SMETS2{" "}
+            <Link href="/smart-meter-guide-uk" className="text-gray-900 underline underline-offset-2 hover:text-gray-600">
+              smart meter
+            </Link>{" "}
+            so the supplier can record half-hourly export readings — without one, most suppliers
+            won&apos;t pay out.
           </p>
           <p>
             A 4kW system typically exports around 50% of its generation (about 1,700 kWh), earning

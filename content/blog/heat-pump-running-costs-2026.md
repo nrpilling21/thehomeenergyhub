@@ -31,7 +31,7 @@ The biggest lever you have is your electricity tariff. Standard variable rates o
 
 **Economy 7 / Economy 10** tariffs give you cheaper overnight rates of 12-15p/kWh, ideal since heat pumps work efficiently at lower outputs overnight, heating your home gradually.
 
-**Solar panels** are the other game-changer. A 4kW solar array generates roughly 3,400kWh per year in the UK. Combined with a heat pump, your heating can be virtually free during spring and autumn months when solar output is strong and heating demand is moderate. See our [solar panel costs guide](/solar-panel-costs-uk) for a full breakdown of what you would pay and the payback period.
+**Solar panels** are the other game-changer. A 4kW solar array generates roughly 3,400kWh per year in the UK. Combined with a heat pump, your heating can be virtually free during spring and autumn months when solar output is strong and heating demand is moderate. Adding a home battery lets you store cheap daytime electricity (or surplus solar) and run the heat pump on it after dark — see our [solar battery storage guide](/blog/solar-battery-storage-uk) for sizing and payback. See our [solar panel costs guide](/solar-panel-costs-uk) for a full breakdown of what you would pay and the payback period.
 
 ## Heat pump vs gas boiler: the honest comparison
 

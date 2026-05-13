@@ -7,9 +7,75 @@ export const metadata: Metadata = {
     "Heat pumps cost £8,000-£15,000 for air source or £15,000-£35,000 for ground source, installed. With the £7,500 BUS grant and 0% VAT, the real cost is much lower.",
 };
 
+const FAQ_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How much does a heat pump cost in the UK?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "An air source heat pump costs £8,000-£15,000 installed for a typical UK home in 2026. Ground source heat pumps cost £15,000-£35,000 because of the borehole or ground array. With the £7,500 Boiler Upgrade Scheme (BUS) grant and 0% VAT until March 2027, the real cost of an air source install is often £4,000-£8,500 — broadly comparable to a high-end gas boiler replacement.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is the £7,500 heat pump grant still available in 2026?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Yes. The Boiler Upgrade Scheme (BUS) pays £7,500 toward an air source or ground source heat pump and is confirmed running until 2028. Your installer must be MCS-registered and they handle the application on your behalf. Payment lands 4-6 weeks after the install. 0% VAT on the installation is also confirmed until 31 March 2027 — after that, VAT reverts to 20% and the real cost rises noticeably.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are heat pumps cheaper to run than a gas boiler?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Usually, yes — but only with the right tariff. A modern air source heat pump runs at a coefficient of performance (COP) of 3-4, meaning it delivers 3-4 units of heat for every 1 unit of electricity. On a heat-pump-specific tariff like Octopus Cosy (12-15p/kWh off-peak), a well-insulated home pays around £800-£1,100 per year for heating and hot water, vs £1,000-£1,400 on gas. On the standard Ofgem unit rate of 24.5p/kWh, the savings disappear — so a smart meter and an EV/heat-pump tariff are essential to make the numbers work.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do I need to replace my radiators for a heat pump?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Often, yes — at least some of them. Heat pumps run at a lower flow temperature (40-50°C) than gas boilers (70-80°C), so radiators need to be larger to deliver the same heat output. A good installer will do a room-by-room heat loss survey and tell you exactly which radiators need upsizing. Budget £100-£250 per replacement radiator on top of the headline install cost. Underfloor heating, where present, works particularly well with heat pumps without modification.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How long do heat pumps last?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "An air source heat pump lasts 15-20 years with annual servicing — comparable to a modern gas boiler. Ground source heat pumps last 20-25 years on the indoor unit and 50+ years on the buried ground loop. Most major manufacturers (Vaillant, Mitsubishi, Daikin, Samsung) offer 5-7 year warranties as standard, extendable to 10 years through MCS-registered installers.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is an air source or ground source heat pump better?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "For most UK homes, air source. It's cheaper to install (£8,000-£15,000 vs £15,000-£35,000 for ground source), the BUS grant is the same £7,500 either way, and modern units run efficiently down to -15°C outdoor temperature. Ground source makes financial sense only if you have a large garden suitable for trenching, a long-term horizon (15+ years), and high heat demand — typically a large detached or rural property. The running cost gap between the two is real but usually doesn't justify the upfront premium.",
+      },
+    },
+  ],
+};
+
+
 export default function HeatPumpCostPage() {
   return (
     <article className="max-w-3xl mx-auto px-5 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
+      />
       <p className="font-mono text-sm tracking-widest text-plum-muted uppercase mb-4">Guide</p>
       <h1 className="font-display text-3xl sm:text-4xl font-normal text-ink leading-tight mb-5">
         How Much Does a Heat Pump Cost in the UK? (2026 Guide)
@@ -112,6 +178,15 @@ export default function HeatPumpCostPage() {
           source heat pump costs roughly £1,500-£2,500 net  - often less than a new boiler
           installation.
         </p>
+        <p>
+          Running costs swing significantly with the electricity tariff you use. Heat-pump-specific
+          tariffs like Octopus Cosy require a working SMETS2{" "}
+          <Link href="/smart-meter-guide-uk" className="text-yellow underline hover:no-underline">
+            smart meter
+          </Link>{" "}
+          for half-hourly settlement — without one, you pay the standard Ofgem unit rate and most of
+          the heat-pump-vs-gas savings disappear.
+        </p>
       </Section>
 
       {/* Running costs table */}
@@ -170,6 +245,20 @@ export default function HeatPumpCostPage() {
           for further price reductions is reasonable.
         </p>
       </Section>
+
+      {/* FAQ section */}
+      <h2 className="font-display text-xl font-semibold text-ink mt-12 mb-6">
+        Frequently Asked Questions
+      </h2>
+      <div className="space-y-6 mb-12">
+        {FAQ_SCHEMA.mainEntity.map((q) => (
+          <div key={q.name} className="border-b border-plum-light/20 pb-6 last:border-0">
+            <h3 className="font-display font-semibold text-ink mb-2">{q.name}</h3>
+            <p className="text-ink/65 text-base leading-relaxed">{q.acceptedAnswer.text}</p>
+          </div>
+        ))}
+      </div>
+
 
       {/* Bottom CTA - plum dark background like Heidi's dark blocks */}
       <div className="bg-ink rounded-2xl p-6 mt-12">

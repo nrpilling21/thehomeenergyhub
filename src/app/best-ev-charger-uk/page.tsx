@@ -130,7 +130,12 @@ export default function EvChargerPage() {
         Every charger on this list is OZEV-approved, smart-enabled, and available at 7.4kW (the
         maximum for most UK single-phase homes). We compared them on five things that actually matter:
         smart tariff integration, solar compatibility, build quality, app experience, and total
-        installed cost.
+        installed cost. To unlock the 7p/kWh overnight tariffs that make a wallbox pay for itself
+        you also need a working SMETS2{" "}
+        <Link href="/smart-meter-guide-uk" className="text-blue-600 hover:underline">
+          smart meter
+        </Link>{" "}
+        — without it you're stuck on the standard rate.
       </p>
 
       {/* Charger reviews */}

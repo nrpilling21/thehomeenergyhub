@@ -28,9 +28,75 @@ export const metadata: Metadata = {
   },
 };
 
+const FAQ_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How long does insulation last?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Most insulation lasts 40 years or more with no maintenance. Loft insulation may need topping up after 25 to 30 years if it has settled or been disturbed. Cavity wall insulation is designed to last the lifetime of the building.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can insulation cause damp?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "When installed correctly, insulation should not cause damp. In fact, it can help prevent condensation by keeping wall surfaces warmer. Problems only arise if the wrong insulation type is used for your wall construction, or if existing damp issues are not addressed first. Always use a certified installer.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do I need planning permission for insulation?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Loft, cavity wall, and internal wall insulation do not normally require planning permission. External wall insulation may need permission, particularly in conservation areas or on listed buildings. Check with your local planning authority before proceeding with external insulation.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is insulation worth it with a heat pump?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Absolutely. Heat pumps deliver heat at a lower flow temperature than gas boilers, so they perform best in well-insulated homes. Insulating before installing a heat pump means you can often choose a smaller, cheaper unit, and your running costs will be lower.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much can I save by insulating my home?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Total savings depend on which measures you install. Loft insulation saves £200-£310 per year, cavity wall insulation saves £160-£245, solid wall insulation saves £270-£475, and floor insulation saves £40-£70. A whole-home programme can realistically save £500-£800 per year on heating bills — and a smart meter is the easiest way to verify the savings you are actually seeing month by month.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Which insulation should I do first?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Loft insulation first (cheapest, fastest payback at 2-4 years), then cavity wall insulation if your home has cavities (4-6 year payback), then draught proofing, and finally solid wall or floor insulation if applicable. This 'fabric-first' order gives the biggest cumulative saving for the least upfront cost.",
+      },
+    },
+  ],
+};
+
+
 export default function HomeInsulationGuidePage() {
   return (
     <article className="max-w-3xl mx-auto px-5 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
+      />
       <h1 className="text-3xl font-bold text-gray-900 leading-tight mb-4">
         Home Insulation Costs UK 2026: Types, Prices & Savings Guide
       </h1>
@@ -234,6 +300,35 @@ export default function HomeInsulationGuidePage() {
         </Link>{" "}
         will be lower.
       </p>
+      <h3 className="font-semibold text-gray-900 mt-6 mb-2">How much can I save by insulating my home?</h3>
+      <p className="text-gray-700 mb-4 leading-relaxed">
+        Total savings depend on which measures you install. Loft insulation saves £200-£310 per year,
+        cavity wall insulation saves £160-£245, solid wall insulation saves £270-£475, and floor
+        insulation saves £40-£70. A whole-home programme can realistically save £500-£800 per year on
+        heating bills — and a{" "}
+        <Link href="/smart-meter-guide-uk" className="text-blue-600 hover:underline">
+          smart meter
+        </Link>{" "}
+        is the easiest way to verify the savings you are actually seeing month by month. Our guide on{" "}
+        <Link href="/blog/do-smart-meters-save-you-money-uk" className="text-blue-600 hover:underline">
+          do smart meters save you money
+        </Link>{" "}
+        walks through the typical savings most households see in the first year.
+      </p>
+
+      <h3 className="font-semibold text-gray-900 mt-6 mb-2">Which insulation should I do first?</h3>
+      <p className="text-gray-700 mb-8 leading-relaxed">
+        Loft insulation first (cheapest, fastest payback at 2-4 years), then cavity wall insulation if
+        your home has cavities (4-6 year payback), then draught proofing, and finally solid wall or
+        floor insulation if applicable. This &quot;fabric-first&quot; order gives the biggest
+        cumulative saving for the least upfront cost. If your smart meter is showing unusually high
+        winter readings, our checklist of{" "}
+        <Link href="/blog/smart-meter-problems-uk" className="text-blue-600 hover:underline">
+          smart meter problems
+        </Link>{" "}
+        is worth a glance before assuming the insulation is the culprit.
+      </p>
+
     </article>
   );
 }

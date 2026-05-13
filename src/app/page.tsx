@@ -89,6 +89,14 @@ export default function HomePage() {
           desc="Loft, cavity wall and solid wall insulation costs, payback times and what to do first."
           bgColor="bg-cream-dark"
         />
+        <Card
+          href="/smart-meter-guide-uk"
+          icon="article"
+          label="Guide"
+          title="Smart Meter Guide UK"
+          desc="SMETS1 vs SMETS2, savings, fixes for common problems, and the right in-home display."
+          bgColor="bg-yellow"
+        />
       </section>
 
       {/* Latest from the blog */}

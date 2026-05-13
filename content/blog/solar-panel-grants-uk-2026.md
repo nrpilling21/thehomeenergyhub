@@ -136,7 +136,7 @@ The reality is that most working households will not qualify for the means-teste
 1. **Always insist on 0% VAT.** This is your guaranteed £1,500–£2,500 saving.
 2. **Register for Solar Together** if your council participates. Even if you decide not to take the offer, the quote is a useful benchmark.
 3. **Get three MCS-certified quotes.** Prices vary by 25–40% for the same system. Use [the MCS installer database](https://mcscertified.com) to find vetted installers.
-4. **Pair with battery storage.** A battery dramatically improves payback by letting you self-consume more of what you generate. See our [solar batteries explained](/solar-panel-costs-uk) guide for current pricing.
+4. **Pair with battery storage.** A battery dramatically improves payback by letting you self-consume more of what you generate. See our [solar battery storage UK guide](/blog/solar-battery-storage-uk) for sizing, chemistry choices and current pricing.
 5. **Switch to a time-of-use import tariff.** Octopus Agile, Intelligent or Cosy can knock another £200–£400 off your annual bill on top of solar.
 6. **Apply for SEG with the highest-paying supplier.** Octopus Outgoing Fixed currently leads at 15p–27p/kWh.
 

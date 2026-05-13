@@ -9,6 +9,8 @@ tags: ["smart meter", "in-home display", "IHD", "energy monitor", "SMETS2"]
 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
+*For an overview of UK smart meters generally — what SMETS1 and SMETS2 are, what they do, whether they're free — read our [Smart Meter Guide UK](/smart-meter-guide-uk) first.*
+
 ## What is the best smart meter in-home display in the UK in 2026?
 
 The short answer: for most UK households the best smart meter in-home display in 2026 is the **Hildebrand Glow IHD**. It is the only consumer IHD that pairs with your SMETS2 meter over the official DCC network and the Bright app, gives you a phone-friendly view of real-time use, and updates roughly every 10 seconds. It is the IHD that energy nerds buy when their supplier-issued display is gathering dust in a drawer.

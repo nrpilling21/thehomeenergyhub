@@ -9,6 +9,8 @@ tags: ["smart meter", "energy saving", "electricity bills", "gas bills", "energy
 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
+*New here? Start with our [Smart Meter Guide UK](/smart-meter-guide-uk) for the head-on basics, then come back for the savings deep-dive.*
+
 ## Do smart meters actually save you money?
 
 The short answer is yes, but not automatically. A smart meter on its own does not reduce your energy bills by a single penny. What it does is give you the information and tariff access you need to cut your usage, and that is where the real savings come from.
