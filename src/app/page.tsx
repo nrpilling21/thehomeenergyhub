@@ -97,6 +97,14 @@ export default function HomePage() {
           desc="SMETS1 vs SMETS2, savings, fixes for common problems, and the right in-home display."
           bgColor="bg-yellow"
         />
+        <Card
+          href="/smart-meter-savings-calculator"
+          icon="calc"
+          label="Tool"
+          title="Smart Meter Savings Calculator"
+          desc="Estimate what a smart meter could save your household — visibility, load shifting and smart-tariff arbitrage."
+          bgColor="bg-cream-dark"
+        />
       </section>
 
       {/* Latest from the blog */}

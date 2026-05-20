@@ -135,7 +135,7 @@ If you are on a fixed tariff and not interested in time-of-use yet, the IHD upgr
 
 ## The bottom line
 
-The best smart meter in-home display in the UK in 2026 is the Hildebrand Glow IHD if you are upgrading, the Chameleon IHD3 if you are replacing a broken supplier unit for free, and a Loop or Geo Cosy energy monitor if you want appliance-level insight rather than meter totals.
+The best smart meter in-home display in the UK in 2026 is the Hildebrand Glow IHD if you are upgrading, the Chameleon IHD3 if you are replacing a broken supplier unit for free, and a Loop or Geo Cosy energy monitor if you want appliance-level insight rather than meter totals. Whatever IHD you choose, the real money is in acting on what it shows you — our [smart meter savings calculator](/smart-meter-savings-calculator) gives a quick estimate of the upside for your specific household.
 
 If your existing IHD has gone dark, do not buy a replacement first - log a smart meter problem with your supplier and let the Ofgem rules do the work. They have 5 working days to come back with a plan or you get £40 automatic compensation. Most faults clear up with a 10-minute reset; [Smart Meter Problems UK](/blog/smart-meter-problems-uk) walks through the 12 most common ones.
 

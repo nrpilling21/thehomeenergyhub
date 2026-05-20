@@ -386,6 +386,22 @@ export default function SmartMeterGuideUkPage() {
         ))}
       </div>
 
+      {/* Calculator CTA */}
+      <div className="bg-ink rounded-2xl p-6 mt-12 mb-12">
+        <div className="font-display font-semibold text-cream-dark text-lg mb-1">
+          See what a smart meter could save you
+        </div>
+        <p className="text-base text-cream-dark/70 mb-4">
+          Free 2-minute estimate — visibility, load shifting and smart-tariff savings combined.
+        </p>
+        <Link
+          href="/smart-meter-savings-calculator"
+          className="inline-flex items-center px-6 py-2.5 rounded-xl text-base font-medium bg-yellow text-ink hover:brightness-95 transition"
+        >
+          Calculate your smart meter savings
+        </Link>
+      </div>
+
       {/* Related guides grid */}
       <h2 className="text-xl font-display font-semibold text-ink mt-12 mb-4">Related Guides</h2>
       <div className="grid sm:grid-cols-2 gap-4 mb-12">
@@ -441,6 +457,15 @@ export default function SmartMeterGuideUkPage() {
           <div className="font-display font-semibold text-ink mb-1">Best home EV charger UK</div>
           <p className="text-sm text-ink/55">
             EV chargers, smart tariffs and the smart meter that ties them together.
+          </p>
+        </Link>
+        <Link
+          href="/blog/cavity-wall-insulation-cost-uk"
+          className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
+        >
+          <div className="font-display font-semibold text-ink mb-1">Cavity wall insulation cost UK</div>
+          <p className="text-sm text-ink/55">
+            The fabric upgrade that pairs best with smart-meter tracking — verify your savings month by month.
           </p>
         </Link>
       </div>

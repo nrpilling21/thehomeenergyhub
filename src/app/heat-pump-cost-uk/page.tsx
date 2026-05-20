@@ -259,6 +259,51 @@ export default function HeatPumpCostPage() {
         ))}
       </div>
 
+      {/* Related guides */}
+      <h2 className="font-display text-xl font-semibold text-ink mt-12 mb-4">Related Guides</h2>
+      <p className="text-ink/65 leading-relaxed mb-5">
+        Heat pumps run most efficiently in well-insulated homes. Before (or alongside) a heat
+        pump install, the fabric upgrades below typically pay back fastest.
+      </p>
+      <div className="grid sm:grid-cols-2 gap-4 mb-12">
+        <Link
+          href="/blog/cavity-wall-insulation-cost-uk"
+          className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
+        >
+          <div className="font-display font-semibold text-ink mb-1">Cavity wall insulation cost UK</div>
+          <p className="text-sm text-ink/55">
+            Typical 2026 prices by property type, plus grants and removal scenarios.
+          </p>
+        </Link>
+        <Link
+          href="/blog/loft-insulation-cost-uk"
+          className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
+        >
+          <div className="font-display font-semibold text-ink mb-1">Loft insulation cost UK</div>
+          <p className="text-sm text-ink/55">
+            DIY vs installed, payback periods and what the BUS grant doesn&apos;t cover.
+          </p>
+        </Link>
+        <Link
+          href="/home-insulation-guide-uk"
+          className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
+        >
+          <div className="font-display font-semibold text-ink mb-1">Home insulation guide</div>
+          <p className="text-sm text-ink/55">
+            The full retrofit ladder: which insulation measures to do first, and why.
+          </p>
+        </Link>
+        <Link
+          href="/blog/heat-pump-running-costs-2026"
+          className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
+        >
+          <div className="font-display font-semibold text-ink mb-1">Heat pump running costs 2026</div>
+          <p className="text-sm text-ink/55">
+            What an air source heat pump actually costs to run on Cosy vs standard tariffs.
+          </p>
+        </Link>
+      </div>
+
 
       {/* Bottom CTA - plum dark background like Heidi's dark blocks */}
       <div className="bg-ink rounded-2xl p-6 mt-12">

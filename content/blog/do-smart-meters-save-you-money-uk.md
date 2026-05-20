@@ -123,8 +123,8 @@ You do not need to switch supplier to get one, and there is no charge. If your s
 
 ## The bottom line
 
-A smart meter will not magically slash your energy bills. But it gives you the visibility and tariff access to make real savings if you are willing to engage with the data. For most households, the combination of a smart meter, a time-of-use tariff, and a few simple habit changes can realistically save £150-£300 per year.
+A smart meter will not magically slash your energy bills. But it gives you the visibility and tariff access to make real savings if you are willing to engage with the data. For most households, the combination of a smart meter, a time-of-use tariff, and a few simple habit changes can realistically save £150-£300 per year. Use our [smart meter savings calculator](/smart-meter-savings-calculator) to estimate the saving for your specific household — it takes about two minutes and accounts for whether you have an EV, heat pump or solar.
 
 Given that installation is completely free and takes less than two hours, the question is not really whether smart meters save money, but whether you are prepared to use the data they provide. If the answer is yes, get one installed and start watching where your money goes.
 
-For more ways to reduce your energy costs, explore our guides to [improving your EPC rating](/blog/how-to-improve-epc-rating), [heat pump grants](/blog/heat-pump-grants-uk-bus-grant-2026), and [solar panel costs](/solar-panel-costs-uk).
+For more ways to reduce your energy costs, explore our guides to [cavity wall insulation costs](/blog/cavity-wall-insulation-cost-uk) (one of the highest-payback fabric upgrades, especially for 3-bed semis and bungalows), [improving your EPC rating](/blog/how-to-improve-epc-rating), [heat pump grants](/blog/heat-pump-grants-uk-bus-grant-2026), and [solar panel costs](/solar-panel-costs-uk).
