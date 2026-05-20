@@ -468,6 +468,15 @@ export default function SmartMeterGuideUkPage() {
             The fabric upgrade that pairs best with smart-meter tracking — verify your savings month by month.
           </p>
         </Link>
+        <Link
+          href="/blog/smets1-vs-smets2-uk"
+          className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
+        >
+          <div className="font-display font-semibold text-ink mb-1">SMETS1 vs SMETS2 smart meters UK</div>
+          <p className="text-sm text-ink/55">
+            What changed, why SMETS1 meters went dumb, and when to ask for a free SMETS2 upgrade.
+          </p>
+        </Link>
       </div>
     </article>
   );

@@ -89,7 +89,7 @@ It would not be a balanced guide without covering the drawbacks.
 
 **They do not save money passively.** If you install one and ignore it, you will not see any benefit. The meter itself costs you nothing (installation is free and mandated by your supplier), but the savings require active engagement.
 
-**Some older smart meters went dumb.** First-generation SMETS1 meters sometimes lost their smart functionality when you switched suppliers. Most have now been upgraded to work across all suppliers via the DCC network, but if yours still shows as dumb after a switch, contact your new supplier to request a remote update.
+**Some older smart meters went dumb.** First-generation SMETS1 meters sometimes lost their smart functionality when you switched suppliers. Most have now been upgraded to work across all suppliers via the DCC network, but if yours still shows as dumb after a switch, contact your new supplier to request a remote update. For the full breakdown of how SMETS1 and SMETS2 differ, see our [SMETS1 vs SMETS2 guide](/blog/smets1-vs-smets2-uk).
 
 **Privacy concerns.** Smart meters record half-hourly energy usage data. Your supplier uses this for billing, and aggregated data is shared with network operators for grid planning. If this bothers you, you can opt to share data monthly rather than half-hourly, though this may limit your access to some time-of-use tariffs.
 

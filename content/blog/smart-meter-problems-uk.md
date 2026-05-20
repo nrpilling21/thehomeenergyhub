@@ -177,7 +177,7 @@ Most disputes settle before reaching the Ombudsman, but the threat of it focuses
 
 ## Should you demand a SMETS2 or stick with what you have?
 
-If you have a SMETS1 meter that works fine, there is no urgent need to upgrade - DCC enrolment is being rolled out to SMETS1 meters as a free service and the large majority will be migrated by the end of 2026. If your SMETS1 meter has persistent problems, though, ask for a SMETS2 replacement rather than another SMETS1.
+If you have a SMETS1 meter that works fine, there is no urgent need to upgrade - DCC enrolment is being rolled out to SMETS1 meters as a free service and the large majority will be migrated by the end of 2026. If your SMETS1 meter has persistent problems, though, ask for a SMETS2 replacement rather than another SMETS1. Our [SMETS1 vs SMETS2 explainer](/blog/smets1-vs-smets2-uk) covers the differences in depth — including which features are still missing on un-enrolled SMETS1 meters.
 
 SMETS2 meters use the DCC network from day one, keep working when you switch supplier, and support tariff pushes more reliably. They are the standard for all new installs since 2019.
 

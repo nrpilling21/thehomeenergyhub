@@ -109,7 +109,7 @@ SMETS1 meters use a proprietary supplier protocol that often loses functionality
 
 The practical advice: if your SMETS1 meter is working, leave it alone and wait for DCC migration. If it has problems, ask for a SMETS2 replacement under the Ofgem rules - most suppliers will do this free. Once you are on SMETS2, every product in this guide is on the table.
 
-For a deeper look at the SMETS1/SMETS2 split and why it matters for export tariffs and EV charging, see our guide to [smart meters and bill savings](/blog/do-smart-meters-save-you-money-uk).
+For a deeper look at the SMETS1/SMETS2 split and why it matters for export tariffs and EV charging, see our [SMETS1 vs SMETS2 guide](/blog/smets1-vs-smets2-uk) (and our [smart meters and bill savings](/blog/do-smart-meters-save-you-money-uk) guide for the broader savings picture).
 
 ## What does an IHD cost in 2026?
 
