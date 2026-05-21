@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-/* Simple markdown to HTML (headings, paragraphs, bold, links, lists) */
+/* Simple markdown to HTML (headings, paragraphs, bold, links, lists, tables, blockquotes) */
 function markdownToHtml(md: string): string {
   return md
     .split('\n\n')
@@ -57,6 +57,24 @@ function markdownToHtml(md: string): string {
       const renderInline = (s: string) => s
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
         .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" class="text-ink underline">$1</a>');
+
+      const lines = block.split('\n');
+
+      // GFM-style tables: header row | separator | body rows
+      if (lines.length >= 2 && lines[0].startsWith('|') && /^\s*\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)+\|?\s*$/.test(lines[1])) {
+        const splitRow = (row: string) => row.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map(c => c.trim());
+        const headers = splitRow(lines[0]);
+        const bodyRows = lines.slice(2).filter(l => l.startsWith('|')).map(splitRow);
+        const thead = `<thead><tr>${headers.map(h => `<th class="text-left px-3 py-2 border-b border-ink/15 font-semibold text-ink">${renderInline(h)}</th>`).join('')}</tr></thead>`;
+        const tbody = `<tbody>${bodyRows.map(r => `<tr>${r.map(c => `<td class="px-3 py-2 border-b border-ink/10 text-ink/75 align-top">${renderInline(c)}</td>`).join('')}</tr>`).join('')}</tbody>`;
+        return `<div class="overflow-x-auto mb-6"><table class="w-full text-sm border-collapse">${thead}${tbody}</table></div>`;
+      }
+
+      // Blockquotes: every line starts with > 
+      if (lines.every(l => l.startsWith('>'))) {
+        const inner = lines.map(l => l.replace(/^>\s?/, '')).join(' ');
+        return `<blockquote class="border-l-4 border-ink/20 pl-4 italic text-ink/60 my-6">${renderInline(inner)}</blockquote>`;
+      }
 
       // Ordered lists (numbered) — must come before paragraph fallback
       if (block.match(/^\d+\. /)) {
