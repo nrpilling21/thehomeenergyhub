@@ -208,7 +208,12 @@ export default function SolarPanelCostsPage() {
             A 4kW system typically exports around 50% of its generation (about 1,700 kWh), earning
             £100–£250 per year from SEG payments. Octopus Energy&apos;s Flux tariff and similar
             time-of-use export deals can be more lucrative if you have a battery and can export during
-            peak evening hours.
+            peak evening hours. To see how those SEG earnings stack alongside visibility, load-shifting and
+            EV-tariff savings, run them through our{" "}
+            <Link href="/smart-meter-savings-calculator" className="text-gray-900 underline underline-offset-2 hover:text-gray-600">
+              smart meter savings calculator
+            </Link>{" "}
+            for a two-minute estimate of the total annual saving.
           </p>
         </Section>
 
@@ -390,6 +395,24 @@ export default function SolarPanelCostsPage() {
               <div className="font-medium text-sm text-gray-900 mb-1">Loft Insulation Costs UK</div>
               <p className="text-sm text-gray-500">
                 Insulate first, then add solar — maximise the value of every upgrade.
+              </p>
+            </Link>
+            <Link
+              href="/smart-meter-savings-calculator"
+              className="block border border-gray-200 rounded-xl p-4 hover:border-gray-300 transition-colors"
+            >
+              <div className="font-medium text-sm text-gray-900 mb-1">Smart Meter Savings Calculator</div>
+              <p className="text-sm text-gray-500">
+                Two-minute estimate covering SEG, visibility and smart-tariff savings.
+              </p>
+            </Link>
+            <Link
+              href="/blog/best-smart-meter-in-home-display-uk"
+              className="block border border-gray-200 rounded-xl p-4 hover:border-gray-300 transition-colors"
+            >
+              <div className="font-medium text-sm text-gray-900 mb-1">Best Smart Meter In-Home Display</div>
+              <p className="text-sm text-gray-500">
+                Third-party IHDs that show solar export and self-consumption clearly.
               </p>
             </Link>
           </div>

@@ -473,6 +473,12 @@ export default function SmartMeterSavingsCalculator() {
             >
               See what the published data actually shows
             </a>
+            <a
+              href="/best-ev-tariff-uk"
+              className="block w-full text-center py-3.5 rounded-full text-sm font-semibold text-ink border-2 border-ink/15 hover:border-ink/30 transition-colors"
+            >
+              Compare every UK EV tariff for 2026
+            </a>
           </div>
 
           <div className="flex items-center justify-center gap-6 text-xs text-ink/70 mb-6">

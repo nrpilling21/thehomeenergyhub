@@ -105,6 +105,14 @@ export default function HomePage() {
           desc="Estimate what a smart meter could save your household — visibility, load shifting and smart-tariff arbitrage."
           bgColor="bg-cream-dark"
         />
+        <Card
+          href="/best-ev-tariff-uk"
+          icon="article"
+          label="Guide"
+          title="Best EV Tariff UK 2026"
+          desc="Octopus Go vs Intelligent vs OVO Charge Anytime vs EDF GoElectric — every UK EV tariff compared on rate, hours and total annual cost."
+          bgColor="bg-yellow"
+        />
       </section>
 
       {/* Latest from the blog */}

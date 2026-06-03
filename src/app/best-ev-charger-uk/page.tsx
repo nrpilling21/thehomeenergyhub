@@ -135,7 +135,17 @@ export default function EvChargerPage() {
         <Link href="/smart-meter-guide-uk" className="text-blue-600 hover:underline">
           smart meter
         </Link>{" "}
-        — without it you're stuck on the standard rate.
+        — without it you're stuck on the standard rate. If you want to put a number on what an EV
+        tariff is actually worth alongside any heat pump, solar or battery you already run, our{" "}
+        <Link href="/smart-meter-savings-calculator" className="text-blue-600 hover:underline">
+          smart meter savings calculator
+        </Link>{" "}
+        gives a two-minute household estimate. For a head-to-head comparison of every UK EV tariff —
+        Intelligent Go vs Go vs OVO Charge Anytime vs EDF — see our{" "}
+        <Link href="/best-ev-tariff-uk" className="text-blue-600 hover:underline">
+          best EV tariff UK 2026 guide
+        </Link>
+        .
       </p>
 
       {/* Charger reviews */}

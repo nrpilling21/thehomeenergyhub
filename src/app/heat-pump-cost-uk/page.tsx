@@ -185,7 +185,11 @@ export default function HeatPumpCostPage() {
             smart meter
           </Link>{" "}
           for half-hourly settlement — without one, you pay the standard Ofgem unit rate and most of
-          the heat-pump-vs-gas savings disappear.
+          the heat-pump-vs-gas savings disappear. To estimate the Cosy saving in pounds for your
+          specific household, plug your annual bill and assets into our{" "}
+          <Link href="/smart-meter-savings-calculator" className="text-yellow underline hover:no-underline">
+            smart meter savings calculator
+          </Link>.
         </p>
       </Section>
 
@@ -300,6 +304,15 @@ export default function HeatPumpCostPage() {
           <div className="font-display font-semibold text-ink mb-1">Heat pump running costs 2026</div>
           <p className="text-sm text-ink/55">
             What an air source heat pump actually costs to run on Cosy vs standard tariffs.
+          </p>
+        </Link>
+        <Link
+          href="/smart-meter-savings-calculator"
+          className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
+        >
+          <div className="font-display font-semibold text-ink mb-1">Smart meter savings calculator</div>
+          <p className="text-sm text-ink/55">
+            Two-minute estimate covering Cosy/Intelligent tariff economics for your specific household.
           </p>
         </Link>
       </div>

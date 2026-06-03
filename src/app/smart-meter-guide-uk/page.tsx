@@ -460,6 +460,15 @@ export default function SmartMeterGuideUkPage() {
           </p>
         </Link>
         <Link
+          href="/best-ev-tariff-uk"
+          className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
+        >
+          <div className="font-display font-semibold text-ink mb-1">Best EV tariff UK 2026</div>
+          <p className="text-sm text-ink/55">
+            Octopus Intelligent Go vs Go vs OVO vs EDF — and how SMETS2 unlocks them all.
+          </p>
+        </Link>
+        <Link
           href="/blog/cavity-wall-insulation-cost-uk"
           className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
         >

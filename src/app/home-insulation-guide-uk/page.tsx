@@ -313,7 +313,11 @@ export default function HomeInsulationGuidePage() {
         <Link href="/blog/do-smart-meters-save-you-money-uk" className="text-blue-600 hover:underline">
           do smart meters save you money
         </Link>{" "}
-        walks through the typical savings most households see in the first year.
+        walks through the typical savings most households see in the first year, and our{" "}
+        <Link href="/smart-meter-savings-calculator" className="text-blue-600 hover:underline">
+          smart meter savings calculator
+        </Link>{" "}
+        gives a household-specific estimate before you commit to the upgrades.
       </p>
 
       <h3 className="font-semibold text-gray-900 mt-6 mb-2">Which insulation should I do first?</h3>

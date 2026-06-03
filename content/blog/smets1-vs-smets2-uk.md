@@ -67,7 +67,7 @@ The fix is the **SMETS1 enrolment programme**, run by the DCC since 2018. It mig
 The features that really matter day-to-day are the modern smart tariffs.
 
 - **Time-of-use tariffs.** Octopus Agile and similar half-hourly tariffs need half-hourly meter readings. SMETS2 sends those by default. SMETS1 cannot, unless migrated and even then with caveats.
-- **Smart EV charging tariffs.** Octopus Intelligent Go, EDF GoElectric, OVO Charge Anytime and the rest all assume a working SMETS2 meter. If you are pricing an EV charger ([see our best EV charger UK guide](/best-ev-charger-uk)) and an Intelligent Go tariff together, a SMETS2 meter is part of the recipe.
+- **Smart EV charging tariffs.** Octopus Intelligent Go, EDF GoElectric, OVO Charge Anytime and the rest all assume a working SMETS2 meter. See our [best EV tariff UK 2026 comparison](/best-ev-tariff-uk) for the head-to-head. If you are pricing an EV charger ([see our best EV charger UK guide](/best-ev-charger-uk)) and an Intelligent Go tariff together, a SMETS2 meter is part of the recipe.
 - **Solar export payments.** Under the Smart Export Guarantee (SEG) your supplier pays you for surplus solar electricity. SMETS2 measures export every half hour, so you get paid for what you actually sent back, not an annual estimate. SMETS1 can be patchy — see our [solar panel costs guide](/solar-panel-costs-uk) for how the export rate affects payback maths.
 - **Heat pump tariffs.** Octopus Cosy and similar dedicated heat pump rates need SMETS2 for tariff pushes and time-of-use accuracy.
 - **Third-party in-home displays.** The [Hildebrand Glow IHD and the Bright app](/blog/best-smart-meter-in-home-display-uk) pair with SMETS2 meters via the DCC consent flow. They will not enrol an un-migrated SMETS1.
