@@ -12,7 +12,7 @@ keywords:
 author: The Home Energy Hub
 ---
 
-> **Affiliate disclosure:** This post contains affiliate links. If you buy something through these links we may earn a small commission at no extra cost to you. We only recommend products we think are genuinely useful for UK homeowners.
+> **Affiliate disclosure:** This post contains affiliate links. If you buy something through these links we may earn a small commission at no extra cost to you. We only recommend products we think are genuinely useful for UK homeowners. See our [full affiliate disclosure](/affiliate-disclosure).
 
 # Solar Panel Grants UK 2026: Every Scheme You Can Still Apply For
 
