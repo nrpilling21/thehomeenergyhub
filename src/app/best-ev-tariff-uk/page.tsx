@@ -420,6 +420,15 @@ export default function BestEvTariffUkPage() {
             Why SMETS1 meters often block EV tariffs and how to get yours migrated.
           </p>
         </Link>
+        <Link
+          href="/blog/tethered-vs-untethered-ev-charger-uk"
+          className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
+        >
+          <div className="font-display font-semibold text-ink mb-1">Tethered vs untethered EV charger</div>
+          <p className="text-sm text-ink/55">
+            Cable vs socket — which wallbox format suits your driveway and future EV.
+          </p>
+        </Link>
       </div>
 
       {/* FAQPage JSON-LD */}

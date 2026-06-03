@@ -145,7 +145,11 @@ export default function EvChargerPage() {
         <Link href="/best-ev-tariff-uk" className="text-blue-600 hover:underline">
           best EV tariff UK 2026 guide
         </Link>
-        .
+        . Wondering whether to get a unit with the cable built in or a socket-only model? Our{" "}
+        <Link href="/blog/tethered-vs-untethered-ev-charger-uk" className="text-blue-600 hover:underline">
+          tethered vs untethered EV charger comparison
+        </Link>{" "}
+        runs through the trade-offs.
       </p>
 
       {/* Charger reviews */}

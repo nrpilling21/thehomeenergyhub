@@ -41,7 +41,7 @@ You can technically charge an electric car from a standard three-pin socket, but
 
 The cost per kWh is identical either way — the difference is speed, safety, and smart features. A home wallbox with smart tariff integration (like the Ohme Home Pro or Zappi) can automatically shift your charging to the cheapest hours without you lifting a finger.
 
-Installation costs for a [7kW wallbox](https://www.amazon.co.uk/s?k=7kw+ev+charger+wallbox+tethered&tag=thehomeenergyhub-21) range from **£800–£1,200 fully installed** (the unit itself is £350–£700, and most installers charge £400–£500 for a standard fit). At typical smart tariff savings of £600–£800 per year versus standard rates, the charger pays for itself within 12–18 months. See our [best EV charger guide](/best-ev-charger-uk) for our top picks, or our [best EV tariff UK 2026 comparison](/best-ev-tariff-uk) to choose between Intelligent Go, Go, OVO Charge Anytime and the major-supplier alternatives.
+Installation costs for a [7kW wallbox](https://www.amazon.co.uk/s?k=7kw+ev+charger+wallbox+tethered&tag=thehomeenergyhub-21) (see our [tethered vs untethered EV charger comparison](/blog/tethered-vs-untethered-ev-charger-uk) for which cable format suits your driveway) range from **£800–£1,200 fully installed** (the unit itself is £350–£700, and most installers charge £400–£500 for a standard fit). At typical smart tariff savings of £600–£800 per year versus standard rates, the charger pays for itself within 12–18 months. See our [best EV charger guide](/best-ev-charger-uk) for our top picks, or our [best EV tariff UK 2026 comparison](/best-ev-tariff-uk) to choose between Intelligent Go, Go, OVO Charge Anytime and the major-supplier alternatives.
 
 ## Home charging vs public charging
 
