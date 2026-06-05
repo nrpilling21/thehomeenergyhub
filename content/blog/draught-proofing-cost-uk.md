@@ -1,6 +1,6 @@
 ---
-title: "Draught Proofing Cost UK 2026: Prices and Savings"
-description: "How much does draught proofing cost in the UK? We break down prices for doors, windows, chimneys and floors, plus expected energy savings and available grants."
+title: "Draught Proofing Cost UK 2026: From £3 DIY, Save £85/Year"
+description: "Draught proofing costs £150–£300 for a whole house, or under £20 to DIY. See 2026 prices for doors, windows and chimneys — and save up to £85 a year on energy bills."
 date: "2026-04-10"
 author: "The Home Energy Hub"
 category: "guides"
