@@ -7,8 +7,6 @@ category: "guides"
 tags: ["cavity wall insulation", "insulation costs", "energy efficiency", "home insulation", "energy saving", "bungalow insulation", "cavity wall removal"]
 ---
 
-# Cavity Wall Insulation Cost UK 2026: Prices by House Type, Removal, and Mortgage Impact
-
 *This article contains affiliate links. If you buy something through a link on this page, we may earn a small commission at no extra cost to you. See our [affiliate disclosure](/affiliate-disclosure).*
 
 If you're looking at ways to cut your energy bills, cavity wall insulation is one of the most effective upgrades you can make. Around a third of all heat lost in an uninsulated home escapes through the walls — more than through the roof. Yet millions of UK homes with cavity walls still have no insulation in them.

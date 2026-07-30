@@ -9,8 +9,6 @@ tags: ["floor insulation", "underfloor insulation", "insulation", "energy effici
 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
-# Floor Insulation Cost UK: What You'll Pay in 2026 (And How Much You'll Save)
-
 Up to 15% of the heat lost from an uninsulated home escapes through the floor, yet floor insulation is one of the most overlooked upgrades UK homeowners can make. If you have cold floorboards underfoot in winter or a draughty ground floor, insulating beneath it could pay for itself within a few years.
 
 In this guide we'll cover exactly what floor insulation costs in the UK in 2026, the difference between insulating a suspended timber floor and a solid concrete one, what you can safely tackle yourself, and how quickly the investment pays back. Floor insulation works best alongside the other measures in our [home insulation guide](/home-insulation-guide-uk), so it's worth reading this as part of a wider plan rather than in isolation.

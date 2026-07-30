@@ -15,8 +15,6 @@ author: The Home Energy Hub
 
 > **Affiliate disclosure:** This post contains affiliate links. If you buy something through these links we may earn a small commission at no extra cost to you. We only recommend products we think are genuinely useful for UK homeowners. [Full disclosure](/affiliate-disclosure).
 
-# Solar Battery Storage UK 2026: Costs, Savings, and Whether It's Actually Worth It
-
 Solar panels without a battery export roughly half of everything they generate to the grid. With the Smart Export Guarantee paying as little as 4p/kWh on some tariffs, that exported electricity is being sold for a quarter of what it costs to buy back at night. Battery storage is the fix: store the surplus instead of selling it cheap, then use it after dark.
 
 In 2026 a typical 5kWh home battery costs **£2,500-£4,000** installed, and a 10kWh battery costs **£4,000-£6,500**. Whether that bill makes financial sense depends on how much solar you generate, how much you actually use, what tariff you are on, and whether you drive an EV. This guide walks through the real numbers, the brands worth knowing, and the situations where a battery is the obvious upgrade - and the ones where it is not.

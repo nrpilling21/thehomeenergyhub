@@ -9,8 +9,6 @@ tags: ["epc rating", "energy efficiency", "home improvements", "insulation", "he
 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
-# How to Improve Your EPC Rating: 12 Proven Ways to Boost Your Score
-
 Your Energy Performance Certificate (EPC) rating tells you how energy efficient your home is — and in 2026, it matters more than ever. With the government confirming that all rental properties in England and Wales must reach EPC band C by October 2030, and energy bills remaining stubbornly high, improving your EPC score isn't just about paperwork. It's about saving money and future-proofing your home.
 
 Whether you're a homeowner looking to cut bills, a landlord preparing for new regulations, or someone hoping to sell at a higher price, this guide walks you through the most effective ways to improve your EPC rating — ranked by cost and impact.

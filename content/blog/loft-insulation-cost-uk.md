@@ -9,8 +9,6 @@ tags: ["loft insulation", "insulation costs", "energy efficiency", "home insulat
 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
-# Loft Insulation Cost UK 2026: Prices, Savings and Whether It's Worth It
-
 If you're wondering how much loft insulation costs in the UK, you're not alone. It's one of the most common energy efficiency questions homeowners ask - and for good reason. Around a quarter of heat in an uninsulated home escapes through the roof, making loft insulation one of the cheapest and most effective upgrades you can make.
 
 In this guide, we'll cover what loft insulation costs in 2026, how much you can save on energy bills, what grants are available, and whether it's actually worth the investment.

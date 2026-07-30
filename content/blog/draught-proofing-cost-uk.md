@@ -9,8 +9,6 @@ tags: ["draught proofing", "insulation", "energy efficiency", "home improvement"
 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
-# Draught Proofing Cost UK: What You'll Pay in 2026 (And How Much You'll Save)
-
 If your home feels chilly even with the heating on, draughts are probably the culprit. Cold air sneaking in around windows, doors, letterboxes and chimneys can add hundreds of pounds to your annual energy bill — and draught proofing is one of the cheapest, most effective ways to stop it.
 
 In this guide, we'll break down exactly what draught proofing costs in the UK in 2026, what you can tackle yourself for under £20, and how quickly the investment pays for itself.

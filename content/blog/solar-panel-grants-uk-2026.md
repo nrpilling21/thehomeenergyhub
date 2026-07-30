@@ -14,8 +14,6 @@ author: The Home Energy Hub
 
 > **Affiliate disclosure:** This post contains affiliate links. If you buy something through these links we may earn a small commission at no extra cost to you. We only recommend products we think are genuinely useful for UK homeowners. See our [full affiliate disclosure](/affiliate-disclosure).
 
-# Solar Panel Grants UK 2026: Every Scheme You Can Still Apply For
-
 If you have been searching for a way to slash the cost of going solar in 2026, the funding landscape has just shifted under your feet. ECO4 — the £4 billion scheme that paid for tens of thousands of free solar installations between 2022 and early 2026 — closed to new applications in March. In its place, a patchwork of new national schemes, devolved programmes and council-run pots has appeared, and the rules around who qualifies have changed.
 
 This guide walks you through every solar panel grant and funding route open to UK homeowners in April 2026, what you actually get, who is eligible, and the realistic odds of being approved. We have also included the lower-profile routes — like the 0% VAT rule, Solar Together group-buying, and the Smart Export Guarantee — that almost everyone qualifies for but most homeowners overlook.
