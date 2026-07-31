@@ -4,14 +4,18 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Solar Panel Costs UK 2026: Prices, Savings & Payback Guide",
   description:
-    "Solar panels cost £5,000–£11,000 installed in the UK (2026). With 0% VAT and Smart Export Guarantee payments, payback is 7–10 years. Full cost breakdown by system size.",
+    "The cost of solar panels in the UK is £5,000–£11,000 installed (2026) — around 5–8p per kWh generated over their lifetime. With 0% VAT and SEG payments, payback is 7–10 years. Full cost, cost-per-kWh and payback breakdown by system size.",
   keywords: [
     "solar panel cost uk",
+    "cost of solar panels uk",
     "solar panel prices uk",
     "how much do solar panels cost uk",
     "solar panel installation cost",
+    "solar cost per kwh",
+    "solar panel costs 2026",
     "solar panels uk 2026",
     "solar panel savings uk",
+    "solar panels payback uk",
     "solar panel payback period",
     "solar pv cost uk",
   ],
@@ -56,6 +60,16 @@ export default function SolarPanelCostsPage() {
       answer:
         "The Smart Export Guarantee (SEG) pays you for electricity you export to the grid. Rates vary by supplier, typically 4–15p per kWh in 2026. A 4kW system exporting around 50% of its generation earns roughly £100–£250 per year from SEG payments alone.",
     },
+    {
+      question: "What is the cost of solar panels per kWh in the UK?",
+      answer:
+        "Two figures matter. The installed cost is around £1,500–£1,700 per kW of capacity in 2026 (so a 4kW system is roughly £6,000–£8,000). The lifetime cost per kWh generated — spreading the total cost across the ~85,000 kWh a 4kW system produces over 25 years — works out at about 5–8p per kWh. That is well below the mid-2026 grid price of around 24–25p per kWh, which is why solar remains one of the cheapest ways to generate your own electricity.",
+    },
+    {
+      question: "What is the payback period for solar panels in the UK?",
+      answer:
+        "For a typical 4kW system costing £7,000 and saving £650 a year, payback is around 10–11 years. Factoring in 0% VAT and a competitive SEG export tariff, most well-sited systems pay back in 7–9 years. Smaller 3kW systems and larger 6kW systems fall in a similar 7–11 year range, because cost and savings scale together.",
+    },
   ];
 
   return (
@@ -70,6 +84,7 @@ export default function SolarPanelCostsPage() {
           most systems pay for themselves within 7–10 years — leaving 15–20 years of near-free
           electricity.
         </p>
+        <p className="text-xs text-gray-400 mb-8">Last updated: July 2026</p>
 
         {/* Quick cost summary table */}
         <h2 className="text-xl font-semibold text-gray-900 mt-10 mb-4">
@@ -137,6 +152,41 @@ export default function SolarPanelCostsPage() {
             Regional pricing varies too. According to MCS data, the average cost per kW is around
             £1,590 nationally, but installations in the South East tend to cost 10–15% more than in
             the North East. Rural properties may also attract higher costs due to installer travel time.
+          </p>
+        </Section>
+
+        <Section title="Solar Panel Cost Per kWh (Installed and Lifetime)">
+          <p>
+            &quot;Cost per kWh&quot; means two different things with solar, and it&apos;s worth
+            separating them. The first is the <strong>installed cost per kW of capacity</strong> —
+            what you pay upfront for each kilowatt of panels. In 2026 this sits at roughly
+            £1,500–£1,700 per kW, so a 4kW system works out at about £6,000–£8,000. Larger systems
+            usually cost slightly less per kW because the fixed costs (scaffolding, inverter, DNO
+            paperwork) are spread across more panels.
+          </p>
+          <p>
+            The second — and more useful — figure is the <strong>lifetime cost per kWh generated</strong>.
+            A 4kW system produces around 3,400 kWh a year, or roughly 85,000 kWh over a 25-year life
+            (allowing for gradual output loss). Spread a £7,000 upfront cost across that generation and
+            each unit of solar electricity costs you about <strong>5–8p per kWh</strong>. Compare that
+            with the mid-2026 grid price of around 24–25p per kWh and it&apos;s clear why solar is one
+            of the cheapest ways to power your home.
+          </p>
+          <CostTable
+            title="Solar Cost Per kWh by System Size"
+            headers={["System Size", "Installed Cost", "Cost per kW", "Lifetime Cost per kWh"]}
+            rows={[
+              ["3 kW", "£5,000–£6,500", "£1,650–£2,150", "6–9p"],
+              ["4 kW", "£6,000–£8,000", "£1,500–£2,000", "5–8p"],
+              ["5 kW", "£7,000–£9,500", "£1,400–£1,900", "5–7p"],
+              ["6 kW", "£8,000–£11,000", "£1,330–£1,830", "5–7p"],
+            ]}
+          />
+          <p>
+            These lifetime figures ignore SEG export earnings and any electricity-price rises — both
+            of which push the real cost per kWh lower still. They also assume no battery; adding storage
+            raises the upfront cost but lets you use more of your own generation instead of exporting it
+            cheaply.
           </p>
         </Section>
 
@@ -227,6 +277,22 @@ export default function SolarPanelCostsPage() {
             After payback, a 4kW system generates £650+ in annual savings for the remaining 15–20
             years of its life. Over 25 years, the total financial benefit of a £7,000 system is
             typically £9,000–£14,000 — a solid return on investment.
+          </p>
+          <CostTable
+            title="Solar Panel Payback by System Size"
+            headers={["System Size", "Installed Cost", "Annual Saving", "Typical Payback"]}
+            rows={[
+              ["3 kW", "£5,000–£6,500", "£350–£550", "8–11 years"],
+              ["4 kW", "£6,000–£8,000", "£500–£800", "7–10 years"],
+              ["5 kW", "£7,000–£9,500", "£650–£950", "7–10 years"],
+              ["6 kW", "£8,000–£11,000", "£800–£1,200", "7–10 years"],
+            ]}
+          />
+          <p>
+            Payback is shortest for households that use more of their generation directly — being home
+            during the day, running appliances while the sun is out, or charging an EV from solar all
+            shorten it. A poor roof aspect, heavy shading, or exporting most of your generation at low
+            SEG rates pushes it toward the longer end of each range.
           </p>
         </Section>
 
