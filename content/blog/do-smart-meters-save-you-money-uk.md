@@ -1,6 +1,6 @@
 ---
-title: "Do Smart Meters Save You Money? What the Data Actually Shows (2026)"
-description: "How does a smart meter save you money, and how much will you actually save in the UK? We break down the real data, the three ways smart meters cut your bills, and practical tips for 2026."
+title: "Do Smart Meters Save You Money? The 2026 UK Data"
+description: "Do smart meters save money in the UK? The real government data, the three ways they actually cut bills, and how to beat the average 2% saving."
 date: "2026-06-09"
 author: "The Home Energy Hub"
 category: "energy-saving"

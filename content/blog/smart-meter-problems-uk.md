@@ -1,6 +1,6 @@
 ---
-title: "Smart Meter Problems UK: 12 Common Issues and How to Fix Them (2026)"
-description: "Smart meter not working? Here are the 12 most common UK smart meter problems in 2026, step-by-step fixes, and how to claim the new £40 compensation when your supplier drags its feet."
+title: "Smart Meter Problems UK: 12 Electricity Metering Issues Fixed"
+description: "Smart meter not working? The 12 most common UK electricity metering issues in 2026, step-by-step fixes, and how to claim £40 compensation."
 date: "2026-04-21"
 author: "The Home Energy Hub"
 category: "energy-saving"
@@ -18,6 +18,20 @@ If you are reading this, something about your smart meter has stopped behaving. 
 The good news is that most smart meter problems have a fix you can try yourself in under ten minutes. The better news is that from 23 February 2026, if your energy supplier fails to resolve a reported smart meter issue within five working days or leaves a fault unfixed for more than 90 days, you are entitled to £40 automatic compensation per issue under the new Ofgem rules. That is a real lever - use it.
 
 This guide runs through the 12 most common UK smart meter problems we see in 2026, the quick fixes for each, and when to escalate. Work through the checks in order for your symptom, and by the end you will either have your meter working again or a clear paper trail to claim compensation.
+
+## The four kinds of UK electricity metering issue
+
+Before diving into individual symptoms, it helps to know which of four categories your problem falls into, because the fix and the escalation route are different for each. Nearly every UK electricity metering issue we see lands in one of these.
+
+**1. Communication faults.** The meter records correctly but cannot send readings to your supplier, so you get estimated bills and a dead or stale in-home display. This is the biggest single category in Great Britain by some distance - the roughly 4 million meters currently in dumb mode are almost all comms failures rather than broken meters. Problems 1, 2, 3, 6 and 9 below.
+
+**2. Billing and tariff faults.** The meter and comms are fine, but the price data loaded onto it is wrong, or the supplier is billing against the wrong reading. The numbers look plausible, which is what makes this category expensive - it can run for months before anyone notices. Problems 4, 5 and 8.
+
+**3. Installation and appointment failures.** The meter never got fitted, the engineer did not turn up, or the install was left half-finished with the gas meter unpaired. Problems 7 and 12, and the compensation rules below are strongest here.
+
+**4. Measurement accuracy disputes.** Rare, and worth separating from the rest, because a meter that is genuinely over-recording is a formal accuracy dispute with its own legal process rather than something you fix with a reboot. See the section on [meter accuracy disputes](#electricity-meter-problems-that-are-not-smart-meter-problems) near the end.
+
+If you are not sure which category you are in, work through the symptom list below in order - the first check for each problem is designed to tell you quickly.
 
 ## Your consumer rights from 23 February 2026
 
@@ -182,6 +196,20 @@ If you have a SMETS1 meter that works fine, there is no urgent need to upgrade -
 SMETS2 meters use the DCC network from day one, keep working when you switch supplier, and support tariff pushes more reliably. They are the standard for all new installs since 2019.
 
 If you are on a variable tariff, have solar panels, or are thinking about a heat pump, a working SMETS2 meter is essential - it is what unlocks time-of-use tariffs like Octopus Agile and export-payment tariffs for solar (see our [solar panel costs guide](/solar-panel-costs-uk) for why that matters for payback).
+
+## Electricity meter problems that are not smart meter problems
+
+Not every UK electricity metering issue is a smart meter issue, and it is worth knowing when you are dealing with something else - because the escalation route is different.
+
+**Traditional (non-smart) meter faults.** If you still have an analogue or older digital meter, the display freezing, the dials sticking or the meter running with everything switched off are all faults your supplier must investigate. You have the same right to a working meter; you just do not have the 23 February 2026 smart metering compensation rules to lean on, because those apply specifically to smart metering obligations.
+
+**Meter accuracy disputes.** If you believe the meter is over-recording - not miscommunicating, but genuinely measuring more electricity than you use - that is a formal accuracy dispute, not a fault report. Ask your supplier to arrange a meter accuracy test. Under the Electricity Act the meter can be tested against the legal accuracy limits, and if it is found outside tolerance the supplier must replace it and rebill you correctly. If it passes, you may be charged for the test, so it is worth ruling out the cheaper explanations first: an immersion heater or electric shower left on, a faulty appliance drawing current constantly, or a second property wired onto your supply. The phantom consumption checks in Problem 12 above will usually settle it either way.
+
+**Wrong meter, wrong property.** Crossed meters - where your meter is actually recording the flat next door - are uncommon but do happen, particularly in converted properties and new-build blocks. The test is simple: turn off your main switch at the consumer unit and watch the meter. If it keeps counting, it is not measuring your property. Report that immediately, because you may be owed a substantial rebill.
+
+**Prepayment and credit issues.** Top-ups not registering, emergency credit not releasing, or a meter stuck in the wrong mode after a payment-method switch are supplier account problems rather than metering hardware problems, and they are resolved through your supplier's billing team. Problem 8 above covers the mode-switching case.
+
+**Distribution network faults.** If your supply voltage is unstable or you have repeated outages, that is your regional distribution network operator, not your supplier or your meter. Call 105 from any UK phone to reach the right DNO free of charge.
 
 ## How to prevent problems in the first place
 

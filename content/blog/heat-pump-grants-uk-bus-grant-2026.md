@@ -1,6 +1,6 @@
 ---
-title: "Heat Pump Grants UK 2026: The Complete Guide to the BUS Grant"
-description: "Everything you need to know about the £7,500 Boiler Upgrade Scheme grant - who qualifies, how to apply, what's covered, and the changes coming in April 2026."
+title: "Heat Pump Grants UK 2026: The Complete BUS Grant Guide"
+description: "The £7,500 Boiler Upgrade Scheme grant explained: who qualifies, how to apply, what is covered, and the changes coming in April 2026."
 date: "03.04.2026"
 author: "The Home Energy Hub"
 category: "heat-pumps"

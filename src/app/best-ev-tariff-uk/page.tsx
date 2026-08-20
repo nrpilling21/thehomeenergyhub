@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Best EV Tariff UK 2026 — Octopus Go vs Intelligent vs OVO vs EDF Compared",
+  title: "Best EV Tariff UK 2026: Octopus Go vs OVO vs EDF GoElectric",
   description:
-    "The cheapest UK EV electricity tariffs in 2026, compared head-to-head. Octopus Intelligent Go (7.5p), Octopus Go (8.5p), OVO Charge Anytime (8.5p), EDF GoElectric (9p), British Gas Electric Driver (9.9p), Scottish Power EV Saver and more — eligibility, smart meter requirements and how much each can save.",
+    "Intelligent Octopus Go 7.5p, Octopus Go 8.5p, OVO Charge Anytime 8.5p, EDF GoElectric 9p. UK EV tariff rates, eligibility and annual cost compared.",
   alternates: {
     canonical: "https://www.thehomeenergyhub.co.uk/best-ev-tariff-uk",
   },

@@ -1,6 +1,6 @@
 ---
-title: "Solar Panel Grants UK 2026: Every Scheme You Can Still Apply For"
-description: "A complete guide to solar panel grants in the UK for 2026. Find out which schemes are still open, who qualifies, and how to get free or discounted solar panels."
+title: "Solar Panel Grants UK 2026: Every Scheme Still Open"
+description: "Which UK solar panel grants are still open in 2026, who qualifies, and how to get free or discounted panels now that ECO4 has closed."
 slug: solar-panel-grants-uk-2026
 date: 2026-04-14
 keywords:

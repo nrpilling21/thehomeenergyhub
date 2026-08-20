@@ -1,6 +1,6 @@
 ---
-title: "Best Smart Meter In-Home Display UK 2026: 7 IHDs Compared (and How to Get One Yourself)"
-description: "Best smart meter in-home display UK 2026: we compare the 7 best smart meter displays and energy monitors, what they show, what they cost, and which to pair with your SMETS2 meter to actually save money."
+title: "Best Smart Meter In-Home Display UK 2026: 7 IHDs Compared"
+description: "The 7 best smart meter in-home displays and energy monitors in the UK for 2026: what each shows, what it costs, and how to replace a dead IHD."
 date: "2026-07-28"
 author: "The Home Energy Hub"
 category: "energy-saving"
@@ -34,6 +34,14 @@ For a no-app, low-tech option that just shows you a number, the older **Geo Trio
 For solar households, prioritise an [in-home display](https://www.amazon.co.uk/s?k=smart+meter+in+home+display+ihd&tag=thehomeenergyhub-21) or monitor that shows export as well as import, and double-check it works with your SEG tariff. The Hildebrand Glow IHD does this; most supplier-issued IHD3s do not show export at all.
 
 The rest of this guide explains why.
+
+## "Best smart meter" or best smart meter display?
+
+Worth clearing up, because the two searches get mixed together constantly. You cannot really choose the best smart meter in the UK the way you choose a kettle. Your energy supplier decides which meter goes in your meter cupboard, you do not get a brand menu, and every SMETS2 meter has to meet the same national specification - so an Aclara, a Landis+Gyr and a Secure meter all measure the same thing to the same standard. The meter is not where the difference lives.
+
+What you genuinely can choose is the display. That is the part you look at every day, the part suppliers cut corners on, and the part you are allowed to replace or supplement yourself. So when people ask which is the best smart meter, the useful answer is almost always about the best smart meter display or energy monitor sitting alongside it - which is exactly what the rest of this guide ranks.
+
+The one meter-level choice you do have: insist on SMETS2 rather than a first-generation SMETS1 meter, because SMETS1 units are the ones that go dumb when you switch supplier. That distinction is covered in full in our [SMETS1 vs SMETS2 guide](/blog/smets1-vs-smets2-uk).
 
 ## Best smart meter display UK: the at-a-glance verdict
 
@@ -120,6 +128,49 @@ For a deeper look at the SMETS1/SMETS2 split and why it matters for export tarif
 Free if your supplier issues one. £45-£90 for a CT-clip energy monitor. £69 for the Hildebrand Glow IHD. £150-£280 for a full Loop or Smappee install with electrician fitting.
 
 You should never have to pay for a basic IHD - your supplier is required to provide one and replace it free if it fails while the meter is in warranty (typically the meter's lifetime). The genuine spend territory is £45-£90 for a Hildebrand Glow IHD or a CT-clip monitor like the Geo Cosy - the point at which you stop relying on whatever your supplier shipped and get a tool that gives you data worth acting on.
+
+## Replacement smart meter display: how to get a new IHD
+
+By far the most common reason people end up on a page like this is that the display they already had has died. The screen has gone blank, the numbers froze months ago, or the thing got unplugged during a kitchen reshuffle and never came back. So before you spend anything, here is the order to work through for a replacement smart meter display.
+
+**Step 1 - ask your supplier for a free replacement first.** Under the Smart Energy Code your supplier must provide an in-home display and, if it fails while your meter is under warranty, replace it at no cost. Meter warranties typically run for the life of the meter, so in practice a dead IHD is usually a free swap. Phone or use live chat, say the in-home display has failed and you want a replacement under the smart metering obligation, and note the date. If nothing arrives, the Ofgem rules that took effect on 23 February 2026 give you £40 automatic compensation when a supplier fails to resolve a reported smart meter fault within five working days - we cover how to claim in our [smart meter problems guide](/blog/smart-meter-problems-uk).
+
+**Step 2 - check it is actually broken before you replace it.** A large share of "dead" IHDs are simply out of Zigbee range or unpaired. Move the display to within about 10 metres of the meter with as few solid walls in between as possible, plug it in, and leave it for 15 minutes. If it wakes up, the problem was range, not hardware, and a replacement will fail in exactly the same spot.
+
+**Step 3 - if you want an upgrade rather than a like-for-like swap, buy your own.** A replacement supplier IHD will be another basic Chameleon or Bright unit. If you would rather have something better than what broke, the Hildebrand Glow IHD at around £69 is the upgrade path, because it runs over the DCC network and the Bright app rather than depending on a Zigbee link to the meter. Details in the [Hildebrand Glow section](#1-hildebrand-glow-ihd-with-bright-app----best-overall) above.
+
+One caveat worth knowing: you cannot buy a generic replacement Chameleon IHD3 and pair it to your meter yourself. Supplier-issued displays are commissioned against a specific meter, so a second-hand one bought online will not pair. Either get the free replacement from your supplier or buy a DCC-based display like the Glow.
+
+## Can you buy your own smart meter in-home display?
+
+Yes - and it is one of the few genuinely useful upgrades in home energy that costs under £70.
+
+There are two routes. The first is a DCC-connected IHD, which reads your consumption through the national smart metering network rather than a local radio link to the meter. The Hildebrand Glow IHD (around £69) is effectively the only mainstream consumer option here, and it is the one to buy if you want a proper display you own outright. You give Hildebrand consent to read your meter through the DCC, and the display works anywhere in the house on your wifi.
+
+The second route is a smart energy monitor - a [CT-clip energy monitor](https://www.amazon.co.uk/s?k=smart+energy+monitor+ct+clamp+uk&tag=thehomeenergyhub-21) such as the Geo Cosy (£45-£90) or the Loop (£150+ installed). These do not read the meter at all; they measure current on your incoming cable. You can buy and fit them without involving your supplier, they work whether or not you have a smart meter, and they are the right answer if what you actually want is appliance-level detail rather than a mirror of the meter.
+
+What you cannot buy is the meter itself, or a supplier-commissioned IHD that will pair with your existing meter. Anyone selling you a "replacement smart meter" for a domestic property is selling you something you cannot legally have installed outside a supplier's own programme.
+
+Rough guide to what you should expect to pay:
+
+| What you want | Product | Typical 2026 cost |
+|---|---|---|
+| Like-for-like replacement | Supplier-issued Chameleon / Bright IHD | Free from your supplier |
+| A better display you own | Hildebrand Glow IHD | ~£69 |
+| Appliance-level detail, DIY fit | Geo Cosy or similar CT clip | £45-£90 |
+| Full circuit-level monitoring | Loop or Smappee, electrician fitted | £150-£280 |
+
+## In-house display, in-home display, IHD: are they the same thing?
+
+They are, and the inconsistency is entirely the industry's fault. The official term in the Smart Energy Code is **in-home display**, abbreviated to **IHD**. In everyday use people say in-house display, home display, smart meter display, smart meter monitor, energy display and smart meter screen, all meaning the same physical object: the small screen that shows what your smart meter is currently recording.
+
+A few labels do mean something different, and it is worth keeping them apart:
+
+- **In-home display (IHD)** - reads directly from your smart meter, shows both gas and electricity, matches your bill exactly.
+- **Smart energy monitor** - reads from a clamp on your cable or consumer unit, electricity only, can break usage down by appliance, roughly 95% accurate rather than exact.
+- **Smart meter** - the metering hardware itself, in the cupboard, which you do not choose and cannot buy.
+
+If you have been searching for an in-house smart meter display, a home display for a smart meter, or a smart meter display unit, everything in this guide applies to you - the products are the same, only the phrasing differs.
 
 ## How to install or pair an IHD
 

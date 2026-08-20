@@ -1,6 +1,6 @@
 ---
-title: "Heated Airer Running Costs UK: Are They Cheap to Run? (2026)"
-description: "How much does a heated airer cost to run in the UK? We break down the real running cost per hour, how it compares to a tumble dryer, and the best heated airers for 2026."
+title: "Heated Airer Running Costs UK 2026: Just 7p an Hour"
+description: "A heated airer costs about 7p an hour to run, or 20-45p a load. The 2026 sums, how it compares with a tumble dryer, and the best models to buy."
 date: "2026-07-24"
 author: "The Home Energy Hub"
 category: "energy-saving"
@@ -63,6 +63,8 @@ This is the comparison most people are actually looking for, and it is where the
 The gap is stark. A covered heated airer at around 22p a load is roughly a quarter of the cost of a condenser dryer at £1.37, and comfortably cheaper than a vented model too. Over a year of regular washing - say five loads a week - that is the difference between spending about £57 a year on a heated airer and close to £356 on a condenser tumble dryer. The airer saves you around £300 a year.
 
 The one appliance that competes on cost is a modern heat pump tumble dryer, which sips electricity and can match a heated airer per load while drying in a fraction of the time. But a heat pump dryer costs £400 to £700 to buy, whereas a heated airer costs £30 to £180, so the airer wins decisively on upfront price. If you already own a heat pump dryer the running costs are close; if you are choosing what to buy, the airer is the low-risk, low-cost option.
+
+We break the dryer side of this down properly in our [tumble dryer running costs guide](/blog/tumble-dryer-running-costs-uk), including why condenser models are usually the most expensive type to run and how quickly a heat pump dryer pays back its price premium.
 
 ## Is a heated airer cheaper than central heating?
 

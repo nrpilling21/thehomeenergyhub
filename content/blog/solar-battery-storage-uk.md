@@ -1,6 +1,6 @@
 ---
-title: "Solar Battery Storage UK 2026: Costs, Savings, and Whether It's Actually Worth It"
-description: "Solar battery storage costs £2,500-£8,000 in the UK in 2026. We break down sizes, brands, real-world payback, when a battery is worth adding, and when you should hold off."
+title: "Solar Battery Storage UK 2026: Costs, Savings and Payback"
+description: "Solar battery storage costs £2,500-£8,000 in the UK in 2026. Sizes, brands, real-world payback, and when a battery is worth adding to panels."
 slug: solar-battery-storage-uk
 date: 2026-05-01
 keywords:

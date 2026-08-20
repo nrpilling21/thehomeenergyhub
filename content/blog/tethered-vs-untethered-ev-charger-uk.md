@@ -1,6 +1,6 @@
 ---
-title: "Tethered vs Untethered EV Charger UK 2026: Which Type Should You Buy?"
-description: "Tethered vs untethered EV chargers compared for UK homeowners: cable lengths, cost differences, theft and weather risks, future-proofing for new cars, and which type wins for driveway, garage and shared parking setups."
+title: "Tethered vs Untethered EV Charger UK 2026: Which to Buy?"
+description: "Tethered vs untethered EV chargers compared: cable length, cost, theft and weather risk, future-proofing, and which suits your driveway or garage."
 date: "2026-06-03"
 author: "The Home Energy Hub"
 category: "ev-chargers"

@@ -1,6 +1,6 @@
 ---
-title: "SMETS1 vs SMETS2 Smart Meters UK 2026: What's the Difference and Which Should You Have?"
-description: "SMETS1 vs SMETS2 explained for UK households: what changed, why SMETS1 meters went dumb, how to tell which one you have, and when to ask your supplier for a free SMETS2 upgrade."
+title: "SMETS1 vs SMETS2 Smart Meters UK 2026: The Difference"
+description: "SMETS1 vs SMETS2 explained: what changed, why SMETS1 meters went dumb, how to tell which you have, and when to ask for a free SMETS2 upgrade."
 date: "2026-05-20"
 author: "The Home Energy Hub"
 category: "energy-saving"

@@ -1,6 +1,6 @@
 ---
 title: "Floor Insulation Cost UK 2026: Prices, Savings and DIY"
-description: "How much does floor insulation cost in the UK? 2026 prices for suspended timber and solid concrete floors, DIY vs professional, plus how much you'll save and which grants apply."
+description: "2026 floor insulation prices for suspended timber and solid concrete floors, DIY vs professional, what you will save, and which grants apply."
 date: "2026-06-05"
 author: "The Home Energy Hub"
 category: "guides"

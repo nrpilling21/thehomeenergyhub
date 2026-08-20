@@ -1,6 +1,6 @@
 ---
 title: "Do Smart Thermostats Save Money? UK Guide for 2026"
-description: "Do smart thermostats really save money in the UK? We break down the realistic savings, how much you can expect off your heating bill, and the best smart thermostats for 2026."
+description: "Do smart thermostats really save money in the UK? The realistic saving off your heating bill, who benefits most, and the best models for 2026."
 date: "2026-07-21"
 author: "The Home Energy Hub"
 category: "energy-saving"

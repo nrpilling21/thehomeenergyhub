@@ -1,6 +1,6 @@
 ---
-title: "Cavity Wall Insulation Cost UK 2026: Bungalow, Semi, Removal and Mortgage Guide"
-description: "Cavity wall insulation costs £400-£1,500 in 2026. Prices for bungalows, 3-bed semis, removal costs, mortgage implications, grants and payback. Updated for 2026."
+title: "Cavity Wall Insulation Cost UK 2026: Prices and Payback"
+description: "Cavity wall insulation costs £400-£1,500 in 2026. Prices for bungalows and 3-bed semis, removal costs, mortgage implications, grants and payback."
 date: "24.04.2026"
 author: "The Home Energy Hub"
 category: "guides"
