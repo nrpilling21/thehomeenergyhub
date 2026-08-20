@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import HeatPumpCalculator from "@/components/HeatPumpCalculator";
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/heat-pump-cost-calculator' },
   title: "Heat Pump Cost Calculator UK (2026) — Free Instant Estimate",
   description:
     "Get a personalised heat pump cost estimate in 2 minutes. Covers air source, ground source, the £7,500 BUS grant, running costs and payback period.",

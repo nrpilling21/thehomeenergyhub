@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/home-insulation-guide-uk' },
   title: "Home Insulation Costs UK 2026: Types, Prices & Savings Guide",
   description:
     "Home insulation costs £300–£13,000 in the UK depending on type. Loft insulation from £300, cavity wall from £450, solid wall from £7,500. Save up to £730/year on energy bills with 0% VAT until 2027.",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     title: "Home Insulation Costs UK 2026: Types, Prices & Savings Guide",
     description:
       "Complete guide to home insulation costs in the UK. Covers loft, cavity wall, solid wall, and floor insulation with prices, savings, and available grants.",
-    url: "https://thehomeenergyhub.co.uk/home-insulation-guide-uk",
+    url: "https://www.thehomeenergyhub.co.uk/home-insulation-guide-uk",
     type: "article",
   },
 };

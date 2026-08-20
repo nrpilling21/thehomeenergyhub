@@ -41,6 +41,26 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
+const AFFILIATE_HOSTS = ['amazon.co.uk', 'amazon.com', 'amzn.to', 'awin1.com', 'zenaps.com'];
+
+/* Build the rel/target attributes for a link in post content.
+  — Affiliate links  -> rel="sponsored nofollow noopener noreferrer" target="_blank"
+  — Other externals  -> rel="noopener noreferrer" target="_blank"
+  — Internal links   -> no extra attributes */
+function linkAttributes(href: string): string {
+  if (!/^https?:\/\//i.test(href)) return '';
+  let host = '';
+  try {
+    host = new URL(href).hostname.replace(/^www\./, '').toLowerCase();
+  } catch {
+    return ' target="_blank" rel="noopener noreferrer"';
+  }
+  if (host.endsWith('thehomeenergyhub.co.uk')) return '';
+  const isAffiliate = AFFILIATE_HOSTS.some(h => host === h || host.endsWith('.' + h));
+  const rel = isAffiliate ? 'sponsored nofollow noopener noreferrer' : 'noopener noreferrer';
+  return ` target="_blank" rel="${rel}"`;
+}
+
 /* Simple markdown to HTML (headings, paragraphs, bold, links, lists, tables, blockquotes) */
 function markdownToHtml(md: string): string {
   return md
@@ -53,10 +73,16 @@ function markdownToHtml(md: string): string {
       if (block.startsWith('### ')) return `<h3 class="text-lg font-display font-semibold mt-8 mb-3">${block.slice(4)}</h3>`;
       if (block.startsWith('## ')) return `<h2 class="text-xl font-display font-semibold mt-10 mb-4">${block.slice(3)}</h2>`;
 
-      // Inline-formatting helper (bold + links)
+      // Inline-formatting helper (bold + links).
+      // External links get rel/target; affiliate links are additionally marked
+      // rel="sponsored nofollow" per Google's link-spam policy and the
+      // Amazon Associates / Awin programme rules.
       const renderInline = (s: string) => s
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" class="text-ink underline">$1</a>');
+        .replace(/\[(.*?)\]\((.*?)\)/g, (_m, label: string, href: string) => {
+          const attrs = linkAttributes(href);
+          return `<a href="${href}" class="text-ink underline"${attrs}>${label}</a>`;
+        });
 
       const lines = block.split('\n');
 
@@ -187,7 +213,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         {/* CTA - yellow background */}
         <div className="bg-yellow rounded-2xl p-8 mt-12 text-center">
           <p className="font-display font-semibold text-lg text-ink mb-2">Get a personalised estimate</p>
-          <p className="text-ink/60 text-base mb-4">Try our free calculators  - no email required.</p>
+          <p className="text-ink/60 text-base mb-4">Try our free calculators — no email required.</p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="/heat-pump-cost-calculator" className="px-6 py-3 bg-ink text-cream-dark rounded-xl font-semibold text-sm hover:opacity-90 transition">
               Heat Pump Calculator

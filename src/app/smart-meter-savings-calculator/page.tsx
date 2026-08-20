@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import SmartMeterSavingsCalculator from "@/components/SmartMeterSavingsCalculator";
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/smart-meter-savings-calculator' },
   title: "Smart Meter Savings Calculator UK (2026) — Free Instant Estimate",
   description:
     "Estimate how much a smart meter could save your household in 2026. Covers visibility savings, load shifting, EV / heat pump / solar tariff arbitrage and SEG export earnings.",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best-ev-charger-uk' },
   title: "Best Home EV Charger UK (2026): Honest Comparison",
   description:
     "Five home EV chargers compared on what matters: smart tariff integration, solar compatibility, build quality, app experience, and installed price.",
@@ -161,7 +162,7 @@ export default function EvChargerPage() {
         power="7.4kW (single-phase)"
         keyFeature="Deep smart tariff integration"
         strengths={[
-          "Automatic smart tariff scheduling  - set your departure time and it handles the rest",
+          "Automatic smart tariff scheduling — set your departure time and it handles the rest",
           "Direct integration with Octopus Energy and other time-of-use tariffs",
           "Solar diversion available (though not as sophisticated as Zappi)",
           "Compact design with tethered cable included",
@@ -186,7 +187,7 @@ export default function EvChargerPage() {
           "Three modes: Fast (full power), Eco (solar + grid), Eco+ (solar only)",
           "Works with MyEnergi Eddi and Harvi for whole-house energy management",
           "British-designed and manufactured",
-          "No subscription fees  - all smart features are free",
+          "No subscription fees — all smart features are free",
         ]}
         weaknesses={[
           "More expensive than competitors",
@@ -214,7 +215,7 @@ export default function EvChargerPage() {
         weaknesses={[
           "Smart tariff integration less automated than Ohme",
           "No native solar diversion",
-          "Tethered cable only  - no untethered option",
+          "Tethered cable only — no untethered option",
         ]}
         bestFor="Someone who wants a reliable, well-designed charger without needing specialist features. The 'just works' option."
         buyUrl="https://www.echargersuk.co.uk"
@@ -229,7 +230,7 @@ export default function EvChargerPage() {
         keyFeature="Simple, reliable, cheapest installed price"
         strengths={[
           "Often the cheapest fully-installed option",
-          "Solid reliability  - Pod Point has been around since 2009",
+          "Solid reliability — Pod Point has been around since 2009",
           "Simple setup and scheduling via app",
           "Untethered socket version available",
         ]}
@@ -251,7 +252,7 @@ export default function EvChargerPage() {
         power="7.4kW (single-phase)"
         keyFeature="Sleek design, bidirectional-ready"
         strengths={[
-          "Premium industrial design  - the best-looking charger on the list",
+          "Premium industrial design — the best-looking charger on the list",
           "Built-in energy monitoring",
           "Designed for future V2G/bidirectional charging support",
           "OCPP 2.0 support",
@@ -328,7 +329,7 @@ export default function EvChargerPage() {
         </p>
         <p>
           For most people, the Ohme Home Pro or Wallbox Pulsar Max will be the right choice. The Ohme
-          if you&apos;re willing to switch to a smart tariff (which you should  - it saves hundreds per
+          if you&apos;re willing to switch to a smart tariff (which you should — it saves hundreds per
           year regardless of charger), the Wallbox if you&apos;d rather keep things simple.
         </p>
       </div>
@@ -423,7 +424,7 @@ function ChargerReview({
   return (
     <section className="mb-10 pb-10 border-b border-plum-light/20 last:border-0">
       <h2 className="text-xl font-display font-semibold text-ink mb-1">
-        {number}. {name}  - {tagline}
+        {number}. {name} — {tagline}
       </h2>
       <div className="flex flex-wrap gap-4 text-sm text-ink/55 mb-4">
         <span>{price}</span>

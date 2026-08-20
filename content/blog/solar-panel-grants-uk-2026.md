@@ -10,6 +10,8 @@ keywords:
   - eco4 replacement
   - solar panel funding uk
 author: The Home Energy Hub
+category: "guides"
+tags: ["solar panel grants uk", "free solar panels uk", "warm homes local grant", "eco4 replacement", "solar panel funding uk", "solar grants 2026"]
 ---
 
 > **Affiliate disclosure:** This post contains affiliate links. If you buy something through these links we may earn a small commission at no extra cost to you. We only recommend products we think are genuinely useful for UK homeowners. See our [full affiliate disclosure](/affiliate-disclosure).

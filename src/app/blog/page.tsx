@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { getAllPosts } from '@/lib/blog';
 
 export const metadata = {
-  title: 'Blog | The Home Energy Hub',
+  alternates: { canonical: '/blog' },
+  title: 'Blog',
   description: 'Expert guides on heat pumps, EV chargers, energy tariffs and saving money on your home energy bills.',
 };
 

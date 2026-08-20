@@ -11,6 +11,8 @@ keywords:
   - best solar battery uk
   - lithium battery home solar
 author: The Home Energy Hub
+category: "guides"
+tags: ["solar battery storage uk", "solar battery cost uk", "home battery storage uk", "solar battery payback uk", "best solar battery uk", "lithium battery home solar"]
 ---
 
 > **Affiliate disclosure:** This post contains affiliate links. If you buy something through these links we may earn a small commission at no extra cost to you. We only recommend products we think are genuinely useful for UK homeowners. [Full disclosure](/affiliate-disclosure).

@@ -11,7 +11,7 @@ const SITE_DESCRIPTION =
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Home Energy Hub  - Independent UK Energy Advice",
+    default: "Home Energy Hub — Independent UK Energy Advice",
     template: "%s | The Home Energy Hub",
   },
   description: SITE_DESCRIPTION,
@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     type: "website",
     siteName: SITE_NAME,
     url: SITE_URL,
-    title: "Home Energy Hub  - Independent UK Energy Advice",
+    title: "Home Energy Hub — Independent UK Energy Advice",
     description: SITE_DESCRIPTION,
     locale: "en_GB",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Home Energy Hub  - Independent UK Energy Advice",
+    title: "Home Energy Hub — Independent UK Energy Advice",
     description: SITE_DESCRIPTION,
   },
 };

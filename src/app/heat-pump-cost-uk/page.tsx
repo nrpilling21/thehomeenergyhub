@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/heat-pump-cost-uk' },
   title: "How Much Does a Heat Pump Cost in the UK? (2026 Guide)",
   description:
     "Heat pumps cost £8,000-£15,000 for air source or £15,000-£35,000 for ground source, installed. With the £7,500 BUS grant and 0% VAT, the real cost is much lower.",
@@ -175,7 +176,7 @@ export default function HeatPumpCostPage() {
         </p>
         <p>
           The comparison looks better when you factor in grants. After the £7,500 BUS grant, an air
-          source heat pump costs roughly £1,500-£2,500 net  - often less than a new boiler
+          source heat pump costs roughly £1,500-£2,500 net — often less than a new boiler
           installation.
         </p>
         <p>
@@ -239,7 +240,7 @@ export default function HeatPumpCostPage() {
 
       <Section title="Is a Heat Pump Worth the Cost?">
         <p>
-          For most homeowners, yes  - particularly when grants are available. After the £7,500 BUS
+          For most homeowners, yes — particularly when grants are available. After the £7,500 BUS
           grant and 0% VAT, air source installations often cost less than replacing a gas boiler.
           Payback periods are typically 8-12 years for air source, 12-18 for ground source.
         </p>
