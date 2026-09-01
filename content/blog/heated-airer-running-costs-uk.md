@@ -70,7 +70,7 @@ We break the dryer side of this down properly in our [tumble dryer running costs
 
 A common mistake is to dry clothes by cranking up the radiators or draping washing over them. Running your gas central heating harder, or worse using a plug-in electric heater to dry a room, costs far more than a 300W airer. A 2kW electric heater costs around 49p an hour to run - more than six times a heated airer - and it heats the whole room rather than the clothes.
 
-Drying clothes on radiators also pushes a lot of moisture into the air, which can lead to condensation and damp on cold walls and windows. A heated airer with a cover keeps that moisture contained, and pairing it with a [dehumidifier](https://www.amazon.co.uk/s?k=dehumidifier&tag=thehomeenergyhub-21) pulls the water straight out of the air. A small dehumidifier draws only about 200W, so the combination still comes in well under the cost of heating the room, while protecting your home from damp. If winter condensation is a problem in your home, our guide to [draught proofing](/blog/draught-proofing-cost-uk) covers the other cheap fixes that keep rooms warmer and drier.
+Drying clothes on radiators also pushes a lot of moisture into the air, which can lead to condensation and damp on cold walls and windows. A heated airer with a cover keeps that moisture contained, and pairing it with a [dehumidifier](https://www.amazon.co.uk/s?k=dehumidifier&tag=thehomeenergyhub-21) pulls the water straight out of the air. A small dehumidifier draws only about 200W, so the combination still comes in well under the cost of heating the room, while protecting your home from damp. Our [dehumidifier running costs guide](/blog/dehumidifier-running-costs-uk) works through the full sums, including why the airer-plus-dehumidifier combination costs no more than the dehumidifier on its own. If winter condensation is a problem in your home, our guide to [draught proofing](/blog/draught-proofing-cost-uk) covers the other cheap fixes that keep rooms warmer and drier.
 
 ## The best heated airers in the UK for 2026
 
@@ -115,7 +115,7 @@ A 300W heated airer run for a full 8 hours uses 2.4 kWh, which costs about 59p a
 Yes, for every type except a heat pump tumble dryer. A covered heated airer costs around 22p a load versus roughly 92p for a vented dryer and £1.37 for a condenser dryer. A modern heat pump dryer is the only one that competes on running cost, but it costs several hundred pounds more to buy.
 
 **Do heated airers cause damp or condensation?**
-They can push moisture into the air like any indoor drying, but far less than draping washing on radiators. Using the cover contains most of the moisture, and running a small dehumidifier alongside removes it entirely while still costing less than heating the room.
+They can push moisture into the air like any indoor drying, but far less than draping washing on radiators. Using the cover contains most of the moisture, and running a [small dehumidifier alongside](/blog/dehumidifier-running-costs-uk) removes it entirely while still costing less than heating the room.
 
 **How long does a heated airer take to dry clothes?**
 Around six to eight hours uncovered, or three to four hours with a cover fitted. A good spin cycle beforehand and spacing the clothes out both speed things up.

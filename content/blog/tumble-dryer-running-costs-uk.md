@@ -84,7 +84,7 @@ The tumble dryer is not the only option, and the cost gap between the alternativ
 | Heat pump dryer | 37p-49p | 2.5-3.5 hours | Fixed appliance space |
 | Condenser dryer | £1.10-£1.35 | 1.5-2 hours | Fixed appliance space |
 
-A [heated airer costs around 7p an hour to run](/blog/heated-airer-running-costs-uk), which makes it the cheapest indoor option and roughly a third of the cost of a condenser dryer per load. It is not quite the free lunch it looks like, though - drying clothes indoors puts several litres of water into the air, and if your home is not well ventilated that shows up as condensation and mould on cold walls. A heated airer with a cover, used in a room with a window cracked open or a dehumidifier running, is the sensible setup.
+A [heated airer costs around 7p an hour to run](/blog/heated-airer-running-costs-uk), which makes it the cheapest indoor option and roughly a third of the cost of a condenser dryer per load. It is not quite the free lunch it looks like, though - drying clothes indoors puts several litres of water into the air, and if your home is not well ventilated that shows up as condensation and mould on cold walls. A heated airer with a cover, used in a room with a window cracked open or a [dehumidifier running](/blog/dehumidifier-running-costs-uk), is the sensible setup. A dehumidifier costs about 5p an hour, so it adds very little to the load and removes the moisture rather than letting it land on your walls.
 
 Interestingly, a heat pump dryer is now close enough to heated airer running costs that the convenience argument tips in the dryer's favour for many households - roughly 40p versus 30p per load, but done in three hours inside a sealed drum that vents the moisture properly rather than into your bedroom.
 
