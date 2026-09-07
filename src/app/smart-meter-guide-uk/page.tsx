@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { EnergyTariffCTA } from "@/components/EnergyTariffCTA";
 
 export const metadata: Metadata = {
   title: "Smart Meters UK 2026: Costs, Savings, Problems and Best IHDs",
@@ -385,6 +386,9 @@ export default function SmartMeterGuideUkPage() {
           </div>
         ))}
       </div>
+
+      {/* Tariff CTA (BL-119) — this pillar sits in the smart-meter cluster. */}
+      <EnergyTariffCTA />
 
       {/* Calculator CTA */}
       <div className="bg-ink rounded-2xl p-6 mt-12 mb-12">

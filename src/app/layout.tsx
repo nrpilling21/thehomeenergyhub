@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { OutboundTracker } from "@/components/OutboundTracker";
 
 const SITE_URL = "https://www.thehomeenergyhub.co.uk";
 const SITE_NAME = "The Home Energy Hub";
@@ -72,6 +74,8 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <OutboundTracker />
+        <Analytics />
       </body>
     </html>
   );

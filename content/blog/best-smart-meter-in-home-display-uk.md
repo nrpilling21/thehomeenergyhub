@@ -63,7 +63,7 @@ The Hildebrand Glow IHD is the UK's best third-party smart meter display. It pai
 
 Why it wins for most households: it is the only IHD that gives you a kitchen display AND a phone app from one purchase, the data is pulled directly from the meter via DCC rather than relying on a flaky Zigbee link to a single room, and the Bright app history is significantly better than anything a supplier-issued IHD shows you. You can see half-hourly export if you have solar, daily and weekly trends, and tariff-aware spend rather than just kWh.
 
-It costs around £69 from the Hildebrand store. There is no subscription. It works with all UK suppliers because it goes via DCC rather than a supplier API. If you only buy one upgrade, this is it. Pair it with a [smart plug with timer](https://www.amazon.co.uk/s?k=smart+plug+timer+alexa&tag=thehomeenergyhub-21) and you can match high-consumption appliances to off-peak windows manually before you go all-in on a time-of-use tariff.
+It costs around £69 from the Hildebrand store. There is no subscription. It works with all UK suppliers because it goes via DCC rather than a supplier API. If you only buy one upgrade, this is it. Pair it with a [smart plug with energy monitoring](https://www.amazon.co.uk/dp/B0B831STBX?tag=thehomeenergyhub-21) and you can match high-consumption appliances to off-peak windows manually before you go all-in on a time-of-use tariff.
 
 ### 2. Chameleon IHD3 / IHD6 -- best free supplier-issued option
 
@@ -147,7 +147,7 @@ Yes - and it is one of the few genuinely useful upgrades in home energy that cos
 
 There are two routes. The first is a DCC-connected IHD, which reads your consumption through the national smart metering network rather than a local radio link to the meter. The Hildebrand Glow IHD (around £69) is effectively the only mainstream consumer option here, and it is the one to buy if you want a proper display you own outright. You give Hildebrand consent to read your meter through the DCC, and the display works anywhere in the house on your wifi.
 
-The second route is a smart energy monitor - a [CT-clip energy monitor](https://www.amazon.co.uk/s?k=smart+energy+monitor+ct+clamp+uk&tag=thehomeenergyhub-21) such as the Geo Cosy (£45-£90) or the Loop (£150+ installed). These do not read the meter at all; they measure current on your incoming cable. You can buy and fit them without involving your supplier, they work whether or not you have a smart meter, and they are the right answer if what you actually want is appliance-level detail rather than a mirror of the meter.
+The second route is a smart energy monitor - a [CT-clip energy monitor](https://www.amazon.co.uk/dp/B0CKTGXFFR?tag=thehomeenergyhub-21) such as the Geo Cosy (£45-£90) or the Loop (£150+ installed). These do not read the meter at all; they measure current on your incoming cable. You can buy and fit them without involving your supplier, they work whether or not you have a smart meter, and they are the right answer if what you actually want is appliance-level detail rather than a mirror of the meter.
 
 What you cannot buy is the meter itself, or a supplier-commissioned IHD that will pair with your existing meter. Anyone selling you a "replacement smart meter" for a domestic property is selling you something you cannot legally have installed outside a supplier's own programme.
 

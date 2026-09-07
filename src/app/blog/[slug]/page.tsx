@@ -1,6 +1,7 @@
 import { getAllPosts, getPostBySlug } from '@/lib/blog';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { EnergyTariffCTA } from '@/components/EnergyTariffCTA';
 
 const SITE_URL = 'https://www.thehomeenergyhub.co.uk';
 const SITE_NAME = 'The Home Energy Hub';
@@ -133,6 +134,12 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
   if (!post) notFound();
 
   const contentHtml = markdownToHtml(post.content);
+
+  /* Smart-meter cluster detection: tag-based so future posts are covered
+     automatically without touching this file. */
+  const isSmartMeterPost = (post.tags || []).some(t =>
+    /smart meter|in-home display|ihd|smets/i.test(t)
+  );
   const url = `${SITE_URL}/blog/${params.slug}`;
 
   // BlogPosting JSON-LD - emitted on every blog post
@@ -209,6 +216,10 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         <p className="text-lg text-ink/60 mb-10 leading-relaxed">{post.description}</p>
 
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+
+        {/* Tariff CTA on the smart-meter cluster — these posts carry ~88% of
+            site clicks and the reader is an engaged bill-payer (BL-119). */}
+        {isSmartMeterPost && <EnergyTariffCTA />}
 
         {/* CTA - yellow background */}
         <div className="bg-yellow rounded-2xl p-8 mt-12 text-center">

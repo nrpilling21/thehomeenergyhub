@@ -441,23 +441,17 @@ export default function HeatPumpCalculator() {
           </div>
 
           <div className="bg-cream-dark rounded-2xl p-5 mb-8">
-            <div className="text-sm font-semibold text-ink mb-1">Save your estimate</div>
+            <div className="text-sm font-semibold text-ink mb-1">Check what you could claim first</div>
             <p className="text-xs text-ink/60 mb-3">
-              Get a copy of this estimate plus our free guide to choosing the right heat pump.
+              The Boiler Upgrade Scheme takes a large chunk off the installed price, and it
+              changes the payback maths above more than any quote you will get.
             </p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="flex-1 text-sm px-3 py-2.5 rounded-lg border border-plum-light/30 bg-cream placeholder-ink/30 focus:outline-none focus:border-plum-light"
-              />
-              <button
-                className="px-4 py-2.5 rounded-lg text-sm font-medium text-cream-dark flex-shrink-0 bg-ink hover:opacity-90 transition-colors"
-              >
-                Send
-              </button>
-            </div>
-            <p className="text-xs text-ink/70 mt-2">No spam. Unsubscribe anytime.</p>
+            <a
+              href="/blog/heat-pump-grants-uk-bus-grant-2026"
+              className="inline-block px-4 py-2.5 rounded-lg text-sm font-medium text-cream-dark bg-ink hover:opacity-90 transition-colors"
+            >
+              Read: heat pump grants explained
+            </a>
           </div>
 
           <div className="flex items-center justify-center gap-6 text-xs text-ink/70 mb-6">

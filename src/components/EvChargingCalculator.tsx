@@ -357,23 +357,17 @@ export default function EvChargingCalculator() {
 
           {/* Email capture */}
           <div className="bg-cream-dark rounded-2xl p-5 mb-8">
-            <div className="text-sm font-semibold text-ink mb-1">Get our free EV charging guide</div>
+            <div className="text-sm font-semibold text-ink mb-1">Charging at the wrong rate?</div>
             <p className="text-xs text-ink/60 mb-3">
-              Smart tariff tips, charger recommendations, and how to cut your charging costs even further.
+              An EV on a standard tariff can cost three times more to charge than one on a
+              dedicated overnight EV rate. That gap is usually bigger than the charger you choose.
             </p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="flex-1 text-sm px-3 py-2.5 rounded-lg border border-plum-light/30 bg-cream placeholder-ink/30 focus:outline-none focus:border-plum-light"
-              />
-              <button
-                className="px-4 py-2.5 rounded-lg text-sm font-medium text-cream-dark flex-shrink-0 bg-ink hover:opacity-90 transition-colors"
-              >
-                Send
-              </button>
-            </div>
-            <p className="text-xs text-ink/70 mt-2">No spam. Unsubscribe anytime.</p>
+            <a
+              href="/best-ev-tariff-uk"
+              className="inline-block px-4 py-2.5 rounded-lg text-sm font-medium text-cream-dark bg-ink hover:opacity-90 transition-colors"
+            >
+              Compare UK EV tariffs
+            </a>
           </div>
 
           <div className="flex items-center justify-center gap-6 text-xs text-ink/70 mb-6">
