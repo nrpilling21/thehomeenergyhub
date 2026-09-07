@@ -17,7 +17,14 @@
   smart-meter cluster and the pillar page.
 
   Until then `enabled` stays false and the CTA renders an honest internal
-  destination instead of a dead or placeholder outbound link.
+  destination instead of a dead or placeholder outbound link. The interim
+  destination is the savings calculator, which also feeds the site's weakest
+  tracked asset (BL-060: 63 impressions, 0 clicks).
+
+  NOTE when activating: also add <EnergyTariffCTA /> back to
+  src/app/smart-meter-guide-uk/page.tsx. It is deliberately absent while the
+  partner is disabled, because that page already has a prominent CTA to the
+  same interim destination and two identical CTAs would be redundant.
 */
 
 export type Partner = {
@@ -32,8 +39,8 @@ export type Partner = {
 export const partners: Record<string, Partner> = {
   energySwitch: {
     enabled: false,
-    href: '/smart-meter-guide-uk#saving-money',
-    cta: 'How to check you are on the right tariff',
+    href: '/smart-meter-savings-calculator',
+    cta: 'Estimate what a better tariff could save you',
   },
 };
 
