@@ -138,7 +138,7 @@ Yes, and it is not close.
 | Large dehumidifier | 300W | 7.9p |
 | Plug-in electric heater | 2kW | 52.6p |
 
-A 2kW plug-in electric heater costs roughly **ten times** as much per hour as a mid-size dehumidifier. If the problem you are solving is condensation on the windows or a damp patch behind furniture, reaching for a heater is the expensive answer to the wrong question. Cold air holds less moisture, so heating a room does reduce condensation - but you are paying central-heating money to achieve what a 5p-an-hour appliance does directly.
+A 2kW plug-in electric heater costs roughly **ten times** as much per hour as a mid-size dehumidifier (the full breakdown by heater type is in our [electric heater running costs](/blog/electric-heater-running-costs-uk) guide). If the problem you are solving is condensation on the windows or a damp patch behind furniture, reaching for a heater is the expensive answer to the wrong question. Cold air holds less moisture, so heating a room does reduce condensation - but you are paying central-heating money to achieve what a 5p-an-hour appliance does directly.
 
 Where the same logic applies at scale is the fabric of the house. Cold external walls are where condensation lands, and warming those surfaces permanently costs far less than running heaters at them. Our guides to [cavity wall insulation costs](/blog/cavity-wall-insulation-cost-uk) and [draught proofing](/blog/draught-proofing-cost-uk) cover the fixes that reduce the condensation load in the first place, and the [home insulation guide](/home-insulation-guide-uk) puts them in order of payback.
 

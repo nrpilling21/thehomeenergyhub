@@ -147,3 +147,5 @@ Tumble dryer running costs in 2026 come down almost entirely to which of three t
 If you are not in the market for a new machine, the two changes worth making today cost nothing: spin at the highest speed your fabrics allow before drying, and clean the lint filter every cycle. Between them they will take 20-25% off your cycle times. Add a shift to off-peak drying on a time-of-use tariff and you can cut a condenser dryer's annual cost by more than half without replacing anything.
 
 And if you are weighing up the alternatives, our [heated airer running costs guide](/blog/heated-airer-running-costs-uk) has the full comparison - including the ventilation problem nobody mentions when they tell you to just dry clothes indoors.
+
+And if the reason you are drying indoors is that the house is cold, be careful what you reach for: our [electric heater running costs](/blog/electric-heater-running-costs-uk) guide shows why a 2kW plug-in heater at 52.6p an hour is by far the most expensive way to solve that problem.
