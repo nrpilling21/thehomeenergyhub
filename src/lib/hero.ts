@@ -21,8 +21,8 @@ const CREAM_DARK = '#F9F4F1';
 const MUTED = 'rgba(40, 3, 15, 0.18)';
 
 const W = 1200;
-const H = 240;
-const MID = 128;
+const H = 188;
+const MID = 96;
 
 type Glyph = (cx: number, fill: string) => string;
 
