@@ -65,5 +65,16 @@ needed:
   renders nothing rather than breaking the page. Match the decimal places to
   the table the chart sits next to.
 
-If a real photograph is ever added, put `BlogPosting.image` on it instead of
-the OG card.
+- **Hero bands.** `src/lib/hero.ts` renders a flat geometric band at the top of
+  each post, built from primitives in the brand palette. The motif is selected
+  by keyword from the post's slug and tags, so no one has to assign artwork.
+  To add a motif, write a glyph function and add a `MOTIFS` entry with its
+  keywords; unknown topics fall back to `bars`. Keep glyphs geometric — a row
+  of well-spaced shapes reads as deliberate design, a hand-drawn appliance
+  does not.
+
+**Do not use stock photography.** The same stock image appears on every
+competitor's page, Google gives decorative stock little credit, and each one is
+a file somebody has to source, licence and maintain. Generate instead. If a
+genuinely original photograph is ever taken, point `BlogPosting.image` at it
+instead of the OG card.

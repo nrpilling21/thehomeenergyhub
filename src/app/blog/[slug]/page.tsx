@@ -1,5 +1,6 @@
 import { getAllPosts, getPostBySlug, toIsoDateTime } from '@/lib/blog';
 import { renderChart } from '@/lib/charts';
+import { renderHero } from '@/lib/hero';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { EnergyTariffCTA } from '@/components/EnergyTariffCTA';
@@ -226,6 +227,15 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 
         <h1 className="text-3xl font-display font-normal text-ink mb-4 leading-tight">{post.title}</h1>
         <p className="text-lg text-ink/60 mb-10 leading-relaxed">{post.description}</p>
+
+        {/* Generated topic band. Geometric rather than photographic, and built
+            in code, so there is no stock licence to track and no image file to
+            maintain — see src/lib/hero.ts. */}
+        <div
+          dangerouslySetInnerHTML={{
+            __html: renderHero(post.slug, post.tags, `${post.title} — The Home Energy Hub`),
+          }}
+        />
 
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
