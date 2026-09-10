@@ -14,6 +14,9 @@ export function Footer() {
               <Link href="/ev-charging-cost-calculator" className="block hover:text-gray-700">
                 EV Charging Cost Calculator
               </Link>
+              <Link href="/smart-meter-savings-calculator" className="block hover:text-gray-700">
+                Smart Meter Savings Calculator
+              </Link>
             </div>
           </div>
           <div>

@@ -62,14 +62,19 @@ const CLUSTERS: { keywords: string[]; cta: PostCta }[] = [
     /* Appliance running costs. Every figure in these guides is the unit rate
        multiplied by something, so the tariff is the one lever the reader can
        actually pull — which makes the savings calculator the honest next step
-       rather than a calculator for equipment they were not reading about. */
+       rather than a calculator for equipment they were not reading about.
+
+       The copy deliberately does NOT claim the guide uses the current price
+       cap. Several of these posts are still on the stale 24.5p rate (BL-109),
+       so that claim would be false on the very pages it appears. Keep it
+       true-on-every-post until BL-109 is finished. */
     keywords: [
       'running cost', 'running costs', 'heater', 'radiator', 'dehumidifier',
       'airer', 'tumble', 'dryer', 'laundry', 'thermostat', 'damp',
     ],
     cta: {
       heading: 'The unit rate drives every figure above',
-      body: 'Costs here use the current price cap. If you are on a different tariff, see what the gap is worth over a year — no email required.',
+      body: 'Every figure here is a unit rate multiplied by hours. Yours may not be the one we used — see what the difference is worth over a year, no email required.',
       primary: { label: 'Smart Meter Savings Calculator', href: '/smart-meter-savings-calculator' },
       secondary: { label: 'Do smart meters save money?', href: '/blog/do-smart-meters-save-you-money-uk' },
     },
