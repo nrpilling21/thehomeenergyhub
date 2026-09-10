@@ -1,4 +1,5 @@
 import { getAllPosts, getPostBySlug, toIsoDateTime } from '@/lib/blog';
+import { renderChart } from '@/lib/charts';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { EnergyTariffCTA } from '@/components/EnergyTariffCTA';
@@ -69,6 +70,12 @@ function markdownToHtml(md: string): string {
     .map(block => {
       block = block.trim();
       if (!block) return '';
+
+      /* Charts: a `[chart:<id>]` line is replaced with generated SVG whose
+         figures are computed from the rate constants, so a chart can never
+         disagree with the prose around it. Unknown ids render nothing. */
+      const chartMatch = block.match(/^\[chart:([a-z0-9-]+)\]$/);
+      if (chartMatch) return renderChart(chartMatch[1]) ?? '';
 
       // Headings
       if (block.startsWith('### ')) return `<h3 class="text-lg font-display font-semibold mt-8 mb-3">${block.slice(4)}</h3>`;
@@ -148,6 +155,11 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.description,
+    /* The generated Open Graph card doubles as the Article image. Google's
+       Rich Results Test reports a missing `image` without it, and article
+       rich results are much less likely to be granted. Stable URL (no cache
+       key) so the value does not churn between builds. */
+    image: [`${url}/opengraph-image`],
     datePublished: toIsoDateTime(post.date),
     dateModified: toIsoDateTime(post.date),
     author: {

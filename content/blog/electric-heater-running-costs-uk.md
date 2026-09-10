@@ -39,6 +39,8 @@ This is the nameplate cost - what the heater draws when it is actually on, runni
 | Large oil-filled radiator | 2,500W | 65.8p | £2.63 | £3.29 |
 | Fan heater on maximum | 3,000W | 79.0p | £3.16 | £3.95 |
 
+[chart:electric-heater-cost-per-hour]
+
 Two things fall out of this table immediately.
 
 The first is that **the type of heater barely matters**. A 2kW fan heater and a 2kW convector cost exactly the same to run, because every electric resistance heater on the UK market is 100% efficient. All of the electricity becomes heat. There is no such thing as a more efficient bar fire or a more efficient ceramic element - the marketing around this is noise.
@@ -57,6 +59,8 @@ That changes the numbers substantially.
 | Thermostat, 60% duty cycle | 23.7p | £1.18 | £142.13 |
 | Thermostat, 50% duty cycle | 19.7p | £0.99 | £118.44 |
 | Thermostat, 40% duty cycle | 15.8p | £0.79 | £94.75 |
+
+[chart:electric-heater-thermostat-saving]
 
 The difference between the worst and best rows is **£142 across one winter**, on the same heater, in the same room. That is what the thermostat is worth.
 
@@ -86,6 +90,8 @@ This is the comparison that decides whether a plug-in heater is a smart move or 
 | Gas boiler at 80% efficiency | 9.96p |
 | Heat pump at SCOP 3.0 | 8.77p |
 | Heat pump at SCOP 3.5 | 7.52p |
+
+[chart:heat-source-cost-per-kwh]
 
 Electric resistance heat costs roughly **three times as much per unit as gas**. So as a rule, using electric heaters instead of your central heating makes you poorer.
 

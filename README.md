@@ -46,3 +46,24 @@ Posts are published under the site byline from each post's `author`
 frontmatter ("The Home Energy Hub"). Do not introduce invented personal author
 names or stock-photo headshots — the blog index previously did this and it
 contradicted both the article pages and the JSON-LD `author` value.
+
+### Images: generated, not sourced
+The site publishes no photography. Two generated systems cover what images are
+needed:
+
+- **Open Graph cards.** `src/lib/og.tsx` renders a branded 1200x630 card from
+  the page title via `next/og`; `opengraph-image.tsx` at the site root and
+  under `blog/[slug]` wire it up. This gives every page an `og:image` and
+  `twitter:image`, and supplies the `image` field on the BlogPosting schema
+  (Google's Rich Results Test reports a missing-image warning without it).
+  No image files exist in the repo and none need maintaining.
+- **Data charts.** `src/lib/charts.ts` renders inline SVG bar charts whose
+  figures are **computed from the constants in `energy-rates.ts`**, never typed
+  in, so a chart cannot drift from the prose beside it and the quarterly cap
+  change updates every chart automatically. Drop `[chart:<id>]` on its own line
+  in a post; the markdown renderer swaps it for the SVG, and an unknown id
+  renders nothing rather than breaking the page. Match the decimal places to
+  the table the chart sits next to.
+
+If a real photograph is ever added, put `BlogPosting.image` on it instead of
+the OG card.

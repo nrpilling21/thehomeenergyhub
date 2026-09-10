@@ -38,6 +38,8 @@ The only variable that catches people out is the power rating, because dehumidif
 | Extra-large compressor (25L/day) | 480W | 12.6p |
 | Desiccant (7 to 10L/day) | 650W | 17.1p |
 
+[chart:dehumidifier-cost-per-hour]
+
 The 200W to 300W band covers the vast majority of dehumidifiers sold to UK households, which is why the headline answer to this question is roughly 5p to 8p an hour.
 
 If you want your own machine's real draw rather than the plate rating, a [plug-in energy monitor](https://www.amazon.co.uk/s?k=plug+in+energy+monitor&tag=thehomeenergyhub-21) sits between the plug and the socket and reports actual kWh over a real session. For dehumidifiers this is more revealing than for most appliances, for a reason we come to next.
