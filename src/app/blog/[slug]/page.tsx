@@ -1,4 +1,4 @@
-import { getAllPosts, getPostBySlug } from '@/lib/blog';
+import { getAllPosts, getPostBySlug, toIsoDateTime } from '@/lib/blog';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { EnergyTariffCTA } from '@/components/EnergyTariffCTA';
@@ -148,8 +148,8 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.description,
-    datePublished: post.date,
-    dateModified: post.date,
+    datePublished: toIsoDateTime(post.date),
+    dateModified: toIsoDateTime(post.date),
     author: {
       '@type': 'Organization',
       name: post.author,

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { ELECTRICITY_PER_KWH } from "@/lib/energy-rates";
 
 /* ── Data ── */
 const VEHICLES = [
@@ -18,7 +19,7 @@ const MILEAGE = [
 ];
 
 const TARIFF = [
-  { label: "Standard tariff", id: "standard", rate: 0.245, desc: "Charging anytime at your normal rate" },
+  { label: "Standard tariff", id: "standard", rate: ELECTRICITY_PER_KWH, desc: "Charging anytime at your normal rate" },
   { label: "EV/off-peak tariff", id: "offpeak", rate: 0.075, desc: "e.g. Octopus Go, Intelligent Octopus" },
   { label: "Solar panels at home", id: "solar", rate: 0.0, desc: "Free charging from your own panels" },
 ];

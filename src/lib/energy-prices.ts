@@ -1,3 +1,5 @@
+import { ELECTRICITY_PER_KWH, GAS_PER_KWH, ELECTRICITY_PENCE_PER_KWH } from "@/lib/energy-rates";
+
 const OCTOPUS_BASE = "https://api.octopus.energy/v1";
 const ELEC_TARIFF = "E-1R-VAR-22-11-01-A";
 const GAS_TARIFF = "G-1R-VAR-22-11-01-A";
@@ -21,13 +23,13 @@ export async function getEnergyPrices(): Promise<EnergyPrices> {
     const elecRate = elecData.results?.[0]?.value_inc_vat;
     const gasRate = gasData.results?.[0]?.value_inc_vat;
     return {
-      electricity: elecRate ? elecRate / 100 : 0.2467,
-      gas: gasRate ? gasRate / 100 : 0.0574,
+      electricity: elecRate ? elecRate / 100 : ELECTRICITY_PER_KWH,
+      gas: gasRate ? gasRate / 100 : GAS_PER_KWH,
       source: "octopus",
       fetchedAt: new Date().toISOString(),
     };
   } catch {
-    return { electricity: 0.2467, gas: 0.0574, source: "ofgem-fallback", fetchedAt: new Date().toISOString() };
+    return { electricity: ELECTRICITY_PER_KWH, gas: GAS_PER_KWH, source: "ofgem-fallback", fetchedAt: new Date().toISOString() };
   }
 }
 
@@ -44,8 +46,8 @@ export async function getEvTariffRates(): Promise<EvTariffRates> {
     const rates = data.results || [];
     const offPeak = rates.find((r: { value_inc_vat: number }) => r.value_inc_vat < 10);
     const peak = rates.find((r: { value_inc_vat: number }) => r.value_inc_vat >= 10);
-    return { offPeakPence: offPeak?.value_inc_vat || 7.5, peakPence: peak?.value_inc_vat || 24.5, source: "octopus-go" };
+    return { offPeakPence: offPeak?.value_inc_vat || 7.5, peakPence: peak?.value_inc_vat || ELECTRICITY_PENCE_PER_KWH, source: "octopus-go" };
   } catch {
-    return { offPeakPence: 7.5, peakPence: 24.5, source: "fallback" };
+    return { offPeakPence: 7.5, peakPence: ELECTRICITY_PENCE_PER_KWH, source: "fallback" };
   }
 }

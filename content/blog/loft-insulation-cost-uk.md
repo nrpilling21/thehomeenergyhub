@@ -140,7 +140,7 @@ For most homeowners simply looking to top up their loft insulation, mineral wool
 
 5. **Lag your pipes and tanks.** While you're in the loft, insulate any exposed water pipes with [foam pipe lagging](https://www.amazon.co.uk/s?k=foam+pipe+lagging+22mm&tag=thehomeenergyhub-21) and fit a [hot water cylinder jacket](https://www.amazon.co.uk/s?k=hot+water+cylinder+jacket+80mm&tag=thehomeenergyhub-21) if your tank doesn't already have one. Both jobs together cost under £30 in materials, take an hour, and prevent frozen pipes in winter while cutting standing heat loss from the cylinder by up to 75%.
 
-6. **Consider your whole home.** Loft insulation is a great start, but for the biggest savings, combine it with [cavity wall insulation](/blog/cavity-wall-insulation-cost-uk), [draught-proofing](/blog/draught-proofing-cost-uk), and an efficient heating system. If you're thinking about a heat pump, check our [heat pump cost calculator](/heat-pump-cost-calculator) to see what you could save.
+6. **Consider your whole home.** Loft insulation is a great start, but for the biggest savings, combine it with [cavity wall insulation](/blog/cavity-wall-insulation-cost-uk), [floor insulation](/blog/floor-insulation-cost-uk), [draught-proofing](/blog/draught-proofing-cost-uk), and an efficient heating system. If you're thinking about a heat pump, check our [heat pump cost calculator](/heat-pump-cost-calculator) to see what you could save.
 
 ## FAQ
 

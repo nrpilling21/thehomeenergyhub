@@ -36,7 +36,7 @@ const FAQ_SCHEMA = {
       acceptedAnswer: {
         "@type": "Answer",
         text:
-          "Usually, yes — but only with the right tariff. A modern air source heat pump runs at a coefficient of performance (COP) of 3-4, meaning it delivers 3-4 units of heat for every 1 unit of electricity. On a heat-pump-specific tariff like Octopus Cosy (12-15p/kWh off-peak), a well-insulated home pays around £800-£1,100 per year for heating and hot water, vs £1,000-£1,400 on gas. On the standard Ofgem unit rate of 24.5p/kWh, the savings disappear — so a smart meter and an EV/heat-pump tariff are essential to make the numbers work.",
+          "Usually, yes — but only with the right tariff. A modern air source heat pump runs at a coefficient of performance (COP) of 3-4, meaning it delivers 3-4 units of heat for every 1 unit of electricity. On a heat-pump-specific tariff like Octopus Cosy (12-15p/kWh off-peak), a well-insulated home pays around £800-£1,100 per year for heating and hot water, vs £1,000-£1,400 on gas. On the standard Ofgem unit rate of 26.32p/kWh, the savings disappear — so a smart meter and an EV/heat-pump tariff are essential to make the numbers work.",
       },
     },
     {

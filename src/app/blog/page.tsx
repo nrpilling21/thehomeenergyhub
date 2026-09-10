@@ -7,24 +7,13 @@ export const metadata = {
   description: 'Expert guides on heat pumps, EV chargers, energy tariffs and saving money on your home energy bills.',
 };
 
-const AUTHORS = [
-  { name: 'Sophie Carter', avatar: 'https://randomuser.me/api/portraits/women/44.jpg', initials: 'SC' },
-  { name: 'James Whitfield', avatar: 'https://randomuser.me/api/portraits/men/32.jpg', initials: 'JW' },
-  { name: 'Priya Sharma', avatar: 'https://randomuser.me/api/portraits/women/68.jpg', initials: 'PS' },
-  { name: 'Daniel Brooks', avatar: 'https://randomuser.me/api/portraits/men/75.jpg', initials: 'DB' },
-];
-
-function hashSlug(slug: string): number {
-  let h = 0;
-  for (let i = 0; i < slug.length; i++) {
-    h = ((h << 5) - h) + slug.charCodeAt(i);
-    h |= 0;
-  }
-  return Math.abs(h);
-}
-
-function getAuthor(slug: string) {
-  return AUTHORS[hashSlug(slug) % AUTHORS.length];
+function initialsOf(name: string): string {
+  return name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map(w => w[0].toUpperCase())
+    .join('');
 }
 
 function readTime(text: string): number {
@@ -46,7 +35,6 @@ export default function BlogIndex() {
         <div className="grid gap-6">
           {posts.map(post => {
             const minutes = post.content ? readTime(post.content) : 8;
-            const author = getAuthor(post.slug);
             return (
               <Link key={post.slug} href={`/blog/${post.slug}`}>
                 <article className="bg-cream-dark rounded-2xl p-6 hover:shadow-md transition-all">
@@ -68,17 +56,10 @@ export default function BlogIndex() {
                   <h2 className="text-xl font-display font-semibold mb-2">{post.title}</h2>
                   <p className="text-ink/60 text-base leading-relaxed mb-3">{post.description}</p>
                   <div className="flex items-center gap-2">
-                    <div className="w-6 h-6 rounded-full bg-ink/10 flex items-center justify-center overflow-hidden">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={author.avatar}
-                        alt={author.name}
-                        width={24}
-                        height={24}
-                        className="w-full h-full object-cover"
-                      />
+                    <div className="w-6 h-6 rounded-full bg-ink/10 flex items-center justify-center text-[9px] font-semibold text-ink/50">
+                      {initialsOf(post.author)}
                     </div>
-                    <span className="text-xs text-ink/50">{author.name}</span>
+                    <span className="text-xs text-ink/50">{post.author}</span>
                   </div>
                 </article>
               </Link>

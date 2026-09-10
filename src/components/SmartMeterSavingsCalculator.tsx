@@ -44,7 +44,7 @@ const SHIFT = [
 
 // Per-asset annual saving ranges (£/yr) at average UK use
 const ASSET_SAVINGS: Record<Asset, { low: number; high: number }> = {
-  ev: { low: 400, high: 700 },        // Octopus Go / Intelligent — 7-10p vs 24.5p flat
+  ev: { low: 400, high: 700 },        // Octopus Go / Intelligent — 7-10p vs 26.32p flat
   hp: { low: 200, high: 500 },        // Cosy tariff savings vs flat rate
   solar: { low: 100, high: 250 },     // SEG export (avg 4kW)
   battery: { low: 150, high: 400 },   // TOU arbitrage on cheap windows

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { ELECTRICITY_PER_KWH, GAS_PER_KWH } from "@/lib/energy-rates";
 
 const PROPERTY_TYPES = [
   { label: "Flat / Apartment", id: "flat" },
@@ -54,13 +55,13 @@ const PUMP_TYPES = [
 ];
 
 const CURRENT_HEATING = [
-  { label: "Gas boiler", id: "gas", costPerKwh: 0.065, efficiency: 0.92 },
+  { label: "Gas boiler", id: "gas", costPerKwh: GAS_PER_KWH, efficiency: 0.92 },
   { label: "Oil boiler", id: "oil", costPerKwh: 0.075, efficiency: 0.85 },
-  { label: "Electric heating", id: "electric", costPerKwh: 0.245, efficiency: 1.0 },
+  { label: "Electric heating", id: "electric", costPerKwh: ELECTRICITY_PER_KWH, efficiency: 1.0 },
   { label: "LPG boiler", id: "lpg", costPerKwh: 0.085, efficiency: 0.89 },
 ];
 
-const ELEC = 0.245;
+const ELEC = ELECTRICITY_PER_KWH;
 const HOURS = 2000;
 
 function fmt(v: number) {

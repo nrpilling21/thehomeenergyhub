@@ -10,6 +10,12 @@ export interface BlogPost {
   category: 'heat-pumps' | 'ev-chargers' | 'energy-tariffs' | 'guides';
   tags: string[];
   content: string;
+  /* NOT read from frontmatter. No post has a `faq:` key and the line-based
+     frontmatter parser could not hold nested YAML if one did. This is populated
+     by extractFaq(content) below, which parses the post's own visible FAQ
+     section. To extend a post's FAQPage schema, add an H3 (or a bold question)
+     under its FAQ heading -- nothing else is required. Renaming that H2 to
+     something outside the regex in extractFaq silently drops the schema. */
   faq?: { q: string; a: string }[];
 }
 
@@ -21,6 +27,16 @@ function parseDate(dateStr: string): Date {
     return new Date(`${dotMatch[3]}-${dotMatch[2]}-${dotMatch[1]}`);
   }
   return new Date(dateStr);
+}
+
+/* Schema.org datePublished/dateModified must be a full ISO 8601 datetime with
+   a timezone offset. Frontmatter dates are bare calendar dates (YYYY-MM-DD or
+   DD.MM.YYYY), which Google's Rich Results Test reports as "Invalid datetime
+   value" / "missing a timezone", so normalise before emitting them. Returns
+   the input unchanged if it cannot be parsed, rather than emitting nonsense. */
+export function toIsoDateTime(dateStr: string): string {
+  const d = parseDate(dateStr);
+  return isNaN(d.getTime()) ? dateStr : d.toISOString();
 }
 
 function parseFrontmatter(fileContent: string): { data: Record<string, unknown>; content: string } {

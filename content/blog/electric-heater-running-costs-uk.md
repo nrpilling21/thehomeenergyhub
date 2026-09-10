@@ -121,7 +121,7 @@ The other cheap win is not spending anything on heat at all. Draughts are the re
 
 Six things, roughly in order of how much they are worth.
 
-1. **Use a thermostat and a timer.** Worth up to £142 a winter on a single 1.5kW heater, as the duty-cycle table shows. If your heater has neither, a [plug-in timer or smart plug](https://www.amazon.co.uk/dp/B0B831STBX?tag=thehomeenergyhub-21) adds the timer for under £20 and lets you measure consumption at the same time.
+1. **Use a thermostat and a timer.** Worth up to £142 a winter on a single 1.5kW heater, as the duty-cycle table shows. If your main heating is central rather than electric, the same control logic applies there too - see [do smart thermostats save money](/blog/do-smart-thermostats-save-money-uk). If your heater has neither, a [plug-in timer or smart plug](https://www.amazon.co.uk/dp/B0B831STBX?tag=thehomeenergyhub-21) adds the timer for under £20 and lets you measure consumption at the same time.
 2. **Heat the room you are in, and shut the door.** The whole economic case for a plug-in heater is that it heats a small volume. Leaving the door open removes the advantage.
 3. **Size the heater to the room.** An undersized heater running flat out for four hours costs more than a correctly sized one cycling at 50%.
 4. **Turn the setpoint down before you turn the heater off.** Every degree on the thermostat is worth roughly 5-8% of the heating energy for that room. Dropping from 22C to 20C is a bigger saving than most people expect and is barely noticeable with a jumper on.
