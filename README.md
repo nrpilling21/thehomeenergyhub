@@ -78,3 +78,23 @@ competitor's page, Google gives decorative stock little credit, and each one is
 a file somebody has to source, licence and maintain. Generate instead. If a
 genuinely original photograph is ever taken, point `BlogPosting.image` at it
 instead of the OG card.
+
+### End-of-post CTA
+`src/lib/postCta.ts` picks the call to action at the foot of each blog post by
+matching keywords against the slug (falling back to tags). It was previously
+hardcoded to the heat pump and EV calculators on every post, so a reader
+finishing a laundry running-cost guide was offered a heat pump calculator and
+the smart meter savings calculator never appeared at all.
+
+Notes if you edit it:
+- Cluster order matters. Heat pumps are tested before appliance running costs
+  so `heat-pump-running-costs-2026` gets the heat pump calculator.
+- Matching is slug-first, because tags collide — the tumble dryer post carries
+  the tag "heat pump tumble dryer".
+- Keywords match on word boundaries so short ones ("ev") do not fire inside
+  "every" or "level".
+- `withoutSelfLinks` drops a secondary link that points at the current post.
+- Where no calculator genuinely fits a cluster, the closest pillar guide leads
+  instead. Sending an insulation reader to a heat pump calculator is the
+  problem this file exists to solve, so do not reintroduce it for the sake of
+  keeping a calculator in every CTA.

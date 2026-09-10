@@ -1,6 +1,7 @@
 import { getAllPosts, getPostBySlug, toIsoDateTime } from '@/lib/blog';
 import { renderChart } from '@/lib/charts';
 import { renderHero } from '@/lib/hero';
+import { getPostCta } from '@/lib/postCta';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { EnergyTariffCTA } from '@/components/EnergyTariffCTA';
@@ -149,6 +150,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
     /smart meter|in-home display|ihd|smets/i.test(t)
   );
   const url = `${SITE_URL}/blog/${params.slug}`;
+  const cta = getPostCta(post.slug, post.tags);
 
   // BlogPosting JSON-LD - emitted on every blog post
   const blogPostingSchema = {
@@ -243,17 +245,21 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
             site clicks and the reader is an engaged bill-payer (BL-119). */}
         {isSmartMeterPost && <EnergyTariffCTA />}
 
-        {/* CTA - yellow background */}
+        {/* CTA - matched to the post's cluster (src/lib/postCta.ts) rather than
+            hardcoded, so a reader finishing a laundry running-cost guide is not
+            offered a heat pump calculator. */}
         <div className="bg-yellow rounded-2xl p-8 mt-12 text-center">
-          <p className="font-display font-semibold text-lg text-ink mb-2">Get a personalised estimate</p>
-          <p className="text-ink/60 text-base mb-4">Try our free calculators — no email required.</p>
+          <p className="font-display font-semibold text-lg text-ink mb-2">{cta.heading}</p>
+          <p className="text-ink/60 text-base mb-4">{cta.body}</p>
           <div className="flex gap-3 justify-center flex-wrap">
-            <a href="/heat-pump-cost-calculator" className="px-6 py-3 bg-ink text-cream-dark rounded-xl font-semibold text-sm hover:opacity-90 transition">
-              Heat Pump Calculator
+            <a href={cta.primary.href} className="px-6 py-3 bg-ink text-cream-dark rounded-xl font-semibold text-sm hover:opacity-90 transition">
+              {cta.primary.label}
             </a>
-            <a href="/ev-charging-cost-calculator" className="px-6 py-3 bg-cream border border-ink/15 text-ink rounded-xl font-semibold text-sm hover:border-ink/30 transition">
-              EV Charging Calculator
-            </a>
+            {cta.secondary && (
+              <a href={cta.secondary.href} className="px-6 py-3 bg-cream border border-ink/15 text-ink rounded-xl font-semibold text-sm hover:border-ink/30 transition">
+                {cta.secondary.label}
+              </a>
+            )}
           </div>
         </div>
       </article>
