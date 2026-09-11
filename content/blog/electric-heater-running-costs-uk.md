@@ -119,7 +119,7 @@ The genuinely cheap options are not room heaters at all. They heat the person ra
 | Electric blanket | 100W | 2.6p | £9.48 |
 | Heated throw | 120W | 3.2p | £11.37 |
 
-An electric blanket for the winter costs less than three evenings with a 2kW fan heater. This is the same finding as our [heated airer running costs](/blog/heated-airer-running-costs-uk) guide: the low-wattage, close-to-the-body appliance almost always beats the high-wattage one that heats a whole room.
+An electric blanket for the winter costs less than three evenings with a 2kW fan heater, and we break the sums down properly in our [electric blanket running costs](/blog/electric-blanket-running-costs-uk) guide. This is the same finding as our [heated airer running costs](/blog/heated-airer-running-costs-uk) guide: the low-wattage, close-to-the-body appliance almost always beats the high-wattage one that heats a whole room.
 
 The other cheap win is not spending anything on heat at all. Draughts are the reason a room needs a heater running longer than it should, and [draught-proofing costs £30-£100 in materials](/blog/draught-proofing-cost-uk) with a payback usually inside one winter. Fixing draughts lowers the duty cycle of every heater in the table above, which is the compounding version of a saving.
 

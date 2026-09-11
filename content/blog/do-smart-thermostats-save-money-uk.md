@@ -81,7 +81,7 @@ Not every smart thermostat is heat-pump friendly, so check compatibility before 
 
 ## What about smart radiator valves?
 
-Smart thermostatic radiator valves, or smart TRVs, are the natural companion to a smart thermostat. A single thermostat controls the whole heating system from one point - usually the hallway. Smart TRVs let each room have its own schedule and target temperature, so you can keep a home office warm during the day while the bedrooms stay cool until the evening.
+Smart thermostatic radiator valves, or smart TRVs, are the natural companion to a smart thermostat. A single thermostat controls the whole heating system from one point - usually the hallway. Smart TRVs let each room have its own schedule and target temperature, so you can keep a home office warm during the day while the bedrooms stay cool until the evening. Bedrooms are the easiest room to run cool, particularly if you pair the setback with an [electric blanket at around 2.6p an hour](/blog/electric-blanket-running-costs-uk).
 
 For homes where different rooms are used at very different times, [smart radiator valves](https://www.amazon.co.uk/s?k=smart+radiator+thermostat+valve+trv&tag=thehomeenergyhub-21) can add more saving than the central thermostat on its own. The trade-off is cost - you need one per radiator you want to control, and they add up. Most people start with the thermostat, live with it for a season, and add valves to the two or three rooms where zoning clearly helps.
 

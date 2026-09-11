@@ -21,7 +21,7 @@ It's different from insulation (which slows heat transfer through walls, roofs a
 
 ## How Much Does Draught Proofing Cost in the UK?
 
-For a typical three-bedroom semi-detached house, professional whole-house draught proofing usually costs between **£150 and £300**, with most homeowners paying around **£225 including VAT**. That makes it one of the most affordable energy efficiency upgrades you can make.
+For a typical three-bedroom semi-detached house, professional whole-house draught proofing usually costs between **£150 and £300**, with most homeowners paying around **£225 including VAT**. That makes it one of the most affordable energy efficiency upgrades you can make — and it is the fix that makes running a bedroom cooler tolerable, alongside something like an [electric blanket](/blog/electric-blanket-running-costs-uk).
 
 Here's what you can expect to pay for individual areas:
 

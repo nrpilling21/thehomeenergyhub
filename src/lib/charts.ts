@@ -242,6 +242,49 @@ const CHARTS: Record<string, () => string> = {
     );
   },
 
+  /* Cost per hour by electric blanket type, plus the appliances people reach
+     for instead. The point of the chart is the order-of-magnitude gap. */
+  'electric-blanket-cost-per-hour': () =>
+    barChart(
+      'What an electric blanket costs per hour, and what it replaces',
+      'At the nameplate power draw. Blankets spend most of the night on a low setting well below this.',
+      [
+        { label: 'Single underblanket', w: 60, hi: true },
+        { label: 'Single overblanket', w: 80 },
+        { label: 'Double underblanket', w: 100 },
+        { label: 'Heated throw', w: 120 },
+        { label: 'King underblanket', w: 140 },
+        { label: 'Dehumidifier, mid-size', w: 200 },
+        { label: 'Oil-filled radiator', w: 1500 },
+        { label: 'Fan heater', w: 2000 },
+      ].map(r => ({
+        label: `${r.label} (${r.w.toLocaleString('en-GB')}W)`,
+        value: perHour(r.w),
+        display: p(perHour(r.w)),
+        highlight: r.hi,
+      }))
+    ),
+
+  /* A whole winter of electric blanket use, by how you run it. 120 nights. */
+  'electric-blanket-winter-cost': () => {
+    const NIGHTS = 120;
+    const winter = (kwhPerNight: number) => (kwhPerNight * NIGHTS * ELECTRICITY_PENCE_PER_KWH) / 100;
+    return barChart(
+      'A whole winter on an electric blanket',
+      '120 nights on a 100W double underblanket, by how you use it. Preheat is 30 minutes at full power.',
+      [
+        { label: 'Preheat only, switched off at bedtime', kwh: 0.05, hi: true },
+        { label: 'Preheat, then low setting for 8 hours', kwh: 0.37 },
+        { label: 'Full power all night, 8 hours', kwh: 0.8 },
+      ].map(r => ({
+        label: r.label,
+        value: winter(r.kwh),
+        display: `£${winter(r.kwh).toFixed(2)}`,
+        highlight: r.hi,
+      }))
+    );
+  },
+
   /* The comparison that decides whether electric heating makes sense at all. */
   'heat-source-cost-per-kwh': () =>
     barChart(
