@@ -66,6 +66,7 @@ function barChart(title: string, note: string, rows: Row[]): string {
    appliance charts quote 1dp. */
 const p = (pence: number, dp = 1) => `${pence.toFixed(dp)}p`;
 const gbp = (pence: number) => `£${(pence / 100).toFixed(2)}`;
+const gbpWhole = (pounds: number) => `£${Math.round(pounds).toLocaleString('en-GB')}`;
 
 function perHour(watts: number): number {
   return (watts / 1000) * ELECTRICITY_PENCE_PER_KWH;
@@ -131,6 +132,115 @@ const CHARTS: Record<string, () => string> = {
         display: p(perHour(w as number)),
       }))
     ),
+
+  /* Cost per load by drying method. Computed from kWh per cycle, so every bar
+     matches the per-load table in the tumble dryer guide. */
+  'drying-cost-per-load': () =>
+    barChart(
+      'What it costs to dry one load of washing',
+      'Energy used per cycle multiplied by the unit rate. Typical figures for a full 8kg cotton load.',
+      [
+        { label: 'Heated airer, covered (0.9 kWh)', kwh: 0.9, hi: true },
+        { label: 'Heat pump dryer (1.8 kWh)', kwh: 1.8 },
+        { label: 'Vented dryer (4.5 kWh)', kwh: 4.5 },
+        { label: 'Condenser dryer (5.0 kWh)', kwh: 5.0 },
+        { label: 'Washer-dryer, dry cycle (5.25 kWh)', kwh: 5.25 },
+      ].map(r => {
+        const pence = r.kwh * ELECTRICITY_PENCE_PER_KWH;
+        return {
+          label: r.label,
+          value: pence,
+          display: pence < 100 ? p(pence, 0) : gbp(pence),
+          highlight: r.hi,
+        };
+      })
+    ),
+
+  /* Heated airer cost per load, by how it is run and what it replaces.
+     Computed from power draw x hours, matching the guide's per-load tables. */
+  'heated-airer-cost-per-load': () =>
+    barChart(
+      'Heated airer running cost per load, and what it replaces',
+      'Power draw multiplied by drying time. A cover roughly halves the time, which roughly halves the cost.',
+      [
+        { label: 'Airer, covered, warm room (300W, 3 hours)', w: 300, h: 3, hi: true },
+        { label: 'Airer, covered, cold room (300W, 4 hours)', w: 300, h: 4 },
+        { label: 'Airer, uncovered (300W, 6 hours)', w: 300, h: 6 },
+        { label: 'Airer, uncovered, slow (300W, 8 hours)', w: 300, h: 8 },
+        { label: 'Heat pump dryer (0.8kW, 2.5 hours)', w: 800, h: 2.5 },
+        { label: 'Vented dryer (2.5kW, 1.5 hours)', w: 2500, h: 1.5 },
+        { label: 'Condenser dryer (2.8kW, 2 hours)', w: 2800, h: 2 },
+      ].map(r => {
+        const pence = (r.w / 1000) * r.h * ELECTRICITY_PENCE_PER_KWH;
+        return {
+          label: r.label,
+          value: pence,
+          display: pence < 100 ? p(pence, 0) : gbp(pence),
+          highlight: r.hi,
+        };
+      })
+    ),
+
+  /* The tariff lever on a heat pump. 3-bed semi drawing ~3,475 kWh of
+     electricity a year, which is the mid-point of the guide's range. */
+  'heat-pump-annual-by-tariff': () => {
+    const KWH = 3475;
+    return barChart(
+      'What a heat pump costs to run in a 3-bed semi, by tariff',
+      'Same house, same heat pump, 3,475 kWh of electricity a year. Only the tariff changes.',
+      [
+        { label: 'Standard variable (price cap)', rate: ELECTRICITY_PENCE_PER_KWH },
+        { label: 'Economy 7 overnight (13p)', rate: 13 },
+        { label: 'Octopus Cosy heat pump rate (10p)', rate: 10, hi: true },
+      ].map(r => ({
+        label: r.label,
+        value: (KWH * r.rate) / 100,
+        display: gbpWhole((KWH * r.rate) / 100),
+        highlight: r.hi,
+      }))
+    );
+  },
+
+  /* Annual EV home-charging cost by tariff. 8,000 miles at ~3.2 miles/kWh
+     is about 2,500 kWh, the basis used in the EV charging guide. */
+  'ev-charging-annual-by-tariff': () => {
+    const KWH = 2500;
+    return barChart(
+      'A year of home EV charging, by tariff',
+      '8,000 miles at roughly 3.2 miles per kWh, so about 2,500 kWh of charging.',
+      [
+        { label: 'Standard variable (price cap)', rate: ELECTRICITY_PENCE_PER_KWH },
+        { label: 'Octopus Go (8.5p off-peak)', rate: 8.5 },
+        { label: 'Intelligent Octopus Go (7.5p off-peak)', rate: 7.5 },
+        { label: 'Octopus Agile, well scheduled (5p average)', rate: 5, hi: true },
+      ].map(r => ({
+        label: r.label,
+        value: (KWH * r.rate) / 100,
+        display: gbpWhole((KWH * r.rate) / 100),
+        highlight: r.hi,
+      }))
+    );
+  },
+
+  /* What a solar battery is worth per year, by export rate. The premium is
+     import minus export, so a worse SEG rate makes the battery more valuable. */
+  'solar-battery-saving-by-seg': () => {
+    const STORED = 1200;
+    return barChart(
+      'What a 5 kWh solar battery saves a year, by export rate',
+      '1,200 kWh stored a year. The saving is the import rate minus your export rate, so a lower SEG rate is worth more.',
+      [
+        { label: 'SEG 15p (high fixed export rate)', seg: 15 },
+        { label: 'SEG 12p (typical fixed export rate)', seg: 12 },
+        { label: 'SEG 5p (low fixed export rate)', seg: 5, hi: true },
+      ].map(r => ({
+        label: r.label,
+        value: (STORED * (ELECTRICITY_PENCE_PER_KWH - r.seg)) / 100,
+        display: gbpWhole((STORED * (ELECTRICITY_PENCE_PER_KWH - r.seg)) / 100),
+        highlight: r.hi,
+      }))
+    );
+  },
 
   /* The comparison that decides whether electric heating makes sense at all. */
   'heat-source-cost-per-kwh': () =>

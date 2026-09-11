@@ -11,7 +11,7 @@ tags: ["ev charging", "electric car", "home charging cost", "smart tariff", "oct
 
 ## The short answer
 
-Charging an electric car at home costs **£8–£15 for a full charge** on a standard electricity tariff, giving you roughly 200–300 miles of range. That works out to about **3–5p per mile** — roughly a quarter of what you'd spend on petrol.
+Charging an electric car at home costs **£8–£16 for a full charge** on a standard electricity tariff, giving you roughly 200–300 miles of range. That works out to about **6p per mile** on the standard rate, or nearer **2p per mile** on an overnight EV tariff — between a sixth and a half of what you'd spend on petrol.
 
 But those headline figures hide a wide range depending on three things: your car's battery size, your electricity rate, and whether you charge smart or dumb. Let's break it down properly.
 
@@ -19,13 +19,15 @@ But those headline figures hide a wide range depending on three things: your car
 
 All figures below assume a 60kWh battery (typical for cars like the Tesla Model 3, Hyundai Ioniq 5, or VW ID.4) charged from 10% to 80% — the way most people actually charge at home.
 
-**Standard variable tariff (24.5p/kWh):** A 70% charge (42kWh) costs roughly **£10.30**. Over a year of typical UK driving (8,000 miles), that's around **£980–£1,150** in electricity.
+**Standard variable tariff (26.32p/kWh):** A 70% charge (42kWh) costs roughly **£11.05**. Over a year of typical UK driving, 8,000 miles at around 3.2 miles per kWh is about 2,500 kWh, so that's roughly **£660** in electricity once charging losses are included.
 
-**Octopus Intelligent Go (7.5p/kWh off-peak):** The same 42kWh charge drops to about **£3.15**. Annual cost falls to **£300–£400** — genuinely cheaper than running a bicycle if you factor in maintenance. Intelligent Go automatically shifts your charging to the cheapest overnight hours.
+**Octopus Intelligent Go (7.5p/kWh off-peak):** The same 42kWh charge drops to about **£3.15**. Annual cost falls to **£190–£220** — genuinely cheaper than running a bicycle if you factor in maintenance. Intelligent Go automatically shifts your charging to the cheapest overnight hours.
 
-**Octopus Agile (variable, often 0–10p/kWh overnight):** With careful scheduling, you can regularly charge for **£1.50–£4.00**. Some nights the rate goes negative and you're literally paid to charge. Annual costs can be as low as **£250–£350**.
+**Octopus Agile (variable, often 0–10p/kWh overnight):** With careful scheduling, you can regularly charge for **£1.50–£4.00**. Some nights the rate goes negative and you're literally paid to charge. Annual costs can be as low as **£100–£180**.
 
 **Solar panels (effectively 0p/kWh for surplus):** If you have a 4kW+ solar array and charge during the day, your marginal cost is zero. In practice, most people can cover 40–60% of their charging from solar between April and September.
+
+[chart:ev-charging-annual-by-tariff]
 
 ## How to calculate your exact cost
 

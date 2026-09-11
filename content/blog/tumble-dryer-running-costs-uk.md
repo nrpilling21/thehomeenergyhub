@@ -1,6 +1,6 @@
 ---
 title: "Tumble Dryer Running Costs UK 2026: Cost Per Load"
-description: "A tumble dryer costs 35p to £1.25 a load to run in 2026, depending on type. The sums by vented, condenser and heat pump dryer, plus 9 ways to cut the cost."
+description: "A tumble dryer costs 39p to £1.45 a load to run in 2026, depending on type. The sums by vented, condenser and heat pump dryer, plus 9 ways to cut the cost."
 date: "2026-08-20"
 author: "The Home Energy Hub"
 category: "energy-saving"
@@ -9,11 +9,11 @@ tags: ["tumble dryer", "running costs", "heat pump tumble dryer", "energy saving
 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
-Tumble dryers have a reputation as the most expensive appliance in the house, and for one type of dryer that reputation is entirely deserved. For another type it is now badly out of date. The gap between the cheapest and most expensive way to tumble dry the same load of washing in 2026 is nearly a pound per cycle, which over a year is the difference between £66 and £184 on your electricity bill.
+Tumble dryers have a reputation as the most expensive appliance in the house, and for one type of dryer that reputation is entirely deserved. For another type it is now badly out of date. The gap between the cheapest and most expensive way to tumble dry the same load of washing in 2026 is more than a pound per cycle, which over a year is the difference between £76 and £211 on your electricity bill.
 
-The short version: a heat pump tumble dryer costs roughly 35p to 50p per load, a vented dryer around £1.10, and a condenser dryer around £1.25. This guide shows exactly how those numbers are calculated so you can work out what your own machine costs, and whether replacing it would actually pay.
+The short version: a heat pump tumble dryer costs roughly 39p to 53p per load, a vented dryer around £1.18, and a condenser dryer around £1.32. This guide shows exactly how those numbers are calculated so you can work out what your own machine costs, and whether replacing it would actually pay.
 
-All figures use an electricity unit rate of 24.5p per kWh, in line with the current price cap and the rate we use across our other [running cost guides](/blog/heated-airer-running-costs-uk).
+All figures use an electricity unit rate of 26.32p per kWh, the Ofgem price cap rate for 1 October to 31 December 2026 and the rate we use across our other [running cost guides](/blog/heated-airer-running-costs-uk).
 
 ## How much does a tumble dryer cost to run per load?
 
@@ -23,14 +23,16 @@ Every appliance running cost comes down to the same sum:
 
 The only variable that matters is how many kilowatt hours your dryer uses to complete a cycle. That figure is on the energy label, quoted per "eco cotton" cycle, and it varies enormously by dryer type because the three technologies remove water in fundamentally different ways.
 
-Here is what a full 8kg cotton load costs to dry in 2026 at 24.5p/kWh:
+Here is what a full 8kg cotton load costs to dry in 2026 at 26.32p/kWh:
 
 | Dryer type | Energy per cycle | Cost per load | Typical energy rating |
 |---|---|---|---|
-| Heat pump | 1.5-2.0 kWh | 37p-49p | A++ to A+++ |
-| Vented | 4.0-5.0 kWh | 98p-£1.23 | C to D |
-| Condenser | 4.5-5.5 kWh | £1.10-£1.35 | B to C |
-| Washer-dryer (dry cycle) | 4.5-6.0 kWh | £1.10-£1.47 | C to E |
+| Heat pump | 1.5-2.0 kWh | 39p-53p | A++ to A+++ |
+| Vented | 4.0-5.0 kWh | £1.05-£1.32 | C to D |
+| Condenser | 4.5-5.5 kWh | £1.18-£1.45 | B to C |
+| Washer-dryer (dry cycle) | 4.5-6.0 kWh | £1.18-£1.58 | C to E |
+
+[chart:drying-cost-per-load]
 
 Two things surprise people about that table. The first is that condenser dryers are usually the *most* expensive to run, not the cheapest - they have to condense the moisture out of the air rather than vent it outside, which takes additional energy. The second is that the heat pump gap is not marginal. A heat pump dryer does the same job for roughly a third of the electricity.
 
@@ -46,15 +48,15 @@ The trade-off is time. Heat pump dryers run cooler, so a full cotton cycle typic
 
 The UK energy label assumes 160 cycles a year, which works out at roughly three loads a week. That is a reasonable average for a family of four; a single-person household might do 50, a household with small children can easily hit 250.
 
-At 160 cycles a year and 24.5p/kWh:
+At 160 cycles a year and 26.32p/kWh:
 
 | Dryer type | Cost per year (160 cycles) | Cost per year (250 cycles) |
 |---|---|---|
-| Heat pump (1.8 kWh) | £71 | £110 |
-| Vented (4.5 kWh) | £176 | £276 |
-| Condenser (5.0 kWh) | £196 | £306 |
+| Heat pump (1.8 kWh) | £76 | £118 |
+| Vented (4.5 kWh) | £190 | £296 |
+| Condenser (5.0 kWh) | £211 | £329 |
 
-To put that in context, £196 a year is roughly a tenth of a typical dual-fuel bill going on one appliance. It is also more than most households spend on standby power across the entire house, which tells you where the attention is better spent. If you want to see exactly what your own dryer is pulling rather than relying on the label, a smart meter [in-home display](/blog/best-smart-meter-in-home-display-uk) will show the spike the moment the machine kicks in.
+To put that in context, £211 a year is roughly an eighth of a typical dual-fuel bill going on one appliance. It is also more than most households spend on standby power across the entire house, which tells you where the attention is better spent. If you want to see exactly what your own dryer is pulling rather than relying on the label, a smart meter [in-home display](/blog/best-smart-meter-in-home-display-uk) will show the spike the moment the machine kicks in.
 
 ## Are heat pump tumble dryers worth the extra cost?
 
@@ -63,9 +65,9 @@ This is the question that matters, because heat pump dryers cost more up front. 
 - Condenser or vented dryer: £250-£400
 - Heat pump dryer: £400-£750
 
-Call the premium £200 on a like-for-like comparison. Against a condenser dryer at 160 cycles a year, a heat pump model saves about £125 annually. That is a payback of well under two years, after which the saving is yours every year for the life of the machine - typically ten years or more.
+Call the premium £200 on a like-for-like comparison. Against a condenser dryer at 160 cycles a year, a heat pump model saves about £135 annually. That is a payback of well under two years, after which the saving is yours every year for the life of the machine - typically ten years or more.
 
-At 250 cycles a year the payback drops to about ten months. At 50 cycles a year it stretches to four years, which is still comfortably inside the machine's lifespan but much less compelling.
+At 250 cycles a year the payback drops to about eleven months. At 50 cycles a year it stretches to nearly five years, which is still comfortably inside the machine's lifespan but much less compelling.
 
 The honest answer, then: **if you tumble dry regularly, a heat pump dryer is one of the few energy upgrades that genuinely pays for itself quickly.** If you dry a couple of loads a month over winter and hang everything out the rest of the year, the numbers are far less exciting and you would be better off putting the money into [insulation or draught proofing](/blog/draught-proofing-cost-uk).
 
@@ -80,19 +82,19 @@ The tumble dryer is not the only option, and the cost gap between the alternativ
 | Method | Cost per load | Time | Space needed |
 |---|---|---|---|
 | Washing line | Free | 3-8 hours | Outdoor space, dry weather |
-| Heated airer | 20p-45p | 4-8 hours | Room for the airer |
-| Heat pump dryer | 37p-49p | 2.5-3.5 hours | Fixed appliance space |
-| Condenser dryer | £1.10-£1.35 | 1.5-2 hours | Fixed appliance space |
+| Heated airer | 24p-63p | 4-8 hours | Room for the airer |
+| Heat pump dryer | 39p-53p | 2.5-3.5 hours | Fixed appliance space |
+| Condenser dryer | £1.18-£1.45 | 1.5-2 hours | Fixed appliance space |
 
-A [heated airer costs around 7p an hour to run](/blog/heated-airer-running-costs-uk), which makes it the cheapest indoor option and roughly a third of the cost of a condenser dryer per load. It is not quite the free lunch it looks like, though - drying clothes indoors puts several litres of water into the air, and if your home is not well ventilated that shows up as condensation and mould on cold walls. A heated airer with a cover, used in a room with a window cracked open or a [dehumidifier running](/blog/dehumidifier-running-costs-uk), is the sensible setup. A dehumidifier costs about 5p an hour, so it adds very little to the load and removes the moisture rather than letting it land on your walls.
+A [heated airer costs around 8p an hour to run](/blog/heated-airer-running-costs-uk), which makes it the cheapest indoor option and roughly a fifth of the cost of a condenser dryer per load. It is not quite the free lunch it looks like, though - drying clothes indoors puts several litres of water into the air, and if your home is not well ventilated that shows up as condensation and mould on cold walls. A heated airer with a cover, used in a room with a window cracked open or a [dehumidifier running](/blog/dehumidifier-running-costs-uk), is the sensible setup. A dehumidifier costs about 5p an hour, so it adds very little to the load and removes the moisture rather than letting it land on your walls.
 
-Interestingly, a heat pump dryer is now close enough to heated airer running costs that the convenience argument tips in the dryer's favour for many households - roughly 40p versus 30p per load, but done in three hours inside a sealed drum that vents the moisture properly rather than into your bedroom.
+Interestingly, a heat pump dryer is now close enough to heated airer running costs that the convenience argument tips in the dryer's favour for many households - roughly 45p versus 24p per load, but done in three hours inside a sealed drum that vents the moisture properly rather than into your bedroom.
 
 ## What the energy label actually tells you
 
 Two numbers on the label matter, and most people read neither.
 
-**Energy consumption per cycle (kWh).** This is the number to compare. It is measured on the standard eco cotton programme at full load. Divide it by your unit rate and you have your real cost per cycle. A dryer showing 1.61 kWh will cost you 39p a load at 24.5p/kWh; one showing 4.88 kWh will cost £1.20.
+**Energy consumption per cycle (kWh).** This is the number to compare. It is measured on the standard eco cotton programme at full load. Divide it by your unit rate and you have your real cost per cycle. A dryer showing 1.61 kWh will cost you 42p a load at 26.32p/kWh; one showing 4.88 kWh will cost £1.28.
 
 **Condensation efficiency class (A to G).** Only on condenser and heat pump models. This tells you how much of the moisture the machine captures rather than releasing into the room. A class A machine captures over 90%; a class G captures under 60%, and the difference ends up on your walls. Worth checking if the dryer lives in a utility room or kitchen without good ventilation.
 
@@ -112,7 +114,7 @@ The letter rating on its own is less useful than it used to be. The scale was re
 
 **6. Dry consecutive loads back to back.** The drum and the heat exchanger are already warm, so the second cycle needs less energy to get up to temperature. Doing two loads on Saturday morning costs less than one on Saturday and one on Tuesday.
 
-**7. Shift drying to your cheap tariff window.** If you are on a time-of-use tariff like Octopus Go or Intelligent Octopus, off-peak electricity runs at 7-9p/kWh against 24-26p at peak. Running a condenser dryer in the cheap window drops a £1.23 load to around 40p - a bigger saving than upgrading the machine. You need a working SMETS2 meter for this; our [smart meter guide](/smart-meter-guide-uk) covers how to check which type you have, and [Do Smart Meters Save You Money?](/blog/do-smart-meters-save-you-money-uk) covers the tariff switch itself.
+**7. Shift drying to your cheap tariff window.** If you are on a time-of-use tariff like Octopus Go or Intelligent Octopus, off-peak electricity runs at 7-9p/kWh against 26-30p at peak. Running a condenser dryer in the cheap window drops a £1.32 load to around 40p - a bigger saving than upgrading the machine. You need a working SMETS2 meter for this; our [smart meter guide](/smart-meter-guide-uk) covers how to check which type you have, and [Do Smart Meters Save You Money?](/blog/do-smart-meters-save-you-money-uk) covers the tariff switch itself.
 
 **8. Use dryer balls.** [Wool dryer balls](https://www.amazon.co.uk/s?k=wool+dryer+balls+uk&tag=thehomeenergyhub-21) separate the laundry in the drum so air moves through it more freely. The effect is modest - typically 10-15% off cycle time - but they cost under £10 and last for years.
 
@@ -122,11 +124,11 @@ The letter rating on its own is less useful than it used to be. The scale was re
 
 ### How much does it cost to run a tumble dryer for an hour?
 
-It depends on the machine's power draw rather than the cycle. A vented or condenser dryer typically pulls 2.5-3kW, costing 61p-74p an hour at 24.5p/kWh. A heat pump dryer pulls around 0.8-1kW, costing 20p-25p an hour - but it runs for longer, which is why cost per load is the more useful measure.
+It depends on the machine's power draw rather than the cycle. A vented or condenser dryer typically pulls 2.5-3kW, costing 66p-79p an hour at 26.32p/kWh. A heat pump dryer pulls around 0.8-1kW, costing 21p-26p an hour - but it runs for longer, which is why cost per load is the more useful measure.
 
 ### Is a tumble dryer cheaper than a heated airer?
 
-Not usually. A heated airer costs roughly 20p-45p a load against £1.10-£1.35 for a condenser dryer. A heat pump dryer at 37p-49p is close to airer costs and much faster, so it is the one exception.
+Not usually. A heated airer costs roughly 24p-63p a load against £1.18-£1.45 for a condenser dryer. A heat pump dryer at 39p-53p is close to airer costs and much faster, so it is the one exception.
 
 ### Do tumble dryers use a lot of electricity compared with other appliances?
 

@@ -224,8 +224,8 @@ export default function SolarPanelCostsPage() {
         <Section title="How Much Can Solar Panels Save You?">
           <p>
             Your savings depend on three things: how much electricity you use, when you use it, and
-            your current tariff. At the April 2026 Ofgem price cap of 24.5p/kWh, a 4kW system
-            generating around 3,400 kWh per year saves you roughly £500–£800 annually through a
+            your current tariff. At the October 2026 Ofgem price cap of 26.32p/kWh, a 4kW system
+            generating around 3,400 kWh per year saves you roughly £540–£860 annually through a
             combination of reduced bills and SEG export payments.
           </p>
           <p>
@@ -238,8 +238,8 @@ export default function SolarPanelCostsPage() {
             <Link href="/ev-charging-cost-calculator" className="text-gray-900 underline underline-offset-2 hover:text-gray-600">
               electric vehicle
             </Link>
-            , the savings increase further — charging from solar rather than the grid saves 20–24p per
-            kWh, which adds up to £200–£400 per year for typical driving.
+            , the savings increase further — charging from solar rather than the grid saves 21–26p per
+            kWh, which adds up to £215–£430 per year for typical driving.
           </p>
         </Section>
 

@@ -64,10 +64,11 @@ const CLUSTERS: { keywords: string[]; cta: PostCta }[] = [
        actually pull — which makes the savings calculator the honest next step
        rather than a calculator for equipment they were not reading about.
 
-       The copy deliberately does NOT claim the guide uses the current price
-       cap. Several of these posts are still on the stale 24.5p rate (BL-109),
-       so that claim would be false on the very pages it appears. Keep it
-       true-on-every-post until BL-109 is finished. */
+       As of BL-109 (2026-09-11) every guide in this cluster quotes the
+       current Ofgem cap rate from energy-rates.ts, so a "current price cap"
+       claim would now be true. The copy still avoids it: the cap changes
+       quarterly and this string is shared across posts, so keeping it
+       rate-agnostic means it cannot go stale between cap revisions. */
     keywords: [
       'running cost', 'running costs', 'heater', 'radiator', 'dehumidifier',
       'airer', 'tumble', 'dryer', 'laundry', 'thermostat', 'damp',

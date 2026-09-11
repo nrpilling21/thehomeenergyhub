@@ -25,18 +25,18 @@ In 2026 a typical 5kWh home battery costs **£2,500-£4,000** installed, and a 1
 
 | Battery size | Typical installed cost | Annual saving (4kW solar) | Payback |
 |---|---|---|---|
-| 5 kWh | £2,500-£4,000 | £200-£350 | 11-15 years |
-| 10 kWh | £4,000-£6,500 | £350-£550 | 10-15 years |
-| 15 kWh+ | £6,500-£9,500 | £450-£700 | 12-17 years |
-| Portable (1-2 kWh) | £700-£1,400 | £80-£150 | 7-12 years |
+| 5 kWh | £2,500-£4,000 | £220-£380 | 10-14 years |
+| 10 kWh | £4,000-£6,500 | £380-£590 | 9-14 years |
+| 15 kWh+ | £6,500-£9,500 | £490-£750 | 11-16 years |
+| Portable (1-2 kWh) | £700-£1,400 | £85-£160 | 6-11 years |
 
-The numbers above assume a 4kW solar array, an average UK household at the April 2026 Ofgem cap (24.5p/kWh import, 12-15p/kWh export on a fixed SEG tariff), and a battery cycled roughly once a day. Real payback varies by household, but the headline is consistent: bigger batteries pay back at roughly the same rate as smaller ones, so size for your usage rather than for headline savings.
+The numbers above assume a 4kW solar array, an average UK household at the October 2026 Ofgem cap (26.32p/kWh import, 12-15p/kWh export on a fixed SEG tariff), and a battery cycled roughly once a day. Real payback varies by household, but the headline is consistent: bigger batteries pay back at roughly the same rate as smaller ones, so size for your usage rather than for headline savings.
 
 ## How a solar battery actually works
 
 A home solar battery sits between your solar panels and the grid. When the panels generate more than the house is using, the surplus charges the battery instead of being exported. When the panels stop producing - at night, in winter, or under heavy cloud - the battery discharges to power the house, replacing electricity you would otherwise have bought from the grid at full retail rate.
 
-The economics turn on the gap between import and export prices. Importing electricity at 24.5p/kWh and exporting it at 12p/kWh creates a 12.5p/kWh "self-consumption premium" - the value a battery captures every time it stores 1kWh of solar surplus instead of letting it go to the grid. Over a year, a 5kWh battery cycled 300+ days catches roughly 1,500 kWh of self-consumption, worth around £190 versus exporting that energy and re-importing later.
+The economics turn on the gap between import and export prices. Importing electricity at 26.32p/kWh and exporting it at 12p/kWh creates a 14.3p/kWh "self-consumption premium" - the value a battery captures every time it stores 1kWh of solar surplus instead of letting it go to the grid. Over a year, a 5kWh battery cycled 300+ days catches roughly 1,500 kWh of self-consumption, worth around £215 versus exporting that energy and re-importing later.
 
 That figure climbs significantly if you are on a smart time-of-use tariff. On Octopus Flux, for example, the battery can be deliberately charged from cheap overnight grid electricity (around 12p/kWh) and discharged during the peak window (32p/kWh export rate), turning the battery into a daily arbitrage tool independent of your solar generation. Households running this strategy report battery savings of £400-£600 a year on top of the solar self-consumption gains.
 
@@ -113,10 +113,10 @@ The clean way to estimate annual savings is: (kWh stored per year) x (import pri
 - Battery cycles ~300 days/year (winter generation is too low to fill it)
 - Average daily store: 4 kWh
 - Annual stored kWh: 1,200
-- Self-consumption premium: 24.5p - 12p = 12.5p/kWh
-- Annual saving: 1,200 x £0.125 = **£150**
+- Self-consumption premium: 26.32p - 12p = 14.32p/kWh
+- Annual saving: 1,200 x £0.1432 = **£172**
 
-Add in time-of-use arbitrage (cheap overnight charge, expensive evening discharge during the days when solar does not fill the battery) and the figure climbs to £200-£350. Add an EV on a smart tariff and you can push £400-£550 because the battery starts charging the EV during the peak export window when no battery is needed for the house.
+Add in time-of-use arbitrage (cheap overnight charge, expensive evening discharge during the days when solar does not fill the battery) and the figure climbs to £220-£380. Add an EV on a smart tariff and you can push £430-£590 because the battery starts charging the EV during the peak export window when no battery is needed for the house.
 
 The key variable is solar self-consumption. The more you can shift heavy loads (washing machine, dishwasher, EV charging) into daylight hours, the less you need a battery. A [smart plug with energy logging](https://www.amazon.co.uk/s?k=smart+plug+energy+monitor+tapo&tag=thehomeenergyhub-21) is a cheap way to measure how much each appliance pulls and whether shifting it to midday matters more than buying storage.
 
@@ -124,7 +124,9 @@ The key variable is solar self-consumption. The more you can shift heavy loads (
 
 The SEG pays you for every kWh you export to the grid. In 2026, fixed export rates run from 4p/kWh (Octopus Outgoing Fix) to 15p/kWh (Octopus Outgoing fixed for export-only customers), and variable rates can spike to 30p+/kWh during winter peaks if you are on a flux-style tariff.
 
-The trade-off: every kWh you store in a battery is a kWh you do not export. If your SEG rate is 15p and your import rate is 24.5p, the battery is worth 9.5p/kWh stored - about £115 a year on a 5 kWh battery. If your SEG rate drops to 5p, the battery is worth 19.5p/kWh stored - closer to £230 a year on the same battery. **Lower SEG rates make batteries pay back faster, not slower.**
+The trade-off: every kWh you store in a battery is a kWh you do not export. If your SEG rate is 15p and your import rate is 26.32p, the battery is worth 11.3p/kWh stored - about £136 a year on a 5 kWh battery. If your SEG rate drops to 5p, the battery is worth 21.3p/kWh stored - closer to £256 a year on the same battery. **Lower SEG rates make batteries pay back faster, not slower.**
+
+[chart:solar-battery-saving-by-seg]
 
 This is why the "is a battery worth it" question depends so heavily on your tariff. Households on cheap-export, expensive-import combinations should buy a battery sooner than households on fixed SEG tariffs above 12p. Run the numbers against your own tariff before committing.
 

@@ -54,7 +54,7 @@ const TARIFFS: Tariff[] = [
     supplier: "OVO Energy",
     offPeak: "8.5p/kWh (charging only)",
     hours: "Any time — applied retrospectively to charging kWh",
-    peakHint: "Standard variable on the rest of the home (~24p)",
+    peakHint: "Standard variable on the rest of the home (~26p)",
     smartMeter: "SMETS2 plus OVO-supported smart charger or EV API",
     carRequirement: "Compatible EV/charger via the OVO Drive app",
     bestFor: "Drivers who can&apos;t reliably charge inside a fixed off-peak window (shift workers, holiday charging).",
@@ -64,7 +64,7 @@ const TARIFFS: Tariff[] = [
     supplier: "EDF",
     offPeak: "9p/kWh",
     hours: "5 hours (00:00–05:00)",
-    peakHint: "23–24p outside the window",
+    peakHint: "25–26p outside the window",
     smartMeter: "SMETS2 required",
     carRequirement: "Any EV",
     bestFor: "Existing EDF customers wanting a fixed 12-month price stability play.",
@@ -112,7 +112,7 @@ const FAQS: FAQ[] = [
   {
     question: "How much can the right EV tariff save me?",
     answer:
-      "On 8,000 miles per year of typical UK driving the difference between a standard variable tariff (~24.5p/kWh) and an EV off-peak tariff (7.5–9p) is around £400–£700 per year just on the EV. If you also run a heat pump on a heat-pump-friendly tariff like Octopus Cosy, or a home battery on time-of-use arbitrage, the gap widens. Plug your bill and assets into our smart meter savings calculator for a household-specific estimate.",
+      "On 8,000 miles per year of typical UK driving the difference between a standard variable tariff (26.32p/kWh at the October 2026 price cap) and an EV off-peak tariff (7.5–9p) is around £380–£430 per year just on the EV. If you also run a heat pump on a heat-pump-friendly tariff like Octopus Cosy, or a home battery on time-of-use arbitrage, the gap widens. Plug your bill and assets into our smart meter savings calculator for a household-specific estimate.",
   },
   {
     question: "Can I get an EV tariff without an EV?",
@@ -165,7 +165,7 @@ export default function BestEvTariffUkPage() {
         </p>
         <p className="text-ink/70 text-sm leading-relaxed">
           On 8,000 miles a year, switching from a standard variable tariff to an EV off-peak tariff
-          saves around <strong>£400–£700</strong> on the EV alone. For a household-specific estimate
+          saves around <strong>£380–£430</strong> on the EV alone. For a household-specific estimate
           covering EVs, heat pumps and solar, run the numbers through our{" "}
           <Link href="/smart-meter-savings-calculator" className="text-ink underline underline-offset-2">
             smart meter savings calculator
@@ -227,45 +227,45 @@ export default function BestEvTariffUkPage() {
           <tbody className="text-ink/70">
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4 font-medium text-ink">Standard variable</td>
-              <td className="py-3 px-4">24.5p/kWh</td>
-              <td className="py-3 px-4">£560</td>
+              <td className="py-3 px-4">26.32p/kWh</td>
+              <td className="py-3 px-4">£602</td>
               <td className="py-3 px-4 text-ink/55">baseline</td>
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4 font-medium text-ink">Intelligent Octopus Go</td>
               <td className="py-3 px-4">7.5p/kWh</td>
-              <td className="py-3 px-4 font-semibold text-ink">£172</td>
-              <td className="py-3 px-4 font-semibold text-ink">£388</td>
+              <td className="py-3 px-4 font-semibold text-ink">£171</td>
+              <td className="py-3 px-4 font-semibold text-ink">£431</td>
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4 font-medium text-ink">Octopus Go</td>
               <td className="py-3 px-4">8.5p/kWh</td>
               <td className="py-3 px-4 font-semibold text-ink">£194</td>
-              <td className="py-3 px-4 font-semibold text-ink">£366</td>
+              <td className="py-3 px-4 font-semibold text-ink">£408</td>
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4 font-medium text-ink">OVO Charge Anytime</td>
               <td className="py-3 px-4">8.5p/kWh</td>
               <td className="py-3 px-4 font-semibold text-ink">£194</td>
-              <td className="py-3 px-4 font-semibold text-ink">£366</td>
+              <td className="py-3 px-4 font-semibold text-ink">£408</td>
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4 font-medium text-ink">Scottish Power EV Saver</td>
               <td className="py-3 px-4">8.9p/kWh</td>
               <td className="py-3 px-4">£203</td>
-              <td className="py-3 px-4">£357</td>
+              <td className="py-3 px-4">£399</td>
             </tr>
             <tr className="border-b border-plum-light/15">
               <td className="py-3 px-4 font-medium text-ink">EDF GoElectric Overnight</td>
               <td className="py-3 px-4">9p/kWh</td>
               <td className="py-3 px-4">£206</td>
-              <td className="py-3 px-4">£354</td>
+              <td className="py-3 px-4">£396</td>
             </tr>
             <tr>
               <td className="py-3 px-4 font-medium text-ink">British Gas Electric Driver</td>
               <td className="py-3 px-4">9.9p/kWh</td>
               <td className="py-3 px-4">£226</td>
-              <td className="py-3 px-4">£334</td>
+              <td className="py-3 px-4">£376</td>
             </tr>
           </tbody>
         </table>

@@ -1,6 +1,6 @@
 ---
-title: "Heated Airer Running Costs UK 2026: Just 7p an Hour"
-description: "A heated airer costs about 7p an hour to run, or 20-45p a load. The 2026 sums, how it compares with a tumble dryer, and the best models to buy."
+title: "Heated Airer Running Costs UK 2026: Just 8p an Hour"
+description: "A heated airer costs about 8p an hour to run, or 24-63p a load. The 2026 sums at the October price cap, how it compares with a tumble dryer, and the best models to buy."
 date: "2026-07-24"
 author: "The Home Energy Hub"
 category: "energy-saving"
@@ -11,39 +11,39 @@ tags: ["heated airer", "heated clothes airer", "running costs", "energy saving",
 
 Heated airers have quietly become one of the most popular winter energy-saving buys in the UK, and for good reason. When drying a single load in a condenser tumble dryer can cost well over a pound, a device that dries the same washing for pennies is an easy sell. But how much does a heated airer actually cost to run, and is it really cheaper than the alternatives? This guide gives you the real 2026 numbers.
 
-The short version is that a typical heated airer costs roughly 7p to 8p an hour to run, which works out at around 20p to 45p per load of washing depending on how you use it. That makes it three to five times cheaper than a standard tumble dryer for the same job. Below we show exactly how those figures are calculated so you can work out your own cost.
+The short version is that a typical heated airer costs roughly 8p an hour to run, which works out at around 24p per load with a cover, or up to 63p without one. That makes it four to six times cheaper than a standard tumble dryer for the same job. Below we show exactly how those figures are calculated so you can work out your own cost.
 
 ## How much does a heated airer cost to run per hour?
 
 The running cost of any electrical appliance comes down to one simple sum: its power rating in kilowatts, multiplied by the number of hours you run it, multiplied by your electricity unit rate.
 
-Most heated clothes airers on the UK market draw between 230 and 300 watts. That is far less than people assume - a 300W airer uses less electricity than a single old-fashioned incandescent light bulb used to, and roughly the same as running a laptop and a couple of phone chargers. We will use 300W (0.3kW) as our worked example because that is what the popular tiered heated airers pull, and an electricity unit rate of 24.5p per kWh, in line with the current price cap and the figure we use across our other cost guides.
+Most heated clothes airers on the UK market draw between 230 and 300 watts. That is far less than people assume - a 300W airer uses less electricity than a single old-fashioned incandescent light bulb used to, and roughly the same as running a laptop and a couple of phone chargers. We will use 300W (0.3kW) as our worked example because that is what the popular tiered heated airers pull, and an electricity unit rate of 26.32p per kWh, the Ofgem price cap rate for 1 October to 31 December 2026 and the figure we use across our other cost guides.
 
-| Time running | Energy used | Cost at 24.5p/kWh |
+| Time running | Energy used | Cost at 26.32p/kWh |
 |---|---|---|
-| 1 hour | 0.30 kWh | 7.4p |
-| 2 hours | 0.60 kWh | 14.7p |
-| 3 hours | 0.90 kWh | 22.1p |
-| 5 hours | 1.50 kWh | 36.8p |
-| 8 hours | 2.40 kWh | 58.8p |
+| 1 hour | 0.30 kWh | 7.9p |
+| 2 hours | 0.60 kWh | 15.8p |
+| 3 hours | 0.90 kWh | 23.7p |
+| 5 hours | 1.50 kWh | 39.5p |
+| 8 hours | 2.40 kWh | 63.2p |
 
-So a heated airer costs about 7p to 8p for every hour it runs. A smaller 230W model costs closer to 5.6p an hour, and a larger 1000W heated towel-rail style airer would cost about 24.5p an hour - always check the wattage on the box or the plate on the plug before you buy.
+So a heated airer costs about 8p for every hour it runs. A smaller 230W model costs closer to 6p an hour, and a larger 1000W heated towel-rail style airer would cost about 26p an hour - always check the wattage on the box or the plate on the plug before you buy.
 
 If you want to know the exact draw of your own airer rather than trusting the label, a cheap [plug-in energy monitor](https://www.amazon.co.uk/s?k=plug+in+energy+monitor&tag=thehomeenergyhub-21) sits between the plug and the socket and tells you precisely how many kWh it uses over a real drying session. It is the single best way to turn the estimates in this guide into your own hard numbers.
 
 ## Cost per load of washing
 
-Hourly cost only matters once you know how long a load actually takes to dry. On its own, an open heated airer will dry a full load of washing in roughly six to eight hours, which puts a load at around 44p to 59p. The trick that transforms the economics is a cover.
+Hourly cost only matters once you know how long a load actually takes to dry. On its own, an open heated airer will dry a full load of washing in roughly six to eight hours, which puts a load at around 47p to 63p. The trick that transforms the economics is a cover.
 
-A [heated airer cover](https://www.amazon.co.uk/s?k=heated+airer+cover&tag=thehomeenergyhub-21) - essentially a lightweight tent that zips over the frame - traps the warm air around the clothes instead of letting it drift into the room. That typically halves the drying time to around three to four hours, so a covered load drops to roughly 22p to 30p. Many heated airers now come with a cover included; if yours did not, it is the cheapest upgrade you can make and it usually pays for itself within a few weeks.
+A [heated airer cover](https://www.amazon.co.uk/s?k=heated+airer+cover&tag=thehomeenergyhub-21) - essentially a lightweight tent that zips over the frame - traps the warm air around the clothes instead of letting it drift into the room. That typically halves the drying time to around three to four hours, so a covered load drops to roughly 24p to 32p. Many heated airers now come with a cover included; if yours did not, it is the cheapest upgrade you can make and it usually pays for itself within a few weeks.
 
 Here is a realistic per-load picture depending on how you run it.
 
 | How you use it | Typical drying time | Cost per load |
 |---|---|---|
-| Covered, warm dry room | 3 hours | ~22p |
-| Covered, cold room | 4 hours | ~29p |
-| Uncovered | 6 - 8 hours | ~44p - 59p |
+| Covered, warm dry room | 3 hours | ~24p |
+| Covered, cold room | 4 hours | ~32p |
+| Uncovered | 6 - 8 hours | ~47p - 63p |
 | Covered, with a dehumidifier running | 3 hours | ~40p combined |
 
 Those figures assume a normal mixed load. Thick towels and jeans take longer than shirts and underwear, so heavy loads sit at the top of each range.
@@ -54,13 +54,15 @@ This is the comparison most people are actually looking for, and it is where the
 
 | Appliance | Power | Time per load | Cost per load |
 |---|---|---|---|
-| Heated airer, covered | 300W | 3 hours | ~22p |
-| Heated airer, uncovered | 300W | 6 - 8 hours | ~44p - 59p |
-| Vented tumble dryer | 2.5kW | 1.5 hours | ~92p |
-| Condenser tumble dryer | 2.8kW | 2 hours | ~£1.37 |
-| Heat pump tumble dryer | 0.8kW average | 2.5 hours | ~39p |
+| Heated airer, covered | 300W | 3 hours | ~24p |
+| Heated airer, uncovered | 300W | 6 - 8 hours | ~47p - 63p |
+| Vented tumble dryer | 2.5kW | 1.5 hours | ~99p |
+| Condenser tumble dryer | 2.8kW | 2 hours | ~£1.47 |
+| Heat pump tumble dryer | 0.8kW average | 2.5 hours | ~53p |
 
-The gap is stark. A covered heated airer at around 22p a load is roughly a quarter of the cost of a condenser dryer at £1.37, and comfortably cheaper than a vented model too. Over a year of regular washing - say five loads a week - that is the difference between spending about £57 a year on a heated airer and close to £356 on a condenser tumble dryer. The airer saves you around £300 a year.
+[chart:heated-airer-cost-per-load]
+
+The gap is stark. A covered heated airer at around 24p a load is roughly a sixth of the cost of a condenser dryer at £1.47, and comfortably cheaper than a vented model too. Over a year of regular washing - say five loads a week - that is the difference between spending about £62 a year on a heated airer and close to £382 on a condenser tumble dryer. The airer saves you around £320 a year.
 
 The one appliance that competes on cost is a modern heat pump tumble dryer, which sips electricity and can match a heated airer per load while drying in a fraction of the time. But a heat pump dryer costs £400 to £700 to buy, whereas a heated airer costs £30 to £180, so the airer wins decisively on upfront price. If you already own a heat pump dryer the running costs are close; if you are choosing what to buy, the airer is the low-risk, low-cost option.
 
@@ -106,13 +108,13 @@ If you have a smart meter, watch your in-home display for the hour or two after 
 ## Frequently asked questions
 
 **Are heated airers expensive to run?**
-No. A typical heated airer costs about 7p to 8p an hour, or roughly 20p to 45p per load of washing depending on whether you use a cover. That is far cheaper than a standard tumble dryer and a fraction of the cost of drying clothes with an electric heater.
+No. A typical heated airer costs about 8p an hour, or roughly 24p covered and up to 63p uncovered per load of washing. That is far cheaper than a standard tumble dryer and a fraction of the cost of drying clothes with an electric heater.
 
 **How much does a heated airer cost to run for 8 hours?**
-A 300W heated airer run for a full 8 hours uses 2.4 kWh, which costs about 59p at an electricity rate of 24.5p per kWh. In practice, using a cover means most loads dry in three to four hours for around 22p to 30p, so you rarely need the full eight hours.
+A 300W heated airer run for a full 8 hours uses 2.4 kWh, which costs about 63p at an electricity rate of 26.32p per kWh. In practice, using a cover means most loads dry in three to four hours for around 24p to 32p, so you rarely need the full eight hours.
 
 **Is a heated airer cheaper than a tumble dryer?**
-Yes, for every type except a heat pump tumble dryer. A covered heated airer costs around 22p a load versus roughly 92p for a vented dryer and £1.37 for a condenser dryer. A modern heat pump dryer is the only one that competes on running cost, but it costs several hundred pounds more to buy.
+Yes, for every type except a heat pump tumble dryer. A covered heated airer costs around 24p a load versus roughly £1.18 for a vented dryer and £1.32 for a condenser dryer. A modern heat pump dryer is the only one that competes on running cost, but it costs several hundred pounds more to buy.
 
 **Do heated airers cause damp or condensation?**
 They can push moisture into the air like any indoor drying, but far less than draping washing on radiators. Using the cover contains most of the moisture, and running a [small dehumidifier alongside](/blog/dehumidifier-running-costs-uk) removes it entirely while still costing less than heating the room.
@@ -122,4 +124,4 @@ Around six to eight hours uncovered, or three to four hours with a cover fitted.
 
 ## The bottom line
 
-A heated airer is one of the cheapest ways to dry washing indoors in the UK. At about 7p to 8p an hour, and roughly 22p a load with a cover, it undercuts every tumble dryer except a heat pump model and costs a tiny fraction of drying clothes on radiators or with an electric heater. Buy one with a cover, spin your washing hard before it goes on, and you can dry your laundry all winter for the price of a few coffees a month. For most UK households, it is one of the easiest energy-saving wins going.
+A heated airer is one of the cheapest ways to dry washing indoors in the UK. At about 8p an hour, and roughly 24p a load with a cover, it undercuts every tumble dryer except a heat pump model and costs a tiny fraction of drying clothes on radiators or with an electric heater. Buy one with a cover, spin your washing hard before it goes on, and you can dry your laundry all winter for the price of a few coffees a month. For most UK households, it is one of the easiest energy-saving wins going.

@@ -9,33 +9,35 @@ tags: ["heat pump", "running costs", "energy bills", "gas boiler comparison"]
 
 ## What does a heat pump cost to run?
 
-A typical air source heat pump costs **£800-£1,200 per year** to run in the UK, depending on your property size, insulation quality, and electricity tariff. That compares to roughly £1,000-£1,400 for a gas boiler - modest savings on standard tariffs, but the gap widens significantly with smart tariff use.
+A typical air source heat pump costs **£860-£1,290 per year** to run in the UK, depending on your property size, insulation quality, and electricity tariff. That compares to roughly £950-£1,450 for a gas boiler at the current gas cap rate of 7.97p/kWh - modest savings on standard tariffs, but the gap widens significantly with smart tariff use.
 
 The key figure is the **Coefficient of Performance (COP)**. A modern air source heat pump achieves a seasonal COP of 3.0-4.0, meaning for every 1kWh of electricity it uses, it produces 3-4kWh of heat. Ground source heat pumps do even better, typically hitting a COP of 4.0-5.0.
 
 ## Running costs by property size
 
-Here's what you can realistically expect to pay annually based on property type, assuming average insulation and current electricity rates of 24.5p/kWh:
+Here's what you can realistically expect to pay annually based on property type, assuming average insulation and the Ofgem price cap electricity rate of 26.32p/kWh for 1 October to 31 December 2026:
 
-**1-2 bedroom flat or terrace:** £500-£700 per year. A small property with lower heat demand sees the best payback from a heat pump. You might need as little as a 5kW unit.
+**1-2 bedroom flat or terrace:** £540-£750 per year. A small property with lower heat demand sees the best payback from a heat pump. You might need as little as a 5kW unit.
 
-**3 bedroom semi-detached:** £750-£950 per year. The most common UK property type, and where most heat pump installations happen. An 8-10kW unit is typical.
+**3 bedroom semi-detached:** £810-£1,020 per year. The most common UK property type, and where most heat pump installations happen. An 8-10kW unit is typical.
 
-**4+ bedroom detached house:** £1,000-£1,400 per year. Larger properties need bigger units (10-16kW) and running costs approach gas boiler territory unless you optimise your tariff.
+**4+ bedroom detached house:** £1,075-£1,500 per year. Larger properties need bigger units (10-16kW) and running costs approach gas boiler territory unless you optimise your tariff.
 
 ## How to cut heat pump running costs
 
-The biggest lever you have is your electricity tariff. Standard variable rates of 24.5p/kWh make heat pumps only marginally cheaper than gas. But switch to a time-of-use tariff and the economics change dramatically.
+The biggest lever you have is your electricity tariff. Standard variable rates of 26.32p/kWh make heat pumps only marginally cheaper than gas. But switch to a time-of-use tariff and the economics change dramatically.
 
-**Octopus Cozy** offers a dedicated heat pump rate around 10p/kWh for heating hours. That would drop a typical 3-bed home from £900/year to under £400. To access these heat-pump-friendly tariffs you'll need a working SMETS2 smart meter — see [do smart meters save you money](/blog/do-smart-meters-save-you-money-uk) for the practical savings, or [smart meter problems UK](/blog/smart-meter-problems-uk) if your current meter has gone "dumb" after a switch. To estimate the Cosy/Intelligent saving for your specific bill in two minutes, plug it into our [smart meter savings calculator](/smart-meter-savings-calculator). If you also run an EV, our [best EV tariff UK 2026 comparison](/best-ev-tariff-uk) covers when an EV-specific tariff like Intelligent Go beats Cosy and vice versa.
+**Octopus Cosy** offers a dedicated heat pump rate around 10p/kWh for heating hours. That would drop a typical 3-bed home from around £915/year to under £400. To access these heat-pump-friendly tariffs you'll need a working SMETS2 smart meter — see [do smart meters save you money](/blog/do-smart-meters-save-you-money-uk) for the practical savings, or [smart meter problems UK](/blog/smart-meter-problems-uk) if your current meter has gone "dumb" after a switch. To estimate the Cosy/Intelligent saving for your specific bill in two minutes, plug it into our [smart meter savings calculator](/smart-meter-savings-calculator). If you also run an EV, our [best EV tariff UK 2026 comparison](/best-ev-tariff-uk) covers when an EV-specific tariff like Intelligent Go beats Cosy and vice versa.
 
 **Economy 7 / Economy 10** tariffs give you cheaper overnight rates of 12-15p/kWh, ideal since heat pumps work efficiently at lower outputs overnight, heating your home gradually.
+
+[chart:heat-pump-annual-by-tariff]
 
 **Solar panels** are the other game-changer. A 4kW solar array generates roughly 3,400kWh per year in the UK. Combined with a heat pump, your heating can be virtually free during spring and autumn months when solar output is strong and heating demand is moderate. Adding a home battery lets you store cheap daytime electricity (or surplus solar) and run the heat pump on it after dark — see our [solar battery storage guide](/blog/solar-battery-storage-uk) for sizing and payback. See our [solar panel costs guide](/solar-panel-costs-uk) for a full breakdown of what you would pay and the payback period.
 
 ## Heat pump vs gas boiler: the honest comparison
 
-At face value, a heat pump saves £100-£300 per year over a gas boiler on running costs alone. That's not a dramatic saving, and it's the honest truth that many comparison sites gloss over.
+At face value, a heat pump saves £100-£200 per year over a gas boiler on running costs alone. That's not a dramatic saving, and it's the honest truth that many comparison sites gloss over.
 
 But the full picture is more nuanced. Gas prices have been volatile - they doubled in 2022 and remain above historical averages. Electricity prices are more stable and trending downward as renewable generation increases. The direction of travel clearly favours heat pumps.
 

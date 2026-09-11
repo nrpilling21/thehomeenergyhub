@@ -27,7 +27,7 @@ So how does a smart meter save you money in practice? There are three distinct m
 
 **Accurate billing eliminates overcharging.** Before smart meters, suppliers estimated your usage. Sometimes those estimates were generous; sometimes they were not. With a smart meter, you pay for exactly what you use, every month. No more surprise catch-up bills after an actual reading reveals you have been underpaying for six months.
 
-**Access to cheaper tariffs.** This is where the big savings live. Time-of-use tariffs like Octopus Agile, Octopus Go, and Intelligent Octopus require a smart meter. These tariffs offer electricity at 7-15p/kWh during off-peak hours, compared to the standard rate of around 24.5p/kWh. If you can shift your heavy electricity use to off-peak windows, charging an EV, running the washing machine, heating water, the savings are substantial. An EV owner on Octopus Go, for example, pays just 7.5p/kWh to charge overnight versus 24.5p on a flat rate, saving roughly £500-£700 per year on fuel costs alone. See our [guide to home EV charging costs](/blog/how-much-charge-electric-car-home-uk) for a full breakdown.
+**Access to cheaper tariffs.** This is where the big savings live. Time-of-use tariffs like Octopus Agile, Octopus Go, and Intelligent Octopus require a smart meter. These tariffs offer electricity at 7-15p/kWh during off-peak hours, compared to the standard rate of 26.32p/kWh at the October 2026 price cap. If you can shift your heavy electricity use to off-peak windows, charging an EV, running the washing machine, heating water, the savings are substantial. An EV owner on Octopus Go, for example, pays just 7.5p/kWh to charge overnight versus 26.32p on a flat rate, saving roughly £450-£600 per year on fuel costs alone. See our [guide to home EV charging costs](/blog/how-much-charge-electric-car-home-uk) for a full breakdown.
 
 ## What the real-world data says
 
@@ -79,7 +79,7 @@ If you have solar panels or are considering them, a smart meter becomes even mor
 
 Current SEG rates range from 4-15p/kWh depending on your supplier and whether you opt for a fixed or agile export tariff. Without a smart meter, you simply cannot access these payments.
 
-A smart meter also helps you maximise self-consumption, the proportion of solar energy you use yourself rather than exporting. By watching the IHD, you can time high-consumption activities like running the washing machine or dishwasher for the middle of the day when your panels are generating. Every kWh you use directly from your panels is a kWh you do not buy from the grid at 24.5p.
+A smart meter also helps you maximise self-consumption, the proportion of solar energy you use yourself rather than exporting. By watching the IHD, you can time high-consumption activities like running the washing machine or dishwasher for the middle of the day when your panels are generating. Every kWh you use directly from your panels is a kWh you do not buy from the grid at 26.32p.
 
 For a full breakdown of solar panel economics, see our [solar panel costs guide](/solar-panel-costs-uk) and our guide to [solar panel grants available in 2026](/blog/solar-panel-grants-uk-2026).
 
