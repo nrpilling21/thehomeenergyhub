@@ -109,7 +109,7 @@ Yes — many draught proofing solutions are temporary and removable, so you won'
 
 ### Does draught proofing cause condensation?
 
-If done properly, no. Modern draught proofing targets uncontrolled air leaks while leaving controlled ventilation (like trickle vents and extractor fans) intact. If you notice increased condensation after draught proofing, it usually means a room needs better extraction — particularly kitchens and bathrooms.
+If done properly, no. Modern draught proofing targets uncontrolled air leaks while leaving controlled ventilation (like trickle vents and extractor fans) intact. If you notice increased condensation after draught proofing, it usually means a room needs better extraction — particularly kitchens and bathrooms. Our guide to [how to stop condensation on windows](/blog/how-to-stop-condensation-on-windows) covers what to do next.
 
 ### What is the difference between draught proofing and insulation?
 

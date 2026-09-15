@@ -1,6 +1,6 @@
 ---
-title: "Best Smart Meter In-Home Display UK 2026: 7 IHDs Compared"
-description: "The best smart meter in-home displays (IHDs) and smart meter display units in the UK for 2026: what each shows, what it costs, how to read it, and how to get a replacement."
+title: "Best Smart Meter UK 2026: Which In-Home Display to Choose"
+description: "You don't choose your smart meter in the UK - your supplier fits a SMETS2. What you choose is the display. The 7 best smart meter displays compared for 2026."
 date: "2026-07-28"
 author: "The Home Energy Hub"
 category: "energy-saving"
