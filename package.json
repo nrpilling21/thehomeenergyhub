@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "/* check:links */": "Strict inbound-internal-link check (BL-129). The blog agent runs this before publishing; it exits non-zero on a broken link or a route with fewer than 3 inbound links.",
+    "check:links": "node scripts/check-internal-links.mjs",
+    "build": "node scripts/check-internal-links.mjs --warn-only && next build",
     "start": "next start",
     "lint": "next lint"
   },

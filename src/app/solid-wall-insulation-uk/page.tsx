@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Solid Wall Insulation Cost UK (2026): Internal vs External",
     description:
       "Honest UK costs and savings for internal and external solid wall insulation, plus grants and which option suits which property.",
-    url: "https://thehomeenergyhub.co.uk/solid-wall-insulation-uk",
+    url: "https://www.thehomeenergyhub.co.uk/solid-wall-insulation-uk",
     type: "article",
   },
 };

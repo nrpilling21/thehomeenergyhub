@@ -83,16 +83,27 @@ function markdownToHtml(md: string): string {
       if (block.startsWith('### ')) return `<h3 class="text-lg font-display font-semibold mt-8 mb-3">${block.slice(4)}</h3>`;
       if (block.startsWith('## ')) return `<h2 class="text-xl font-display font-semibold mt-10 mb-4">${block.slice(3)}</h2>`;
 
-      // Inline-formatting helper (bold + links).
+      // Inline-formatting helper (bold + links + emphasis).
       // External links get rel/target; affiliate links are additionally marked
       // rel="sponsored nofollow" per Google's link-spam policy and the
       // Amazon Associates / Awin programme rules.
+      //
+      // Order matters. Bold runs first so that by the time the emphasis pass
+      // runs there are no `**` pairs left for it to bite into. Links run next
+      // so that an emphasised sentence containing a link -- which is exactly
+      // what the affiliate disclosure at the top of every post is -- comes out
+      // as <em>...<a>...</a>...</em> rather than the asterisks leaking through
+      // as literal characters (BL-139).
       const renderInline = (s: string) => s
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
         .replace(/\[(.*?)\]\((.*?)\)/g, (_m, label: string, href: string) => {
           const attrs = linkAttributes(href);
           return `<a href="${href}" class="text-ink underline"${attrs}>${label}</a>`;
-        });
+        })
+        // Single-asterisk emphasis. The opening `*` must be followed by a
+        // non-space and the closing `*` preceded by one, so arithmetic like
+        // `3 * 4 * 5` and a lone trailing asterisk are both left alone.
+        .replace(/(^|[^\w*])\*(?![\s*])([^*]+?)(?<![\s*])\*(?![\w*])/g, '$1<em>$2</em>');
 
       const lines = block.split('\n');
 

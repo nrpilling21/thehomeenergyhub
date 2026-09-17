@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ELECTRICITY_PENCE_PER_KWH } from "@/lib/energy-rates";
 
 export const metadata: Metadata = {
   alternates: { canonical: '/solar-panel-costs-uk' },
@@ -224,7 +225,7 @@ export default function SolarPanelCostsPage() {
         <Section title="How Much Can Solar Panels Save You?">
           <p>
             Your savings depend on three things: how much electricity you use, when you use it, and
-            your current tariff. At the October 2026 Ofgem price cap of 26.32p/kWh, a 4kW system
+            your current tariff. At the October 2026 Ofgem price cap of {ELECTRICITY_PENCE_PER_KWH}p/kWh, a 4kW system
             generating around 3,400 kWh per year saves you roughly £540–£860 annually through a
             combination of reduced bills and SEG export payments.
           </p>

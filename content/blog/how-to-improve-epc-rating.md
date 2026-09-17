@@ -102,7 +102,7 @@ The upfront [cost of a heat pump](/heat-pump-cost-uk) is higher than a boiler re
 
 **Cost:** £5,000–£15,000 | **EPC impact:** 10–20 points
 
-If your home has solid walls (typically pre-1930s properties), this is the most impactful insulation upgrade available. External wall insulation involves adding an insulating layer and render to the outside of your home, while internal wall insulation adds insulated plasterboard inside. Both are effective, but external tends to score slightly better on EPC assessments and doesn't reduce your room sizes.
+If your home has [solid walls](/solid-wall-insulation-uk) (typically pre-1930s properties), this is the most impactful insulation upgrade available. External wall insulation involves adding an insulating layer and render to the outside of your home, while internal wall insulation adds insulated plasterboard inside. Both are effective, but external tends to score slightly better on EPC assessments and doesn't reduce your room sizes.
 
 ### 12. Upgrade to a Modern Condensing Boiler
 

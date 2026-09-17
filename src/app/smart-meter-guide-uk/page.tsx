@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Smart Meters UK 2026: Costs, Savings, Problems and Best IHDs",
     description:
       "Honest UK guide to smart meters in 2026: real savings (£60-£250/year), SMETS2 vs SMETS1, the most common problems and how to fix them, and which IHD is worth using.",
-    url: "https://thehomeenergyhub.co.uk/smart-meter-guide-uk",
+    url: "https://www.thehomeenergyhub.co.uk/smart-meter-guide-uk",
     type: "article",
   },
 };

@@ -47,7 +47,7 @@ A [letterbox draught excluder](https://www.amazon.co.uk/s?k=letterbox+draught+ex
 
 ### Floors and Skirting Boards
 
-Gaps between floorboards and around skirting boards can let in significant draughts, particularly in older properties. You can fill floorboard gaps with a [flexible floor gap filler](https://www.amazon.co.uk/s?k=flexible+floor+gap+filler&tag=thehomeenergyhub-21) for around **£10 to £20** per room, or use a [sealant gun](https://www.amazon.co.uk/s?k=sealant+gun+decorators&tag=thehomeenergyhub-21) along skirting boards for under **£10**.
+Gaps between floorboards and around skirting boards can let in significant draughts, particularly in older properties. You can fill floorboard gaps with a [flexible floor gap filler](https://www.amazon.co.uk/s?k=flexible+floor+gap+filler&tag=thehomeenergyhub-21) for around **£10 to £20** per room, or use a [sealant gun](https://www.amazon.co.uk/s?k=sealant+gun+decorators&tag=thehomeenergyhub-21) along skirting boards for under **£10**. If the draught is coming up through the floor rather than between the boards, sealing gaps only goes so far — our [floor insulation cost guide](/blog/floor-insulation-cost-uk) covers what insulating underneath actually costs.
 
 ### Loft Hatches
 

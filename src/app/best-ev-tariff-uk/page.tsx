@@ -1,5 +1,45 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ELECTRICITY_PENCE_PER_KWH } from "@/lib/energy-rates";
+
+/*
+  The comparison table below is a pure function of (annual kWh x each tariff's
+  unit rate), so it is computed rather than typed out (BL-133). The standard
+  variable rate comes from the shared rate constants, which means an Ofgem cap
+  change updates the baseline, all six saving figures and the FAQ prose from a
+  single edit in src/lib/energy-rates.ts.
+
+  Off-peak rates are each supplier's published off-peak figure and are real
+  observations, not derived, so they stay as data here.
+*/
+const EV_ANNUAL_MILES = 8000;
+const EV_MILES_PER_KWH = 3.5;
+/** Annual charging demand for the worked example, kWh. */
+const EV_ANNUAL_KWH = Math.round(EV_ANNUAL_MILES / EV_MILES_PER_KWH);
+
+const EV_TARIFFS: { name: string; pencePerKwh: number; highlight?: boolean }[] = [
+  { name: "Standard variable", pencePerKwh: ELECTRICITY_PENCE_PER_KWH },
+  { name: "Intelligent Octopus Go", pencePerKwh: 7.5, highlight: true },
+  { name: "Octopus Go", pencePerKwh: 8.5, highlight: true },
+  { name: "OVO Charge Anytime", pencePerKwh: 8.5, highlight: true },
+  { name: "Scottish Power EV Saver", pencePerKwh: 8.9 },
+  { name: "EDF GoElectric Overnight", pencePerKwh: 9 },
+  { name: "British Gas Electric Driver", pencePerKwh: 9.9 },
+];
+
+const annualPounds = (pencePerKwh: number) => Math.round((EV_ANNUAL_KWH * pencePerKwh) / 100);
+const EV_BASELINE_COST = annualPounds(ELECTRICITY_PENCE_PER_KWH);
+
+const EV_TARIFF_ROWS = EV_TARIFFS.map((tariff) => {
+  const annualCost = annualPounds(tariff.pencePerKwh);
+  return {
+    ...tariff,
+    annualCost,
+    /* Saving is computed from the rounded pound figures so the column always
+       reconciles against the one printed next to it. */
+    saving: tariff.pencePerKwh === ELECTRICITY_PENCE_PER_KWH ? null : EV_BASELINE_COST - annualCost,
+  };
+});
 
 export const metadata: Metadata = {
   title: "Best EV Tariff UK 2026: Octopus Go vs OVO vs EDF GoElectric",
@@ -112,7 +152,7 @@ const FAQS: FAQ[] = [
   {
     question: "How much can the right EV tariff save me?",
     answer:
-      "On 8,000 miles per year of typical UK driving the difference between a standard variable tariff (26.32p/kWh at the October 2026 price cap) and an EV off-peak tariff (7.5–9p) is around £380–£430 per year just on the EV. If you also run a heat pump on a heat-pump-friendly tariff like Octopus Cosy, or a home battery on time-of-use arbitrage, the gap widens. Plug your bill and assets into our smart meter savings calculator for a household-specific estimate.",
+      "On 8,000 miles per year of typical UK driving the difference between a standard variable tariff (" + ELECTRICITY_PENCE_PER_KWH + "p/kWh at the October 2026 price cap) and an EV off-peak tariff (7.5–9p) is around £380–£430 per year just on the EV. If you also run a heat pump on a heat-pump-friendly tariff like Octopus Cosy, or a home battery on time-of-use arbitrage, the gap widens. Plug your bill and assets into our smart meter savings calculator for a household-specific estimate.",
   },
   {
     question: "Can I get an EV tariff without an EV?",
@@ -212,7 +252,8 @@ export default function BestEvTariffUkPage() {
         Annual cost: standard tariff vs EV tariff
       </h2>
       <p className="text-ink/65 leading-relaxed mb-5">
-        Worked example: 8,000 miles/year, 3.5 miles/kWh efficiency = 2,286 kWh of charging per year.
+        Worked example: {EV_ANNUAL_MILES.toLocaleString()} miles/year, {EV_MILES_PER_KWH} miles/kWh
+        efficiency = {EV_ANNUAL_KWH.toLocaleString()} kWh of charging per year.
       </p>
       <div className="overflow-x-auto mb-10 rounded-2xl border border-plum-light/20">
         <table className="w-full text-base">
@@ -225,48 +266,22 @@ export default function BestEvTariffUkPage() {
             </tr>
           </thead>
           <tbody className="text-ink/70">
-            <tr className="border-b border-plum-light/15">
-              <td className="py-3 px-4 font-medium text-ink">Standard variable</td>
-              <td className="py-3 px-4">26.32p/kWh</td>
-              <td className="py-3 px-4">£602</td>
-              <td className="py-3 px-4 text-ink/55">baseline</td>
-            </tr>
-            <tr className="border-b border-plum-light/15">
-              <td className="py-3 px-4 font-medium text-ink">Intelligent Octopus Go</td>
-              <td className="py-3 px-4">7.5p/kWh</td>
-              <td className="py-3 px-4 font-semibold text-ink">£171</td>
-              <td className="py-3 px-4 font-semibold text-ink">£431</td>
-            </tr>
-            <tr className="border-b border-plum-light/15">
-              <td className="py-3 px-4 font-medium text-ink">Octopus Go</td>
-              <td className="py-3 px-4">8.5p/kWh</td>
-              <td className="py-3 px-4 font-semibold text-ink">£194</td>
-              <td className="py-3 px-4 font-semibold text-ink">£408</td>
-            </tr>
-            <tr className="border-b border-plum-light/15">
-              <td className="py-3 px-4 font-medium text-ink">OVO Charge Anytime</td>
-              <td className="py-3 px-4">8.5p/kWh</td>
-              <td className="py-3 px-4 font-semibold text-ink">£194</td>
-              <td className="py-3 px-4 font-semibold text-ink">£408</td>
-            </tr>
-            <tr className="border-b border-plum-light/15">
-              <td className="py-3 px-4 font-medium text-ink">Scottish Power EV Saver</td>
-              <td className="py-3 px-4">8.9p/kWh</td>
-              <td className="py-3 px-4">£203</td>
-              <td className="py-3 px-4">£399</td>
-            </tr>
-            <tr className="border-b border-plum-light/15">
-              <td className="py-3 px-4 font-medium text-ink">EDF GoElectric Overnight</td>
-              <td className="py-3 px-4">9p/kWh</td>
-              <td className="py-3 px-4">£206</td>
-              <td className="py-3 px-4">£396</td>
-            </tr>
-            <tr>
-              <td className="py-3 px-4 font-medium text-ink">British Gas Electric Driver</td>
-              <td className="py-3 px-4">9.9p/kWh</td>
-              <td className="py-3 px-4">£226</td>
-              <td className="py-3 px-4">£376</td>
-            </tr>
+            {EV_TARIFF_ROWS.map((row, i) => (
+              <tr key={row.name} className={i < EV_TARIFF_ROWS.length - 1 ? "border-b border-plum-light/15" : undefined}>
+                <td className="py-3 px-4 font-medium text-ink">{row.name}</td>
+                <td className="py-3 px-4">{row.pencePerKwh}p/kWh</td>
+                <td className={`py-3 px-4${row.highlight ? " font-semibold text-ink" : ""}`}>
+                  &pound;{row.annualCost}
+                </td>
+                {row.saving === null ? (
+                  <td className="py-3 px-4 text-ink/55">baseline</td>
+                ) : (
+                  <td className={`py-3 px-4${row.highlight ? " font-semibold text-ink" : ""}`}>
+                    &pound;{row.saving}
+                  </td>
+                )}
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>

@@ -111,7 +111,7 @@ Signs your home has cavity walls:
 
 Homes that typically don't have cavity walls:
 
-- Properties built before 1920 (usually solid walls)
+- Properties built before 1920 (usually [solid walls](/solid-wall-insulation-uk), which need a different approach)
 - Stone-built homes
 - Timber-framed buildings
 - Some non-traditional construction types (e.g., steel-framed, concrete panel)
