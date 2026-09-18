@@ -108,7 +108,7 @@ If your home has [solid walls](/solid-wall-insulation-uk) (typically pre-1930s p
 
 **Cost:** £2,500–£4,500 | **EPC impact:** 5–10 points
 
-If you're not ready for a heat pump but your boiler is old and inefficient (pre-2005), replacing it with a modern A-rated condensing boiler can still improve your EPC significantly. New condensing boilers run at 90%+ efficiency compared to 60–70% for older models.
+If you're not ready for a heat pump but your boiler is old and inefficient (pre-2005), replacing it with a modern A-rated condensing boiler can still improve your EPC significantly. New condensing boilers run at 90%+ efficiency compared to 60–70% for older models. If yours is already a condensing boiler, check [what temperature it is set at](/blog/what-temperature-should-my-boiler-be-set-at) before replacing anything - most are set too hot to reach that 90% in practice, and correcting it is free.
 
 ## How Much Does It Cost to Improve Your EPC Rating?
 

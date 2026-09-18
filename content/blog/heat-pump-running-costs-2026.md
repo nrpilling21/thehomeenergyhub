@@ -37,7 +37,7 @@ The biggest lever you have is your electricity tariff. Standard variable rates o
 
 ## Heat pump vs gas boiler: the honest comparison
 
-At face value, a heat pump saves £100-£200 per year over a gas boiler on running costs alone. That's not a dramatic saving, and it's the honest truth that many comparison sites gloss over.
+At face value, a heat pump saves £100-£200 per year over a gas boiler on running costs alone. That's not a dramatic saving, and it's the honest truth that many comparison sites gloss over. It is also worth knowing that the gas figure assumes a boiler running efficiently - most are set too hot to condense, so [turning the boiler flow temperature down](/blog/what-temperature-should-my-boiler-be-set-at) narrows the gap before you spend anything.
 
 But the full picture is more nuanced. Gas prices have been volatile - they doubled in 2022 and remain above historical averages. Electricity prices are more stable and trending downward as renewable generation increases. The direction of travel clearly favours heat pumps.
 

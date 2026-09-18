@@ -89,6 +89,18 @@ const CLUSTERS: { keywords: string[]; cta: PostCta }[] = [
       secondary: { label: 'Solar battery storage', href: '/blog/solar-battery-storage-uk' },
     },
   },
+  /* Boiler and heating controls. No calculator fits this cluster, so the
+     closest pillar guide leads: the next step after turning the flow
+     temperature down is reducing how much heat the house needs. */
+  {
+    keywords: ['boiler temperature', 'flow temperature', 'boiler-be-set', 'heating controls'],
+    cta: {
+      heading: 'Get more out of your heating',
+      body: 'Lowering the flow temperature works best in a house that loses less heat. Start here.',
+      primary: { label: 'Home insulation guide', href: '/home-insulation-guide-uk' },
+      secondary: { label: 'Do smart thermostats save money?', href: '/blog/do-smart-thermostats-save-money-uk' },
+    },
+  },
   {
     keywords: ['insulation', 'loft', 'cavity', 'draught', 'epc', 'solid wall', 'floor'],
     cta: {

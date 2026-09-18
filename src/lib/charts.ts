@@ -285,6 +285,36 @@ const CHARTS: Record<string, () => string> = {
     );
   },
 
+  /* What the boiler flow temperature setting is worth over a year. Useful heat
+     is held constant and only the efficiency changes, so the bars show the
+     same house heated to the same temperature by a boiler that is or is not
+     condensing. Efficiencies are seasonal figures for a condensing boiler at
+     each flow temperature; the return runs roughly 10C below the flow, and
+     condensing only begins once the return is below about 55C. */
+  'boiler-flow-temp-annual-cost': () => {
+    const GAS_KWH_PER_YEAR = 11500; // Ofgem medium household benchmark
+    const BASE_EFFICIENCY = 0.86; // a boiler at 80C flow, i.e. not condensing
+    const usefulHeat = GAS_KWH_PER_YEAR * BASE_EFFICIENCY;
+    const annual = (eff: number) => (usefulHeat / eff) * GAS_PENCE_PER_KWH / 100;
+    return barChart(
+      'A year of gas, by boiler flow temperature',
+      'Same house, same heat delivered. Only the boiler efficiency changes - and it changes because the return water gets cool enough to condense.',
+      [
+        { label: '80\u00b0C flow (86.0% - not condensing)', eff: 0.86 },
+        { label: '70\u00b0C flow (87.2%)', eff: 0.872 },
+        { label: '65\u00b0C flow (88.5%)', eff: 0.885 },
+        { label: '60\u00b0C flow (90.5% - recommended)', eff: 0.905, hi: true },
+        { label: '55\u00b0C flow (92.0%)', eff: 0.92 },
+        { label: '50\u00b0C flow (93.0%)', eff: 0.93 },
+      ].map(r => ({
+        label: r.label,
+        value: annual(r.eff),
+        display: gbpWhole(annual(r.eff)),
+        highlight: r.hi,
+      }))
+    );
+  },
+
   /* The comparison that decides whether electric heating makes sense at all. */
   'heat-source-cost-per-kwh': () =>
     barChart(

@@ -67,7 +67,7 @@ According to the Energy Saving Trust, draught proofing your windows and doors al
 
 That means a professional whole-house draught proofing job at £225 pays for itself in roughly **three years**. A DIY approach using strips and excluders could cost under £50 and pay back within a single winter.
 
-When combined with other insulation measures, the savings compound. A well-insulated and draught-proofed home retains heat far more efficiently, meaning your boiler (or [heat pump](/heat-pump-cost-uk)) runs less often and your energy bills drop further.
+When combined with other insulation measures, the savings compound. A well-insulated and draught-proofed home retains heat far more efficiently, meaning your boiler (or [heat pump](/heat-pump-cost-uk)) runs less often and your energy bills drop further. A draught-proofed home also copes far better with a lower [boiler flow temperature](/blog/what-temperature-should-my-boiler-be-set-at), which is a free change worth around £50 a year on its own.
 
 ## Can You Get Grants for Draught Proofing?
 

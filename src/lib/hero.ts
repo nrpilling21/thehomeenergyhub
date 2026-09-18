@@ -104,7 +104,7 @@ const MOTIFS: { glyph: Glyph; keywords: string[] }[] = [
   { glyph: sun, keywords: ['solar', 'battery', 'grant'] },
   { glyph: droplet, keywords: ['dehumidifier', 'damp', 'condensation', 'humidity'] },
   { glyph: drum, keywords: ['tumble', 'dryer', 'airer', 'laundry', 'washing'] },
-  { glyph: heat, keywords: ['heater', 'radiator', 'thermostat', 'heating', 'draught'] },
+  { glyph: heat, keywords: ['heater', 'radiator', 'thermostat', 'heating', 'draught', 'boiler'] },
   { glyph: layers, keywords: ['insulation', 'loft', 'cavity', 'floor', 'wall', 'epc'] },
   { glyph: bars, keywords: ['smart meter', 'smart-meter', 'meter', 'ihd', 'smets', 'display', 'tariff', 'bill'] },
 ];

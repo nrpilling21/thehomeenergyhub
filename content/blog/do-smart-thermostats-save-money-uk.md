@@ -75,7 +75,7 @@ Wiser is the value pick and, quietly, one of the most capable. It offers proper 
 
 ## Smart thermostats and heat pumps
 
-If you have a heat pump, or you are weighing one up, the thermostat question changes slightly. Heat pumps run most efficiently at a low, steady flow temperature rather than the hot bursts a gas boiler gives. That means the biggest heat pump savings come from weather compensation and from avoiding the short-cycling that happens when a thermostat keeps switching the system fully on and off.
+If you have a heat pump, or you are weighing one up, the thermostat question changes slightly. Heat pumps run most efficiently at a low, steady flow temperature rather than the hot bursts a gas boiler gives - and a gas boiler is more efficient that way too, which is why [what temperature you set your boiler at](/blog/what-temperature-should-my-boiler-be-set-at) is worth more than most thermostat upgrades. That means the biggest heat pump savings come from weather compensation and from avoiding the short-cycling that happens when a thermostat keeps switching the system fully on and off.
 
 Not every smart thermostat is heat-pump friendly, so check compatibility before you buy - some are designed only for on/off boiler control. If you are still at the numbers stage with a heat pump, our guide to [heat pump running costs in 2026](/blog/heat-pump-running-costs-2026) sets out what a well-controlled system actually costs to run, and the [heat pump cost guide](/heat-pump-cost-uk) covers the up-front side.
 
