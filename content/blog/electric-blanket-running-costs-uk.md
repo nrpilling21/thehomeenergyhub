@@ -1,6 +1,6 @@
 ---
 title: "How Much Does an Electric Blanket Cost to Run? UK 2026"
-description: "An electric blanket costs about 2.6p an hour to run in 2026, or under £12 for a whole winter. The real sums at the October price cap, the truth about the 1p-an-hour claim, and the safety rule that matters."
+description: "An electric blanket costs about 2.6p an hour to run, or under £12 for a whole winter. The 2026 price-cap sums, and the truth about the 1p-an-hour claim."
 date: "2026-09-11"
 author: "The Home Energy Hub"
 category: "energy-saving"

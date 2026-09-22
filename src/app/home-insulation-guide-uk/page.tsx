@@ -242,7 +242,12 @@ export default function HomeInsulationGuidePage() {
         If you are starting from scratch, the best order is usually: loft insulation first (cheapest,
         fastest payback), then cavity wall insulation (if your home has cavities), then draught
         proofing, and finally solid wall or floor insulation if applicable. This approach gives you the
-        biggest savings for the least upfront cost.
+        biggest savings for the least upfront cost. Draught proofing is the cheapest step of the four
+        by a wide margin -- our guide to the{" "}
+        <Link href="/blog/best-draught-excluder-uk" className="text-blue-600 hover:underline">
+          best draught excluders
+        </Link>{" "}
+        covers which product seals which gap, and what each is worth.
       </p>
       <p className="text-gray-700 mb-4 leading-relaxed">
         Good insulation also makes your home ready for a{" "}

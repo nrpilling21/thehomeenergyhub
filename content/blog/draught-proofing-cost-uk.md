@@ -1,6 +1,6 @@
 ---
-title: "Draught Proofing Cost UK 2026: From £3 DIY, Save £85/Year"
-description: "Draught proofing costs £150-£300 for a whole house, or under £20 to DIY. 2026 prices for doors, windows and chimneys, and how to save £85 a year."
+title: "Draught Proofing UK 2026: What It Costs, What It Saves"
+description: "Draught proofing a UK home costs £150-£300 professionally, or under £20 DIY. What every job costs in 2026, and why the saving is £60-£85 a year."
 date: "2026-04-10"
 author: "The Home Energy Hub"
 category: "guides"
@@ -55,7 +55,7 @@ A poorly sealed loft hatch lets warm air escape straight into your roof space. A
 
 ## DIY vs Professional Draught Proofing
 
-Most basic draught proofing is well within DIY territory. Self-adhesive strips, draught excluders, chimney balloons and sealant are all straightforward to fit with no special tools.
+Most basic draught proofing is well within DIY territory. Self-adhesive strips, draught excluders, chimney balloons and sealant are all straightforward to fit with no special tools — our guide to the [best draught excluders](/blog/best-draught-excluder-uk) sets out which product suits which gap, and what each one is worth.
 
 Professional help is worth considering for sash windows (which need precise fitting of brush pile strips into routed channels), external doors with complex thresholds, whole-house draught proofing where you want everything done at once, and if you're not confident identifying all the draught sources.
 
@@ -95,7 +95,7 @@ Draught proofing can improve your Energy Performance Certificate rating, which m
 
 In short: absolutely. At £150 to £300 for a whole house (or under £50 for DIY), draught proofing offers one of the fastest payback periods of any home energy upgrade. You'll notice the difference in comfort almost immediately, and the savings build up year after year.
 
-If you're on a tight budget, start with the biggest draught sources — usually external doors, any unused chimneys, and the most exposed windows. Even spending £20 on a couple of [draught excluders](https://www.amazon.co.uk/s?k=door+draught+excluder&tag=thehomeenergyhub-21) and a [chimney balloon](https://www.amazon.co.uk/s?k=chimney+balloon+draught+excluder&tag=thehomeenergyhub-21) can make a meaningful difference this winter.
+If you're on a tight budget, start with the biggest draught sources. Ranked by the actual area of open hole, that means an unused chimney and bare floorboards first, then windows, then the letterbox, and the door you can feel the draught at last — the reverse of the order most people buy in. Our [best draught excluders guide](/blog/best-draught-excluder-uk) works through that ranking gap by gap, and even spending £17 on a door brush strip, a letterbox brush cover and a roll of foam tape closes about a quarter of the leak.
 
 ## Frequently Asked Questions
 

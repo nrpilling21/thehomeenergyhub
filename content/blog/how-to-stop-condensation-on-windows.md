@@ -1,6 +1,6 @@
 ---
-title: "How to Stop Condensation on Windows UK 2026: What Works, What It Costs"
-description: "How to stop condensation on windows in a UK home: what actually causes it, the fixes that work overnight, what each one costs to run at the October 2026 price cap, and when it is a damp problem instead."
+title: "How to Stop Condensation on Windows UK 2026: What Works"
+description: "How to stop condensation on windows in a UK home: what causes it, the fixes that work overnight, what each costs to run, and when it is really damp."
 date: "2026-09-15"
 author: "The Home Energy Hub"
 category: "energy-saving"
@@ -78,7 +78,7 @@ Replacing all the air in a 90 m³ house and reheating it from 0°C to 20°C take
 
 The reason it is so cheap is that air has almost no heat capacity compared with the bricks, plaster and furniture around it. In ten minutes the air is fully changed but the fabric of the room has barely cooled, so the room comes back up to temperature quickly.
 
-What is genuinely expensive is the opposite approach: leaving a window cracked open all day, every day. That is a continuous heat leak rather than a short flush, and it can add tens of pounds a month. **Short and wide beats small and permanent.** If you are draught-proofing the rest of the house - and you should, see our [draught-proofing cost guide](/blog/draught-proofing-cost-uk) - this is the one place to deliberately keep an air path.
+What is genuinely expensive is the opposite approach: leaving a window cracked open all day, every day. That is a continuous heat leak rather than a short flush, and it can add tens of pounds a month. **Short and wide beats small and permanent.** If you are draught-proofing the rest of the house - and you should, see our [draught-proofing cost guide](/blog/draught-proofing-cost-uk) and our [guide to the best draught excluders](/blog/best-draught-excluder-uk) - this is the one place to deliberately keep an air path.
 
 ## The fixes, ranked by what they cost to run
 

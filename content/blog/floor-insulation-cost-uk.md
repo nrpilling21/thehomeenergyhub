@@ -49,7 +49,7 @@ Insulating a solid floor is more involved because there's no void to fill. The t
 
 ### Sealing Gaps and Draughts
 
-Whichever floor you have, sealing the gaps between floorboards and around the skirting is a cheap, high-impact first step. A tube of [flexible floor gap filler](https://www.amazon.co.uk/s?k=floor+gap+filler+sealant&tag=thehomeenergyhub-21) or some [draught excluder strip](https://www.amazon.co.uk/s?k=draught+excluder+strip&tag=thehomeenergyhub-21) costs only a few pounds and can noticeably cut the cold air rising through the floor. This overlaps closely with [draught proofing](/blog/draught-proofing-cost-uk), and the two jobs are often best done together.
+Whichever floor you have, sealing the gaps between floorboards and around the skirting is a cheap, high-impact first step. A tube of [flexible floor gap filler](https://www.amazon.co.uk/s?k=floor+gap+filler+sealant&tag=thehomeenergyhub-21) or some [draught excluder strip](https://www.amazon.co.uk/s?k=draught+excluder+strip&tag=thehomeenergyhub-21) costs only a few pounds and can noticeably cut the cold air rising through the floor. This overlaps closely with [draught proofing](/blog/draught-proofing-cost-uk), and the two jobs are often best done together — bare floorboards are usually the single largest source of air leakage in a period home, as our [best draught excluders guide](/blog/best-draught-excluder-uk) sets out.
 
 ## DIY vs Professional Floor Insulation
 

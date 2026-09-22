@@ -1,6 +1,6 @@
 ---
 title: "Heated Airer Running Costs UK 2026: Just 8p an Hour"
-description: "A heated airer costs about 8p an hour to run, or 24-63p a load. The 2026 sums at the October price cap, how it compares with a tumble dryer, and the best models to buy."
+description: "A heated airer costs about 8p an hour, or 24-63p a load. The 2026 price-cap sums, how it compares with a tumble dryer, and which models to buy."
 date: "2026-07-24"
 author: "The Home Energy Hub"
 category: "energy-saving"

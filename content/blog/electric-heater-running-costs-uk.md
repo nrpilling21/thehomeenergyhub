@@ -1,6 +1,6 @@
 ---
-title: "Electric Heater Running Costs UK 2026: What Each Type Really Costs"
-description: "Electric heater running costs in the UK for 2026, at the current 26.32p price cap rate: cost per hour by wattage, why the thermostat matters more than the type, and full-winter figures."
+title: "Electric Heater Running Costs UK 2026: What Each Type Costs"
+description: "Electric heater running costs at the 26.32p 2026 price cap: cost per hour by wattage, and why the thermostat matters far more than the type of heater."
 date: "2026-09-08"
 author: "The Home Energy Hub"
 category: "energy-saving"
