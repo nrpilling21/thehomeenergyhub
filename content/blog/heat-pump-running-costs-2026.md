@@ -33,7 +33,7 @@ The biggest lever you have is your electricity tariff. Standard variable rates o
 
 [chart:heat-pump-annual-by-tariff]
 
-**Solar panels** are the other game-changer. A 4kW solar array generates roughly 3,400kWh per year in the UK. Combined with a heat pump, your heating can be virtually free during spring and autumn months when solar output is strong and heating demand is moderate. Adding a home battery lets you store cheap daytime electricity (or surplus solar) and run the heat pump on it after dark — see our [solar battery storage guide](/blog/solar-battery-storage-uk) for sizing and payback. See our [solar panel costs guide](/solar-panel-costs-uk) for a full breakdown of what you would pay and the payback period.
+**Solar panels** are the other game-changer. A 4kW solar array generates roughly 3,400kWh per year in the UK. Combined with a heat pump, your heating can be virtually free during spring and autumn months when solar output is strong and heating demand is moderate. Adding a home battery lets you store cheap daytime electricity (or surplus solar) and run the heat pump on it after dark — see our [solar battery storage guide](/blog/solar-battery-storage-uk) for sizing and payback. See our [solar panel costs guide](/solar-panel-costs-uk) for a full breakdown of what you would pay and the payback period. A cheaper alternative to a battery for hot water specifically is a solar diverter, which routes surplus generation straight to an immersion heater in the cylinder instead of exporting it at low SEG rates — see our [immersion heater running costs](/blog/immersion-heater-running-costs-uk) guide for what that hot water would otherwise cost you.
 
 ## Heat pump vs gas boiler: the honest comparison
 

@@ -73,6 +73,8 @@ This is not about efficiency. Stored water between roughly 20°C and 45°C sits 
 
 The extra energy is not large. Reheating a 150 litre cylinder from cold to 60°C takes about 7.9 kWh of heat, roughly 69p at the cap rate; to 50°C it is about 6.1 kWh, roughly 54p. But 60°C is the setting, and this is one place where saving 15p is not worth it.
 
+That figure assumes the boiler is doing the heating. If your cylinder is heated by an immersion element instead — as a backup, or as the only heat source in an all-electric property — the same 7.9 kWh costs a good deal more, because electricity costs roughly three times as much per unit as gas. See our [immersion heater running costs](/blog/immersion-heater-running-costs-uk) guide for the full breakdown by tank size.
+
 Note that this is the **cylinder** thermostat — usually a dial strapped to the side of the tank, or a setting on your programmer — not the boiler's own hot water dial. On a system boiler the boiler flow needs to run a little above the cylinder target, so 65-70°C on the boiler is reasonable while the cylinder is calling for 60°C. This is the one legitimate reason to run a higher flow temperature, and decent controls drop it back down once the cylinder is satisfied.
 
 ## What temperature should radiators be on?

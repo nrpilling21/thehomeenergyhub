@@ -205,6 +205,15 @@ export default function SolarPanelCostsPage() {
             .
           </p>
           <p>
+            A cheaper option for hot water specifically is a solar diverter (such as a MyEnergi Eddi or
+            immerSUN), which routes surplus generation to your immersion heater instead of exporting it
+            at low SEG rates. There is no battery to buy — see our{" "}
+            <Link href="/blog/immersion-heater-running-costs-uk" className="text-gray-900 underline underline-offset-2 hover:text-gray-600">
+              immersion heater running costs guide
+            </Link>{" "}
+            for what that hot water costs when you have to pay for it.
+          </p>
+          <p>
             With battery storage, you can increase your self-consumption from roughly 40–50% to
             70–80%, significantly improving your savings. However, the payback period for the battery
             element alone is typically 10–14 years, so the financial case is weaker than for the panels

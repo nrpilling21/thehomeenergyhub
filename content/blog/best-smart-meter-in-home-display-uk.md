@@ -81,7 +81,7 @@ The Geo Trio II was the dominant supplier-issued IHD from 2019-2023 and millions
 
 ### 4. Loop Energy Saver -- best for appliance-level insight
 
-The Loop Energy Saver is not strictly an IHD - it is a smart energy monitor that wires into your consumer unit (qualified electrician install, around £80 for the kit plus £80-£120 for fitting) and pushes high-resolution electricity data to a phone app. Where the Loop wins is the disaggregation: it learns the signatures of your big appliances over a few weeks and tells you roughly how much your fridge, washing machine, immersion heater, kettle and EV charger each cost you.
+The Loop Energy Saver is not strictly an IHD - it is a smart energy monitor that wires into your consumer unit (qualified electrician install, around £80 for the kit plus £80-£120 for fitting) and pushes high-resolution electricity data to a phone app. Where the Loop wins is the disaggregation: it learns the signatures of your big appliances over a few weeks and tells you roughly how much your fridge, washing machine, [immersion heater](/blog/immersion-heater-running-costs-uk), kettle and EV charger each cost you.
 
 If you actively want to find phantom loads and old appliances that are wasting money, this kind of monitor finds things an IHD cannot. The trade-off is the install cost and the fact that it is electricity-only - no gas tracking. For households that already have insulated walls and a good heating setup, the next big saving lives inside the consumer unit, and a [home energy monitor](https://www.amazon.co.uk/s?k=home+energy+monitor+electricity&tag=thehomeenergyhub-21) is the tool that finds it.
 
