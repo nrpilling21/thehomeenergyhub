@@ -106,6 +106,8 @@ Those tiny 40W Peltier units deserve a specific warning. They extract 250ml to 5
 
 ## Dehumidifier vs tumble dryer vs heated airer for drying washing
 
+Drying is the expensive half of laundry day: a 40°C wash costs only about 21p (see [how much it costs to run a washing machine](/blog/how-much-does-it-cost-to-run-a-washing-machine-uk)), so the drying method decides the total.
+
 This is the comparison most people are really after in winter, and it is the one competitors handle worst - usually because they leave the heat pump tumble dryer out entirely.
 
 Drying a load of washing indoors puts two to three litres of water into your air. That water has to go somewhere. Either it condenses on your coldest wall, or you remove it. Here is what each method costs for the same load, at 26.32p per kWh.

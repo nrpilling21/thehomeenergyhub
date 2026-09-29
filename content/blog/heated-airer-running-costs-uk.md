@@ -33,6 +33,8 @@ If you want to know the exact draw of your own airer rather than trusting the la
 
 ## Cost per load of washing
 
+These figures cover drying only; the wash itself typically adds about 21p at 40°C (see [how much it costs to run a washing machine](/blog/how-much-does-it-cost-to-run-a-washing-machine-uk)).
+
 Hourly cost only matters once you know how long a load actually takes to dry. On its own, an open heated airer will dry a full load of washing in roughly six to eight hours, which puts a load at around 47p to 63p. The trick that transforms the economics is a cover.
 
 A [heated airer cover](https://www.amazon.co.uk/s?k=heated+airer+cover&tag=thehomeenergyhub-21) - essentially a lightweight tent that zips over the frame - traps the warm air around the clothes instead of letting it drift into the room. That typically halves the drying time to around three to four hours, so a covered load drops to roughly 24p to 32p. Many heated airers now come with a cover included; if yours did not, it is the cheapest upgrade you can make and it usually pays for itself within a few weeks.

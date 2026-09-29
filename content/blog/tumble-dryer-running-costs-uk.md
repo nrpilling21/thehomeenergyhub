@@ -11,6 +11,8 @@ tags: ["tumble dryer", "running costs", "heat pump tumble dryer", "energy saving
 
 Tumble dryers have a reputation as the most expensive appliance in the house, and for one type of dryer that reputation is entirely deserved. For another type it is now badly out of date. The gap between the cheapest and most expensive way to tumble dry the same load of washing in 2026 is more than a pound per cycle, which over a year is the difference between £76 and £211 on your electricity bill.
 
+For comparison, the wash that comes before the dryer is cheap: see [how much it costs to run a washing machine](/blog/how-much-does-it-cost-to-run-a-washing-machine-uk) for the per-wash figures.
+
 The short version: a heat pump tumble dryer costs roughly 39p to 53p per load, a vented dryer around £1.18, and a condenser dryer around £1.32. This guide shows exactly how those numbers are calculated so you can work out what your own machine costs, and whether replacing it would actually pay.
 
 All figures use an electricity unit rate of 26.32p per kWh, the Ofgem price cap rate for 1 October to 31 December 2026 and the rate we use across our other [running cost guides](/blog/heated-airer-running-costs-uk).
