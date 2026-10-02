@@ -127,3 +127,5 @@ Around six to eight hours uncovered, or three to four hours with a cover fitted.
 ## The bottom line
 
 A heated airer is one of the cheapest ways to dry washing indoors in the UK. At about 8p an hour, and roughly 24p a load with a cover, it undercuts every tumble dryer except a heat pump model and costs a tiny fraction of drying clothes on radiators or with an electric heater. Buy one with a cover, spin your washing hard before it goes on, and you can dry your laundry all winter for the price of a few coffees a month. For most UK households, it is one of the easiest energy-saving wins going.
+
+Looking at the rest of the kitchen and utility room? Our guides to [washing machine running costs](/blog/how-much-does-it-cost-to-run-a-washing-machine-uk) and [dishwasher running costs](/blog/how-much-does-it-cost-to-run-a-dishwasher-uk) use the same 26.32p per kWh rate.

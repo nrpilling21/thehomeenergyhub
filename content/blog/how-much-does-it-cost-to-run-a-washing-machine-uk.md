@@ -13,7 +13,7 @@ So, how much does it cost to run a washing machine? At the October 2026 Ofgem pr
 
 That is far less than most people fear, which is why the washing machine is rarely the appliance to worry about. The expensive part of laundry is what happens next: drying. This guide shows how the washing machine numbers are worked out, what each programme costs, where the running cost really comes from, and which changes are worth making.
 
-All figures use 26.32p per kWh, the same rate as our other [appliance running cost guides](/blog/tumble-dryer-running-costs-uk).
+All figures use 26.32p per kWh, the same rate as our other [appliance running cost guides](/blog/tumble-dryer-running-costs-uk). The kitchen equivalent is our guide to [dishwasher running costs](/blog/how-much-does-it-cost-to-run-a-dishwasher-uk).
 
 ## How much does a washing machine cost to run per wash?
 

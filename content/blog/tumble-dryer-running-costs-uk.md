@@ -134,7 +134,7 @@ Not usually. A heated airer costs roughly 24p-63p a load against £1.18-£1.45 f
 
 ### Do tumble dryers use a lot of electricity compared with other appliances?
 
-A condenser dryer is generally the second-largest electricity user in a home after electric heating or an EV charger. At 160 cycles a year it uses around 800 kWh - more than a fridge freezer, a washing machine and a dishwasher combined.
+A condenser dryer is generally the second-largest electricity user in a home after electric heating or an EV charger. At 160 cycles a year it uses around 800 kWh - more than a fridge freezer, a washing machine and a dishwasher combined (see our [dishwasher running costs guide](/blog/how-much-does-it-cost-to-run-a-dishwasher-uk) for that one).
 
 ### Is it cheaper to run a tumble dryer at night?
 
