@@ -137,6 +137,43 @@ if (under.length) {
   console.log(`Under-linked routes: none (every route has >= ${MIN_INBOUND} inbound links)`);
 }
 
+
+/* ---------- 3b. Blog metadata length + stale-rate guard (BL-151, BL-132) ---------- */
+
+const MAX_TITLE = 62;
+const MAX_DESC = 160;
+/* Previous Ofgem cap rates that must no longer be quoted as the current rate.
+   Add the outgoing rate here whenever energy-rates.ts changes. */
+const STALE_RATES = ['24.5p/kWh', '24.5p per kWh', '24.50p/kWh', '24.50p per kWh'];
+
+const metaProblems = [];
+const staleProblems = [];
+for (const slug of slugs) {
+  const raw = readFileSync(join(blogDir, `${slug}.md`), 'utf8');
+  const fm = raw.match(/^---\n([\s\S]*?)\n---/);
+  const get = k => { const m = fm && fm[1].match(new RegExp(`^${k}:\\s*["']?(.*?)["']?\\s*$`, 'm')); return m ? m[1] : null; };
+  const title = get('title'), desc = get('description');
+  if (!title) metaProblems.push(`${slug}: missing title`);
+  else if (title.length > MAX_TITLE) metaProblems.push(`${slug}: title is ${title.length} chars (max ${MAX_TITLE})`);
+  if (!desc) metaProblems.push(`${slug}: missing description`);
+  else if (desc.length > MAX_DESC) metaProblems.push(`${slug}: description is ${desc.length} chars (max ${MAX_DESC})`);
+  for (const stale of STALE_RATES) if (raw.includes(stale)) staleProblems.push(`${slug}: quotes stale rate "${stale}"`);
+}
+if (metaProblems.length) {
+  console.error(`\nBLOG METADATA PROBLEMS (${metaProblems.length}):`);
+  for (const m of metaProblems) console.error(`  ${m}`);
+  failures += metaProblems.length;
+} else {
+  console.log(`Blog metadata: all ${slugs.length} posts have a title <= ${MAX_TITLE} and description <= ${MAX_DESC}`);
+}
+if (staleProblems.length) {
+  console.error(`\nSTALE ENERGY RATES (${staleProblems.length}) - update to the value in src/lib/energy-rates.ts:`);
+  for (const m of staleProblems) console.error(`  ${m}`);
+  failures += staleProblems.length;
+} else {
+  console.log('Stale rates: none quoted');
+}
+
 console.log(`\nChecked ${routes.size} routes across ${sourceFiles.length} source files.`);
 
 if (failures && !warnOnly) {

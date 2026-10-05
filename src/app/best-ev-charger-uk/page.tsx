@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+/* eChargers UK is a sister business. Every link carries UTM tags so eChargers
+   analytics can attribute sales to this page (BL-161). */
+const ECHARGERS = "https://www.echargersuk.co.uk";
+function echargersUrl(path: string, content: string) {
+  return `${ECHARGERS}${path}?utm_source=thehomeenergyhub&utm_medium=referral&utm_campaign=best-ev-charger-uk&utm_content=${content}`;
+}
+const BROWSE_7KW = "/collections/7kw-home-ev-chargers";
+
 export const metadata: Metadata = {
   alternates: { canonical: '/best-ev-charger-uk' },
   title: "Best Home EV Charger UK (2026): Honest Comparison",
@@ -80,6 +88,10 @@ export default function EvChargerPage() {
       <h1 className="text-3xl font-display font-normal text-ink leading-tight mb-4">
         Best Home EV Charger UK (2026): Honest Comparison
       </h1>
+      <p className="text-sm text-ink/60 italic mb-4">
+        Some links on this page go to eChargers UK, a sister business of The Home Energy Hub. We benefit
+        if you buy there. <a href="/affiliate-disclosure" className="underline">Full disclosure</a>.
+      </p>
       <p className="text-ink/60 text-lg mb-8 leading-relaxed">
         A good home EV charger costs £800-£1,200 fully installed, charges your car 3-4x faster than a
         three-pin plug, and pays for itself within a year through cheaper overnight electricity rates.
@@ -173,7 +185,7 @@ export default function EvChargerPage() {
           "Less premium feel than Hypervolt or Wallbox",
         ]}
         bestFor="Anyone on a smart energy tariff, especially Octopus. If you're not on a smart tariff, the Ohme loses its biggest advantage."
-        buyUrl="https://www.echargersuk.co.uk"
+        buyUrl={echargersUrl("/products/ohme-home-pro-7kw-tethered-5m-or-8m-cable", "ohme-home-pro")}
       />
 
       <ChargerReview
@@ -196,7 +208,7 @@ export default function EvChargerPage() {
           "Eco+ mode only practical in summer",
         ]}
         bestFor="Homes with existing solar panels (3kW+ systems). Without solar, you're paying a premium for a feature you won't use."
-        buyUrl="https://www.echargersuk.co.uk"
+        buyUrl={echargersUrl("/products/myenergi-zappi-3as07t-g-glo", "myenergi-zappi")}
       />
 
       <ChargerReview
@@ -218,7 +230,8 @@ export default function EvChargerPage() {
           "Tethered cable only — no untethered option",
         ]}
         bestFor="Someone who wants a reliable, well-designed charger without needing specialist features. The 'just works' option."
-        buyUrl="https://www.echargersuk.co.uk"
+        buyUrl={echargersUrl(BROWSE_7KW, "wallbox-pulsar-max")}
+        buyLabel="Browse 7kW home chargers at eChargers UK"
       />
 
       <ChargerReview
@@ -241,7 +254,7 @@ export default function EvChargerPage() {
           "Functional rather than attractive design",
         ]}
         bestFor="Someone who wants the cheapest reliable charger and doesn't need solar or smart tariff features."
-        buyUrl="https://www.echargersuk.co.uk"
+        buyUrl={echargersUrl("/products/pod-point-solo-3s-ev-charger-tethered-5m-cable", "pod-point-solo-3s")}
       />
 
       <ChargerReview
@@ -263,7 +276,8 @@ export default function EvChargerPage() {
           "Premium pricing for features you can't fully use yet",
         ]}
         bestFor="Early adopters and design-conscious buyers who plan to keep the charger for 10+ years and want V2G readiness."
-        buyUrl="https://www.echargersuk.co.uk"
+        buyUrl={echargersUrl(BROWSE_7KW, "hypervolt-home-3")}
+        buyLabel="Browse 7kW home chargers at eChargers UK"
       />
 
       {/* Running costs */}
@@ -338,11 +352,11 @@ export default function EvChargerPage() {
       <div className="bg-yellow rounded-2xl p-6 mt-10 mb-6">
         <div className="font-display font-semibold text-ink text-lg mb-1">Ready to buy?</div>
         <p className="text-base text-ink/60 mb-3">
-          Browse all five chargers with pricing, installation options, and next-day delivery at our sister
-          site eChargers UK.
+          The Ohme, Zappi and Pod Point are all stocked at our sister site eChargers UK, alongside
+          other 7kW home chargers.
         </p>
         <a
-          href="https://www.echargersuk.co.uk"
+          href={echargersUrl(BROWSE_7KW, "footer-cta")}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold text-cream-dark bg-ink hover:opacity-90 transition-colors"
@@ -409,6 +423,7 @@ function ChargerReview({
   weaknesses,
   bestFor,
   buyUrl,
+  buyLabel,
 }: {
   number: number;
   name: string;
@@ -420,6 +435,7 @@ function ChargerReview({
   weaknesses: string[];
   bestFor: string;
   buyUrl?: string;
+  buyLabel?: string;
 }) {
   return (
     <section className="mb-10 pb-10 border-b border-plum-light/20 last:border-0">
@@ -468,7 +484,7 @@ function ChargerReview({
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-cream-dark bg-ink hover:opacity-90 transition-colors"
         >
-          View {name} at eChargers UK
+          {buyLabel ?? `View ${name} at eChargers UK`}
           <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
         </a>
       )}

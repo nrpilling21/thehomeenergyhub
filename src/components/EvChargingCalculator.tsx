@@ -341,7 +341,7 @@ export default function EvChargingCalculator() {
           {/* CTAs */}
           <div className="space-y-3 mb-8">
             <a
-              href="https://www.echargersuk.co.uk"
+              href="https://www.echargersuk.co.uk/collections/7kw-home-ev-chargers?utm_source=thehomeenergyhub&utm_medium=referral&utm_campaign=ev-charging-cost-calculator&utm_content=results-cta"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center py-3.5 rounded-full text-sm font-semibold text-cream-dark transition-colors bg-ink hover:opacity-90"

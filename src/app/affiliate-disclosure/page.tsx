@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Affiliate Disclosure | The Home Energy Hub",
   description:
-    "The Home Energy Hub uses affiliate links from the Amazon Associates programme and Awin partners. Full disclosure of how we earn from product recommendations.",
+    "How The Home Energy Hub earns: Amazon Associates and Awin affiliate links, and links to our sister businesses eChargers UK and eFans.",
   alternates: {
     canonical: "https://www.thehomeenergyhub.co.uk/affiliate-disclosure",
   },
@@ -23,7 +23,7 @@ export default function AffiliateDisclosurePage() {
       <h1>Affiliate Disclosure</h1>
 
       <p>
-        The Home Energy Hub is an independent publisher that exists to help UK homeowners
+        The Home Energy Hub is a publisher that exists to help UK homeowners
         make better decisions about energy, insulation, heating and home improvements. To
         keep the site running and the guides free to read, some of the links on this site
         are affiliate links.
@@ -51,6 +51,20 @@ export default function AffiliateDisclosurePage() {
         suppliers.
       </p>
 
+      <p>
+        <strong>eChargers UK (sister business).</strong> Some EV charger guides link to
+        eChargers UK, an online EV charger retailer run by the same director as The Home
+        Energy Hub. We benefit when you buy there. Those links are tagged so we can see
+        which guides send visitors, and we say so on the pages that use them. Our
+        recommendations include chargers eChargers UK does not sell.
+      </p>
+      <p>
+        <strong>eFans (sister business).</strong> Some ventilation, damp and condensation
+        guides link to eFans, a UK ventilation supplier run by the same director. We benefit
+        when you buy there, those links are tagged in the same way, and the pages that use
+        them say so.
+      </p>
+
       <h2>How we choose what to link to</h2>
       <p>
         We only add affiliate links to products, services and retailers we genuinely think
@@ -74,7 +88,7 @@ export default function AffiliateDisclosurePage() {
         <Link href="/">contact options on the home page</Link>.
       </p>
 
-      <p className="text-sm text-slate-500">Last updated: 23 April 2026.</p>
+      <p className="text-sm text-slate-500">Last updated: 5 October 2026.</p>
     </article>
   );
 }
