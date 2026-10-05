@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
   title: "Home Energy Hub — Independent UK Energy Advice",
@@ -127,34 +128,20 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          <BlogCard
-            href="/blog/best-smart-meter-in-home-display-uk"
-            category="Smart Meters"
-            date="28 April 2026"
-            title="Best Smart Meter In-Home Display UK 2026"
-            desc="Seven IHDs compared on accuracy, screen quality and what they actually show."
-          />
-          <BlogCard
-            href="/blog/smart-meter-problems-uk"
-            category="Smart Meters"
-            date="21 April 2026"
-            title="Smart Meter Problems UK: 12 Common Issues and How to Fix Them"
-            desc="From blank IHDs to switching faults — diagnose and resolve the most common smart meter issues."
-          />
-          <BlogCard
-            href="/blog/cavity-wall-insulation-cost-uk"
-            category="Insulation"
-            date="10 April 2026"
-            title="Cavity Wall Insulation Cost UK (2026)"
-            desc="Bungalows, 3-bed semis, removal cost and what your mortgage lender needs to know."
-          />
-          <BlogCard
-            href="/blog/draught-proofing-cost-uk"
-            category="Insulation"
-            date="10 April 2026"
-            title="Draught Proofing Cost UK"
-            desc="The cheapest energy upgrade you can make — costs, savings and where to start."
-          />
+          {/* Built from content/blog at build time, newest first, so a new post
+              appears here on its next deploy with no manual edit. */}
+          {getAllPosts()
+            .slice(0, 4)
+            .map((post) => (
+              <BlogCard
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                category={formatCategory(post.category)}
+                date={formatPostDate(post.date)}
+                title={post.title}
+                desc={post.description}
+              />
+            ))}
         </div>
       </section>
 
@@ -211,6 +198,21 @@ function Card({
       <p className="text-base text-ink/60 leading-relaxed">{desc}</p>
     </Link>
   );
+}
+
+function formatCategory(category: string): string {
+  return category
+    .split("-")
+    .map((w) => (w === "ev" ? "EV" : w.charAt(0).toUpperCase() + w.slice(1)))
+    .join(" ");
+}
+
+/* Frontmatter dates are YYYY-MM-DD or DD.MM.YYYY. */
+function formatPostDate(dateStr: string): string {
+  const dot = dateStr.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
+  const d = new Date(dot ? `${dot[3]}-${dot[2]}-${dot[1]}` : dateStr);
+  if (Number.isNaN(d.getTime())) return dateStr;
+  return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 }
 
 function BlogCard({
