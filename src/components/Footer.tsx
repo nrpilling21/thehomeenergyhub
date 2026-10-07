@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { SunWaves, SunMark } from "@/components/SunWaves";
 
 const GROUPS: { title: string; links: [string, string][] }[] = [
   {
@@ -27,38 +26,32 @@ const GROUPS: { title: string; links: [string, string][] }[] = [
 
 export function Footer() {
   return (
-    <footer className="relative isolate overflow-hidden text-cream">
-      <SunWaves tone="sun" seed={5} />
-      <div className="relative max-w-6xl mx-auto px-5 pt-16 pb-8">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-20">
+    <footer className="bg-white px-2 pb-2">
+      <div className="bg-cream-dark rounded-[6px] px-5 sm:px-6 pt-10 pb-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-[15px] font-medium tracking-[-0.02em] mb-24 sm:mb-40">
+          <p className="col-span-2 md:col-span-1 max-w-[16rem]">
+            Independent advice on home energy upgrades.
+            <span className="text-plum-muted"> No sales calls, no nonsense.</span>
+          </p>
           {GROUPS.map((g) => (
             <div key={g.title}>
-              <div className="eyebrow text-cream/70 mb-4">{g.title}</div>
-              <div className="space-y-2.5">
+              <p className="text-plum-muted mb-3">{g.title}</p>
+              <div className="space-y-1.5">
                 {g.links.map(([href, label]) => (
-                  <Link key={href} href={href} className="block text-[15px] font-medium tracking-[-0.02em] text-cream hover:text-white">
+                  <Link key={href} href={href} className="block hover:opacity-60 transition-opacity">
                     {label}
                   </Link>
                 ))}
               </div>
-              {g.title === "About" && (
-                <p className="mt-4 text-sm text-cream/85 max-w-xs leading-relaxed">
-                  Independent advice on home energy upgrades. No sales calls, no nonsense.
-                </p>
-              )}
             </div>
           ))}
         </div>
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6">
-          <div className="flex items-center gap-3">
-            <SunMark className="w-10 h-10 sm:w-14 sm:h-14" />
-            <span className="font-display font-medium text-4xl sm:text-6xl tracking-tight">Home Energy Hub</span>
-          </div>
-          <span className="font-display font-medium text-2xl sm:text-3xl">Independent. Honest. Free.</span>
-        </div>
-        <div className="mt-10 pt-5 border-t border-cream/25 flex flex-col sm:flex-row justify-between gap-2 eyebrow text-cream/70">
+        <p className="text-[13vw] sm:text-[11vw] leading-[0.85] font-medium tracking-[-0.05em] text-ink/90 whitespace-nowrap overflow-hidden">
+          Home Energy Hub
+        </p>
+        <div className="mt-6 flex flex-col sm:flex-row justify-between gap-2 text-[13px] font-medium text-plum-muted">
           <span>&copy; {new Date().getFullYear()} Home Energy Hub. All rights reserved.</span>
-          <span>thehomeenergyhub.co.uk</span>
+          <span>Independent. Honest. Free to use.</span>
         </div>
       </div>
     </footer>

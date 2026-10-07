@@ -10,10 +10,10 @@ import { ImageResponse } from 'next/og';
 
    Brand colours are duplicated from tailwind.config.ts because ImageResponse
    renders through satori, which does not run Tailwind. */
-const CREAM = '#FFF7E9';
-const INK = '#1C130B';
-const YELLOW = '#F7931E';
-const MUTED = '#7A6553';
+const CREAM = '#FFFFFF';
+const INK = '#212121';
+const YELLOW = '#D9622B';
+const MUTED = '#7F7A76';
 
 export const OG_SIZE = { width: 1200, height: 630 };
 export const OG_CONTENT_TYPE = 'image/png';

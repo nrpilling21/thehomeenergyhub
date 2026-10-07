@@ -13,49 +13,49 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      /* Everyday-style palette: white paper, soft stone panels, near-black
+         ink and a warm grey for secondary text. Colour comes from imagery,
+         not the UI. Token names are kept so every page re-themes. */
       colors: {
         cream: {
-          DEFAULT: "#FFF7E9",
-          dark: "#F3E9D6",
+          DEFAULT: "#FFFFFF",
+          dark: "#F6F5F2",
         },
-        sand: "#EDE1CA",
-        line: "#E3D5BE",
+        sand: "#EEECE7",
+        line: "#E8E6E1",
         plum: {
-          DEFAULT: "#1C130B",
-          muted: "#7A6553",
-          light: "#D9C9B2",
+          DEFAULT: "#212121",
+          muted: "#7F7A76",
+          light: "#D8D5CF",
         },
-        /* Was a lemon yellow; now a soft apricot so chips, tags and
-           highlight cards sit inside the warm palette. */
         yellow: {
-          DEFAULT: "#FFD9AE",
-          soft: "#FFEBD3",
+          DEFAULT: "#F1EDE6",
+          soft: "#F7F5F1",
         },
         sun: {
-          DEFAULT: "#F0600A",
-          light: "#F7931E",
-          deep: "#B8430A",
+          DEFAULT: "#D9622B",
+          light: "#E8A06A",
+          deep: "#A8481C",
         },
-        lilac: "#CBB8FF",
-        ink: "#1C130B",
-        /* Warm the neutral greys used inside calculators and pillar pages. */
+        lilac: "#E9E4F5",
+        ink: "#212121",
         gray: {
-          50: "#FBF6EE",
-          100: "#F3EBDF",
-          200: "#E6DACA",
-          300: "#D2C3AF",
-          400: "#AD9B86",
-          500: "#857360",
-          600: "#665646",
-          700: "#4B3E32",
-          800: "#33291F",
-          900: "#1C130B",
+          50: "#FAFAF8",
+          100: "#F6F5F2",
+          200: "#E8E6E1",
+          300: "#D8D5CF",
+          400: "#B0ABA5",
+          500: "#8E8984",
+          600: "#7F7A76",
+          700: "#55514D",
+          800: "#363431",
+          900: "#212121",
         },
       },
       borderRadius: {
         xl: "6px",
-        "2xl": "10px",
-        "3xl": "16px",
+        "2xl": "8px",
+        "3xl": "12px",
       },
       /* One family for everything, Everyday-style: Figtree as the closest
          free match to their custom grotesk. `serif` and `mono` are aliased

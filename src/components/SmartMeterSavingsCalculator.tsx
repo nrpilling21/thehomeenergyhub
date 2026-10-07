@@ -62,7 +62,7 @@ function Progress({ step, total }: { step: number; total: number }) {
         <div
           key={i}
           className="h-1 rounded-full flex-1 transition-colors duration-300"
-          style={{ backgroundColor: i <= step ? "#1C130B" : "rgba(28, 19, 11, 0.08)" }}
+          style={{ backgroundColor: i <= step ? "#212121" : "rgba(33, 33, 33, 0.08)" }}
         />
       ))}
     </div>
@@ -96,8 +96,8 @@ function Option({
       style={{
         padding: "14px 18px",
         borderRadius: "12px",
-        border: selected ? "2px solid #1C130B" : "1.5px solid rgba(28, 19, 11, 0.1)",
-        backgroundColor: "#FFF7E9",
+        border: selected ? "2px solid #212121" : "1.5px solid rgba(33, 33, 33, 0.1)",
+        backgroundColor: "#FFFFFF",
         marginBottom: "8px",
       }}
     >
@@ -114,7 +114,7 @@ function Option({
             width: 20,
             height: 20,
             borderRadius: "50%",
-            border: selected ? "6px solid #1C130B" : "2px solid rgba(28, 19, 11, 0.25)",
+            border: selected ? "6px solid #212121" : "2px solid rgba(33, 33, 33, 0.25)",
             transition: "border 0.15s ease",
           }}
         />
@@ -141,8 +141,8 @@ function MultiOption({
       style={{
         padding: "14px 18px",
         borderRadius: "12px",
-        border: selected ? "2px solid #1C130B" : "1.5px solid rgba(28, 19, 11, 0.1)",
-        backgroundColor: "#FFF7E9",
+        border: selected ? "2px solid #212121" : "1.5px solid rgba(33, 33, 33, 0.1)",
+        backgroundColor: "#FFFFFF",
         marginBottom: "8px",
       }}
     >
@@ -159,8 +159,8 @@ function MultiOption({
             width: 20,
             height: 20,
             borderRadius: "4px",
-            border: selected ? "2px solid #1C130B" : "2px solid rgba(28, 19, 11, 0.25)",
-            backgroundColor: selected ? "#1C130B" : "transparent",
+            border: selected ? "2px solid #212121" : "2px solid rgba(33, 33, 33, 0.25)",
+            backgroundColor: selected ? "#212121" : "transparent",
             transition: "all 0.15s ease",
           }}
         >
@@ -169,7 +169,7 @@ function MultiOption({
               width="16"
               height="16"
               fill="none"
-              stroke="#FFF7E9"
+              stroke="#FFFFFF"
               strokeWidth="3"
               viewBox="0 0 24 24"
             >

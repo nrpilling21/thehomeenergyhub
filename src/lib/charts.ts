@@ -15,11 +15,11 @@ import {
    in src/app/blog/[slug]/page.tsx swaps it for the SVG. An unknown id renders
    nothing rather than breaking the page. */
 
-const INK = '#1C130B';
-const MUTED = '#7A6553';
-const YELLOW = '#F7931E';
-const CREAM_DARK = '#F3E9D6';
-const BAR = '#1C130B';
+const INK = '#212121';
+const MUTED = '#7F7A76';
+const YELLOW = '#D9622B';
+const CREAM_DARK = '#F6F5F2';
+const BAR = '#212121';
 
 type Row = { label: string; value: number; display: string; highlight?: boolean };
 

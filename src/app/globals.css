@@ -8,8 +8,8 @@ body {
   letter-spacing: -0.015em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFF7E9;
-  color: #1C130B;
+  background-color: #FFFFFF;
+  color: #212121;
 }
 
 html {
@@ -17,8 +17,8 @@ html {
 }
 
 ::selection {
-  background-color: #F0600A;
-  color: #FFF7E9;
+  background-color: #212121;
+  color: #FFFFFF;
 }
 
 /* Typography, Everyday-style: one family, medium weight, tight tracking
