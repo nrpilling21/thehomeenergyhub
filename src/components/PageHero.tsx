@@ -25,7 +25,7 @@ export function PageHero({
   return (
     <section className="px-2 pt-2">
       <div className={`grid gap-2 ${hasMedia ? "lg:grid-cols-[1.3fr_1fr]" : ""}`}>
-        <div className="bg-cream-dark rounded-[6px] px-5 sm:px-10 pt-7 pb-9 sm:pb-12 flex flex-col justify-between gap-16 min-h-[320px] sm:min-h-[440px]">
+        <div className={`bg-cream-dark rounded-[6px] px-5 sm:px-10 pt-7 pb-9 sm:pb-12 flex flex-col justify-between gap-16 ${hasMedia ? "min-h-[320px] sm:min-h-[440px]" : "min-h-[260px] sm:min-h-[320px]"}`}>
           {eyebrow ? (
             <p className="text-[15px] font-medium tracking-[-0.02em] text-plum-muted">{eyebrow}</p>
           ) : (

@@ -1,26 +1,22 @@
 import Link from "next/link";
+import { CALCULATORS, TOPICS } from "@/lib/topics";
 
 const GROUPS: { title: string; links: [string, string][] }[] = [
   {
-    title: "Tools",
-    links: [
-      ["/heat-pump-cost-calculator", "Heat Pump Cost Calculator"],
-      ["/ev-charging-cost-calculator", "EV Charging Cost Calculator"],
-      ["/smart-meter-savings-calculator", "Smart Meter Savings Calculator"],
-    ],
-  },
-  {
     title: "Guides",
-    links: [
-      ["/heat-pump-cost-uk", "Heat Pump Costs UK"],
-      ["/solar-panel-costs-uk", "Solar Panel Costs UK"],
-      ["/best-ev-charger-uk", "Best EV Charger UK"],
-      ["/blog", "Blog"],
-    ],
+    links: TOPICS.flatMap((t) => t.guides.filter((g) => g.href !== "/running-costs").map((g) => [g.href, g.label] as [string, string])),
   },
   {
-    title: "About",
-    links: [["/affiliate-disclosure", "Affiliate Disclosure"]],
+    title: "Calculators",
+    links: CALCULATORS.map((c) => [c.href, c.label] as [string, string]),
+  },
+  {
+    title: "More",
+    links: [
+      ["/running-costs", "Running costs"],
+      ["/blog", "Blog"],
+      ["/affiliate-disclosure", "Affiliate disclosure"],
+    ],
   },
 ];
 

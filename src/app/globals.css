@@ -135,3 +135,6 @@ main button.bg-ink {
   border-radius: 9999px !important;
   color: #FFFFFF;
 }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
