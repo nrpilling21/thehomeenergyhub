@@ -71,7 +71,7 @@ const ITEMS: { href: string; kind: "Tool" | "Guide"; title: string; desc: string
 const FEATURES = [
   {
     eyebrow: "Heat",
-    title: "Find out what a heat pump really costs",
+    title: "Find out what a heat pump really costs.",
     body: "Install price, the £7,500 Boiler Upgrade Scheme grant and running costs against your current boiler.",
     href: "/heat-pump-cost-calculator",
     cta: "Run the numbers",
@@ -80,7 +80,7 @@ const FEATURES = [
   },
   {
     eyebrow: "Generate",
-    title: "Work out if solar pays back on your roof",
+    title: "Work out if solar pays back on your roof.",
     body: "Honest install costs, realistic payback timescales and what export payments are worth.",
     href: "/solar-panel-costs-uk",
     cta: "Read the solar guide",
@@ -89,7 +89,7 @@ const FEATURES = [
   },
   {
     eyebrow: "Drive",
-    title: "Charge your car at home for less",
+    title: "Charge your car at home for less.",
     body: "See what home charging costs on your tariff, and which chargers and EV tariffs are worth it.",
     href: "/ev-charging-cost-calculator",
     cta: "Try the EV calculator",
@@ -107,8 +107,8 @@ export default function HomePage() {
         <SunWaves tone="sun" seed={1} animate />
         <div className="relative w-full max-w-6xl mx-auto px-5 pt-32 pb-14 sm:pb-20">
           <p className="eyebrow text-cream/80 mb-6 animate-fadeup">Independent UK energy advice</p>
-          <h1 className="font-serif !text-[3.4rem] sm:!text-[5.5rem] lg:!text-[6.75rem] !leading-[0.95] max-w-4xl animate-fadeup">
-            Power your home <em className="italic">for less</em>
+          <h1 className="!text-[3rem] sm:!text-[4.5rem] lg:!text-[5.5rem] !leading-[1.02] max-w-5xl animate-fadeup">
+            Power your home for less.
           </h1>
           <div className="mt-8 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8">
             <p className="text-lg sm:text-xl text-cream/90 max-w-xl leading-relaxed">
@@ -142,7 +142,7 @@ export default function HomePage() {
             ["0", "sales calls, ever"],
           ].map(([n, label]) => (
             <div key={label} className="px-5 py-6 sm:py-8 flex items-baseline gap-3 border-b sm:border-b-0 border-line last:border-b-0">
-              <span className="font-serif text-4xl text-sun">{n}</span>
+              <span className="font-display text-4xl text-sun">{n}</span>
               <span className="eyebrow text-ink/60">{label}</span>
             </div>
           ))}
@@ -180,8 +180,8 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-5 py-16 sm:py-24">
         <div className="text-center mb-12">
           <p className="eyebrow text-ink/50 mb-4">How the Hub works</p>
-          <h2 className="font-serif text-5xl sm:text-7xl leading-[0.95]">
-            Better decisions, <em className="italic">one home at a time</em>
+          <h2 className="font-display text-4xl sm:text-6xl max-w-3xl mx-auto">
+            Better decisions, one home at a time.
           </h2>
         </div>
         <div className="bg-cream-dark rounded-2xl grid lg:grid-cols-2 gap-10 p-6 sm:p-12 items-center">
@@ -193,7 +193,7 @@ export default function HomePage() {
             ].map(([t, b, href, cta], i) => (
               <li key={t} className="max-w-md">
                 <p className="eyebrow text-sun-deep mb-3">Step {i + 1}</p>
-                <h3 className="font-display text-2xl sm:text-3xl font-medium text-[#4C2806] mb-3">{t}</h3>
+                <h3 className="font-display text-2xl sm:text-3xl font-medium text-[#4C2806] mb-3">{t}.</h3>
                 <p className="text-ink/65 leading-relaxed mb-4">{b}</p>
                 <Link href={href} className="inline-flex items-center px-4 py-2.5 rounded-[4px] bg-ink text-cream text-sm font-medium hover:opacity-90 transition">
                   {cta}
@@ -208,7 +208,7 @@ export default function HomePage() {
       {/* All guides and tools */}
       <section className="max-w-6xl mx-auto px-5 pb-16 sm:pb-24">
         <div className="flex items-end justify-between mb-8 gap-6">
-          <h2 className="font-display text-3xl sm:text-4xl font-medium max-w-md leading-tight">Every guide and calculator</h2>
+          <h2 className="font-display text-3xl sm:text-4xl font-medium max-w-md leading-tight">Every guide and calculator.</h2>
           <p className="hidden sm:block text-ink/55 max-w-xs text-right">Free to use, independently written, updated for 2026.</p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
@@ -236,9 +236,9 @@ export default function HomePage() {
       <section className="border-t border-line">
         <div className="max-w-6xl mx-auto px-5 py-16 sm:py-24">
           <div className="flex items-baseline justify-between mb-8">
-            <h2 className="font-display text-3xl sm:text-4xl font-medium">Latest from the blog</h2>
+            <h2 className="font-display text-3xl sm:text-4xl font-medium">Latest from the blog.</h2>
             <Link href="/blog" className="eyebrow text-ink/60 hover:text-ink transition">
-              [ All posts ]
+              All posts &rarr;
             </Link>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-line border border-line rounded-xl overflow-hidden">
@@ -275,8 +275,8 @@ export default function HomePage() {
         <div className="relative isolate overflow-hidden min-h-[280px] bg-cream-dark">
           <SunWaves tone="dusk" seed={7} />
           <div className="absolute inset-0 flex items-center justify-center p-10">
-            <p className="font-serif text-4xl sm:text-5xl text-cream text-center leading-[1.05] max-w-sm">
-              Independent. <em>Honest.</em> Free to use.
+            <p className="font-display text-3xl sm:text-[2.75rem] font-medium text-cream text-center leading-[1.1] tracking-[-0.03em] max-w-sm">
+              Independent. Honest. Free to use.
             </p>
           </div>
         </div>

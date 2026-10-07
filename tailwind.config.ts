@@ -57,11 +57,14 @@ const config: Config = {
         "2xl": "10px",
         "3xl": "16px",
       },
+      /* One family for everything, Everyday-style: Figtree as the closest
+         free match to their custom grotesk. `serif` and `mono` are aliased
+         to it so older pages that ask for them stay consistent. */
       fontFamily: {
-        display: ['"Geist Variable"', "system-ui", "sans-serif"],
-        serif: ['"Instrument Serif"', "Georgia", "serif"],
-        sans: ['"Geist Variable"', "system-ui", "sans-serif"],
-        mono: ['"Geist Mono Variable"', "ui-monospace", "monospace"],
+        display: ['"Figtree Variable"', "system-ui", "sans-serif"],
+        sans: ['"Figtree Variable"', "system-ui", "sans-serif"],
+        serif: ['"Figtree Variable"', "system-ui", "sans-serif"],
+        mono: ['"Figtree Variable"', "system-ui", "sans-serif"],
       },
     },
   },

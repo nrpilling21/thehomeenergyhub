@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 body {
-  font-family: "Geist Variable", system-ui, sans-serif;
+  font-family: "Figtree Variable", system-ui, sans-serif;
+  font-weight: 450;
+  letter-spacing: -0.015em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FFF7E9;
   color: #1C130B;
-  font-feature-settings: "ss01";
 }
 
 html {
@@ -20,33 +21,39 @@ html {
   color: #FFF7E9;
 }
 
-/* Grotesk headings: medium weight, tight tracking. */
-.font-display {
-  letter-spacing: -0.025em;
+/* Typography, Everyday-style: one family, medium weight, tight tracking
+   (-3%), compact leading. Headings and UI sit at 500; long-form article
+   text stays at the regular body weight for comfortable reading. */
+h1, h2, h3, h4, .font-display {
+  text-wrap: balance;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.16;
 }
 .font-display.font-semibold,
 .font-display.font-bold,
-.font-display.font-extrabold {
-  font-weight: 560;
+.font-display.font-extrabold,
+h1[class], h2[class], h3[class] {
+  font-weight: 500;
 }
-
-/* Every page title is set in the editorial serif, whatever weight class the
-   individual page gives it. */
 main h1[class]:not(.sr-only),
 main article h1 {
-  font-family: "Instrument Serif", Georgia, serif;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  line-height: 1.05;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
   font-size: max(2.5rem, 1em);
 }
+button, nav, a.inline-flex {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
 
-/* Small uppercase mono labels (the "STEP 1" / eyebrow style). */
-.eyebrow {
-  font-family: "Geist Mono Variable", ui-monospace, monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+/* Small labels: sentence case, medium weight, no mono, no caps. */
+.eyebrow,
+.font-mono {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: -0.02em !important;
+  text-transform: none !important;
 }
 
 /* Film grain overlay for the sunrise gradient panels. */

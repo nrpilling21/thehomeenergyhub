@@ -36,8 +36,8 @@ export function Footer() {
               <div className="eyebrow text-cream/70 mb-4">{g.title}</div>
               <div className="space-y-2.5">
                 {g.links.map(([href, label]) => (
-                  <Link key={href} href={href} className="block eyebrow text-cream hover:text-white">
-                    [ {label} ]
+                  <Link key={href} href={href} className="block text-[15px] font-medium tracking-[-0.02em] text-cream hover:text-white">
+                    {label}
                   </Link>
                 ))}
               </div>
@@ -54,7 +54,7 @@ export function Footer() {
             <SunMark className="w-10 h-10 sm:w-14 sm:h-14" />
             <span className="font-display font-medium text-4xl sm:text-6xl tracking-tight">Home Energy Hub</span>
           </div>
-          <span className="font-serif text-2xl sm:text-3xl">Independent. Honest. Free.</span>
+          <span className="font-display font-medium text-2xl sm:text-3xl">Independent. Honest. Free.</span>
         </div>
         <div className="mt-10 pt-5 border-t border-cream/25 flex flex-col sm:flex-row justify-between gap-2 eyebrow text-cream/70">
           <span>&copy; {new Date().getFullYear()} Home Energy Hub. All rights reserved.</span>
