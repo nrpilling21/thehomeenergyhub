@@ -105,14 +105,28 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Wide image with a two-line caption */}
+      {/* Mission: three photo tiles linking into the main topics */}
       <section className="px-2">
-        <div className="relative isolate overflow-hidden rounded-[6px] h-[70vh] min-h-[420px] text-white">
-          <Sunlight mood="dusk" seed={4} />
-          <div className="absolute inset-x-0 bottom-0 p-8 sm:p-12 text-center">
-            <p className="text-[2rem] font-medium tracking-[-0.03em] leading-[1.16]">Our mission.</p>
-            <p className="text-[2rem] font-medium tracking-[-0.03em] leading-[1.16] text-white/60">Cheaper, warmer homes.</p>
-          </div>
+        <div className="text-center mb-10 px-4">
+          <p className="text-[2rem] font-medium tracking-[-0.03em] leading-[1.16]">Our mission.</p>
+          <p className="text-[2rem] font-medium tracking-[-0.03em] leading-[1.16] text-plum-muted">Cheaper, warmer homes.</p>
+        </div>
+        <div className="grid sm:grid-cols-3 gap-2">
+          {[
+            ["/images/heat-pump.jpg", "Air source heat pump outside a timber-clad home", "/heat-pump-cost-uk", "Heat pumps.", "What they really cost to fit and run."],
+            ["/images/utility-room.jpg", "Washing machine in a sunlit utility room", "/blog/how-much-does-it-cost-to-run-a-washing-machine-uk", "Running costs.", "What your washing machine costs per wash."],
+            ["/images/dining-sunset.jpg", "Dining table by open doors at sunset", "/home-insulation-guide-uk", "A warmer home.", "Insulation that pays for itself first."],
+          ].map(([src, alt, href, t, d]) => (
+            <Link key={href} href={href} className="group relative isolate overflow-hidden rounded-[6px] aspect-[4/3] sm:aspect-[4/5] text-white">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={src} alt={alt} loading="lazy" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/0 to-black/0" />
+              <div className="absolute inset-x-0 bottom-0 p-4 sm:p-5 text-[15px] font-medium tracking-[-0.03em]">
+                <p>{t}</p>
+                <p className="text-white/70">{d}</p>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -130,13 +144,17 @@ export default function HomePage() {
         </div>
         <div className="grid sm:grid-cols-3 gap-2 mt-2">
           {[
-            ["Lower bills.", "Cut what you pay for heat, power and driving."],
-            ["Lower carbon.", "Shrink your home's impact without the guilt trip."],
-            ["A warmer home.", "Fewer draughts, steadier heat, better air."],
-          ].map(([t, d], i) => (
-            <div key={t} className="bg-cream-dark rounded-[6px] p-4 sm:p-5 min-h-[220px] sm:min-h-[260px] flex flex-col justify-between">
-              <span className="w-9 h-9 rounded-full bg-white flex items-center justify-center text-[15px] font-medium">{i + 1}</span>
-              <div>
+            ["Lower bills.", "Cut what you pay for heat, power and driving.", "/images/thermostat.jpg", "Smart thermostat set to 21 degrees"],
+            ["Lower carbon.", "Shrink your home's impact without the guilt trip.", "/images/solar-panels.jpg", "Rooftop solar panels at sunset"],
+            ["A warmer home.", "Fewer draughts, steadier heat, better air.", "/images/couple-blankets.jpg", "Couple wrapped in blankets with mugs of tea"],
+          ].map(([t, d, src, alt], i) => (
+            <div key={t} className="bg-cream-dark rounded-[6px] p-2 flex flex-col">
+              <div className="relative overflow-hidden rounded-[4px] aspect-[4/3]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={src} alt={alt} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+                <span className="absolute top-2 left-2 w-9 h-9 rounded-full bg-white flex items-center justify-center text-[15px] font-medium">{i + 1}</span>
+              </div>
+              <div className="p-2 sm:p-3 pt-10 sm:pt-14">
                 <p className="text-[15px] font-medium tracking-[-0.03em]">{t}</p>
                 <p className="text-[15px] font-medium tracking-[-0.03em] text-plum-muted max-w-[16rem]">{d}</p>
               </div>
