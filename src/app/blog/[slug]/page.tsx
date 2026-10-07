@@ -163,7 +163,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
   );
   const url = `${SITE_URL}/blog/${params.slug}`;
   const cta = getPostCta(post.slug, post.tags);
-  const img = postImage(post.slug, post.tags);
+  const img = postImage(post.slug, post.tags, post);
 
   // BlogPosting JSON-LD - emitted on every blog post
   const blogPostingSchema = {

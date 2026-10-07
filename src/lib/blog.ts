@@ -9,6 +9,11 @@ export interface BlogPost {
   author: string;
   category: 'heat-pumps' | 'ev-chargers' | 'energy-tariffs' | 'guides';
   tags: string[];
+  /* Optional per-post photo, e.g. `image: "/images/dishwasher.jpg"` and
+     `imageAlt: "..."` in frontmatter. Without it a topic photo is chosen
+     automatically (src/lib/postImage.ts). */
+  image?: string;
+  imageAlt?: string;
   content: string;
   /* NOT read from frontmatter. No post has a `faq:` key and the line-based
      frontmatter parser could not hold nested YAML if one did. This is populated
@@ -145,6 +150,8 @@ export function getAllPosts(): BlogPost[] {
       author: data.author as string || '',
       category: (data.category as BlogPost['category']) || 'guides',
       tags: (data.tags as string[]) || [],
+      image: (data.image as string) || undefined,
+      imageAlt: (data.imageAlt as string) || undefined,
       content,
       faq: extractFaq(content),
     };
@@ -168,6 +175,8 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
     author: data.author as string || '',
     category: (data.category as BlogPost['category']) || 'guides',
     tags: (data.tags as string[]) || [],
+    image: (data.image as string) || undefined,
+    imageAlt: (data.imageAlt as string) || undefined,
     content,
     faq: extractFaq(content),
   };

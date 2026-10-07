@@ -27,7 +27,7 @@ export function toBlogItems(posts: BlogPost[]): BlogItem[] {
       minutes: p.content ? readTime(p.content) : 8,
       topic,
       topicLabel: topicLabel(topic),
-      image: postImage(p.slug, p.tags),
+      image: postImage(p.slug, p.tags, p),
       seed: postSeed(p.slug),
     };
   });

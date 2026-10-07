@@ -5,11 +5,6 @@ import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { CALCULATORS, TOPICS, type TopicId } from "@/lib/topics";
 
-export interface NavPost {
-  href: string;
-  title: string;
-  topic: TopicId;
-}
 export interface SearchItem {
   href: string;
   title: string;
@@ -21,7 +16,7 @@ type Menu = "guides" | "calculators" | null;
 /* Topic-led navigation: Guides (mega menu by topic) · Running costs · Blog,
    with search and a "Free calculators" pill that opens the calculators panel. Floats in white
    over the homepage hero, solid everywhere else. */
-export function Header({ latest, searchIndex }: { latest: NavPost[]; searchIndex: SearchItem[] }) {
+export function Header({ searchIndex }: { searchIndex: SearchItem[] }) {
   const pathname = usePathname() || "/";
   const isHome = pathname === "/";
   const [open, setOpen] = useState<Menu>(null);
@@ -163,60 +158,23 @@ export function Header({ latest, searchIndex }: { latest: NavPost[]; searchIndex
           </div>
         </div>
 
-        {/* Guides mega menu */}
+        {/* Guides menu: one quiet tile per topic */}
         {open === "guides" && (
           <div id="menu-guides" className="hidden lg:block absolute inset-x-0 top-full bg-white text-ink border-b border-line shadow-[0_24px_48px_-24px_rgba(0,0,0,0.18)]">
-            <div className="px-2 py-2 grid grid-cols-[1fr_1fr_1fr_0.9fr] gap-2">
-              {TOPICS.map((t) => {
-                const posts = latest.filter((p) => p.topic === t.id).slice(0, 2);
-                return (
-                  <div key={t.id} className="bg-cream-dark rounded-[6px] p-5 flex flex-col gap-4 text-[14px] font-medium tracking-[-0.02em]">
-                    <div>
-                      <p className="text-[15px]">{t.label}.</p>
-                      <p className="text-plum-muted">{t.blurb}</p>
-                    </div>
-                    <ul className="space-y-1.5">
-                      {t.guides.map((g) => (
-                        <li key={g.href}>
-                          <Link href={g.href} className="hover:opacity-60">
-                            {g.label} &rarr;
-                          </Link>
-                        </li>
-                      ))}
-                      {t.calculator && (
-                        <li>
-                          <Link href={t.calculator.href} className="hover:opacity-60">
-                            {t.calculator.label} &rarr;
-                          </Link>
-                        </li>
-                      )}
-                    </ul>
-                    {posts.length > 0 && (
-                      <ul className="mt-auto pt-3 border-t border-line space-y-1.5">
-                        {posts.map((p) => (
-                          <li key={p.href}>
-                            <Link href={p.href} className="text-plum-muted hover:text-ink line-clamp-1">
-                              {p.title}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
-                );
-              })}
-              <Link
-                href="/blog"
-                className="col-start-4 row-start-1 row-span-2 relative overflow-hidden rounded-[6px] min-h-[320px] text-white group"
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/couple-blankets.jpg" alt="" className="absolute inset-0 h-full w-full object-cover group-hover:scale-[1.03] transition-transform duration-700" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-black/0" />
-                <div className="absolute bottom-0 p-5 text-[15px] font-medium tracking-[-0.03em]">
-                  <p>Every guide.</p>
-                  <p className="text-white/70">Browse the blog by topic &rarr;</p>
-                </div>
-              </Link>
+            <div className="px-2 py-2 grid grid-cols-3 gap-2">
+              {TOPICS.map((t) => (
+                <Link
+                  key={t.id}
+                  href={t.guides[0].href}
+                  className="group bg-cream-dark hover:bg-sand transition-colors rounded-[6px] p-6 min-h-[230px] flex flex-col justify-between"
+                >
+                  <span>
+                    <span className="block text-[1.125rem] font-medium tracking-[-0.03em] mb-2">{t.label}</span>
+                    <span className="block text-[1.0625rem] font-medium tracking-[-0.03em] leading-[1.3] text-plum-muted max-w-[17rem]">{t.blurb}</span>
+                  </span>
+                  <TopicIcon id={t.id} />
+                </Link>
+              ))}
             </div>
           </div>
         )}
@@ -289,6 +247,59 @@ export function Header({ latest, searchIndex }: { latest: NavPost[]; searchIndex
 
       {searchOpen && <SearchOverlay items={searchIndex} onClose={() => setSearchOpen(false)} />}
     </>
+  );
+}
+
+/* Small black tiles with a white line glyph, one per topic. */
+function TopicIcon({ id }: { id: TopicId }) {
+  const g = { fill: "none", stroke: "#fff", strokeWidth: 2.2, strokeLinecap: "round" as const, strokeLinejoin: "round" as const };
+  const glyph: Record<TopicId, React.ReactNode> = {
+    heating: (
+      <>
+        <circle cx="24" cy="24" r="13" {...g} strokeWidth={1.8} />
+        {[0, 120, 240].map((r) => (
+          <path key={r} d="M24 24c-1-4 0-8 4-9 2 3 0 7-4 9z" fill="#fff" transform={`rotate(${r} 24 24)`} />
+        ))}
+        <circle cx="24" cy="24" r="2" fill="#212121" stroke="#fff" strokeWidth={1.4} />
+      </>
+    ),
+    smart: (
+      <>
+        <path d="M13 30a11 11 0 0 1 22 0" {...g} />
+        <path d="M24 30l6-7" {...g} />
+        <circle cx="24" cy="30" r="1.6" fill="#fff" />
+      </>
+    ),
+    running: (
+      <>
+        <circle cx="24" cy="24" r="12" {...g} />
+        <circle cx="20" cy="24" r="1.8" fill="#fff" />
+        <circle cx="28" cy="24" r="1.8" fill="#fff" />
+      </>
+    ),
+    insulation: (
+      <>
+        <path d="M12 17h24M12 24h24M12 31h24" {...g} />
+      </>
+    ),
+    solar: (
+      <>
+        <circle cx="24" cy="24" r="6" {...g} />
+        <path d="M24 10v4M24 34v4M10 24h4M34 24h4M14 14l3 3M31 31l3 3M14 34l3-3M31 17l3-3" {...g} strokeWidth={1.8} />
+      </>
+    ),
+    ev: (
+      <>
+        <path d="M26 11l-9 15h7l-2 11 9-15h-7z" {...g} />
+      </>
+    ),
+  };
+  return (
+    <span className="block w-14 h-14 rounded-[3px] bg-ink" aria-hidden>
+      <svg viewBox="0 0 48 48" className="w-full h-full">
+        {glyph[id]}
+      </svg>
+    </span>
   );
 }
 

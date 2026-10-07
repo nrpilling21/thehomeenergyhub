@@ -8,7 +8,7 @@ const RULES: { image: string; alt: string; keywords: string[] }[] = [
   {
     image: "/images/utility-room.jpg",
     alt: "Washing machine in a sunlit utility room",
-    keywords: ["washing", "dryer", "tumble", "dishwasher", "laundry", "airer", "immersion", "kettle", "oven", "fridge", "freezer", "appliance", "microwave", "air-fryer"],
+    keywords: ["washing-machine", "tumble-dryer", "laundry", "airer"],
   },
   {
     image: "/images/thermostat.jpg",
@@ -18,12 +18,19 @@ const RULES: { image: string; alt: string; keywords: string[] }[] = [
   {
     image: "/images/couple-blankets.jpg",
     alt: "Couple wrapped in blankets with mugs of tea",
-    keywords: ["insulation", "draught", "loft", "cavity", "damp", "condensation", "dehumidifier", "heater", "radiator", "heating", "cold"],
+    keywords: ["insulation", "draught", "loft", "cavity", "damp", "condensation", "blanket"],
   },
 ];
 
-export function postImage(slug: string, tags: string[] = []): { image: string; alt: string } | null {
-  const hay = `${slug} ${tags.join(" ")}`.toLowerCase();
+export function postImage(
+  slug: string,
+  tags: string[] = [],
+  override?: { image?: string; imageAlt?: string }
+): { image: string; alt: string } | null {
+  if (override?.image) return { image: override.image, alt: override.imageAlt || "" };
+  // Slug only: tags are too broad (e.g. "bill" on most posts) and mis-match.
+  void tags;
+  const hay = slug.toLowerCase();
   for (const r of RULES) if (r.keywords.some((k) => hay.includes(k))) return { image: r.image, alt: r.alt };
   return null;
 }

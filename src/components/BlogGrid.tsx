@@ -36,8 +36,6 @@ export function BlogGrid({ items, showFeatured = true }: { items: BlogItem[]; sh
   };
 
   const filtered = topic === "all" ? items : items.filter((i) => i.topic === topic);
-  const featured = showFeatured && topic === "all" ? filtered[0] : null;
-  const rest = featured ? filtered.slice(1) : filtered;
   const counts = Object.fromEntries(TOPICS.map((t) => [t.id, items.filter((i) => i.topic === t.id).length]));
 
   return (
@@ -62,49 +60,34 @@ export function BlogGrid({ items, showFeatured = true }: { items: BlogItem[]; sh
         </div>
       )}
 
-      {featured && (
-        <div className="px-2 pt-2">
-          <Link href={`/blog/${featured.slug}`} className="group grid lg:grid-cols-[1fr_1.3fr] gap-2">
-            <div className="bg-cream-dark group-hover:bg-sand transition-colors rounded-[6px] p-5 sm:p-8 flex flex-col justify-between min-h-[300px] text-[15px] font-medium tracking-[-0.03em]">
+      {/* Every post as a wide text-and-photo row */}
+      <div className="px-2 pt-2 space-y-2">
+        {filtered.map((post, i) => (
+          <Link key={post.slug} href={`/blog/${post.slug}`} className="group grid lg:grid-cols-[1fr_1.3fr] gap-2">
+            <div className="order-2 lg:order-1 bg-cream-dark group-hover:bg-sand transition-colors rounded-[6px] p-5 sm:p-8 flex flex-col justify-between gap-10 lg:min-h-[340px] text-[15px] font-medium tracking-[-0.03em]">
               <p className="text-plum-muted">
-                Latest · {featured.topicLabel} · {featured.minutes} min read
+                {i === 0 && topic === "all" && showFeatured ? "Latest · " : ""}
+                {post.topicLabel} · {post.minutes} min read
               </p>
               <div>
-                <h2 className="!text-[1.75rem] sm:!text-[2rem] !leading-[1.12] mb-3 max-w-lg">{featured.title}</h2>
-                <p className="text-plum-muted text-[1.0625rem] leading-[1.35] max-w-lg mb-6">{featured.description}</p>
-                <p className="text-plum-muted text-[13px]">{featured.date}</p>
+                <h2 className="!text-[1.5rem] sm:!text-[2rem] !leading-[1.12] mb-3 max-w-lg">{post.title}</h2>
+                <p className="text-plum-muted text-[1.0625rem] leading-[1.35] max-w-lg mb-6">{post.description}</p>
+                <p className="text-plum-muted text-[13px]">{post.date}</p>
               </div>
             </div>
-            <div className="relative isolate overflow-hidden rounded-[6px] min-h-[280px] lg:min-h-[420px]">
-              {featured.image ? (
+            <div className="order-1 lg:order-2 relative isolate overflow-hidden rounded-[6px] aspect-[16/10] lg:aspect-auto lg:min-h-[340px]">
+              {post.image ? (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={featured.image.image} alt={featured.image.alt} className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.02]" />
+                <img
+                  src={post.image.image}
+                  alt={post.image.alt}
+                  loading={i < 2 ? "eager" : "lazy"}
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                />
               ) : (
-                <Sunlight mood="amber" seed={featured.seed} shade={false} />
+                <Sunlight mood={(["amber", "dusk", "morning"] as const)[post.seed % 3]} seed={post.seed} shade={false} />
               )}
             </div>
-          </Link>
-        </div>
-      )}
-
-      <div className="px-2 pt-2 grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
-        {rest.map((post, i) => (
-          <Link
-            key={post.slug}
-            href={`/blog/${post.slug}`}
-            className="group bg-cream-dark hover:bg-sand transition-colors rounded-[6px] p-4 sm:p-5 min-h-[240px] flex flex-col justify-between text-[15px] font-medium tracking-[-0.03em] leading-[1.3]"
-          >
-            <div className="flex items-center justify-between gap-3">
-              <span className="w-9 h-9 shrink-0 rounded-full bg-white flex items-center justify-center">{i + (featured ? 2 : 1)}</span>
-              <span className="text-[13px] text-plum-muted text-right">
-                {post.topicLabel} · {post.minutes} min
-              </span>
-            </div>
-            <article className="pt-10">
-              <h2 className="!text-[1.0625rem] !leading-[1.3] mb-1.5">{post.title}</h2>
-              <p className="text-plum-muted mb-4">{post.description}</p>
-              <p className="text-plum-muted text-[13px]">{post.date}</p>
-            </article>
           </Link>
         ))}
       </div>
