@@ -213,6 +213,13 @@ export default function HomeInsulationGuidePage() {
         also improve the look of your home and fix issues like damp or cracked render. Both approaches
         can save £270 to £475 per year on heating bills.
       </p>
+      <p className="text-gray-700 mb-8 leading-relaxed">
+        See our{" "}
+        <Link href="/solid-wall-insulation-uk" className="text-blue-600 hover:underline">
+          solid wall insulation guide
+        </Link>{" "}
+        for a full cost breakdown by property type and which option suits older homes best.
+      </p>
 
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Floor Insulation</h2>
       <p className="text-gray-700 mb-4 leading-relaxed">
@@ -221,6 +228,13 @@ export default function HomeInsulationGuidePage() {
         floors are one of the most common complaints in older homes. Solid concrete floors can also
         be insulated, but this is usually only practical during a renovation as it involves raising the
         floor level.
+      </p>
+      <p className="text-gray-700 mb-8 leading-relaxed">
+        Read our{" "}
+        <Link href="/blog/floor-insulation-cost-uk" className="text-blue-600 hover:underline">
+          floor insulation cost guide
+        </Link>{" "}
+        for costs by floor type and whether it's worth doing on its own.
       </p>
 
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Grants and Funding</h2>

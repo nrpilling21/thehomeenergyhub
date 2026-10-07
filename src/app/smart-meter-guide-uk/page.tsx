@@ -279,7 +279,7 @@ export default function SmartMeterGuideUkPage() {
           For a side-by-side comparison of seven 2026 IHDs (with the strengths, weaknesses and which
           supplier ships which), see{" "}
           <Link href="/blog/best-smart-meter-in-home-display-uk" className="text-ink underline">
-            best smart meter in-home display UK
+            best smart meter display unit UK
           </Link>
           . If your supplier&apos;s default IHD is one of the dud ones, you can usually request a
           replacement free of charge.
@@ -427,7 +427,7 @@ export default function SmartMeterGuideUkPage() {
           href="/blog/best-smart-meter-in-home-display-uk"
           className="block rounded-2xl border border-plum-light/30 p-5 hover:border-plum-muted transition-colors"
         >
-          <div className="font-display font-semibold text-ink mb-1">Best in-home display UK</div>
+          <div className="font-display font-semibold text-ink mb-1">Best IHD display UK</div>
           <p className="text-sm text-ink/55">
             Seven 2026 IHDs compared on usability, accuracy and budget alerts.
           </p>

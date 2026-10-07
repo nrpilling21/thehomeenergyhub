@@ -58,7 +58,7 @@ At 160 cycles a year and 26.32p/kWh:
 | Vented (4.5 kWh) | £190 | £296 |
 | Condenser (5.0 kWh) | £211 | £329 |
 
-To put that in context, £211 a year is roughly an eighth of a typical dual-fuel bill going on one appliance. It is also more than most households spend on standby power across the entire house, which tells you where the attention is better spent. If you want to see exactly what your own dryer is pulling rather than relying on the label, a smart meter [in-home display](/blog/best-smart-meter-in-home-display-uk) will show the spike the moment the machine kicks in.
+To put that in context, £211 a year is roughly an eighth of a typical dual-fuel bill going on one appliance. It is also more than most households spend on standby power across the entire house, which tells you where the attention is better spent. If you want to see exactly what your own dryer is pulling rather than relying on the label, a smart meter [IHD display](/blog/best-smart-meter-in-home-display-uk) will show the spike the moment the machine kicks in.
 
 ## Are heat pump tumble dryers worth the extra cost?
 

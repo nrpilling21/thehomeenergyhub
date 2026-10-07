@@ -371,6 +371,20 @@ export default function EvChargingCalculator() {
             </a>
           </div>
 
+          <div className="bg-cream-dark rounded-2xl p-5 mb-8">
+            <div className="text-sm font-semibold text-ink mb-1">Want the full cost breakdown?</div>
+            <p className="text-xs text-ink/60 mb-3">
+              See per-charge costs, smart and solar tariff rates, and five ways to cut your home
+              charging bill further.
+            </p>
+            <a
+              href="/blog/how-much-charge-electric-car-home-uk"
+              className="inline-block px-4 py-2.5 rounded-lg text-sm font-medium text-cream-dark bg-ink hover:opacity-90 transition-colors"
+            >
+              Read: Cost to charge an electric car at home
+            </a>
+          </div>
+
           <div className="flex items-center justify-center gap-6 text-xs text-ink/70 mb-6">
             <span>Independent advice</span>
             <span>No sales calls</span>

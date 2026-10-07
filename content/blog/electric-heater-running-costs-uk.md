@@ -132,7 +132,7 @@ Six things, roughly in order of how much they are worth.
 3. **Size the heater to the room.** An undersized heater running flat out for four hours costs more than a correctly sized one cycling at 50%.
 4. **Turn the setpoint down before you turn the heater off.** Every degree on the thermostat is worth roughly 5-8% of the heating energy for that room. Dropping from 22C to 20C is a bigger saving than most people expect and is barely noticeable with a jumper on.
 5. **Draught-proof first.** See above - it lowers the running cost of everything permanently.
-6. **Check it against your meter.** Watch your [in-home display](/blog/best-smart-meter-in-home-display-uk) while the heater cycles. Seeing 2kW appear and disappear on the live reading is the fastest way to understand what your heater is genuinely costing you.
+6. **Check it against your meter.** Watch your [smart meter IHD](/blog/best-smart-meter-in-home-display-uk) while the heater cycles. Seeing 2kW appear and disappear on the live reading is the fastest way to understand what your heater is genuinely costing you.
 
 ## Frequently asked questions
 

@@ -455,6 +455,20 @@ export default function HeatPumpCalculator() {
             </a>
           </div>
 
+          <div className="bg-cream-dark rounded-2xl p-5 mb-8">
+            <div className="text-sm font-semibold text-ink mb-1">Where do these running-cost figures come from?</div>
+            <p className="text-xs text-ink/60 mb-3">
+              See the full breakdown by property size, the gas boiler comparison, and how a smart
+              tariff changes the numbers above.
+            </p>
+            <a
+              href="/blog/heat-pump-running-costs-2026"
+              className="inline-block px-4 py-2.5 rounded-lg text-sm font-medium text-cream-dark bg-ink hover:opacity-90 transition-colors"
+            >
+              Read: heat pump running costs explained
+            </a>
+          </div>
+
           <div className="flex items-center justify-center gap-6 text-xs text-ink/70 mb-6">
             <span>Independent advice</span>
             <span>No sales calls</span>
