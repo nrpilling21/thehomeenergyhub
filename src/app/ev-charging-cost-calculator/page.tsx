@@ -1,3 +1,4 @@
+import { CalculatorShell } from "@/components/CalculatorShell";
 import type { Metadata } from "next";
 import EvChargingCalculator from "@/components/EvChargingCalculator";
 
@@ -17,9 +18,14 @@ export const metadata: Metadata = {
 
 export default function EvCalculatorPage() {
   return (
-    <div className="max-w-5xl mx-auto px-5 py-10">
-      <h1 className="sr-only">EV Charging Cost Calculator UK (2026)</h1>
+    <CalculatorShell
+      title="EV charging cost calculator."
+      intro="Find out what it costs to charge at home on your tariff, and how much you save compared with petrol."
+      points={["Pick your car and mileage", "Choose your tariff", "See cost per mile and yearly savings"]}
+      mood="dusk"
+    >
+      <h2 className="sr-only">EV Charging Cost Calculator UK (2026)</h2>
       <EvChargingCalculator />
-    </div>
+    </CalculatorShell>
   );
 }

@@ -1,6 +1,7 @@
 import { getAllPosts, getPostBySlug, toIsoDateTime } from '@/lib/blog';
 import { renderChart } from '@/lib/charts';
-import { renderHero } from '@/lib/hero';
+import { PageHero } from '@/components/PageHero';
+import { postImage, postSeed } from '@/lib/postImage';
 import { getPostCta } from '@/lib/postCta';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
@@ -162,6 +163,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
   );
   const url = `${SITE_URL}/blog/${params.slug}`;
   const cta = getPostCta(post.slug, post.tags);
+  const img = postImage(post.slug, post.tags);
 
   // BlogPosting JSON-LD - emitted on every blog post
   const blogPostingSchema = {
@@ -231,25 +233,14 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
-      <article className="max-w-3xl mx-auto px-5 py-12">
-        <p className="font-mono text-xs tracking-widest text-plum-muted uppercase mb-4">{post.category.replace('-', ' ')}</p>
-        <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs text-ink/55">{post.date}</span>
-          <span className="text-xs text-ink/55">by {post.author}</span>
-        </div>
-
-        <h1 className="text-3xl font-display font-normal text-ink mb-4 leading-tight">{post.title}</h1>
-        <p className="text-lg text-ink/60 mb-10 leading-relaxed">{post.description}</p>
-
-        {/* Generated topic band. Geometric rather than photographic, and built
-            in code, so there is no stock licence to track and no image file to
-            maintain — see src/lib/hero.ts. */}
-        <div
-          dangerouslySetInnerHTML={{
-            __html: renderHero(post.slug, post.tags, `${post.title} — The Home Energy Hub`),
-          }}
-        />
-
+      <PageHero
+        eyebrow={`${formatCategory(post.category)} · ${formatDate(post.date)} · by ${post.author}`}
+        title={post.title}
+        {...(img ? { image: img.image, imageAlt: img.alt } : { mood: "amber" as const, seed: postSeed(post.slug) })}
+      >
+        {post.description}
+      </PageHero>
+      <article className="article-body max-w-2xl mx-auto px-5 pt-14 pb-20 text-ink">
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
 
         {/* Tariff CTA on the smart-meter cluster — these posts carry ~88% of
@@ -259,15 +250,15 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         {/* CTA - matched to the post's cluster (src/lib/postCta.ts) rather than
             hardcoded, so a reader finishing a laundry running-cost guide is not
             offered a heat pump calculator. */}
-        <div className="bg-yellow rounded-2xl p-8 mt-12 text-center">
-          <p className="font-display font-semibold text-lg text-ink mb-2">{cta.heading}</p>
+        <div className="not-article bg-cream-dark rounded-[6px] p-8 sm:p-10 mt-16 text-center">
+          <p className="text-[1.375rem] font-medium tracking-[-0.03em] text-ink mb-2">{cta.heading}</p>
           <p className="text-ink/60 text-base mb-4">{cta.body}</p>
           <div className="flex gap-3 justify-center flex-wrap">
-            <a href={cta.primary.href} className="px-6 py-3 bg-ink text-cream-dark rounded-xl font-semibold text-sm hover:opacity-90 transition">
+            <a href={cta.primary.href} className="px-5 py-2.5 bg-ink text-white rounded-full font-medium text-[15px] hover:opacity-90 transition">
               {cta.primary.label}
             </a>
             {cta.secondary && (
-              <a href={cta.secondary.href} className="px-6 py-3 bg-cream border border-ink/15 text-ink rounded-xl font-semibold text-sm hover:border-ink/30 transition">
+              <a href={cta.secondary.href} className="px-5 py-2.5 bg-white text-ink rounded-full font-medium text-[15px] hover:bg-white/70 transition">
                 {cta.secondary.label}
               </a>
             )}
@@ -276,4 +267,19 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
       </article>
     </>
   );
+}
+
+function formatCategory(category: string): string {
+  return category
+    .split('-')
+    .map((w, i) => (w === 'ev' ? 'EV' : i === 0 ? w.charAt(0).toUpperCase() + w.slice(1) : w))
+    .join(' ');
+}
+
+/* Frontmatter dates are YYYY-MM-DD or DD.MM.YYYY. */
+function formatDate(dateStr: string): string {
+  const dot = dateStr.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
+  const d = new Date(dot ? `${dot[3]}-${dot[2]}-${dot[1]}` : dateStr);
+  if (Number.isNaN(d.getTime())) return dateStr;
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 }

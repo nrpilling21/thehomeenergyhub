@@ -46,7 +46,7 @@ export function Footer() {
             </div>
           ))}
         </div>
-        <p className="text-[13vw] sm:text-[11vw] leading-[0.85] font-medium tracking-[-0.05em] text-ink/90 whitespace-nowrap overflow-hidden">
+        <p className="text-[10.5vw] sm:text-[11vw] leading-[1.05] font-medium tracking-[-0.05em] text-ink/90 whitespace-nowrap overflow-hidden">
           Home Energy Hub
         </p>
         <div className="mt-6 flex flex-col sm:flex-row justify-between gap-2 text-[13px] font-medium text-plum-muted">

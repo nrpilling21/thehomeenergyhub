@@ -1,3 +1,4 @@
+import { CalculatorShell } from "@/components/CalculatorShell";
 import type { Metadata } from "next";
 import SmartMeterSavingsCalculator from "@/components/SmartMeterSavingsCalculator";
 
@@ -17,9 +18,14 @@ export const metadata: Metadata = {
 
 export default function CalculatorPage() {
   return (
-    <div className="max-w-5xl mx-auto px-5 py-10">
-      <h1 className="sr-only">Smart Meter Savings Calculator UK (2026)</h1>
+    <CalculatorShell
+      title="Smart meter savings calculator."
+      intro="Estimate what a smart meter could save your household through visibility, load shifting and smart tariffs."
+      points={["Tell us how you use energy", "See visibility savings", "Add smart-tariff savings"]}
+      image="/images/thermostat.jpg" imageAlt="Smart thermostat on a sunlit wall"
+    >
+      <h2 className="sr-only">Smart Meter Savings Calculator UK (2026)</h2>
       <SmartMeterSavingsCalculator />
-    </div>
+    </CalculatorShell>
   );
 }

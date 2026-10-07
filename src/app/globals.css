@@ -81,3 +81,57 @@ button, nav, a.inline-flex {
   .animate-drift { animation: drift 18s ease-in-out infinite alternate; }
   .animate-fadeup { animation: fadeUp 0.8s ease-out both; }
 }
+
+/* Long-form pages (guides, blog posts, disclosure). Everyday-style editorial
+   rhythm: hairline above each section, medium-weight headings, comfortable
+   body text, pill buttons. Uses element selectors so the many inline-styled
+   guide pages and the markdown blog renderer pick it up without edits. */
+.article-body {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  letter-spacing: -0.01em;
+}
+.article-body p,
+.article-body li {
+  color: rgba(33, 33, 33, 0.78);
+}
+.article-body h2 {
+  font-size: 1.5rem !important;
+  line-height: 1.2 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.03em;
+  color: #212121;
+  border-top: 1px solid #E8E6E1;
+  padding-top: 2rem;
+  margin-top: 4rem !important;
+  margin-bottom: 1.25rem !important;
+}
+.article-body > h2:first-child,
+.article-body .not-article h2 {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 0 !important;
+}
+.article-body h3 {
+  font-size: 1.125rem !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.02em;
+  margin-top: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+.article-body p { margin-bottom: 1.1rem; }
+.article-body ul { list-style: disc; padding-left: 1.25rem; margin-bottom: 1.25rem; }
+.article-body ol { list-style: decimal; padding-left: 1.25rem; margin-bottom: 1.25rem; }
+.article-body li { margin-bottom: 0.4rem; }
+.article-body strong { color: #212121; font-weight: 600; }
+.article-body a:not([class]) { color: #212121; text-decoration: underline; text-underline-offset: 3px; }
+.article-body table { font-size: 0.95rem; }
+.article-body .rounded-2xl,
+.article-body .rounded-xl { border-radius: 6px; }
+
+/* Buttons sitewide: Everyday's pill shape. */
+main a.bg-ink,
+main button.bg-ink {
+  border-radius: 9999px !important;
+  color: #FFFFFF;
+}

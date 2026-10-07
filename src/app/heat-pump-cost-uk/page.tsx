@@ -1,3 +1,4 @@
+import { PageHero } from "@/components/PageHero";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -72,21 +73,20 @@ const FAQ_SCHEMA = {
 
 export default function HeatPumpCostPage() {
   return (
-    <article className="max-w-3xl mx-auto px-5 py-10">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
-      />
-      <p className="font-mono text-sm tracking-widest text-plum-muted uppercase mb-4">Guide</p>
-      <h1 className="font-display text-3xl sm:text-4xl font-normal text-ink leading-tight mb-5">
-        How Much Does a Heat Pump Cost in the UK? (2026 Guide)
-      </h1>
-      <p className="text-ink/60 text-xl mb-10 leading-relaxed">
+    <>
+      <PageHero eyebrow="Guide" title={<>How Much Does a Heat Pump Cost in the UK? (2026 Guide)</>} image="/images/heat-pump.jpg" imageAlt="Air source heat pump outside a timber-clad home">
         Heat pumps typically cost between £8,000 and £15,000 installed for an air source unit, or
         £15,000 to £35,000 for ground source. With the Building Upgrade Scheme grant of £7,500 and the
         0% VAT rate valid until March 2027, the real cost for most households is substantially lower
         than these headline figures suggest.
-      </p>
+      </PageHero>
+      <article className="article-body max-w-2xl mx-auto px-5 pt-14 pb-20 text-ink">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
+      />
+      
+      
 
       {/* Calculator CTA - yellow background like Heidi */}
       <div className="bg-yellow rounded-2xl p-6 mb-10">
@@ -334,6 +334,7 @@ export default function HeatPumpCostPage() {
         </Link>
       </div>
     </article>
+      </>
   );
 }
 

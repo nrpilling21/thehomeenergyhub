@@ -1,3 +1,4 @@
+import { PageHero } from "@/components/PageHero";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -79,24 +80,23 @@ const FAQ_SCHEMA = {
 
 export default function EvChargerPage() {
   return (
-    <article className="max-w-3xl mx-auto px-5 py-10">
+    <>
+      <PageHero eyebrow="Guide" title={<>Best Home EV Charger UK (2026): Honest Comparison</>} mood="dusk">
+        A good home EV charger costs £800-£1,200 fully installed, charges your car 3-4x faster than a
+        three-pin plug, and pays for itself within a year through cheaper overnight electricity rates.
+        Here&apos;s which one to actually buy, based on what matters most to you.
+      </PageHero>
+      <article className="article-body max-w-2xl mx-auto px-5 pt-14 pb-20 text-ink">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
       />
-      <p className="font-mono text-xs tracking-widest text-plum-muted uppercase mb-4">Guide</p>
-      <h1 className="text-3xl font-display font-normal text-ink leading-tight mb-4">
-        Best Home EV Charger UK (2026): Honest Comparison
-      </h1>
+      
       <p className="text-sm text-ink/60 italic mb-4">
         Some links on this page go to eChargers UK, a sister business of The Home Energy Hub. We benefit
         if you buy there. <a href="/affiliate-disclosure" className="underline">Full disclosure</a>.
       </p>
-      <p className="text-ink/60 text-lg mb-8 leading-relaxed">
-        A good home EV charger costs £800-£1,200 fully installed, charges your car 3-4x faster than a
-        three-pin plug, and pays for itself within a year through cheaper overnight electricity rates.
-        Here&apos;s which one to actually buy, based on what matters most to you.
-      </p>
+      
 
       {/* Quick recommendation table */}
       <h2 className="text-xl font-display font-semibold text-ink mb-4">Quick Recommendation</h2>
@@ -409,6 +409,7 @@ export default function EvChargerPage() {
         ))}
       </div>
     </article>
+      </>
   );
 }
 

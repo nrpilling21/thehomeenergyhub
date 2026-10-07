@@ -1,3 +1,4 @@
+import { CalculatorShell } from "@/components/CalculatorShell";
 import type { Metadata } from "next";
 import HeatPumpCalculator from "@/components/HeatPumpCalculator";
 
@@ -17,9 +18,14 @@ export const metadata: Metadata = {
 
 export default function CalculatorPage() {
   return (
-    <div className="max-w-5xl mx-auto px-5 py-10">
-      <h1 className="sr-only">Heat Pump Cost Calculator UK (2026)</h1>
+    <CalculatorShell
+      title="Heat pump cost calculator."
+      intro="Answer six quick questions about your home for a personalised install estimate, grant savings and running costs."
+      points={["Tell us about your home", "See install cost after the £7,500 grant", "Compare running costs with your boiler"]}
+      image="/images/heat-pump.jpg" imageAlt="Air source heat pump outside a timber-clad home"
+    >
+      <h2 className="sr-only">Heat Pump Cost Calculator UK (2026)</h2>
       <HeatPumpCalculator />
-    </div>
+    </CalculatorShell>
   );
 }
