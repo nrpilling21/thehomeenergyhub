@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Sunlight } from "@/components/Sunlight";
 import { TOPICS, type TopicId } from "@/lib/topics";
 
 export interface BlogItem {
@@ -13,8 +12,6 @@ export interface BlogItem {
   minutes: number;
   topic: TopicId;
   topicLabel: string;
-  image: { image: string; alt: string } | null;
-  seed: number;
 }
 
 /* Blog index with topic filters. Filtering is client-side so the page stays
@@ -60,36 +57,37 @@ export function BlogGrid({ items, showFeatured = true }: { items: BlogItem[]; sh
         </div>
       )}
 
-      {/* Every post as a wide text-and-photo row */}
-      <div className="px-2 pt-2 space-y-2">
-        {filtered.map((post, i) => (
-          <Link key={post.slug} href={`/blog/${post.slug}`} className="group grid lg:grid-cols-[1fr_1.3fr] gap-2">
-            <div className="order-2 lg:order-1 bg-cream-dark group-hover:bg-sand transition-colors rounded-[6px] p-5 sm:p-8 flex flex-col justify-between gap-10 lg:min-h-[340px] text-[15px] font-medium tracking-[-0.03em]">
-              <p className="text-plum-muted">
-                {i === 0 && topic === "all" && showFeatured ? "Latest · " : ""}
-                {post.topicLabel} · {post.minutes} min read
-              </p>
-              <div>
-                <h2 className="!text-[1.5rem] sm:!text-[2rem] !leading-[1.12] mb-3 max-w-lg">{post.title}</h2>
-                <p className="text-plum-muted text-[1.0625rem] leading-[1.35] max-w-lg mb-6">{post.description}</p>
-                <p className="text-plum-muted text-[13px]">{post.date}</p>
-              </div>
-            </div>
-            <div className="order-1 lg:order-2 relative isolate overflow-hidden rounded-[6px] aspect-[16/10] lg:aspect-auto lg:min-h-[340px]">
-              {post.image ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={post.image.image}
-                  alt={post.image.alt}
-                  loading={i < 2 ? "eager" : "lazy"}
-                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-                />
-              ) : (
-                <Sunlight mood={(["amber", "dusk", "morning"] as const)[post.seed % 3]} seed={post.seed} shade={false} />
-              )}
-            </div>
-          </Link>
-        ))}
+      {/* Editorial list: meta on the left, title and summary on the right.
+          Text-only, so a new post never needs an image. */}
+      <div className="px-5 sm:px-6 pt-10 sm:pt-14 pb-16">
+        <ul className="border-t border-line">
+          {filtered.map((post, i) => (
+            <li key={post.slug} className="border-b border-line">
+              <Link
+                href={`/blog/${post.slug}`}
+                className="group grid grid-cols-1 md:grid-cols-12 gap-x-6 gap-y-3 py-7 sm:py-9 text-[15px] font-medium tracking-[-0.02em]"
+              >
+                <div className="md:col-span-4 lg:col-span-3 flex md:flex-col gap-x-3 gap-y-1 flex-wrap text-plum-muted">
+                  <span className="text-ink">{post.date}</span>
+                  <span>{post.topicLabel}</span>
+                  <span>{post.minutes} min read</span>
+                  {i === 0 && topic === "all" && showFeatured && (
+                    <span className="md:mt-2 self-start rounded-full bg-ink text-white text-[12px] px-2.5 py-0.5">Latest</span>
+                  )}
+                </div>
+                <div className="md:col-span-8 lg:col-span-8 lg:col-start-5">
+                  <h2 className="!text-[1.5rem] sm:!text-[1.875rem] !leading-[1.15] mb-3 max-w-3xl transition-opacity group-hover:opacity-60">
+                    {post.title}
+                  </h2>
+                  <p className="text-plum-muted text-[1.0625rem] leading-[1.4] max-w-2xl">{post.description}</p>
+                </div>
+                <span aria-hidden className="hidden lg:flex lg:col-span-1 justify-end items-start pt-2 text-[1.25rem] opacity-0 -translate-x-1 transition group-hover:opacity-100 group-hover:translate-x-0">
+                  &rarr;
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </>
   );

@@ -1,7 +1,6 @@
 import type { BlogPost } from "@/lib/blog";
 import type { BlogItem } from "@/components/BlogGrid";
 import { classify, topicLabel } from "@/lib/topics";
-import { postImage, postSeed } from "@/lib/postImage";
 
 function readTime(text: string): number {
   return Math.max(1, Math.ceil(text.trim().split(/\s+/).length / 200));
@@ -27,8 +26,6 @@ export function toBlogItems(posts: BlogPost[]): BlogItem[] {
       minutes: p.content ? readTime(p.content) : 8,
       topic,
       topicLabel: topicLabel(topic),
-      image: postImage(p.slug, p.tags, p),
-      seed: postSeed(p.slug),
     };
   });
 }

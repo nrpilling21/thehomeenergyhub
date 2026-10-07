@@ -14,7 +14,7 @@ export default function BlogIndex() {
 
   return (
     <div className="pb-2">
-      <PageHero eyebrow="Blog" title="Guides to help you save on home energy.">
+      <PageHero eyebrow="Blog" title="Guides to help you save on home energy." image="/images/dining-sunset.jpg" imageAlt="Dining table by open doors at sunset">
         Running costs, upgrades and tariffs, explained plainly. New posts every week.
       </PageHero>
       {items.length === 0 ? (
