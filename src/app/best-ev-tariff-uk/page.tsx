@@ -180,7 +180,7 @@ const FAQS: FAQ[] = [
 export default function BestEvTariffUkPage() {
   return (
     <>
-      <PageHero eyebrow="Guide" title={<>Best EV Tariff UK 2026</>} mood="amber">
+      <PageHero eyebrow="Guide" title={<>Best EV Tariff UK 2026</>} image="/images/ev-charging.jpg" imageAlt="Electric car charging from a wall-mounted home charger at sunset">
         Octopus Intelligent Go vs Octopus Go vs OVO Charge Anytime vs EDF, British Gas and Scottish
         Power — the cheapest UK electricity tariffs for EV drivers in 2026, compared head-to-head.
       </PageHero>

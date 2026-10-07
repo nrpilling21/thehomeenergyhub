@@ -81,7 +81,7 @@ const FAQ_SCHEMA = {
 export default function EvChargerPage() {
   return (
     <>
-      <PageHero eyebrow="Guide" title={<>Best Home EV Charger UK (2026): Honest Comparison</>} mood="dusk">
+      <PageHero eyebrow="Guide" title={<>Best Home EV Charger UK (2026): Honest Comparison</>} image="/images/ev-charging.jpg" imageAlt="Electric car charging from a wall-mounted home charger at sunset">
         A good home EV charger costs £800-£1,200 fully installed, charges your car 3-4x faster than a
         three-pin plug, and pays for itself within a year through cheaper overnight electricity rates.
         Here&apos;s which one to actually buy, based on what matters most to you.

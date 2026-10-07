@@ -22,7 +22,7 @@ export default function EvCalculatorPage() {
       title="EV charging cost calculator."
       intro="Find out what it costs to charge at home on your tariff, and how much you save compared with petrol."
       points={["Pick your car and mileage", "Choose your tariff", "See cost per mile and yearly savings"]}
-      mood="dusk"
+      image="/images/ev-charging.jpg" imageAlt="Electric car charging from a wall-mounted home charger at sunset"
     >
       <h2 className="sr-only">EV Charging Cost Calculator UK (2026)</h2>
       <EvChargingCalculator />

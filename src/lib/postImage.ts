@@ -3,6 +3,7 @@
    then fall back to a code-drawn Sunlight panel. Add a photo to
    public/images and a row here to cover a new topic. */
 const RULES: { image: string; alt: string; keywords: string[] }[] = [
+  { image: "/images/ev-charging.jpg", alt: "Electric car charging from a wall-mounted home charger at sunset", keywords: ["ev-", "-ev", "electric-car", "tethered"] },
   { image: "/images/heat-pump.jpg", alt: "Air source heat pump outside a timber-clad home", keywords: ["heat-pump", "heat pump"] },
   { image: "/images/solar-panels.jpg", alt: "Rooftop solar panels at sunset", keywords: ["solar", "battery", "batteries"] },
   {
