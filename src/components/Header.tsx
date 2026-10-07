@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
+import { SunMark } from "@/components/SunWaves";
 
 export function Header() {
   const [toolsOpen, setToolsOpen] = useState(false);
   const [ctaOpen, setCtaOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const toolsRef = useRef<HTMLDivElement>(null);
   const ctaRef = useRef<HTMLDivElement>(null);
 
@@ -20,16 +22,17 @@ export function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md">
-      <div className="max-w-5xl mx-auto px-5 py-4 flex items-center justify-between">
+    <header className="sticky top-0 z-50 bg-cream/85 backdrop-blur-md border-b border-line">
+      <div className="max-w-6xl mx-auto px-5 py-3.5 flex items-center justify-between">
         <Link
           href="/"
-          className="font-display text-xl font-semibold text-ink tracking-tight hover:opacity-80 transition-opacity"
+          className="flex items-center gap-2 font-display text-[17px] font-medium text-ink hover:opacity-80 transition-opacity"
         >
+          <SunMark className="w-6 h-6 text-sun" />
           Home Energy Hub
         </Link>
 
-        <nav className="hidden sm:flex items-center gap-6 text-sm text-ink/60 font-medium">
+        <nav className="hidden md:flex items-center gap-7 text-sm text-ink/70">
           {/* Tools dropdown */}
           <div ref={toolsRef} className="relative">
             <button
@@ -42,7 +45,7 @@ export function Header() {
               </svg>
             </button>
             {toolsOpen && (
-              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-lg border border-plum-light/15 py-2 z-50">
+              <div className="absolute top-full left-0 mt-2 w-64 bg-cream rounded-xl shadow-lg border border-line py-2 z-50">
                 <Link
                   href="/heat-pump-cost-calculator"
                   onClick={() => setToolsOpen(false)}
@@ -75,10 +78,10 @@ export function Header() {
         </nav>
 
         {/* CTA with dropdown picker */}
-        <div ref={ctaRef} className="hidden sm:block relative">
+        <div ref={ctaRef} className="hidden md:block relative">
           <button
             onClick={() => { setCtaOpen(!ctaOpen); setToolsOpen(false); }}
-            className="inline-flex items-center gap-1.5 px-5 py-2 rounded-xl text-sm font-medium bg-yellow text-ink hover:brightness-95 transition"
+            className="inline-flex items-center gap-1.5 px-5 py-2 rounded-[4px] text-sm font-medium bg-ink text-cream hover:opacity-90 transition"
           >
             See how you can save
             <svg width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" className={`transition-transform ${ctaOpen ? "rotate-180" : ""}`}>
@@ -86,7 +89,7 @@ export function Header() {
             </svg>
           </button>
           {ctaOpen && (
-            <div className="absolute top-full right-0 mt-2 w-72 bg-white rounded-xl shadow-lg border border-plum-light/15 py-2 z-50">
+            <div className="absolute top-full right-0 mt-2 w-72 bg-cream rounded-xl shadow-lg border border-line py-2 z-50">
               <Link
                 href="/heat-pump-cost-calculator"
                 onClick={() => setCtaOpen(false)}
@@ -108,13 +111,39 @@ export function Header() {
           )}
         </div>
 
-        {/* Mobile menu button */}
-        <button className="sm:hidden text-ink/60 hover:text-ink">
+        {/* Mobile menu */}
+        <button
+          className="md:hidden text-ink/70 hover:text-ink"
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
           <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-            <path d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" />
+            {menuOpen ? <path d="M6 6l12 12M18 6L6 18" /> : <path d="M3.75 7.5h16.5M3.75 16.5h16.5" />}
           </svg>
         </button>
       </div>
+      {menuOpen && (
+        <nav className="md:hidden border-t border-line bg-cream px-5 py-4">
+          {[
+            ["/heat-pump-cost-calculator", "Heat Pump Calculator"],
+            ["/ev-charging-cost-calculator", "EV Charging Calculator"],
+            ["/smart-meter-savings-calculator", "Smart Meter Calculator"],
+            ["/heat-pump-cost-uk", "Heat Pump Costs"],
+            ["/best-ev-charger-uk", "EV Chargers"],
+            ["/blog", "Blog"],
+          ].map(([href, label]) => (
+            <Link
+              key={href}
+              href={href}
+              onClick={() => setMenuOpen(false)}
+              className="block py-3 text-2xl font-display font-medium border-b border-line last:border-b-0"
+            >
+              {label}
+            </Link>
+          ))}
+        </nav>
+      )}
     </header>
   );
 }

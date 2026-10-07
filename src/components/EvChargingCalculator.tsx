@@ -47,7 +47,7 @@ function Progress({ step, total }: { step: number; total: number }) {
         <div
           key={i}
           className="h-1 rounded-full flex-1 transition-colors duration-300"
-          style={{ backgroundColor: i <= step ? "#28030F" : "rgba(40, 3, 15, 0.08)" }}
+          style={{ backgroundColor: i <= step ? "#1C130B" : "rgba(28, 19, 11, 0.08)" }}
         />
       ))}
     </div>
@@ -81,8 +81,8 @@ function Option({
       style={{
         padding: "14px 18px",
         borderRadius: "12px",
-        border: selected ? "2px solid #28030F" : "1.5px solid rgba(40, 3, 15, 0.1)",
-        backgroundColor: selected ? "#FCFAF8" : "#FCFAF8",
+        border: selected ? "2px solid #1C130B" : "1.5px solid rgba(28, 19, 11, 0.1)",
+        backgroundColor: selected ? "#FFF7E9" : "#FFF7E9",
         marginBottom: "8px",
       }}
     >
@@ -99,7 +99,7 @@ function Option({
             width: 20,
             height: 20,
             borderRadius: "50%",
-            border: selected ? "6px solid #28030F" : "2px solid rgba(40, 3, 15, 0.25)",
+            border: selected ? "6px solid #1C130B" : "2px solid rgba(28, 19, 11, 0.25)",
             transition: "border 0.15s ease",
           }}
         />

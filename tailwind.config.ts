@@ -1,38 +1,67 @@
 import type { Config } from "tailwindcss";
 
+/* Palette: warm daylight. Cream paper, sand panels, a deep warm ink, and a
+   sunrise orange used sparingly for the moments that matter (hero, primary
+   accents, footer). Token names (cream / plum / yellow / ink) are kept from
+   the previous palette so every existing page re-themes without edits. */
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/lib/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
         cream: {
-          DEFAULT: "#FCFAF8",
-          dark: "#F9F4F1",
+          DEFAULT: "#FFF7E9",
+          dark: "#F3E9D6",
         },
+        sand: "#EDE1CA",
+        line: "#E3D5BE",
         plum: {
-          DEFAULT: "#28030F",
-          muted: "#755760",
-          light: "#D4C4C9",
+          DEFAULT: "#1C130B",
+          muted: "#7A6553",
+          light: "#D9C9B2",
         },
+        /* Was a lemon yellow; now a soft apricot so chips, tags and
+           highlight cards sit inside the warm palette. */
         yellow: {
-          DEFAULT: "#FBF582",
-          soft: "#FDF8C4",
+          DEFAULT: "#FFD9AE",
+          soft: "#FFEBD3",
         },
-        ink: "#28030F",
+        sun: {
+          DEFAULT: "#F0600A",
+          light: "#F7931E",
+          deep: "#B8430A",
+        },
+        lilac: "#CBB8FF",
+        ink: "#1C130B",
+        /* Warm the neutral greys used inside calculators and pillar pages. */
+        gray: {
+          50: "#FBF6EE",
+          100: "#F3EBDF",
+          200: "#E6DACA",
+          300: "#D2C3AF",
+          400: "#AD9B86",
+          500: "#857360",
+          600: "#665646",
+          700: "#4B3E32",
+          800: "#33291F",
+          900: "#1C130B",
+        },
       },
       borderRadius: {
-        xl: "12px",
-        "2xl": "16px",
-        "3xl": "24px",
+        xl: "6px",
+        "2xl": "10px",
+        "3xl": "16px",
       },
       fontFamily: {
-        display: ['"Playfair Display"', "Georgia", "serif"],
-        sans: ["Inter", "system-ui", "sans-serif"],
-        mono: ['"DM Mono"', "ui-monospace", "monospace"],
+        display: ['"Geist Variable"', "system-ui", "sans-serif"],
+        serif: ['"Instrument Serif"', "Georgia", "serif"],
+        sans: ['"Geist Variable"', "system-ui", "sans-serif"],
+        mono: ['"Geist Mono Variable"', "ui-monospace", "monospace"],
       },
     },
   },
