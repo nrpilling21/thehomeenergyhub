@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: "Figtree Variable", system-ui, sans-serif;
+  font-weight: 450;
+  letter-spacing: -0.015em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FCFAF8;
-  color: #28030F;
+  background-color: #FFFFFF;
+  color: #212121;
 }
 
 html {
@@ -17,11 +17,124 @@ html {
 }
 
 ::selection {
-  background-color: #FBF582;
-  color: #28030F;
+  background-color: #212121;
+  color: #FFFFFF;
+}
+
+/* Typography, Everyday-style: one family, medium weight, tight tracking
+   (-3%), compact leading. Headings and UI sit at 500; long-form article
+   text stays at the regular body weight for comfortable reading. */
+h1, h2, h3, h4, .font-display {
+  text-wrap: balance;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.16;
+}
+.font-display.font-semibold,
+.font-display.font-bold,
+.font-display.font-extrabold,
+h1[class], h2[class], h3[class] {
+  font-weight: 500;
+}
+main h1[class]:not(.sr-only),
+main article h1 {
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  font-size: max(2.5rem, 1em);
+}
+button, nav, a.inline-flex {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+/* Small labels: sentence case, medium weight, no mono, no caps. */
+.eyebrow,
+.font-mono {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: -0.02em !important;
+  text-transform: none !important;
+}
+
+/* Film grain overlay for the sunrise gradient panels. */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.22;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
 }
 
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+@keyframes drift {
+  from { transform: translateX(0); }
+  to { transform: translateX(-4%); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-drift { animation: drift 18s ease-in-out infinite alternate; }
+  .animate-fadeup { animation: fadeUp 0.8s ease-out both; }
+}
+
+/* Long-form pages (guides, blog posts, disclosure). Everyday-style editorial
+   rhythm: hairline above each section, medium-weight headings, comfortable
+   body text, pill buttons. Uses element selectors so the many inline-styled
+   guide pages and the markdown blog renderer pick it up without edits. */
+.article-body {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  letter-spacing: -0.01em;
+}
+.article-body p,
+.article-body li {
+  color: rgba(33, 33, 33, 0.78);
+}
+.article-body h2 {
+  font-size: 1.5rem !important;
+  line-height: 1.2 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.03em;
+  color: #212121;
+  border-top: 1px solid #E8E6E1;
+  padding-top: 2rem;
+  margin-top: 4rem !important;
+  margin-bottom: 1.25rem !important;
+}
+.article-body > h2:first-child,
+.article-body .not-article h2 {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 0 !important;
+}
+.article-body h3 {
+  font-size: 1.125rem !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.02em;
+  margin-top: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+.article-body p { margin-bottom: 1.1rem; }
+.article-body ul { list-style: disc; padding-left: 1.25rem; margin-bottom: 1.25rem; }
+.article-body ol { list-style: decimal; padding-left: 1.25rem; margin-bottom: 1.25rem; }
+.article-body li { margin-bottom: 0.4rem; }
+.article-body strong { color: #212121; font-weight: 600; }
+.article-body a:not([class]) { color: #212121; text-decoration: underline; text-underline-offset: 3px; }
+.article-body table { font-size: 0.95rem; }
+.article-body .rounded-2xl,
+.article-body .rounded-xl { border-radius: 6px; }
+
+/* Buttons sitewide: Everyday's pill shape. */
+main a.bg-ink,
+main button.bg-ink {
+  border-radius: 9999px !important;
+  color: #FFFFFF;
+}
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }

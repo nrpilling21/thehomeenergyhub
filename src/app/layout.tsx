@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import "@fontsource-variable/figtree";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
-import { Header } from "@/components/Header";
+import { Header, type SearchItem } from "@/components/Header";
+import { getAllPosts } from "@/lib/blog";
+import { CALCULATORS, TOPICS } from "@/lib/topics";
 import { Footer } from "@/components/Footer";
 import { OutboundTracker } from "@/components/OutboundTracker";
 
@@ -37,6 +40,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // Search index, built at render time from content/blog so new posts
+  // are searchable without code changes.
+  const posts = getAllPosts();
+  const searchIndex: SearchItem[] = [
+    ...TOPICS.flatMap((t) => t.guides.map((g) => ({ href: g.href, title: g.label, kind: "Guide" }))),
+    ...CALCULATORS.map((c) => ({ href: c.href, title: c.label, kind: "Calculator" })),
+    ...posts.map((p) => ({ href: `/blog/${p.slug}`, title: p.title, kind: "Post" })),
+  ];
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -71,7 +83,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
-        <Header />
+        <Header searchIndex={searchIndex} />
         <main className="flex-1">{children}</main>
         <Footer />
         <OutboundTracker />

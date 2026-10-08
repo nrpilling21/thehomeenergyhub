@@ -1,49 +1,51 @@
 import Link from "next/link";
+import { CALCULATORS, TOPICS } from "@/lib/topics";
+
+const GROUPS: { title: string; links: [string, string][] }[] = [
+  {
+    title: "Guides",
+    links: TOPICS.flatMap((t) => t.guides.filter((g) => g.href !== "/running-costs").map((g) => [g.href, g.label] as [string, string])),
+  },
+  {
+    title: "Calculators",
+    links: CALCULATORS.map((c) => [c.href, c.label] as [string, string]),
+  },
+  {
+    title: "More",
+    links: [
+      ["/running-costs", "Running costs"],
+      ["/blog", "Blog"],
+      ["/affiliate-disclosure", "Affiliate disclosure"],
+    ],
+  },
+];
 
 export function Footer() {
   return (
-    <footer className="border-t border-gray-100 mt-16">
-      <div className="max-w-5xl mx-auto px-5 py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
-          <div>
-            <div className="font-semibold text-sm text-gray-900 mb-3">Tools</div>
-            <div className="space-y-2 text-sm text-gray-500">
-              <Link href="/heat-pump-cost-calculator" className="block hover:text-gray-700">
-                Heat Pump Cost Calculator
-              </Link>
-              <Link href="/ev-charging-cost-calculator" className="block hover:text-gray-700">
-                EV Charging Cost Calculator
-              </Link>
-              <Link href="/smart-meter-savings-calculator" className="block hover:text-gray-700">
-                Smart Meter Savings Calculator
-              </Link>
+    <footer className="bg-white px-2 pb-2">
+      <div className="bg-cream-dark rounded-[6px] px-5 sm:px-6 pt-10 pb-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-[15px] font-medium tracking-[-0.02em] mb-24 sm:mb-40">
+          <p className="col-span-2 md:col-span-1 max-w-[16rem]">
+            Independent advice on home energy upgrades.
+            <span className="text-plum-muted"> No sales calls, no nonsense.</span>
+          </p>
+          {GROUPS.map((g) => (
+            <div key={g.title}>
+              <p className="text-plum-muted mb-3">{g.title}</p>
+              <div className="space-y-1.5">
+                {g.links.map(([href, label]) => (
+                  <Link key={href} href={href} className="block hover:opacity-60 transition-opacity">
+                    {label}
+                  </Link>
+                ))}
+              </div>
             </div>
-          </div>
-          <div>
-            <div className="font-semibold text-sm text-gray-900 mb-3">Guides</div>
-            <div className="space-y-2 text-sm text-gray-500">
-              <Link href="/heat-pump-cost-uk" className="block hover:text-gray-700">
-                Heat Pump Costs UK
-              </Link>
-              <Link href="/solar-panel-costs-uk" className="block hover:text-gray-700">
-                Solar Panel Costs UK
-              </Link>
-              <Link href="/best-ev-charger-uk" className="block hover:text-gray-700">
-                Best EV Charger UK
-              </Link>
-              <Link href="/blog" className="block hover:text-gray-700">
-                Blog
-              </Link>
-            </div>
-          </div>
-          <div>
-            <div className="font-semibold text-sm text-gray-900 mb-3">About</div>
-            <p className="text-sm text-gray-500">
-              Independent advice on home energy upgrades. No sales calls, no nonsense.
-            </p>
-          </div>
+          ))}
         </div>
-        <div className="border-t border-gray-100 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-400">
+        <p className="text-[10.5vw] sm:text-[11vw] leading-[1.05] font-medium tracking-[-0.05em] text-ink/90 whitespace-nowrap overflow-hidden">
+          Home Energy Hub
+        </p>
+        <div className="mt-6 flex flex-col sm:flex-row justify-between gap-2 text-[13px] font-medium text-plum-muted">
           <span>&copy; {new Date().getFullYear()} Home Energy Hub. All rights reserved.</span>
           <span>Independent. Honest. Free to use.</span>
         </div>

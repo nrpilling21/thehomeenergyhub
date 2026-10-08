@@ -1,3 +1,4 @@
+import { PageHero } from "@/components/PageHero";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ELECTRICITY_PENCE_PER_KWH } from "@/lib/energy-rates";
@@ -76,16 +77,16 @@ export default function SolarPanelCostsPage() {
 
   return (
     <>
-      <article className="max-w-3xl mx-auto px-5 py-10">
-        <h1 className="text-3xl font-bold text-gray-900 leading-tight mb-4">
-          How Much Do Solar Panels Cost in the UK? (2026 Guide)
-        </h1>
-        <p className="text-gray-500 text-lg mb-8 leading-relaxed">
-          A typical 4kW solar panel system costs £6,000–£8,000 fully installed in the UK in 2026. With
+      <>
+      <PageHero eyebrow="Guide" title={<>How Much Do Solar Panels Cost in the UK? (2026 Guide)</>} image="/images/solar-panels.jpg" imageAlt="Rooftop solar panels at sunset">
+        A typical 4kW solar panel system costs £6,000–£8,000 fully installed in the UK in 2026. With
           0% VAT, Smart Export Guarantee payments, and annual savings of £500–£800 on electricity bills,
           most systems pay for themselves within 7–10 years — leaving 15–20 years of near-free
           electricity.
-        </p>
+      </PageHero>
+      <article className="article-body max-w-2xl mx-auto px-5 pt-14 pb-20 text-ink">
+        
+        
         <p className="text-xs text-gray-400 mb-8">Last updated: July 2026</p>
 
         {/* Quick cost summary table */}
@@ -510,6 +511,7 @@ export default function SolarPanelCostsPage() {
           </div>
         </section>
       </article>
+      </>
 
       {/* FAQ JSON-LD Schema */}
       <script

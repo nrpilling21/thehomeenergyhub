@@ -1,3 +1,4 @@
+import { PageHero } from "@/components/PageHero";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -93,21 +94,21 @@ const FAQ_SCHEMA = {
 
 export default function HomeInsulationGuidePage() {
   return (
-    <article className="max-w-3xl mx-auto px-5 py-10">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
-      />
-      <h1 className="text-3xl font-bold text-gray-900 leading-tight mb-4">
-        Home Insulation Costs UK 2026: Types, Prices & Savings Guide
-      </h1>
-      <p className="text-gray-500 text-lg mb-8 leading-relaxed">
+    <>
+      <PageHero eyebrow="Guide" title={<>Home Insulation Costs UK 2026: Types, Prices & Savings Guide</>} image="/images/couple-blankets.jpg" imageAlt="Couple wrapped in blankets with mugs of tea">
         Insulating your home is one of the most effective ways to reduce energy bills and improve
         comfort. Costs range from around £300 for loft insulation up to £13,000 or more for external
         solid wall insulation, depending on the type and size of your property. With 0% VAT on
         insulation until at least March 2027 and grants available through the Great British Insulation
         Scheme, now is a good time to invest.
-      </p>
+      </PageHero>
+      <article className="article-body max-w-2xl mx-auto px-5 pt-14 pb-20 text-ink">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
+      />
+      
+      
 
       <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Insulation Costs at a Glance</h2>
       <div className="overflow-x-auto mb-8">
@@ -354,5 +355,6 @@ export default function HomeInsulationGuidePage() {
       </p>
 
     </article>
+      </>
   );
 }

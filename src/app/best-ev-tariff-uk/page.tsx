@@ -1,3 +1,4 @@
+import { PageHero } from "@/components/PageHero";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ELECTRICITY_PENCE_PER_KWH } from "@/lib/energy-rates";
@@ -178,14 +179,14 @@ const FAQS: FAQ[] = [
 
 export default function BestEvTariffUkPage() {
   return (
-    <article className="max-w-3xl mx-auto px-5 py-10 text-ink">
-      <h1 className="font-display text-3xl sm:text-4xl font-extrabold mb-3 leading-tight">
-        Best EV Tariff UK 2026
-      </h1>
-      <p className="text-ink/70 text-base mb-2">
+    <>
+      <PageHero eyebrow="Guide" title={<>Best EV Tariff UK 2026</>} image="/images/ev-charging.jpg" imageAlt="Electric car charging from a wall-mounted home charger at sunset">
         Octopus Intelligent Go vs Octopus Go vs OVO Charge Anytime vs EDF, British Gas and Scottish
         Power — the cheapest UK electricity tariffs for EV drivers in 2026, compared head-to-head.
-      </p>
+      </PageHero>
+      <article className="article-body max-w-2xl mx-auto px-5 pt-14 pb-20 text-ink">
+      
+      
       <p className="text-ink/55 text-sm mb-8">Updated June 2026</p>
 
       <div className="bg-cream-dark border border-plum-light/20 rounded-2xl p-5 mb-10">
@@ -465,5 +466,6 @@ export default function BestEvTariffUkPage() {
         }}
       />
     </article>
+      </>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { PageHero } from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Affiliate Disclosure | The Home Energy Hub",
@@ -19,15 +20,14 @@ export const metadata: Metadata = {
 
 export default function AffiliateDisclosurePage() {
   return (
-    <article className="prose prose-slate mx-auto max-w-3xl px-4 py-12">
-      <h1>Affiliate Disclosure</h1>
-
-      <p>
+    <>
+      <PageHero eyebrow="About" title="Affiliate disclosure.">
         The Home Energy Hub is a publisher that exists to help UK homeowners
         make better decisions about energy, insulation, heating and home improvements. To
         keep the site running and the guides free to read, some of the links on this site
         are affiliate links.
-      </p>
+      </PageHero>
+      <article className="article-body max-w-2xl mx-auto px-5 pt-14 pb-20 text-ink">
 
       <h2>What does that mean?</h2>
       <p>
@@ -90,5 +90,6 @@ export default function AffiliateDisclosurePage() {
 
       <p className="text-sm text-slate-500">Last updated: 5 October 2026.</p>
     </article>
+      </>
   );
 }

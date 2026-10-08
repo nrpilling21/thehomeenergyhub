@@ -1,3 +1,4 @@
+import { PageHero } from "@/components/PageHero";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -89,24 +90,22 @@ const FAQ_SCHEMA = {
 
 export default function SmartMeterGuideUkPage() {
   return (
-    <article className="max-w-3xl mx-auto px-5 py-10">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
-      />
-
-      <p className="font-mono text-xs tracking-widest text-plum-muted uppercase mb-4">Guide</p>
-      <h1 className="text-3xl font-display font-normal text-ink leading-tight mb-4">
-        Smart Meters UK (2026): Costs, Savings, Problems and Best IHDs
-      </h1>
-      <p className="text-ink/60 text-lg mb-8 leading-relaxed">
+    <>
+      <PageHero eyebrow="Guide" title={<>Smart Meters UK (2026): Costs, Savings, Problems and Best IHDs</>} image="/images/thermostat.jpg" imageAlt="Smart thermostat on a sunlit wall">
         Around 36 million UK smart meters have been installed and roughly 60 percent of homes now have
         one. They are <strong>free to install</strong>, save the average household{" "}
         <strong>£60-£90 a year</strong> on the visibility alone, and are the gateway to the cheaper
         time-of-use tariffs that can save another £200-£500. Here is the honest picture in 2026: what
         they cost, what they save, the problems people actually run into, and how to get the most out
         of yours.
-      </p>
+      </PageHero>
+      <article className="article-body max-w-2xl mx-auto px-5 pt-14 pb-20 text-ink">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
+      />
+      
+      
 
       {/* Quick-answer table */}
       <h2 className="text-xl font-display font-semibold text-ink mb-4">Smart Meters at a Glance</h2>
@@ -488,6 +487,7 @@ export default function SmartMeterGuideUkPage() {
         </Link>
       </div>
     </article>
+      </>
   );
 }
 

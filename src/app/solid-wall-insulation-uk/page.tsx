@@ -1,3 +1,4 @@
+import { PageHero } from "@/components/PageHero";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -80,24 +81,22 @@ const FAQ_SCHEMA = {
 
 export default function SolidWallInsulationPage() {
   return (
-    <article className="max-w-3xl mx-auto px-5 py-10">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
-      />
-
-      <p className="font-mono text-xs tracking-widest text-plum-muted uppercase mb-4">Guide</p>
-      <h1 className="text-3xl font-display font-normal text-ink leading-tight mb-4">
-        Solid Wall Insulation Cost UK (2026): Internal vs External
-      </h1>
-      <p className="text-ink/60 text-lg mb-8 leading-relaxed">
+    <>
+      <PageHero eyebrow="Guide" title={<>Solid Wall Insulation Cost UK (2026): Internal vs External</>} image="/images/dining-sunset.jpg" imageAlt="Dining table by open doors at sunset">
         Around 8 million UK homes have solid walls — most built before 1930. They lose roughly twice
         as much heat as cavity walls, and they cannot be filled with the standard cavity injection
         method. Insulating them is a bigger job: <strong>£4,000-£7,000</strong> for internal wall
         insulation (IWI) on a 3-bed semi, or <strong>£8,000-£15,000</strong> for external wall
         insulation (EWI). Here&apos;s how to choose between them, what grants help, and what the
         savings actually look like.
-      </p>
+      </PageHero>
+      <article className="article-body max-w-2xl mx-auto px-5 pt-14 pb-20 text-ink">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
+      />
+      
+      
 
       {/* TL;DR table */}
       <h2 className="text-xl font-display font-semibold text-ink mb-4">Cost at a glance (3-bed semi)</h2>
@@ -313,6 +312,7 @@ export default function SolidWallInsulationPage() {
         />
       </div>
     </article>
+      </>
   );
 }
 

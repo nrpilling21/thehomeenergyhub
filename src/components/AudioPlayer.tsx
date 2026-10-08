@@ -130,12 +130,12 @@ export default function AudioPlayer({ duration, text }: { duration: string; text
       >
         {isPlaying ? (
           <svg width="10" height="12" viewBox="0 0 10 12" fill="none">
-            <rect width="3" height="12" rx="1" fill="#FCFAF8"/>
-            <rect x="7" width="3" height="12" rx="1" fill="#FCFAF8"/>
+            <rect width="3" height="12" rx="1" fill="#FFFFFF"/>
+            <rect x="7" width="3" height="12" rx="1" fill="#FFFFFF"/>
           </svg>
         ) : (
           <svg width="10" height="12" viewBox="0 0 10 12" fill="none">
-            <path d="M0 0.75V11.25L10 6L0 0.75Z" fill="#FCFAF8"/>
+            <path d="M0 0.75V11.25L10 6L0 0.75Z" fill="#FFFFFF"/>
           </svg>
         )}
       </button>
@@ -149,7 +149,7 @@ export default function AudioPlayer({ duration, text }: { duration: string; text
               className="w-0.5 rounded-full transition-opacity"
               style={{
                 height: `${h}%`,
-                backgroundColor: '#28030F',
+                backgroundColor: '#212121',
                 opacity: barPct < progress ? 0.7 : 0.18,
               }}
             />

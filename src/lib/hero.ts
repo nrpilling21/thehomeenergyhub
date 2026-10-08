@@ -15,10 +15,10 @@
    To add a motif: write a glyph function, then add a MOTIFS entry with the
    keywords that should select it. Unknown topics fall back to `bars`. */
 
-const INK = '#28030F';
-const YELLOW = '#FBF582';
-const CREAM_DARK = '#F9F4F1';
-const MUTED = 'rgba(40, 3, 15, 0.18)';
+const INK = '#212121';
+const YELLOW = '#D9622B';
+const CREAM_DARK = '#F6F5F2';
+const MUTED = 'rgba(33, 33, 33, 0.16)';
 
 const W = 1200;
 const H = 188;
