@@ -333,6 +333,67 @@ export default function BestEvTariffUkPage() {
       </ol>
 
       <h2 className="font-display text-xl font-semibold mt-10 mb-4">
+        Octopus Cosy vs EV tariffs: which wins if you have both?
+      </h2>
+      <p className="text-ink/65 leading-relaxed mb-4">
+        If your home has both a heat pump and an EV, Octopus Cosy and the EV tariffs above are
+        competing for the same meter — Octopus doesn&apos;t currently let you run both on one
+        MPAN. Cosy gives three cheap windows totalling around 9 hours a day at roughly 10&ndash;15p/kWh
+        (the standard rate applies the rest of the time), which is pricier per kWh than Intelligent
+        Octopus Go&apos;s 7.5p overnight window but spreads across more of the day — useful for a
+        heat pump, which runs on and off through daytime and evening, not just overnight like an EV
+        charger.
+      </p>
+      <div className="overflow-x-auto mb-6">
+        <table className="w-full text-base">
+          <thead>
+            <tr className="border-b border-plum-light/20 bg-cream-dark text-left">
+              <th className="py-3.5 px-4 font-semibold text-ink">Household profile</th>
+              <th className="py-3.5 px-4 font-semibold text-ink">Dominant electrical load</th>
+              <th className="py-3.5 px-4 font-semibold text-ink">Likely better tariff</th>
+            </tr>
+          </thead>
+          <tbody className="text-ink/70">
+            <tr className="border-b border-plum-light/15">
+              <td className="py-3 px-4 font-medium text-ink">
+                Smaller or well-insulated home, modest daily EV mileage
+              </td>
+              <td className="py-3 px-4">EV charging</td>
+              <td className="py-3 px-4 font-semibold text-ink">Intelligent Octopus Go</td>
+            </tr>
+            <tr className="border-b border-plum-light/15">
+              <td className="py-3 px-4 font-medium text-ink">
+                Larger or older home, heat pump running long hours through the day
+              </td>
+              <td className="py-3 px-4">Heat pump</td>
+              <td className="py-3 px-4 font-semibold text-ink">Octopus Cosy</td>
+            </tr>
+            <tr>
+              <td className="py-3 px-4 font-medium text-ink">
+                Large home and high EV mileage — both loads substantial
+              </td>
+              <td className="py-3 px-4">Split — depends on relative size</td>
+              <td className="py-3 px-4 font-semibold text-ink">Model both, don&apos;t guess</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p className="text-ink/55 text-sm mb-10">
+        There is no single right answer here because the split between heating kWh and EV-charging
+        kWh varies hugely by home size, insulation standard and annual mileage — see our{" "}
+        <Link href="/heat-pump-cost-uk" className="underline underline-offset-2">
+          heat pump running cost guide
+        </Link>{" "}
+        for what Cosy typically saves on heating alone. Run your own numbers for both tariffs
+        through the{" "}
+        <Link href="/smart-meter-savings-calculator" className="underline underline-offset-2">
+          smart meter savings calculator
+        </Link>{" "}
+        before switching — it&apos;s a five-minute check against a decision that&apos;s otherwise easy
+        to get wrong in either direction.
+      </p>
+
+      <h2 className="font-display text-xl font-semibold mt-10 mb-4">
         What you need to qualify
       </h2>
       <ul className="list-disc pl-6 space-y-2 text-ink/70 mb-8">
