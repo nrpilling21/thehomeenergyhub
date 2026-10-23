@@ -1,6 +1,6 @@
 ---
-title: "Smart Meter Problems UK: 12 Electricity Metering Issues Fixed"
-description: "Smart meter not working? The 12 most common UK electricity metering issues in 2026, step-by-step fixes, and how to claim £40 compensation."
+title: "Smart Meter Problems UK: 12 Common Faults and Fixes (2026)"
+description: "Smart meter not working? Fixes for the 12 most common UK smart meter problems, what suppliers must do within 5 working days, and how to claim £40 compensation."
 date: "2026-04-21"
 author: "The Home Energy Hub"
 category: "energy-saving"
@@ -9,13 +9,15 @@ tags: ["smart meter", "smart meter problems", "in-home display", "SMETS2", "ener
 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
+*Last updated 23 October 2026. Rules and compensation details checked against Ofgem announcements and press coverage up to that date.*
+
 *If you're new to smart meters generally, the [Smart Meter Guide UK](/smart-meter-guide-uk) walks through what they are, what they do, and which type you've got — useful context before troubleshooting yours.*
 
 ## Smart meter not working? Start here
 
 If you are reading this, something about your smart meter has stopped behaving. The in-home display (IHD) has gone dark, the numbers are nonsense, the supplier keeps sending estimated bills, or the engineer never turned up. You are not alone - Smart Energy GB estimates that roughly 4 million of the 36 million smart meters installed in Great Britain are currently in "dumb" mode, meaning they have lost their connection and are being read manually.
 
-The good news is that most smart meter problems have a fix you can try yourself in under ten minutes. The better news is that from 23 February 2026, if your energy supplier fails to resolve a reported smart meter issue within five working days or leaves a fault unfixed for more than 90 days, you are entitled to £40 automatic compensation per issue under the new Ofgem rules. That is a real lever - use it.
+The good news is that most smart meter problems have a fix you can try yourself in under ten minutes. The better news is that since 23 February 2026, if your energy supplier does not give you a resolution plan within five working days of a reported smart meter fault, you are entitled to £40 automatic compensation under Ofgem's Guaranteed Standards. Separately, suppliers now have a 90-day deadline to fix a meter that is not sending readings, backed by Ofgem enforcement (compensation for that rule was still being worked out at the time of writing). That is a real lever - use it.
 
 This guide runs through the 12 most common UK smart meter problems we see in 2026, the quick fixes for each, and when to escalate. Work through the checks in order for your symptom, and by the end you will either have your meter working again or a clear paper trail to claim compensation.
 
@@ -43,7 +45,7 @@ When you report a smart meter problem, your supplier must tell you in writing ho
 
 ### Repair within 90 days
 
-Suppliers have a maximum of 90 days to repair or replace a faulty smart meter. Miss that deadline and Ofgem can take enforcement action, including fines, legal action, and further consumer compensation.
+Suppliers have a maximum of 90 days to fix a smart meter that is not sending readings, counted from when they become aware of the problem. Miss that deadline and Ofgem can take enforcement action, including fines or legal action. The rule does not cover a broken in-home display, and Ofgem said it was still working on automatic compensation for it, so check Ofgem's site for the current position before relying on a payment.
 
 ### 6-week installation rule
 
@@ -179,7 +181,7 @@ If you are on a heat pump, phantom consumption sometimes turns out to be the aux
 
 ## When to escalate to the Energy Ombudsman
 
-If your supplier has missed the 5-working-day response deadline, failed to repair within 90 days, or refuses to pay the automatic £40 compensation you are owed, you have the right to escalate. The process has three steps.
+If your supplier has missed the 5-working-day response deadline, has not fixed a non-communicating meter within 90 days, or refuses to pay the automatic £40 compensation you are owed, you have the right to escalate. The process has three steps.
 
 1. Raise a formal complaint in writing. Reference the specific Ofgem rule and the dates.
 
@@ -210,6 +212,10 @@ Not every UK electricity metering issue is a smart meter issue, and it is worth 
 **Prepayment and credit issues.** Top-ups not registering, emergency credit not releasing, or a meter stuck in the wrong mode after a payment-method switch are supplier account problems rather than metering hardware problems, and they are resolved through your supplier's billing team. Problem 8 above covers the mode-switching case.
 
 **Distribution network faults.** If your supply voltage is unstable or you have repeated outages, that is your regional distribution network operator, not your supplier or your meter. Call 105 from any UK phone to reach the right DNO free of charge.
+
+## Fixing a dead in-home display without buying a new one
+
+An IHD that has gone dark is a supplier job in most cases, and a replacement is usually free. If you would rather compare options first, our [best smart meter in-home display guide](/blog/best-smart-meter-in-home-display-uk) covers what is worth buying and what to avoid.
 
 ## How to prevent problems in the first place
 

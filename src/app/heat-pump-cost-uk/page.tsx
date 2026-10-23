@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   alternates: { canonical: '/heat-pump-cost-uk' },
-  title: "How Much Does a Heat Pump Cost in the UK? (2026 Guide)",
+  title: "Heat Pump Cost UK 2026: £8,000–£15,000 (Less £7,500 Grant)",
   description:
-    "Heat pumps cost £8,000-£15,000 for air source or £15,000-£35,000 for ground source, installed. With the £7,500 BUS grant and 0% VAT, the real cost is much lower.",
+    "Air source heat pump cost UK: £8,000–£15,000 installed, or around £4,000–£8,500 after the £7,500 BUS grant and 0% VAT. Ground source from £15,000.",
 };
 
 const FAQ_SCHEMA = {
