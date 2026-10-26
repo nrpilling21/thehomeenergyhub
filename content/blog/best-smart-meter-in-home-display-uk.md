@@ -81,7 +81,7 @@ The Geo Trio II was the dominant supplier-issued IHD from 2019-2023 and millions
 
 ### 4. Loop Energy Saver -- best for appliance-level insight
 
-The Loop Energy Saver is not strictly an IHD - it is a smart energy monitor that wires into your consumer unit (qualified electrician install, around £80 for the kit plus £80-£120 for fitting) and pushes high-resolution electricity data to a phone app. Where the Loop wins is the disaggregation: it learns the signatures of your big appliances over a few weeks and tells you roughly how much your fridge, washing machine, [immersion heater](/blog/immersion-heater-running-costs-uk), kettle and EV charger each cost you.
+The Loop Energy Saver is not strictly an IHD - it is a smart energy monitor that wires into your consumer unit (qualified electrician install, around £80 for the kit plus £80-£120 for fitting) and pushes high-resolution electricity data to a phone app. Where the Loop wins is the disaggregation: it learns the signatures of your big appliances over a few weeks and tells you roughly how much your fridge, washing machine, [immersion heater](/blog/immersion-heater-running-costs-uk), [heated airer](/blog/heated-airer-running-costs-uk), kettle and EV charger each cost you.
 
 If you actively want to find phantom loads and old appliances that are wasting money, this kind of monitor finds things an IHD cannot. The trade-off is the install cost and the fact that it is electricity-only - no gas tracking. For households that already have insulated walls and a good heating setup, the next big saving lives inside the consumer unit, and a [home energy monitor](https://www.amazon.co.uk/s?k=home+energy+monitor+electricity&tag=thehomeenergyhub-21) is the tool that finds it.
 
@@ -224,7 +224,7 @@ The reason the IHD upgrade matters in 2026 is what you do with the data, not the
 
 These tariffs charge cheap rates (7-15p/kWh) for off-peak hours and standard or peak rates the rest of the time. With an IHD or monitor showing real-time use, you can see exactly when your usage spikes and shift loads (washing machine, dishwasher, EV charging, immersion heater) into the cheap windows. Households that get this right typically save 5-15% of their annual bill before behaviour change, and significantly more if they have an EV. The maths is in our [home EV charging cost guide](/blog/how-much-charge-electric-car-home-uk).
 
-If you are on a fixed tariff and not interested in time-of-use yet, the IHD upgrade still pays for itself in two ways: it surfaces phantom loads (a [smart power strip](https://www.amazon.co.uk/s?k=smart+power+strip+standby+killer&tag=thehomeenergyhub-21) typically saves £40-£60 a year of standby waste) and it lets you spot heating overshoots in real time, which is where most of the easy savings live in winter.
+If you are on a fixed tariff and not interested in time-of-use yet, the IHD upgrade still pays for itself in two ways: it surfaces phantom loads (a [smart power strip](https://www.amazon.co.uk/s?k=smart+power+strip+standby+killer&tag=thehomeenergyhub-21) typically saves £40-£60 a year of standby waste) and it lets you spot heating overshoots in real time, which is where most of the easy savings live in winter - especially if you're running a [heat pump](/heat-pump-cost-uk), where usage patterns are less intuitive than a gas boiler's and overnight setbacks matter more.
 
 ## Frequently asked questions
 
