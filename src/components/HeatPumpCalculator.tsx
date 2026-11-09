@@ -344,7 +344,7 @@ export default function HeatPumpCalculator() {
           />
           <Option
             label="Yes - include the £7,500 grant"
-            desc="Available until March 2028"
+            desc="Funded to 2030"
             selected={grant === 0}
             onClick={() => select(setGrant, 0)}
           />

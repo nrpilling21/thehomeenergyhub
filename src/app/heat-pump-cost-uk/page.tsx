@@ -28,7 +28,7 @@ const FAQ_SCHEMA = {
       acceptedAnswer: {
         "@type": "Answer",
         text:
-          "Yes. The Boiler Upgrade Scheme (BUS) pays £7,500 toward an air source or ground source heat pump and is confirmed running until 2028. Your installer must be MCS-registered and they handle the application on your behalf. Payment lands 4-6 weeks after the install. 0% VAT on the installation is also confirmed until 31 March 2027 — after that, VAT reverts to 20% and the real cost rises noticeably.",
+          "Yes. The Boiler Upgrade Scheme (BUS) pays £7,500 toward an air source or ground source heat pump and is funded through to 2030. Homes off the gas grid that are replacing an oil or LPG heating system can get £9,000 instead, a higher amount Ofgem lists as available until 31 March 2027. Your installer must be MCS-registered and they handle the application on your behalf. Payment lands 4-6 weeks after the install. 0% VAT on the installation is also confirmed until 31 March 2027 — after that, VAT rises to 5% and the real cost rises slightly.",
       },
     },
     {
@@ -76,7 +76,7 @@ export default function HeatPumpCostPage() {
     <>
       <PageHero eyebrow="Guide" title={<>How Much Does a Heat Pump Cost in the UK? (2026 Guide)</>} image="/images/heat-pump.jpg" imageAlt="Air source heat pump outside a timber-clad home">
         Heat pumps typically cost between £8,000 and £15,000 installed for an air source unit, or
-        £15,000 to £35,000 for ground source. With the Building Upgrade Scheme grant of £7,500 and the
+        £15,000 to £35,000 for ground source. With the Boiler Upgrade Scheme grant of £7,500 (£9,000 for off-gas homes replacing oil or LPG heating) and the
         0% VAT rate valid until March 2027, the real cost for most households is substantially lower
         than these headline figures suggest.
       </PageHero>
@@ -226,15 +226,20 @@ export default function HeatPumpCostPage() {
         </table>
       </div>
 
-      <Section title="The Building Upgrade Scheme (BUS) Grant">
+      <Section title="The Boiler Upgrade Scheme (BUS) Grant">
         <p>
           The BUS offers £7,500 towards the cost of an air or ground source heat pump for UK
           homeowners. Most owner-occupied properties qualify. Your installer must be MCS-registered,
           and they typically handle the paperwork. Payment arrives 4-6 weeks after application.
         </p>
         <p>
-          The scheme was extended until 2027, and 0% VAT on installations is confirmed until 31 March
-          2027. After that date, VAT reverts to 20%, making installations noticeably more expensive.
+          Homes off the gas grid that are replacing an oil or LPG heating system can get £9,000
+          rather than £7,500; Ofgem lists that higher amount as available until 31 March 2027. The
+          scheme itself has been extended to 2030, and 0% VAT on installations applies until 31 March
+          2027, after which the reduced 5% VAT rate applies. Sources:{" "}
+          <a href="https://www.gov.uk/government/publications/boiler-upgrade-scheme-regulations-approved-standards-grant-categories-and-grant-levels/notice-of-approved-grant-categories-and-values-for-the-boiler-upgrade-scheme" target="_blank" rel="noopener noreferrer">GOV.UK grant values</a>,{" "}
+          <a href="https://www.ofgem.gov.uk/environmental-and-social-schemes/boiler-upgrade-scheme-bus" target="_blank" rel="noopener noreferrer">Ofgem</a> and{" "}
+          <a href="https://www.gov.uk/guidance/vat-on-energy-saving-materials-and-heating-equipment-notice-7086" target="_blank" rel="noopener noreferrer">HMRC VAT guidance</a>.
         </p>
       </Section>
 

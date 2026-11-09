@@ -9,7 +9,7 @@ tags: ["heat pump grant", "BUS grant", "boiler upgrade scheme", "government gran
 
 ## What is the BUS grant?
 
-The **Boiler Upgrade Scheme (BUS)** gives UK homeowners a £7,500 grant towards the cost of installing an air source or ground source heat pump. It's funded by the government, administered by Ofgem, and available until **March 2028**.
+The **Boiler Upgrade Scheme (BUS)** gives UK homeowners a £7,500 grant towards the cost of installing an air source or ground source heat pump. It's funded by the government, administered by Ofgem, and now runs through to **2030**. Homes off the gas grid that are replacing an oil or LPG heating system can get **£9,000** instead, a higher amount Ofgem lists as available until 31 March 2027.
 
 The grant was increased from £5,000 to £7,500 in October 2023, and the scheme was extended in the 2024 Autumn Budget. It's the single biggest financial incentive for switching from a gas boiler to a heat pump, and it significantly changes the payback calculation.
 
@@ -85,6 +85,6 @@ There's also 0% VAT on heat pumps and their installation, confirmed until at lea
 
 ## The bottom line
 
-The £7,500 BUS grant makes 2026 one of the best years to install a heat pump. Combined with 0% VAT, the upfront cost is comparable to a new gas boiler, with lower running costs from day one. The scheme is confirmed until 2028, but funding is allocated on a first-come-first-served basis - voucher applications have been increasing steadily.
+The £7,500 BUS grant makes 2026 one of the best years to install a heat pump. Combined with 0% VAT, the upfront cost is comparable to a new gas boiler, with lower running costs from day one. The scheme is funded through to 2030, but funding is allocated on a first-come-first-served basis - voucher applications have been increasing steadily.
 
 Get a personalised cost estimate for your property with our [heat pump calculator](/heat-pump-cost-calculator). For a full breakdown of what you will pay before and after the grant, see our [heat pump costs guide](/heat-pump-cost-uk). You might also want to read about [heat pump running costs](/blog/heat-pump-running-costs-2026) to understand the ongoing savings, or explore whether [solar panels](/solar-panel-costs-uk) could cut your electricity bill even further.
