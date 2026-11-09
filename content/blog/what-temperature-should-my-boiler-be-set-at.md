@@ -1,6 +1,6 @@
 ---
-title: "What Temperature Should My Boiler Be Set At? UK 2026"
-description: "Set your boiler flow temperature to 60°C and hot water to 50-55°C. Why they are different settings, what the change saves at the 2026 cap, and how to check."
+title: "Boiler Temperature UK: Set Flow to 60°C, Hot Water to 50-55°C"
+description: "Set boiler flow temperature to 60°C and hot water to 50-55°C (60°C with a cylinder). Why they are two settings, what it saves at the 2026 cap, and how to check."
 date: "2026-09-18"
 author: "The Home Energy Hub"
 category: "energy-saving"
