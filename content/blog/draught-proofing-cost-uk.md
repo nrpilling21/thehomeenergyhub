@@ -53,6 +53,8 @@ Gaps between floorboards and around skirting boards can let in significant draug
 
 A poorly sealed loft hatch lets warm air escape straight into your roof space. A [loft hatch draught strip](https://www.amazon.co.uk/s?k=loft+hatch+insulation+draught+strip&tag=thehomeenergyhub-21) costs around **£5 to £10**, and fitting it takes ten minutes. If you've already got [loft insulation](/blog/loft-insulation-cost-uk), this is essential — otherwise that insulation isn't working as hard as it should.
 
+While you are up there, a piece of [rigid insulation board](https://www.awin1.com/cread.php?awinmid=37552&awinaffid=2849657&ued=https%3A%2F%2Finsulation4less.co.uk%2Fcollections%2Floft-insulation-board) glued to the back of the hatch stops heat leaking through the hatch itself.
+
 ## DIY vs Professional Draught Proofing
 
 Most basic draught proofing is well within DIY territory. Self-adhesive strips, draught excluders, chimney balloons and sealant are all straightforward to fit with no special tools — our guide to the [best draught excluders](/blog/best-draught-excluder-uk) sets out which product suits which gap, and what each one is worth.

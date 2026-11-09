@@ -128,6 +128,8 @@ One important note on spray foam: while it's effective, some mortgage lenders ar
 
 For most homeowners simply looking to top up their loft insulation, mineral wool rolls are the best balance of cost, performance, and ease of installation.
 
+If you're buying materials yourself, a specialist insulation supplier such as [Insulation4less](https://www.awin1.com/cread.php?awinmid=37552&awinaffid=2849657&ued=https%3A%2F%2Finsulation4less.co.uk%2Fcollections%2Finsulation-roll) stocks [mineral wool and glass wool rolls](https://www.awin1.com/cread.php?awinmid=37552&awinaffid=2849657&ued=https%3A%2F%2Finsulation4less.co.uk%2Fcollections%2Fmineral-wool) from brands like Knauf Earthwool and Rockwool, plus [rigid insulation boards](https://www.awin1.com/cread.php?awinmid=37552&awinaffid=2849657&ued=https%3A%2F%2Finsulation4less.co.uk%2Fcollections%2Floft-insulation-board) for loft conversions and boarded storage areas. It is worth comparing the price per m² and the delivered cost against a DIY shop, since rolls are bulky and delivery can change the maths.
+
 ## Tips for Getting the Best Value
 
 1. **Get at least three quotes** if hiring a professional. Prices can vary significantly between installers.
