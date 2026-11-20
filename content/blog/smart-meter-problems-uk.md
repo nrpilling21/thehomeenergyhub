@@ -175,7 +175,7 @@ Track it down in three steps.
 
 3. Use a [smart plug with an energy meter](https://www.amazon.co.uk/dp/B0B831STBX?tag=thehomeenergyhub-21) to measure the worst offenders precisely.
 
-For larger hidden loads (electric showers, immersion heaters, underfloor heating that is scheduled wrong) a [clamp-on electricity meter](https://www.amazon.co.uk/dp/B0CKTGXFFR?tag=thehomeenergyhub-21) clipped to the main tail is the best tool - it reads the whole house independently of the smart meter.
+For larger hidden loads ([electric showers](/blog/how-much-does-a-10-minute-shower-cost-uk), immersion heaters, underfloor heating that is scheduled wrong) a [clamp-on electricity meter](https://www.amazon.co.uk/dp/B0CKTGXFFR?tag=thehomeenergyhub-21) clipped to the main tail is the best tool - it reads the whole house independently of the smart meter.
 
 If you are on a heat pump, phantom consumption sometimes turns out to be the auxiliary immersion element kicking in because the flow temperature is set too low. Our [heat pump running costs guide](/blog/heat-pump-running-costs-2026) covers how to spot that pattern.
 

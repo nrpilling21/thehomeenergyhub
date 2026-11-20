@@ -70,6 +70,8 @@ The reason for the gap is the same one that shows up everywhere electricity comp
 
 **The practical conclusion:** if your boiler or heat pump is working, let it heat the cylinder, and keep the immersion heater as a backup for when it is not - a genuinely useful role, not a wasted one. If you have no gas connection and no heat pump, or your only hot water source is electric, the numbers above are simply what hot water costs you, and the savings tactics below matter more.
 
+The same logic applies to showers. If you have an electric shower as well as a cylinder, using it for a single shower is far cheaper than heating the whole tank with the immersion: see our breakdown of [how much a 10-minute shower costs](/blog/how-much-does-a-10-minute-shower-cost-uk) on each system.
+
 ## Using solar power to run your immersion heater for free
 
 If you have solar panels, this is the one scenario where the immersion heater's poor cost-per-kWh stops mattering, because the electricity is free rather than bought at 26.32p.
