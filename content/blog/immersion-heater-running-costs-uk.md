@@ -1,6 +1,6 @@
 ---
-title: "Immersion Heater Running Costs UK 2026: Per Hour & Tank"
-description: "Immersion heater running costs at 26.32p/kWh: cost per hour by element wattage, cost per tank by cylinder size, and how it compares to gas."
+title: "Immersion Heater Running Costs UK: 79p an Hour, £2 a Tank"
+description: "A 3kW immersion heater costs 79p an hour at the 26.32p cap, and £2.07 to heat a 150-litre tank from cold, three times the gas cost. Costs by tank size."
 date: "2026-09-25"
 author: "The Home Energy Hub"
 category: "energy-saving"
@@ -10,6 +10,14 @@ tags: ["immersion heater", "running costs", "hot water", "hot water cylinder", "
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
 Immersion heater running costs come down to one sum, same as any other electric element: wattage multiplied by hours multiplied by the price of a kilowatt-hour. At the October 2026 price cap rate of **26.32p per kWh**, the standard 3kW immersion element costs **79p an hour** to run flat out.
+
+**Quick answer (at 26.32p per kWh, October to December 2026):**
+
+- **3kW immersion element:** 79p an hour while it is heating. A 1kW top element: 26.3p an hour.
+- **Full 150-litre tank from cold to 60°C:** about 7.8kWh, £2.07, roughly 2 hours 35 minutes.
+- **Smaller or larger cylinders:** about £1.10 for 80 litres, £2.89 for 210 litres.
+- **Same tank heated by a gas boiler:** about 69p. On Economy 7 at around 13p: about £1.02.
+- **Leaving it on all day:** costs more than a timer. Heat it once or twice a day, just before you need it.
 
 That per-hour figure is not the number most people actually want, though. What you really want to know is what it costs to heat a full tank of water - and that depends on the size of your cylinder, not just the wattage of the element. This guide gives you both: the cost per hour by element size, the cost per tank by cylinder size, and the comparison that decides whether an immersion heater should be your main way of heating water or just a backup.
 
