@@ -49,7 +49,7 @@ Multiply the cost per wash by how many loads you do. Here is the yearly bill at 
 | 60°C | 37p | about £77 |
 | 90°C | 53p | about £110 |
 
-Scale it to your household. A single person doing two loads a week at 40°C pays about £22 a year. A family of five doing nine loads a week at 40°C pays closer to £98. Even then, it sits well below the yearly cost of running a fridge freezer or an old tumble dryer.
+Scale it to your household. A single person doing two loads a week at 40°C pays about £22 a year. A family of five doing nine loads a week at 40°C pays closer to £98. Even then, it is in the same range as the yearly cost of running a [fridge freezer](/blog/how-much-does-it-cost-to-run-a-fridge-freezer-uk) and well below an old tumble dryer.
 
 ## What actually drives the cost
 

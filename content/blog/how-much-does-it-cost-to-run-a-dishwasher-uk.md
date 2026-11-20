@@ -53,7 +53,7 @@ Multiply the cost per cycle by how many times you run it. Here is the yearly bil
 | Normal or auto | 32p | about £66 | about £115 |
 | Intensive | 39p | about £82 | about £144 |
 
-A single person running one load every other day on eco pays about £44 a year. A family of five running it daily on a normal cycle pays about £115. Either way it sits well below a fridge freezer or an old tumble dryer, and the difference between a sensible habit and a wasteful one is about £60 a year.
+A single person running one load every other day on eco pays about £44 a year. A family of five running it daily on a normal cycle pays about £115. Either way it is in the same range as a [fridge freezer](/blog/how-much-does-it-cost-to-run-a-fridge-freezer-uk) and well below an old tumble dryer, and the difference between a sensible habit and a wasteful one is about £60 a year.
 
 ## How much does it cost to run a dishwasher per hour?
 
