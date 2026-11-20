@@ -105,7 +105,7 @@ Electric resistance heat costs roughly **three times as much per unit as gas**. 
 
 The exception is the one that matters in practice: **heating one room instead of the whole house**. If you are in a home office for five hours and the alternative is firing the boiler for the entire property, the electric heater can win. A 2kW electric heater running at a 50% duty cycle for five hours costs about **£1.32**. Running a gas boiler to heat a whole house for the same five hours is realistically £3 or more, and most of that heat goes into rooms nobody is in.
 
-The rule of thumb: **electric heaters win on one room, lose on the whole house.** If you find yourself using two or three of them at once, you have crossed the line and the central heating is cheaper.
+The rule of thumb: **electric heaters win on one room, lose on the whole house.** If you find yourself using two or three of them at once, you have crossed the line and the central heating is cheaper. The same logic applies to timing: central heating is cheapest when it runs only while you are home, as our guide to [whether it is cheaper to leave heating on all day](/blog/is-it-cheaper-to-leave-heating-on-all-day) shows.
 
 For anyone weighing up a permanent change rather than a plug-in stopgap, our [heat pump running costs guide](/blog/heat-pump-running-costs-2026) has the full comparison - a heat pump is the only electric heating that beats gas, because it moves heat rather than making it.
 

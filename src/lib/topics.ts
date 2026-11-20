@@ -77,7 +77,7 @@ export function classify(slug: string): TopicId {
   if (has("heat-pump")) return "heating";
   if (has("smart-meter", "smets", "in-home-display", "tariff", "price-cap")) return "smart";
   if (has("insulation", "draught", "epc", "condensation", "damp")) return "insulation";
-  if (has("boiler", "thermostat", "radiator")) return "heating";
+  if (has("boiler", "thermostat", "radiator", "heating-on")) return "heating";
   return "running";
 }
 
