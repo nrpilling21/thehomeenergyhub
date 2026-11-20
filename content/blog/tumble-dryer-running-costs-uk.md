@@ -122,6 +122,8 @@ The letter rating on its own is less useful than it used to be. The scale was re
 
 **9. Measure before you assume.** Manufacturer label figures are lab conditions on the eco programme. Your real machine on your real programme with your real loads may use considerably more. A [plug-in energy monitor](https://www.amazon.co.uk/s?k=plug+in+energy+monitor+uk&tag=thehomeenergyhub-21) costs around £15 and tells you exactly what a cycle costs, which turns all of the above from guesswork into a number.
 
+Want to see how this compares with your other appliances? Our [appliance running costs hub](/running-costs) lists what everything at home costs to run.
+
 ## Frequently asked questions
 
 ### How much does it cost to run a tumble dryer for an hour?

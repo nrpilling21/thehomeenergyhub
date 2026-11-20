@@ -192,6 +192,8 @@ If you rent from a social landlord and have damp or mould, that is a legal duty 
 
 For owner-occupiers the arithmetic is simpler. Washing down and repainting a mould-affected bedroom wall typically runs into the low hundreds of pounds. A professional damp survey costs £150 to £300 before any work is done. Replacing a mattress, a wardrobe or a carpet ruined by mould costs considerably more than that. Against a season of dehumidifier running at £31 to £46, the case makes itself - provided the damp is condensation, which is what a dehumidifier addresses. Rising damp and penetrating damp are structural faults and no dehumidifier will fix them. If the damp patch is at floor level, or appears after rain rather than after cooking and showering, get it surveyed.
 
+Want to see how this compares with your other appliances? Our [appliance running costs hub](/running-costs) lists what everything at home costs to run.
+
 ## Frequently asked questions
 
 **How much does a dehumidifier cost to run per hour in the UK?**

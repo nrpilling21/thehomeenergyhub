@@ -134,6 +134,8 @@ Six things, roughly in order of how much they are worth.
 5. **Draught-proof first.** See above - it lowers the running cost of everything permanently.
 6. **Check it against your meter.** Watch your [smart meter IHD](/blog/best-smart-meter-in-home-display-uk) while the heater cycles. Seeing 2kW appear and disappear on the live reading is the fastest way to understand what your heater is genuinely costing you.
 
+Want to see how this compares with your other appliances? Our [appliance running costs hub](/running-costs) lists what everything at home costs to run.
+
 ## Frequently asked questions
 
 ### How much does it cost to run an electric heater for 1 hour in the UK?
