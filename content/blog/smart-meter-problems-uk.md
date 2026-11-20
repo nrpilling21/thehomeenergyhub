@@ -109,7 +109,7 @@ Another extremely common one. Usually the smart meter is not wrong - it is right
 
 If after all that the reading still looks wrong, you can request a meter accuracy test. Suppliers charge for this (usually £50-£100) but refund the fee if the meter is found to be faulty.
 
-While you are investigating, a cheap plug-in [home energy monitor](https://www.amazon.co.uk/s?k=home+energy+monitor+electricity&tag=thehomeenergyhub-21) is genuinely useful for verifying consumption independently of the smart meter. We walk through how to use monitor data to cut bills in our [guide to smart meter savings](/blog/do-smart-meters-save-you-money-uk).
+While you are investigating, a cheap plug-in [home energy monitor](https://www.amazon.co.uk/s?k=home+energy+monitor+electricity&tag=thehomeenergyhub-21) is genuinely useful for verifying consumption independently of the smart meter. We walk through whether [a smart meter will save you money](/blog/do-smart-meters-save-you-money-uk) and how to use monitor data to cut bills.
 
 ## Problem 5: IHD shows the wrong tariff or prices
 

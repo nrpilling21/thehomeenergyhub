@@ -110,6 +110,8 @@ A simple decision tree.
 
 You never have to pay for a SMETS2 replacement of a faulty SMETS1. If a supplier tries to charge you, push back and reference Ofgem's smart meter installation standards.
 
+Either way, having a working meter is only half the question — if you are wondering [will a smart meter save you money](/blog/do-smart-meters-save-you-money-uk) at all, our companion guide walks through the published Ofgem and Smart Energy GB savings data.
+
 ## Frequently asked questions
 
 **Is SMETS2 better than SMETS1?**

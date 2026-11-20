@@ -189,7 +189,7 @@ export default function SmartMeterGuideUkPage() {
         <p>
           Want the data behind the savings figures? See our deep-dive on{" "}
           <Link href="/blog/do-smart-meters-save-you-money-uk" className="text-ink underline">
-            do smart meters save you money
+            will a smart meter save you money
           </Link>{" "}
           — it walks through the published Ofgem and Smart Energy GB studies and what they actually
           show.
