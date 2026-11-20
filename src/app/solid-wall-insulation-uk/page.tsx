@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Solid Wall Insulation Cost UK (2026): Internal vs External",
   description:
-    "Solid wall insulation costs £4,000-£15,000 in the UK. Internal (IWI) is cheaper at £4,000-£7,000; external (EWI) is £8,000-£15,000 but transforms efficiency. Grants, savings and which to pick.",
+    "Solid wall insulation costs £4,000-£15,000 in the UK: internal (IWI) £4,000-£7,000, external (EWI) £8,000-£15,000. Grants, savings and which to pick.",
   keywords: [
     "solid wall insulation cost uk",
     "internal solid wall insulation cost",

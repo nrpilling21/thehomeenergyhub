@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/solar-panel-costs-uk' },
   title: "Solar Panel Costs UK 2026: Prices, Savings & Payback Guide",
   description:
-    "The cost of solar panels in the UK is £5,000–£11,000 installed (2026) — around 5–8p per kWh generated over their lifetime. With 0% VAT and SEG payments, payback is 7–10 years. Full cost, cost-per-kWh and payback breakdown by system size.",
+    "Solar panels cost £5,000–£11,000 installed in the UK (2026), around 5–8p per kWh over their life. With 0% VAT and SEG payments, payback is 7–10 years.",
   keywords: [
     "solar panel cost uk",
     "cost of solar panels uk",

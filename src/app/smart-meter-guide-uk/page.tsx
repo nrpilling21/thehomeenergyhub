@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Smart Meters UK 2026: Costs, Savings, Problems and Best IHDs",
   description:
-    "Everything you need to know about UK smart meters in 2026. Are they free? How much do they save? SMETS1 vs SMETS2, common problems and the best in-home displays compared.",
+    "UK smart meters in 2026: are they free, how much do they save, SMETS1 vs SMETS2, common problems, and the best in-home displays compared.",
   keywords: [
     "smart meter uk",
     "smart meter guide uk",
