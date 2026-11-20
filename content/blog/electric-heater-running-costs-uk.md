@@ -1,6 +1,6 @@
 ---
-title: "Electric Heater Running Costs UK 2026: What Each Type Costs"
-description: "Electric heater running costs at the 26.32p 2026 price cap: cost per hour by wattage, and why the thermostat matters far more than the type of heater."
+title: "Electric Heater Running Costs UK: 2kW Costs 53p an Hour (2026)"
+description: "A 2kW electric heater costs 52.6p an hour at the 26.32p cap; a 1.5kW oil radiator 39.5p, or about 20p with a thermostat. Costs by type, per day and per winter."
 date: "2026-09-08"
 author: "The Home Energy Hub"
 category: "energy-saving"
@@ -10,6 +10,14 @@ tags: ["electric heater", "running costs", "oil filled radiator", "fan heater", 
 *This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep The Home Energy Hub running. [Full disclosure](/affiliate-disclosure).*
 
 Electric heater running costs in the UK come down to one sum: wattage multiplied by hours multiplied by the price of a kilowatt-hour. At the October 2026 price cap rate of **26.32p per kWh**, a 2kW fan heater costs **52.6p an hour** at full blast, and a 1.5kW oil-filled radiator costs **39.5p an hour**.
+
+**Quick answer (at 26.32p per kWh, October to December 2026):**
+
+- **2kW fan or convector heater:** 52.6p an hour at full power, £2.63 for a 5-hour evening.
+- **1.5kW oil-filled radiator:** 39.5p an hour at full power, about 20p an hour once its thermostat is cycling in a warm room.
+- **1.2kW halogen heater:** 31.6p an hour.
+- **400W panel heater:** 10.5p an hour.
+- **Heating one room for an evening:** usually cheaper than running gas central heating for the whole house. Heating two or more rooms: almost always more expensive.
 
 But those headline numbers are the reason most articles on this subject are misleading. A thermostatic heater does not run at full power for the whole hour - it heats the room, clicks off, and idles. Once you account for that, the same 1.5kW oil-filled radiator costs closer to **20p an hour** in a normal room. That gap, between the nameplate figure and the real one, is worth about £120 across a winter, and almost nobody publishes it.
 
