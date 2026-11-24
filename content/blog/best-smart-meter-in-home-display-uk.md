@@ -1,7 +1,8 @@
 ---
 title: "Best Smart Meter UK 2026: Which In-Home Display to Choose"
-description: "You don't choose your smart meter in the UK - your supplier fits a SMETS2. What you choose is the display. The 7 best smart meter displays compared for 2026."
+description: "Your supplier picks the meter; you pick the display. Best overall: Hildebrand Glow (£79.99). Best free: Chameleon IHD3. 7 displays compared, updated Nov 2026."
 date: "2026-07-28"
+updated: "2026-11-24"
 author: "The Home Energy Hub"
 category: "energy-saving"
 tags: ["smart meter", "in-home display", "IHD", "smart meter display unit", "in-house display", "replacement smart meter display", "energy monitor", "SMETS2"]
@@ -15,6 +16,15 @@ tags: ["smart meter", "in-home display", "IHD", "smart meter display unit", "in-
 
 The short answer: for most UK households the best smart meter in-home display in 2026 is the **Hildebrand Glow IHD**. It is the only consumer IHD that pairs with your SMETS2 meter over the official DCC network and the Bright app, gives you a phone-friendly view of real-time use, and updates roughly every 10 seconds. It is the IHD that energy nerds buy when their supplier-issued display is gathering dust in a drawer.
 
+**Quick answer (prices and stock checked 24 November 2026):**
+
+- **Best overall:** Hildebrand Glow Display and CAD, **£79.99** from Hildebrand (up from about £69 earlier in 2026). It was showing as sold out on Hildebrand's own shop when we checked, so see the [stock note](#1-hildebrand-glow-ihd-with-bright-app----best-overall) below.
+- **Best free:** the Chameleon IHD3 or IHD6 your supplier issues. A failed one is replaced free.
+- **Best replacement for a dead display:** ask your supplier first. It costs nothing, and a supplier that misses the five-working-day fix deadline owes you £40.
+- **Best for appliance-level detail:** a CT-clip energy monitor such as the Loop or Geo Cosy (about £45-£90), not an IHD.
+- **Best for solar:** the Glow, because it shows export. Most supplier IHDs show import only.
+- **The meter itself:** you cannot choose it. Any SMETS2 meter does the same job; just avoid staying on SMETS1.
+
 But "best" depends on what you are trying to do. If you only want a glance at today's spend in the kitchen, the basic Chameleon IHD3 your supplier already gave you is fine and free. If you want appliance-level breakdowns, you actually want a smart energy monitor like the Geo Cosy or Loop, not an IHD at all. And if your supplier IHD has gone dark, the fix is sometimes a replacement, sometimes a different product class.
 
 This guide explains which in-home display fits which household, what the different smart meter displays in the UK actually do, what they cost in 2026, and how to get the right one onto your SMETS2 meter without paying for an upgrade you do not need.
@@ -23,7 +33,7 @@ This guide explains which in-home display fits which household, what the differe
 
 Here is the short list, sorted by who it suits.
 
-For data-loving homeowners with a SMETS2 meter who want a phone app and a kitchen display, get the **Hildebrand Glow IHD with Bright app** (around £69 from the Hildebrand store, sometimes available via Amazon listings).
+For data-loving homeowners with a SMETS2 meter who want a phone app and a kitchen display, get the **Hildebrand Glow IHD with Bright app** (£79.99 from the Hildebrand store at the time of our November 2026 check, sometimes available via Amazon listings).
 
 For a clean, free baseline display from your supplier, ask for the **Chameleon IHD3 or IHD6** (free replacement under your supplier's smart meter warranty - you do not pay for IHDs your supplier issues).
 
@@ -45,7 +55,7 @@ The one meter-level choice you do have: insist on SMETS2 rather than a first-gen
 
 ## Best smart meter display UK: the at-a-glance verdict
 
-If you just want the best smart meter display without reading the full comparison, here it is. The best smart meter display you can buy in the UK in 2026 is the Hildebrand Glow IHD (around £69) - it is the only consumer display that gives you both a kitchen screen and a phone app from a single SMETS2 meter. The best free smart meter display is the Chameleon IHD3, which your supplier must replace at no cost if yours has failed. And if you want appliance-level detail rather than a meter total, the best smart energy monitor is the Loop Energy Saver. Everything below explains how these compare on price, accuracy, gas tracking and solar export.
+If you just want the best smart meter display without reading the full comparison, here it is. The best smart meter display you can buy in the UK in 2026 is the Hildebrand Glow IHD (£79.99) - it is the only consumer display that gives you both a kitchen screen and a phone app from a single SMETS2 meter. The best free smart meter display is the Chameleon IHD3, which your supplier must replace at no cost if yours has failed. And if you want appliance-level detail rather than a meter total, the best smart energy monitor is the Loop Energy Saver. Everything below explains how these compare on price, accuracy, gas tracking and solar export.
 
 ## What an in-home display actually does (and what it does not)
 
@@ -63,7 +73,9 @@ The Hildebrand Glow IHD is the UK's best third-party smart meter display. It pai
 
 Why it wins for most households: it is the only IHD that gives you a kitchen display AND a phone app from one purchase, the data is pulled directly from the meter via DCC rather than relying on a flaky Zigbee link to a single room, and the Bright app history is significantly better than anything a supplier-issued IHD shows you. You can see half-hourly export if you have solar, daily and weekly trends, and tariff-aware spend rather than just kWh.
 
-It costs around £69 from the Hildebrand store. There is no subscription. It works with all UK suppliers because it goes via DCC rather than a supplier API. If you only buy one upgrade, this is it. Pair it with a [smart plug with energy monitoring](https://www.amazon.co.uk/dp/B0B831STBX?tag=thehomeenergyhub-21) and you can match high-consumption appliances to off-peak windows manually before you go all-in on a time-of-use tariff.
+It costs £79.99 from the Hildebrand store (checked 24 November 2026; it was nearer £69 when this guide was first published in July). There is no subscription.
+
+**Stock note:** when we checked on 24 November 2026, the Glow Display and CAD was listed as sold out on Hildebrand's own shop. If it is still out of stock when you read this, you have two sensible options rather than buying a lookalike. First, the free Bright app on its own reads your SMETS2 data through the DCC, so you get the phone-side history and half-hourly charts without any hardware while you wait for a restock. Second, if you want a screen in the kitchen now, keep using your supplier's free display alongside the app. Avoid third-party listings that claim to be a "Glow-compatible replacement IHD": anything that is not the Glow itself or a supplier-commissioned display will not read your meter. It works with all UK suppliers because it goes via DCC rather than a supplier API. If you only buy one upgrade, this is it. Pair it with a [smart plug with energy monitoring](https://www.amazon.co.uk/dp/B0B831STBX?tag=thehomeenergyhub-21) and you can match high-consumption appliances to off-peak windows manually before you go all-in on a time-of-use tariff.
 
 ### 2. Chameleon IHD3 / IHD6 -- best free supplier-issued option
 
@@ -125,9 +137,9 @@ For a deeper look at the SMETS1/SMETS2 split and why it matters for export tarif
 
 ## What does an IHD cost in 2026?
 
-Free if your supplier issues one. £45-£90 for a CT-clip energy monitor. £69 for the Hildebrand Glow IHD. £150-£280 for a full Loop or Smappee install with electrician fitting.
+Free if your supplier issues one. £45-£90 for a CT-clip energy monitor. £79.99 for the Hildebrand Glow IHD. £150-£280 for a full Loop or Smappee install with electrician fitting.
 
-You should never have to pay for a basic IHD - your supplier is required to provide one and replace it free if it fails while the meter is in warranty (typically the meter's lifetime). The genuine spend territory is £45-£90 for a Hildebrand Glow IHD or a CT-clip monitor like the Geo Cosy - the point at which you stop relying on whatever your supplier shipped and get a tool that gives you data worth acting on.
+You should never have to pay for a basic IHD - your supplier is required to provide one and replace it free if it fails while the meter is in warranty (typically the meter's lifetime). The genuine spend territory is about £80 for a Hildebrand Glow IHD or £45-£90 for a CT-clip monitor like the Geo Cosy - the point at which you stop relying on whatever your supplier shipped and get a tool that gives you data worth acting on.
 
 ## Replacement smart meter display: how to get a new IHD
 
@@ -137,15 +149,15 @@ By far the most common reason people end up on a page like this is that the disp
 
 **Step 2 - check it is actually broken before you replace it.** A large share of "dead" IHDs are simply out of Zigbee range or unpaired. Move the display to within about 10 metres of the meter with as few solid walls in between as possible, plug it in, and leave it for 15 minutes. If it wakes up, the problem was range, not hardware, and a replacement will fail in exactly the same spot.
 
-**Step 3 - if you want an upgrade rather than a like-for-like swap, buy your own.** A replacement supplier IHD will be another basic Chameleon or Bright unit. If you would rather have something better than what broke, the Hildebrand Glow IHD at around £69 is the upgrade path, because it runs over the DCC network and the Bright app rather than depending on a Zigbee link to the meter. Details in the [Hildebrand Glow section](#1-hildebrand-glow-ihd-with-bright-app----best-overall) above.
+**Step 3 - if you want an upgrade rather than a like-for-like swap, buy your own.** A replacement supplier IHD will be another basic Chameleon or Bright unit. If you would rather have something better than what broke, the Hildebrand Glow IHD at £79.99 is the upgrade path, because it runs over the DCC network and the Bright app rather than depending on a Zigbee link to the meter. Details in the [Hildebrand Glow section](#1-hildebrand-glow-ihd-with-bright-app----best-overall) above.
 
 One caveat worth knowing: you cannot buy a generic replacement Chameleon IHD3 and pair it to your meter yourself. Supplier-issued displays are commissioned against a specific meter, so a second-hand one bought online will not pair. Either get the free replacement from your supplier or buy a DCC-based display like the Glow.
 
 ## Can you buy your own smart meter in-home display?
 
-Yes - and it is one of the few genuinely useful upgrades in home energy that costs under £70.
+Yes - and it is one of the few genuinely useful upgrades in home energy that costs under £80.
 
-There are two routes. The first is a DCC-connected IHD, which reads your consumption through the national smart metering network rather than a local radio link to the meter. The Hildebrand Glow IHD (around £69) is effectively the only mainstream consumer option here, and it is the one to buy if you want a proper display you own outright. You give Hildebrand consent to read your meter through the DCC, and the display works anywhere in the house on your wifi.
+There are two routes. The first is a DCC-connected IHD, which reads your consumption through the national smart metering network rather than a local radio link to the meter. The Hildebrand Glow IHD (£79.99) is effectively the only mainstream consumer option here, and it is the one to buy if you want a proper display you own outright. You give Hildebrand consent to read your meter through the DCC, and the display works anywhere in the house on your wifi.
 
 The second route is a smart energy monitor - a [CT-clip energy monitor](https://www.amazon.co.uk/dp/B0CKTGXFFR?tag=thehomeenergyhub-21) such as the Geo Cosy (£45-£90) or the Loop (£150+ installed). These do not read the meter at all; they measure current on your incoming cable. You can buy and fit them without involving your supplier, they work whether or not you have a smart meter, and they are the right answer if what you actually want is appliance-level detail rather than a mirror of the meter.
 
@@ -156,7 +168,7 @@ Rough guide to what you should expect to pay:
 | What you want | Product | Typical 2026 cost |
 |---|---|---|
 | Like-for-like replacement | Supplier-issued Chameleon / Bright IHD | Free from your supplier |
-| A better display you own | Hildebrand Glow IHD | ~£69 |
+| A better display you own | Hildebrand Glow IHD | £79.99 |
 | Appliance-level detail, DIY fit | Geo Cosy or similar CT clip | £45-£90 |
 | Full circuit-level monitoring | Loop or Smappee, electrician fitted | £150-£280 |
 
@@ -230,11 +242,11 @@ If you are on a fixed tariff and not interested in time-of-use yet, the IHD upgr
 
 ### What is the best smart meter in-home display in the UK?
 
-For most UK households the best smart meter in-home display is the Hildebrand Glow IHD. It pairs with any SMETS2 meter over the official DCC network, shows real-time electricity and gas use on both a kitchen display and the free Bright phone app, and costs around £69 with no subscription. If you only want a free display, the Chameleon IHD3 your supplier issues is perfectly good for an at-a-glance view of today's spend.
+For most UK households the best smart meter in-home display is the Hildebrand Glow IHD. It pairs with any SMETS2 meter over the official DCC network, shows real-time electricity and gas use on both a kitchen display and the free Bright phone app, and costs £79.99 with no subscription. If you only want a free display, the Chameleon IHD3 your supplier issues is perfectly good for an at-a-glance view of today's spend.
 
 ### What is the best smart meter display for the money?
 
-The best value smart meter display is the free Chameleon IHD3 - you should never pay for a basic in-home display because your supplier is required to provide and replace one. If you are willing to spend, the Hildebrand Glow IHD at around £69 is the best paid smart meter display, because it adds a phone app, better history and solar export tracking that supplier displays do not offer.
+The best value smart meter display is the free Chameleon IHD3 - you should never pay for a basic in-home display because your supplier is required to provide and replace one. If you are willing to spend, the Hildebrand Glow IHD at £79.99 is the best paid smart meter display, because it adds a phone app, better history and solar export tracking that supplier displays do not offer.
 
 ### What is the best smart meter in the UK?
 
@@ -262,7 +274,7 @@ A smart meter display unit is the same thing as an in-home display or IHD. Suppl
 
 ### How do I get a new smart meter in-home display?
 
-Ask your supplier first, because a replacement is free while your meter is under warranty and that usually means the life of the meter. Phone or use live chat, report the in-home display as failed, and note the date - if they do not resolve it within five working days you are owed £40 in automatic compensation under the Ofgem rules that took effect in February 2026. Buy your own only if you want an upgrade rather than a like-for-like swap, in which case the Hildebrand Glow IHD at around £69 is the usual choice.
+Ask your supplier first, because a replacement is free while your meter is under warranty and that usually means the life of the meter. Phone or use live chat, report the in-home display as failed, and note the date - if they do not resolve it within five working days you are owed £40 in automatic compensation under the Ofgem rules that took effect in February 2026. Buy your own only if you want an upgrade rather than a like-for-like swap, in which case the Hildebrand Glow IHD at £79.99 is the usual choice.
 
 ### How do I connect my in-home display to my smart meter?
 
@@ -271,6 +283,10 @@ Supplier-issued displays arrive already paired: plug it in within about 10-15 me
 ### How do I read my smart meter in-home display?
 
 The large figure is your live consumption, in kilowatts or pence per hour. The second screen is usually today's cumulative spend, which is the number that matches your bill and which normally includes the standing charge. A dedicated button toggles between gas and electricity, and gas updates roughly every half hour rather than live. The history screens - day, week and month, typically 13 months back - are the most useful and the least used, because comparing like-for-like periods is the only reliable way to tell whether a change you made actually saved anything.
+
+### What is the best replacement in-home display for a smart meter?
+
+For a like-for-like swap, the best replacement is the free one: ask your supplier, who will usually send a Chameleon IHD3 or IHD6 commissioned to your meter. If you want something better than the display that died, the Hildebrand Glow (£79.99) is the upgrade, because it reads your meter through the DCC and works anywhere in the house on wifi. A second-hand supplier display from eBay or Amazon is not a replacement option, because it will not pair with your meter.
 
 ### Can I buy a replacement smart meter display?
 
