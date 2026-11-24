@@ -34,6 +34,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       title: post.title,
       description: post.description,
       publishedTime: post.date,
+      ...(post.updated ? { modifiedTime: post.updated } : {}),
       authors: [post.author],
       tags: post.tags,
       locale: 'en_GB',
@@ -46,7 +47,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-const AFFILIATE_HOSTS = ['amazon.co.uk', 'amazon.com', 'amzn.to', 'awin1.com', 'zenaps.com'];
+/* eFans and eChargers UK are sister businesses (connected-business disclosure on
+   /affiliate-disclosure), so links to them are treated as commercial and get
+   rel="sponsored" like affiliate links. */
+const AFFILIATE_HOSTS = ['amazon.co.uk', 'amazon.com', 'amzn.to', 'awin1.com', 'zenaps.com', 'efans.co.uk', 'echargersuk.co.uk'];
 
 /* Build the rel/target attributes for a link in post content.
   — Affiliate links  -> rel="sponsored nofollow noopener noreferrer" target="_blank"
@@ -177,7 +181,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
        key) so the value does not churn between builds. */
     image: [`${url}/opengraph-image`],
     datePublished: toIsoDateTime(post.date),
-    dateModified: toIsoDateTime(post.date),
+    dateModified: toIsoDateTime(post.updated || post.date),
     author: {
       '@type': 'Organization',
       name: post.author,
@@ -234,7 +238,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         />
       )}
       <PageHero
-        eyebrow={`${formatCategory(post.category)} · ${formatDate(post.date)} · by ${post.author}`}
+        eyebrow={`${formatCategory(post.category)} · ${post.updated ? `Updated ${formatDate(post.updated)}` : formatDate(post.date)} · by ${post.author}`}
         title={post.title}
         {...(img ? { image: img.image, imageAlt: img.alt } : { mood: "amber" as const, seed: postSeed(post.slug) })}
       >

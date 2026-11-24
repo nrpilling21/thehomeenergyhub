@@ -6,6 +6,10 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
+  /* Optional `updated: "YYYY-MM-DD"` in frontmatter (BL-189). When set, the
+     post page shows "Updated <date>", emits it as dateModified/modifiedTime,
+     and the sitemap uses it as lastModified. Sorting still uses `date`. */
+  updated?: string;
   author: string;
   category: 'heat-pumps' | 'ev-chargers' | 'energy-tariffs' | 'guides';
   tags: string[];
@@ -147,6 +151,7 @@ export function getAllPosts(): BlogPost[] {
       title: data.title as string || '',
       description: data.description as string || '',
       date: data.date as string || '',
+      updated: (data.updated as string) || undefined,
       author: data.author as string || '',
       category: (data.category as BlogPost['category']) || 'guides',
       tags: (data.tags as string[]) || [],
@@ -172,6 +177,7 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
     title: data.title as string || '',
     description: data.description as string || '',
     date: data.date as string || '',
+    updated: (data.updated as string) || undefined,
     author: data.author as string || '',
     category: (data.category as BlogPost['category']) || 'guides',
     tags: (data.tags as string[]) || [],
