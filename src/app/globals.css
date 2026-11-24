@@ -138,3 +138,46 @@ main button.bg-ink {
 
 .no-scrollbar { scrollbar-width: none; }
 .no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* Day-to-night hero (src/components/DayNight.tsx). One 32s loop: morning ->
+   amber midday -> dusk -> night -> morning. Default (no animation) state is
+   the static amber frame, so reduced-motion users and any browser that skips
+   the keyframes see the same scene as <Sunlight mood="amber" />. */
+.dn-layer, .dn-moon, .dn-lamp { opacity: 0; }
+.dn-amber { opacity: 1; }
+.dn-sun { opacity: 0.8; transform: skewX(-18deg); transform-box: view-box; }
+.dn-sunfloor { opacity: 0.45; transform: skewX(-43deg); transform-box: view-box; }
+
+@keyframes dnMorning { 0%{opacity:1} 18%{opacity:1} 28%{opacity:0} 88%{opacity:0} 100%{opacity:1} }
+@keyframes dnAmber   { 0%{opacity:0} 18%{opacity:0} 28%{opacity:1} 43%{opacity:1} 53%{opacity:0} 100%{opacity:0} }
+@keyframes dnDusk    { 0%{opacity:0} 43%{opacity:0} 53%{opacity:1} 60%{opacity:1} 70%{opacity:0} 100%{opacity:0} }
+@keyframes dnNight   { 0%{opacity:0} 60%{opacity:0} 70%{opacity:1} 82%{opacity:1} 90%{opacity:0} 100%{opacity:0} }
+@keyframes dnSun {
+  0%   { transform: translateX(-260px) skewX(-8deg);  opacity: .85; }
+  35%  { transform: translateX(0px)    skewX(-18deg); opacity: .8; }
+  58%  { transform: translateX(300px)  skewX(-34deg); opacity: .55; }
+  66%  { transform: translateX(360px)  skewX(-40deg); opacity: 0; }
+  92%  { transform: translateX(-300px) skewX(-6deg);  opacity: 0; }
+  100% { transform: translateX(-260px) skewX(-8deg);  opacity: .85; }
+}
+@keyframes dnSunFloor {
+  0%   { transform: translateX(-200px) skewX(-20deg); opacity: .45; }
+  35%  { transform: translateX(0px)    skewX(-43deg); opacity: .45; }
+  58%  { transform: translateX(260px)  skewX(-70deg); opacity: .3; }
+  66%  { transform: translateX(300px)  skewX(-75deg); opacity: 0; }
+  92%  { transform: translateX(-240px) skewX(-15deg); opacity: 0; }
+  100% { transform: translateX(-200px) skewX(-20deg); opacity: .45; }
+}
+@keyframes dnMoon { 0%,62%{opacity:0} 72%,82%{opacity:.35} 90%,100%{opacity:0} }
+@keyframes dnLamp { 0%,55%{opacity:0} 63%,84%{opacity:.9} 92%,100%{opacity:0} }
+
+@media (prefers-reduced-motion: no-preference) {
+  .dn-morning { animation: dnMorning 32s linear infinite; }
+  .dn-amber { animation: dnAmber 32s linear infinite; }
+  .dn-dusk { animation: dnDusk 32s linear infinite; }
+  .dn-night { animation: dnNight 32s linear infinite; }
+  .dn-sun { animation: dnSun 32s ease-in-out infinite; }
+  .dn-sunfloor { animation: dnSunFloor 32s ease-in-out infinite; }
+  .dn-moon { animation: dnMoon 32s ease-in-out infinite; }
+  .dn-lamp { animation: dnLamp 32s ease-in-out infinite; }
+}

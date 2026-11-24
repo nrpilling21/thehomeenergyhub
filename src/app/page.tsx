@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 import { Sunlight } from "@/components/Sunlight";
+import { DayNight } from "@/components/DayNight";
 
 export const metadata: Metadata = {
   title: "Home Energy Hub — Independent UK Energy Advice",
@@ -73,7 +74,7 @@ export default function HomePage() {
     <div className="bg-white">
       {/* Hero: full-bleed image with a three-part statement */}
       <section className="relative isolate h-[100svh] min-h-[560px] text-white overflow-hidden">
-        <Sunlight mood="amber" seed={1} />
+        <DayNight />
         <div className="relative h-full px-5 sm:px-6 flex flex-col">
           <h1 className="sr-only">Home Energy Hub: independent UK energy advice</h1>
           <div aria-hidden className="flex-1 grid grid-cols-1 md:grid-cols-3 content-center gap-1 md:gap-6">
